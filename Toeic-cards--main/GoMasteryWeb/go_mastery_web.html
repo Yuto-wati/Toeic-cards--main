@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GO Phrasal Verbs - The Visual Experience</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #0f172a;
+            /* Slate 900 */
+            color: #f8fafc;
+            overflow-x: hidden;
+        }
+
+        .font-mont {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Custom Gradients & Glows */
+        .hero-gradient {
+            background: radial-gradient(circle at center, #3b82f6 0%, #0f172a 70%);
+        }
+
+        .text-glow {
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        .card-glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        /* Floating Animation */
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        /* Glitch Effect for Title */
+        .glitch-wrapper {
+            position: relative;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #3b82f6;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body class="antialiased selection:bg-pink-500 selection:text-white">
+
+    <!-- HERO SECTION -->
+    <section
+        class="relative h-screen flex flex-col items-center justify-center overflow-hidden border-b border-white/10">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 hero-gradient opacity-30"></div>
+        <div
+            class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5">
+        </div>
+
+        <!-- Content -->
+        <div class="relative z-10 text-center px-4" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="font-mont text-blue-400 font-bold tracking-[0.3em] mb-4 text-sm md:text-base animate-pulse">
+                ENGLISH CORE IMAGE</p>
+            <h1
+                class="font-mont font-black text-6xl md:text-9xl mb-6 leading-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 drop-shadow-lg glitch-wrapper">
+                RE:THINK<br><span class="text-white text-glow">GO</span>
+            </h1>
+            <p class="text-slate-300 text-lg md:text-2xl max-w-2xl mx-auto font-bold">
+                「行く」だけじゃない。世界が変わる3つのコアイメージ。
+            </p>
+
+            <div class="mt-12 flex flex-col md:flex-row gap-6 justify-center">
+                <a href="#theme1"
+                    class="group relative px-8 py-4 bg-white/10 backdrop-blur-md rounded-full overflow-hidden border border-white/20 transition hover:bg-white/20 hover:scale-105">
+                    <span class="font-bold relative z-10 group-hover:text-blue-300 transition">SCROLL TO START</span>
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 opacity-0 group-hover:opacity-100 transition duration-500">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-slate-500">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- THEME 1: BAD GO -->
+    <section id="theme1" class="min-h-screen relative flex items-center justify-center py-20">
+        <!-- Decor -->
+        <div
+            class="absolute top-20 right-0 w-96 h-96 bg-red-600 rounded-full blur-[120px] opacity-20 pointer-events-none">
+        </div>
+
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            <!-- Text Side -->
+            <div data-aos="fade-right">
+                <div
+                    class="inline-block px-4 py-1 rounded-full bg-red-500/20 border border-red-500/50 text-red-400 text-xs font-bold tracking-widest mb-6">
+                    THEME 01</div>
+                <h2 class="font-mont font-black text-5xl md:text-7xl mb-8 leading-tight">
+                    GO <span class="text-red-500">BAD</span>
+                </h2>
+                <div class="space-y-6 text-lg text-slate-300">
+                    <p class="font-bold text-2xl text-white">なぜ「行く」が「腐る」になるのか？</p>
+                    <p>
+                        ネイティブの感覚では、Goは「ここ（正常）」から「あっち（異常）」へ<br>
+                        <span class="text-red-400 font-bold border-b-2 border-red-500/50">行って帰ってこない（不可逆）</span>イメージです。
+                    </p>
+
+                    <ul class="space-y-4 mt-8">
+                        <li
+                            class="flex items-center gap-4 bg-white/5 p-4 rounded-xl border border-white/5 hover:border-red-500/50 transition">
+                            <span class="text-3xl">🍎</span>
+                            <div>
+                                <span class="block font-bold text-white">Go Bad</span>
+                                <span class="text-sm text-slate-400">腐る（新鮮な状態から離れる）</span>
+                            </div>
+                        </li>
+                        <li
+                            class="flex items-center gap-4 bg-white/5 p-4 rounded-xl border border-white/5 hover:border-red-500/50 transition">
+                            <span class="text-3xl">😡</span>
+                            <div>
+                                <span class="block font-bold text-white">Go Mad</span>
+                                <span class="text-sm text-slate-400">キレる（正気から離れる）</span>
+                            </div>
+                        </li>
+                        <li
+                            class="flex items-center gap-4 bg-white/5 p-4 rounded-xl border border-white/5 hover:border-red-500/50 transition">
+                            <span class="text-3xl">💸</span>
+                            <div>
+                                <span class="block font-bold text-white">Go Bankrupt</span>
+                                <span class="text-sm text-slate-400">破産する（支払い能力から離れる）</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Image Side -->
+            <div class="relative group" data-aos="fade-left">
+                <div
+                    class="absolute -inset-2 bg-gradient-to-r from-red-500 to-orange-500 rounded-2xl opacity-30 group-hover:opacity-60 blur-lg transition duration-500">
+                </div>
+                <!-- IMAGE PLACEHOLDER -->
+                <div
+                    class="relative card-glass rounded-2xl p-4 overflow-hidden transform group-hover:scale-[1.02] transition duration-500">
+                    <img src="theme1_go_bad_infographic_1769631066675.png" alt="Go Bad Infographic"
+                        class="w-full rounded-lg shadow-2xl">
+                </div>
+                <!-- Share Button -->
+                <div class="absolute -bottom-6 right-6">
+                    <a href="https://twitter.com/intent/tweet?text=Go%20%3D%20Department%20from%20Norm.%20From%20fresh%20to%20rotten%2C%20it's%20a%20one-way%20trip.%20%F0%9F%A4%AF%20%23English%20%23TOEIC&url=https%3A%2F%2Fexample.com"
+                        target="_blank"
+                        class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-slate-800 transition transform hover:scale-110 border border-white/20">
+                        <span>POST THIS</span>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THEME 2: BUSINESS GO -->
+    <section id="theme2" class="min-h-screen relative flex items-center justify-center py-20 bg-slate-900/50">
+        <!-- Decor -->
+        <div
+            class="absolute bottom-20 left-0 w-96 h-96 bg-cyan-500 rounded-full blur-[120px] opacity-20 pointer-events-none">
+        </div>
+
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-20" data-aos="fade-up">
+                <div
+                    class="inline-block px-4 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/50 text-cyan-400 text-xs font-bold tracking-widest mb-6">
+                    THEME 02</div>
+                <h2 class="font-mont font-black text-5xl md:text-7xl mb-8 leading-tight">
+                    BUSINESS <span class="text-cyan-400">DRIVE</span>
+                </h2>
+                <p class="text-xl text-slate-300">
+                    仕事ができる人は、難しい単語を使わない。<br>
+                    <span class="text-cyan-400 font-bold">"GO"（前に進む推進力）</span>でプロジェクトを加速させる。
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Image Side (Left on desktop to alternate) -->
+                <div class="relative order-2 lg:order-1 animate-float" data-aos="zoom-in">
+                    <div class="absolute -inset-4 bg-cyan-500/30 rounded-full blur-2xl"></div>
+                    <img src="theme2_go_business_concept_1769631091663.png" alt="Business Go Concept"
+                        class="relative w-full max-w-md mx-auto drop-shadow-2xl">
+                    <!-- Share Button -->
+                    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2">
+                        <a href="https://twitter.com/intent/tweet?text=Stop%20saying%20'Proceed'.%20Use%20'Go%20ahead'%20for%20speed.%20%F0%9F%9A%80%20%23BusinessEnglish%20%23CareerGrowth&url=https%3A%2F%2Fexample.com"
+                            target="_blank"
+                            class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-slate-800 transition transform hover:scale-110 border border-white/20">
+                            <span>SHARE TIP</span>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cards Side -->
+                <div class="grid gap-6 order-1 lg:order-2">
+                    <!-- Card 1 -->
+                    <div class="card-glass p-8 rounded-2xl hover:bg-cyan-900/20 transition border-l-4 border-l-transparent hover:border-l-green-400 group"
+                        data-aos="fade-left" data-aos-delay="100">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-mont font-black text-2xl text-white group-hover:text-green-400 transition">
+                                GO AHEAD</h3>
+                            <span
+                                class="bg-green-500/20 text-green-300 text-xs font-bold px-2 py-1 rounded">PERMISSION</span>
+                        </div>
+                        <p class="text-slate-400 mb-2">「お先にどうぞ」「許可」</p>
+                        <p class="text-sm font-mono text-slate-500">"Can I start?" - "Go ahead."</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card-glass p-8 rounded-2xl hover:bg-cyan-900/20 transition border-l-4 border-l-transparent hover:border-l-blue-400 group"
+                        data-aos="fade-left" data-aos-delay="200">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-mont font-black text-2xl text-white group-hover:text-blue-400 transition">GO
+                                FORWARD</h3>
+                            <span
+                                class="bg-blue-500/20 text-blue-300 text-xs font-bold px-2 py-1 rounded">PROGRESS</span>
+                        </div>
+                        <p class="text-slate-400 mb-2">「（計画などを）進める」「推進する」</p>
+                        <p class="text-sm font-mono text-slate-500">"We are going forward with the plan."</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card-glass p-8 rounded-2xl hover:bg-cyan-900/20 transition border-l-4 border-l-transparent hover:border-l-cyan-400 group"
+                        data-aos="fade-left" data-aos-delay="300">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="font-mont font-black text-2xl text-white group-hover:text-cyan-400 transition">GO
+                                ON</h3>
+                            <span
+                                class="bg-cyan-500/20 text-cyan-300 text-xs font-bold px-2 py-1 rounded">CONTINUE</span>
+                        </div>
+                        <p class="text-slate-400 mb-2">「（話を）続ける」「継続する」</p>
+                        <p class="text-sm font-mono text-slate-500">"Please go on. I'm listening."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- THEME 3: GO THROUGH -->
+    <section id="theme3" class="min-h-screen relative flex items-center justify-center py-20 overflow-hidden">
+        <!-- Decor -->
+        <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-yellow-500/10 rounded-full blur-[100px] pointer-events-none animate-pulse">
+        </div>
+
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center relative z-10">
+            <!-- Text Side -->
+            <div data-aos="fade-right">
+                <div
+                    class="inline-block px-4 py-1 rounded-full bg-yellow-500/20 border border-yellow-500/50 text-yellow-500 text-xs font-bold tracking-widest mb-6">
+                    THEME 03</div>
+                <h2 class="font-mont font-black text-5xl md:text-7xl mb-8 leading-tight">
+                    GO <span class="text-yellow-500">THROUGH</span>
+                </h2>
+                <div class="space-y-6 text-lg text-slate-300">
+                    <p class="font-bold text-2xl text-white">Experience だけじゃない。</p>
+                    <p>
+                        Go through の本質は<span
+                            class="text-white font-bold bg-yellow-600/20 px-2 py-1 rounded">「トンネルの通過」</span>です。<br>
+                        暗い場所、大量の書類、厳しい審査...<br>
+                        それらを「最初から最後まで通り抜ける」ニュアンスを持ちます。
+                    </p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+                        <div
+                            class="bg-slate-800/50 p-4 rounded-xl text-center border border-white/10 hover:border-yellow-500 transition">
+                            <div class="text-3xl mb-2">🌋</div>
+                            <div class="font-bold text-white text-sm">苦難を経験</div>
+                            <div class="text-xs text-slate-500 mt-1">離婚・病気</div>
+                        </div>
+                        <div
+                            class="bg-slate-800/50 p-4 rounded-xl text-center border border-white/10 hover:border-yellow-500 transition">
+                            <div class="text-3xl mb-2">📑</div>
+                            <div class="font-bold text-white text-sm">詳細を調査</div>
+                            <div class="text-xs text-slate-500 mt-1">書類の山</div>
+                        </div>
+                        <div
+                            class="bg-slate-800/50 p-4 rounded-xl text-center border border-white/10 hover:border-yellow-500 transition">
+                            <div class="text-3xl mb-2">✅</div>
+                            <div class="font-bold text-white text-sm">承認される</div>
+                            <div class="text-xs text-slate-500 mt-1">審査を通過</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Side -->
+            <div class="relative" data-aos="flip-up" data-aos-duration="1200">
+                <div class="absolute -inset-4 bg-yellow-500/20 rounded-xl blur-xl"></div>
+                <img src="theme3_go_through_tunnel_1769631111674.png" alt="Go Through Tunnel"
+                    class="relative w-full rounded-lg border-2 border-slate-700/50 shadow-2xl">
+                <!-- Share Button -->
+                <div class="absolute -bottom-6 right-6">
+                    <a href="https://twitter.com/intent/tweet?text=Go%20through%20%3D%20Passing%20through%20a%20tunnel.%20Pain%2C%20paperwork%2C%20or%20approval.%20It's%20all%20the%20same%20image.%20%F0%9F%9A%87%20%23English%20%23Learning&url=https%3A%2F%2Fexample.com"
+                        target="_blank"
+                        class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-slate-800 transition transform hover:scale-110 border border-white/20">
+                        <span>TWEET THIS</span>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STOP SAYING GO SECTION -->
+    <section class="py-20 bg-slate-50 items-center justify-center flex flex-col text-center border-t border-slate-200">
+        <div class="container mx-auto px-6" data-aos="fade-up">
+            <h2 class="font-mont font-black text-4xl md:text-5xl mb-4 text-slate-800 leading-tight">
+                STOP SAYING <span class="text-red-500 line-through decoration-4 decoration-slate-800">GO</span>
+            </h2>
+            <p class="text-slate-500 mb-10 font-bold text-lg">ビジネスでは「賢い」単語を選ぼう。</p>
+
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Image Side -->
+                <div class="relative group" data-aos="fade-right">
+                    <img src="stop_saying_go_list_1769633717457.png" alt="Stop Saying Go List"
+                        class="w-full max-w-lg mx-auto rounded-lg shadow-xl border border-slate-200 group-hover:scale-[1.02] transition duration-500">
+                    <!-- Share Button -->
+                    <div class="absolute -bottom-6 right-6">
+                        <a href="https://twitter.com/intent/tweet?text=Stop%20saying%20'GO'%20in%20business.%20Use%20Increase%2C%20Depart%2C%20Review.%20Level%20up%20your%20vocab.%20%F0%9F%93%88%20%23BusinessEnglish&url=https%3A%2F%2Fexample.com"
+                            target="_blank"
+                            class="flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full font-bold shadow-lg hover:bg-slate-800 transition transform hover:scale-110 border border-white/20">
+                            <span>SHARE LIST</span>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Text Side -->
+                <div class="text-left space-y-6" data-aos="fade-left">
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-green-500">
+                        <h3 class="font-bold text-slate-800 text-xl mb-2">❌ Go up → <span class="text-green-600">✅
+                                Increase / Ascend</span></h3>
+                        <p class="text-slate-500 text-sm">"Costs went up." は少し幼稚。"Costs increased." でプロ感アップ。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-green-500">
+                        <h3 class="font-bold text-slate-800 text-xl mb-2">❌ Go back → <span class="text-green-600">✅
+                                Return</span></h3>
+                        <p class="text-slate-500 text-sm">"I'll go back to the office." よりも "I'll return." がスマート。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-green-500">
+                        <h3 class="font-bold text-slate-800 text-xl mb-2">❌ Go against → <span class="text-green-600">✅
+                                Oppose</span></h3>
+                        <p class="text-slate-500 text-sm">"I won't go against it." → "I won't oppose it." で意思の強さを。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHEAT SHEET SECTION -->
+    <section class="py-20 bg-slate-900 border-t border-white/10 items-center justify-center flex flex-col text-center">
+        <div class="container mx-auto px-6" data-aos="fade-up">
+            <h2 class="font-mont font-black text-4xl md:text-5xl mb-4 text-white leading-tight">
+                SAVE & <span class="text-cyan-400">MASTER</span>
+            </h2>
+            <p class="text-slate-400 mb-10 font-bold">スマホに保存して、いつでも見返そう。</p>
+
+            <div class="relative max-w-lg mx-auto group">
+                <div
+                    class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg blur opacity-40 group-hover:opacity-100 transition duration-1000">
+                </div>
+                <div class="relative">
+                    <img src="go_neon_cheat_sheet_1769632335113.png" alt="Go Phrasal Verbs Neon Cheat Sheet"
+                        class="rounded-lg shadow-2xl w-full border border-white/10">
+                </div>
+            </div>
+
+            <!-- Download/Share Actions -->
+            <div class="mt-10 flex flex-col md:flex-row gap-4 justify-center">
+                <a href="go_neon_cheat_sheet_1769632335113.png" download
+                    class="flex items-center gap-2 justify-center bg-white/10 backdrop-blur text-white px-6 py-3 rounded-full font-bold hover:bg-cyan-500 transition border border-white/20">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    <span>DOWNLOAD NEON SHEET</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=The%20coolest%20English%20cheat%20sheet.%20Core%20'GO'%20phrases%20at%20a%20glance.%20%F0%9F%92%BE%20%23English%20%23Cyberpunk&url=https%3A%2F%2Fexample.com"
+                    target="_blank"
+                    class="flex items-center gap-2 justify-center bg-[#1DA1F2] text-white px-6 py-3 rounded-full font-bold hover:bg-[#0c85d0] transition">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg>
+                    <span>SHARE THIS</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-white/10 bg-black/50 backdrop-blur">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="font-mont font-bold text-2xl text-white mb-8">Ready to GO?</h3>
+            <p class="text-slate-400 mb-8">イメージで掴めば、英語はもっと自由になる。</p>
+            <button
+                class="px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-blue-400 hover:text-white transition duration-300">
+                SHARE THIS GUIDE
+            </button>
+            <p class="text-xs text-slate-600 mt-12">&copy; 2026 GO Phrasal Verbs Guide. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 100,
+            duration: 800,
+            easing: 'ease-out-cubic',
+        });
+    </script>
+</body>
+
+</html>
