@@ -1,0 +1,675 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>run 完全解説｜全レベル網羅</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap"
+		rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Noto Sans JP', system-ui, sans-serif;
+			background-color: #f1f5f9;
+			color: #334155;
+			line-height: 1.6;
+		}
+
+		.font-poppins {
+			font-family: 'Poppins', system-ui, sans-serif;
+		}
+
+		/* Animations */
+		.fade-in-up {
+			animation: fadeInUp 0.8s ease-out forwards;
+			opacity: 0;
+			transform: translateY(20px);
+		}
+
+		@keyframes fadeInUp {
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		.delay-100 {
+			animation-delay: 0.1s;
+		}
+
+		.delay-200 {
+			animation-delay: 0.2s;
+		}
+
+		.delay-300 {
+			animation-delay: 0.3s;
+		}
+
+		.delay-400 {
+			animation-delay: 0.4s;
+		}
+
+		.delay-500 {
+			animation-delay: 0.5s;
+		}
+
+		/* Card Hover */
+		.hover-card {
+			transition: all 0.3s ease;
+		}
+
+		.hover-card:hover {
+			transform: translateY(-4px);
+			box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+		}
+
+		/* Visual Text */
+		.core-box {
+			background-color: #ecfdf5;
+			/* Emerald-50 */
+			border: 1px dashed #10b981;
+			/* Emerald-500 */
+			padding: 1rem;
+			border-radius: 0.75rem;
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+
+		.visual-text {
+			display: block;
+			font-family: monospace;
+			color: #065f46;
+			font-weight: 700;
+			margin-top: 0.5rem;
+			white-space: pre-wrap;
+		}
+
+		/* Badges */
+		.level-badge {
+			display: inline-block;
+			padding: 0.25rem 0.75rem;
+			border-radius: 9999px;
+			font-size: 0.75rem;
+			font-weight: 900;
+			letter-spacing: 0.05em;
+			margin-bottom: 0.5rem;
+		}
+	</style>
+</head>
+
+<body class="p-6 md:p-12">
+	<div class="max-w-6xl mx-auto space-y-16">
+
+		<!-- Header -->
+		<header class="text-center space-y-6 fade-in-up">
+			<div
+				class="inline-block bg-slate-800 text-white px-5 py-2 rounded-full text-xs font-black tracking-widest border border-slate-700">
+				VERB SERIES: RUN
+			</div>
+			<h1 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
+				RUN のレベル別完全解説
+			</h1>
+			<p class="text-lg font-bold text-slate-500">
+				コアイメージから難関大・ビジネスレベルまで全網羅
+			</p>
+		</header>
+
+		<!-- CORE IMAGE SECTION -->
+		<section
+			class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm fade-in-up delay-100 border-t-4 border-t-emerald-500">
+			<div class="text-center space-y-4">
+				<h2 class="text-2xl font-black text-emerald-600">🎯 RUNのコアイメージ（基礎）</h2>
+				<p class="font-bold text-slate-700">本質：「勢いよく進む・動く」</p>
+
+				<div class="core-box max-w-md mx-auto">
+					<span class="visual-text">━━━→→→<br>（勢いのある動き）</span>
+				</div>
+
+				<div
+					class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm font-bold text-slate-600 text-left md:text-center bg-slate-50 p-4 rounded-xl">
+					<div>🏃 走る<br><span class="text-xs font-normal text-slate-400">足で勢いよく移動する</span></div>
+					<div>💧 流れる<br><span class="text-xs font-normal text-slate-400">液体が勢いよく移動する</span></div>
+					<div>🏢 運営する<br><span class="text-xs font-normal text-slate-400">事業が勢いよく進む</span></div>
+					<div>⚙️ 作動する<br><span class="text-xs font-normal text-slate-400">機械が勢いよく動く</span></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- LEVEL 1: MIDDLE SCHOOL -->
+		<section class="space-y-6 fade-in-up delay-200">
+			<div class="flex items-center gap-3 border-b border-slate-200 pb-3">
+				<span class="level-badge bg-emerald-100 text-emerald-700">Level 1</span>
+				<h2 class="text-2xl font-black text-slate-800">📚 中学生レベルの語法</h2>
+			</div>
+
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+				<!-- 1 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-emerald-700 mb-2">1. run（走る）</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：足で「勢いよく移動する」動作</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">I run every morning.</p>
+							<p class="text-xs text-slate-500">毎朝走ります。（毎朝勢いよく移動します）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">He ran to the station.</p>
+							<p class="text-xs text-slate-500">彼は駅まで走った。（彼が駅まで勢いよく移動した）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">The children are running in the park.</p>
+							<p class="text-xs text-slate-500">子供たちが公園で走っている。（子供たちが公園で勢いよく移動している）</p>
+						</li>
+					</ul>
+					<div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-emerald-50 p-3 rounded">
+						<span class="font-bold text-emerald-600 block mb-1">ポイント：walk との違い</span>
+						walk = ゆっくり歩く<br>
+						run = 速く走る
+					</div>
+				</div>
+
+				<!-- 2 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-emerald-700 mb-2">2. run（運営・経営する）</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：事業を「勢いよく進める」</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">He runs a restaurant.</p>
+							<p class="text-xs text-slate-500">彼はレストランを経営している。（彼がレストランを勢いよく進めている）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">She runs her own business.</p>
+							<p class="text-xs text-slate-500">彼女は自分の事業を運営している。（事業を勢いよく進めている）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">Who runs this company?</p>
+							<p class="text-xs text-slate-500">誰がこの会社を経営していますか？（誰がこの会社を勢いよく進めていますか）</p>
+						</li>
+					</ul>
+					<div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-emerald-50 p-3 rounded">
+						<span class="font-bold text-emerald-600 block mb-1">ポイント：manage との違い</span>
+						run = 経営・運営（全体を動かす）<br>
+						manage = 管理（細部を管理）
+					</div>
+				</div>
+
+				<!-- 3 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-emerald-700 mb-2">3. run（作動する、動く）</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：機械が「勢いよく動く」</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">The engine is running.</p>
+							<p class="text-xs text-slate-500">エンジンが動いている。（エンジンが勢いよく動いている）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">My computer won't run.</p>
+							<p class="text-xs text-slate-500">コンピューターが動かない。（コンピューターが勢いよく動かない）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">This program runs on Windows.</p>
+							<p class="text-xs text-slate-500">このプログラムはWindowsで動く。（Windowsで勢いよく動く）</p>
+						</li>
+					</ul>
+					<div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-emerald-50 p-3 rounded">
+						<span class="font-bold text-emerald-600 block mb-1">ポイント：work との違い</span>
+						run = 動作する（継続的な動き）<br>
+						work = 機能する（結果を出す）
+					</div>
+				</div>
+
+				<!-- 4 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-emerald-700 mb-2">4. run（流れる）</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：液体が「勢いよく移動する」</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">Water runs from the tap.</p>
+							<p class="text-xs text-slate-500">水道から水が流れる。（水道から水が勢いよく移動する）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">Tears ran down her face.</p>
+							<p class="text-xs text-slate-500">涙が顔を流れた。（涙が顔を勢いよく移動した）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">The river runs through the city.</p>
+							<p class="text-xs text-slate-500">川が街を流れている。（家が街を勢いよく移動している）</p>
+						</li>
+					</ul>
+					<div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-emerald-50 p-3 rounded">
+						<span class="font-bold text-emerald-600 block mb-1">ポイント：flow との違い</span>
+						run = 勢いよく流れる<br>
+						flow = ゆったり流れる
+					</div>
+				</div>
+
+				<!-- 5 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-emerald-700 mb-2">5. run out（尽きる、なくなる）</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「外へ勢いよく出て」なくなる</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">We're running out of time.</p>
+							<p class="text-xs text-slate-500">時間がなくなってきた。（時間が外へ勢いよく出ている）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">The milk ran out.</p>
+							<p class="text-xs text-slate-500">牛乳がなくなった。（牛乳が外へ出て尽きた）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">I've run out of money.</p>
+							<p class="text-xs text-slate-500">お金が尽きた。（お金が外へ出て尽きた）</p>
+						</li>
+					</ul>
+					<div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-emerald-50 p-3 rounded">
+						<span class="font-bold text-emerald-600 block mb-1">ポイント：out = 外へ・尽きる</span>
+						「在庫切れ」のイメージ
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- LEVEL 2: HIGH SCHOOL -->
+		<section class="space-y-6 fade-in-up delay-300">
+			<div class="flex items-center gap-3 border-b border-slate-200 pb-3 mt-8">
+				<span class="level-badge bg-indigo-100 text-indigo-700">Level 2</span>
+				<h2 class="text-2xl font-black text-slate-800">🎓 高校生レベルの語法</h2>
+			</div>
+
+			<div class="grid md:grid-cols-2 gap-6">
+
+				<!-- 1 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">1. run into</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「〜の中へ勢いよく進んで」ぶつかる</p>
+					<div class="space-y-4">
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味1：偶然会う</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">I ran into an old friend.</p>
+							<p class="text-xs text-slate-500">旧友にばったり会った。（旧友の中へ勢いよく進んだ）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味2：衝突する</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">The car ran into a tree.</p>
+							<p class="text-xs text-slate-500">車が木に衝突した。（木の中へ勢いよく進んだ）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味3：問題に直面する</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">We ran into problems.</p>
+							<p class="text-xs text-slate-500">問題に直面した。（問題の中へ勢いよく進んだ）</p>
+						</div>
+					</div>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>into = 中へ。meet by chance と同義。
+					</p>
+				</div>
+
+				<!-- 2 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">2. run away</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">逃げる、家出する（「離れた場所へ勢いよく進む」）</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">The thief ran away.</p>
+							<p class="text-xs text-slate-500">泥棒が逃げた。（泥棒が離れた場所へ勢いよく進んだ）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">Don't run away from your problems.</p>
+							<p class="text-xs text-slate-500">問題から逃げるな。（問題から離れた場所へ勢いよく進むな）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">She ran away from home.</p>
+							<p class="text-xs text-slate-500">彼女は家出した。（彼女が家から離れた場所へ勢いよく進んだ）</p>
+						</li>
+					</ul>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>away = 離れて。escape と同義。
+					</p>
+				</div>
+
+				<!-- 3 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">3. run over</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「上を越えて勢いよく進む」</p>
+					<div class="space-y-4">
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味1：車でひく</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">He was run over by a car.</p>
+							<p class="text-xs text-slate-500">彼は車にひかれた。（車によって上を越えて進まれた）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味2：時間を超過する</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">The meeting ran over.</p>
+							<p class="text-xs text-slate-500">会議が時間を超過した。（会議が上を越えて進んだ）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味3：ざっと見直す</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">Let me run over the plan.</p>
+							<p class="text-xs text-slate-500">計画をざっと見直させて。（計画の上を勢いよく進ませて）</p>
+						</div>
+					</div>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>over = 上を越える。「越境」のイメージ。
+					</p>
+				</div>
+
+				<!-- 4 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">4. run across</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">偶然見つける、ばったり会う（「横切って勢いよく進んで」出会う）</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">I ran across an old photo.</p>
+							<p class="text-xs text-slate-500">古い写真を偶然見つけた。（古い写真を横切って勢いよく進んだ）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">I ran across him at the mall.</p>
+							<p class="text-xs text-slate-500">モールで彼にばったり会った。（モールで彼を横切って勢いよく進んだ）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">You might run across some difficulties.</p>
+							<p class="text-xs text-slate-500">困難に出くわすかもしれない。（困難を横切って勢いよく進むかもしれない）</p>
+						</li>
+					</ul>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>across = 横切って。run into と同義。
+					</p>
+				</div>
+
+				<!-- 5 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">5. run through</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「貫通して勢いよく進む」</p>
+					<div class="space-y-4">
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味1：復習する</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">Let's run through the presentation.
+							</p>
+							<p class="text-xs text-slate-500">プレゼンを復習しよう。（プレゼンを貫通して勢いよく進もう）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味2：使い果たす</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">He ran through his savings.</p>
+							<p class="text-xs text-slate-500">彼は貯金を使い果たした。（貯金を貫通して勢いよく進んだ）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味3：貫く</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">A sword ran through his body.</p>
+							<p class="text-xs text-slate-500">剣が体を貫いた。（剣が体を貫通して勢いよく進んだ）</p>
+						</div>
+					</div>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>through = 貫通。「最初から最後まで」のイメージ。
+					</p>
+				</div>
+
+				<!-- 6 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">6. run up</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「上方向へ勢いよく進む」</p>
+					<div class="space-y-4">
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味1：駆け上がる</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">He ran up the stairs.</p>
+							<p class="text-xs text-slate-500">彼は階段を駆け上がった。（階段を上方向へ勢いよく進んだ）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味2：借金が積み上がる</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">He ran up a huge debt.</p>
+							<p class="text-xs text-slate-500">彼は巨額の借金を作った。（借金を上方向へ勢いよく進めた）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味3：急いで作る</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">She ran up a dress.</p>
+							<p class="text-xs text-slate-500">彼女はドレスを急いで作った。（ドレスを勢いよく上方向へ進めた）</p>
+						</div>
+					</div>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>up = 上方向・増加。「急速な増加」のイメージ。
+					</p>
+				</div>
+
+				<!-- 7 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">7. run down</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「下方向へ勢いよく進む」</p>
+					<div class="space-y-4">
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味1：駆け下りる</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">He ran down the hill.</p>
+							<p class="text-xs text-slate-500">彼は丘を駆け下りた。（丘を下方向へ勢いよく進んだ）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味2：電池が切れる</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">The battery has run down.</p>
+							<p class="text-xs text-slate-500">電池が切れた。（電池が下方向へ勢いよく進んだ）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味3：批判する・けなす</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">Don't run him down.</p>
+							<p class="text-xs text-slate-500">彼を批判するな。（彼を下方向へ勢いよく進めるな）</p>
+						</div>
+						<div>
+							<span class="text-xs font-black text-indigo-500 block mb-1">意味4：車でひく</span>
+							<p class="text-sm font-bold font-poppins text-slate-700">The dog was run down.</p>
+							<p class="text-xs text-slate-500">犬がひかれた。（犬が下方向へ勢いよく進まれた）</p>
+						</div>
+					</div>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>down = 下方向・減少。「低下・衰退」のイメージ。
+					</p>
+				</div>
+
+				<!-- 8 -->
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-indigo-700 mb-2">8. run by</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">説明する、確認する（「そばを勢いよく通って」見せる）</p>
+					<ul class="space-y-4 text-sm text-slate-700">
+						<li>
+							<p class="font-bold font-poppins">Let me run this by you.</p>
+							<p class="text-xs text-slate-500">これを説明させて。（これをあなたのそばを勢いよく通らせて）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">Can I run an idea by you?</p>
+							<p class="text-xs text-slate-500">アイデアを聞いてもらえますか？（アイデアをあなたのそばを通してもいいか）</p>
+						</li>
+						<li>
+							<p class="font-bold font-poppins">Run it by me again.</p>
+							<p class="text-xs text-slate-500">もう一度説明して。（それを私のそばをもう一度）</p>
+						</li>
+					</ul>
+					<p class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+						<span class="font-bold text-indigo-600">ポイント：</span>by = そばを通る。「提示・確認」のニュアンス。
+					</p>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- LEVEL 3: UNIVERSITY -->
+		<section class="space-y-6 fade-in-up delay-400">
+			<div class="flex items-center gap-3 border-b border-slate-200 pb-3 mt-8">
+				<span class="level-badge bg-amber-100 text-amber-700">Level 3</span>
+				<h2 class="text-2xl font-black text-slate-800">🏆 難関大学合格レベルの語法</h2>
+			</div>
+
+			<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">1. run out on</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">見捨てる、裏切る</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">He ran out on his family.</p>
+					<p class="text-xs text-slate-500 mt-2">家族から外へ勢いよく出た。abandon と同義。</p>
+				</div>
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">2. run for</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">〜に立候補する</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">He's running for president.</p>
+					<p class="text-xs text-slate-500 mt-2">大統領に向かって勢いよく進んでいる。「選挙出馬」。</p>
+				</div>
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">3. run in the family</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">家系に伝わる</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">Musical talent runs in the family.</p>
+					<p class="text-xs text-slate-500 mt-2">家族の中を勢いよく進んでいる。「遺伝」。</p>
+				</div>
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">4. run short of</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">〜が不足する</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">We're running short of time.</p>
+					<p class="text-xs text-slate-500 mt-2">時間が短く勢いよく進んでいる。「不足・欠乏」。</p>
+				</div>
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">5. run counter to</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">〜に反する</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">This runs counter to our policy.</p>
+					<p class="text-xs text-slate-500 mt-2">方針に対抗して勢いよく進む。contradict と同義。</p>
+				</div>
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">6. run the risk of</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">〜の危険を冒す</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">You run the risk of losing everything.</p>
+					<p class="text-xs text-slate-500 mt-2">危険の中を勢いよく進んでいる。risk と同義。</p>
+				</div>
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">7. run its course</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">自然に終わる</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">The relationship ran its course.</p>
+					<p class="text-xs text-slate-500 mt-2">経過を勢いよく進んだ。「自然な終わり」。</p>
+				</div>
+
+				<div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+					<h3 class="text-lg font-black text-amber-700 mb-2">8. run a fever</h3>
+					<p class="text-xs font-bold text-slate-400 mb-4">熱がある</p>
+					<p class="text-sm font-bold font-poppins text-slate-700">I'm running a fever.</p>
+					<p class="text-xs text-slate-500 mt-2">熱を勢いよく進めている。have a fever と同義。</p>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- BUSINESS: TOEIC -->
+		<section class="space-y-6 fade-in-up delay-500">
+			<div class="flex items-center gap-3 border-b border-slate-200 pb-3 mt-8">
+				<span class="level-badge bg-purple-100 text-purple-700">TOEIC</span>
+				<h2 class="text-2xl font-black text-slate-800">💼 TOEIC頻出ビジネス英語の語法</h2>
+			</div>
+
+			<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">1. run a business</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">事業を経営する</p>
+					<p class="text-sm text-slate-700">He runs a successful business.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">2. run smoothly</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">順調に進む</p>
+					<p class="text-sm text-slate-700">Everything is running smoothly.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">3. run behind schedule</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">予定より遅れる</p>
+					<p class="text-sm text-slate-700">We're running behind schedule.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">4. run on time</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">時間通りに進む</p>
+					<p class="text-sm text-slate-700">The train runs on time.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">5. run a test</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">テストを実施する</p>
+					<p class="text-sm text-slate-700">We need to run a test.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">6. run an advertisement</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">広告を掲載する</p>
+					<p class="text-sm text-slate-700">We'll run an ad in the paper.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">7. run a meeting</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">会議を進行する</p>
+					<p class="text-sm text-slate-700">She runs the weekly meetings.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">8. run an errand</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">用事を済ませる</p>
+					<p class="text-sm text-slate-700">I need to run an errand.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">9. run efficiently</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">効率的に動く</p>
+					<p class="text-sm text-slate-700">The system runs efficiently.</p>
+				</div>
+
+				<div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+					<h4 class="font-black text-purple-700 mb-1">10. run a program</h4>
+					<p class="text-xs font-bold text-slate-500 mb-2">プログラムを実行する</p>
+					<p class="text-sm text-slate-700">Run the program again.</p>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- SUMMARY SECTION -->
+		<section class="bg-emerald-50 border border-emerald-200 rounded-3xl p-8 fade-in-up delay-500">
+			<h2 class="text-xl font-black text-emerald-800 flex items-center gap-2 mb-6">
+				📊 覚え方のコツ：RUNのコアイメージ
+			</h2>
+
+			<div class="flex flex-col md:flex-row items-center gap-8">
+				<div class="flex-1 text-center bg-white p-6 rounded-2xl shadow-sm">
+					<p class="text-sm font-bold text-slate-500 mb-2">全ての用法に共通する核心</p>
+					<p class="text-lg font-black text-emerald-600 mb-2">「勢いよく進む・動く」</p>
+					<div class="core-box mt-4 bg-white border-emerald-100">
+						<span class="visual-text">━━━━━→→→<br>（勢いのある動き）</span>
+					</div>
+				</div>
+
+				<div class="flex-1 space-y-3 text-sm font-bold text-slate-700">
+					<p><span class="text-emerald-500 font-black">Level 1:</span> run（走る）、run out（尽きる）</p>
+					<p><span class="text-indigo-500 font-black">Level 2:</span> run into（偶然会う）、run over（ひく）</p>
+					<p><span class="text-amber-500 font-black">Level 3:</span> run for（立候補）、run in the family（遺伝）</p>
+					<p><span class="text-purple-500 font-black">TOEIC:</span> run behind schedule（遅れる）、run a test（実施）
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer
+			class="text-center text-xs text-slate-400 font-bold py-10 border-t border-slate-200 mt-12 fade-in-up delay-500">
+			<a href="../" class="inline-flex items-center gap-2 hover:text-emerald-600 transition-colors">
+				<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+						d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+				</svg>
+				トップへ戻る
+			</a>
+		</footer>
+
+	</div>
+</body>
+
+</html>
