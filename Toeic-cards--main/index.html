@@ -1,256 +1,310 @@
 <!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>English Core Image Series | 英語を構造で理解する</title>
-  <meta name="description" content="暗記ではなく、コアイメージと構造で英語を理解する学習サイト。基本動詞・文法・語彙を体系化して、文脈で判断できる力へ。" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Noto Sans JP', system-ui, sans-serif;
-      background-color: #f1f5f9; /* Slate-100 */
-      color: #334155; /* Slate-700 */
-    }
-    .font-poppins { font-family: 'Poppins', system-ui, sans-serif; }
-    
-    /* Animation Definitions */
-    .fade-in-up {
-        animation: fadeInUp 0.8s ease-out forwards;
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    @keyframes fadeInUp {
-        to { opacity: 1; transform: translateY(0); }
-    }
-    /* Delay utilities */
-    .delay-100 { animation-delay: 0.1s; }
-    .delay-200 { animation-delay: 0.2s; }
-    .delay-300 { animation-delay: 0.3s; }
-    .delay-500 { animation-delay: 0.5s; }
 
-    /* Card Hover Effect */
-    .hover-card {
-        transition: all 0.3s ease;
-    }
-    .hover-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    }
-  </style>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>English Core Image Series | 英語を構造で理解する</title>
+    <meta name="description" content="暗記ではなく、コアイメージと構造で英語を理解する学習サイト。基本動詞・文法・語彙を体系化して、文脈で判断できる力へ。" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', system-ui, sans-serif;
+            background-color: #f1f5f9;
+            /* Slate-100 */
+            color: #334155;
+            /* Slate-700 */
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', system-ui, sans-serif;
+        }
+
+        /* Animation Definitions */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Delay utilities */
+        .delay-100 {
+            animation-delay: 0.1s;
+        }
+
+        .delay-200 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-300 {
+            animation-delay: 0.3s;
+        }
+
+        .delay-500 {
+            animation-delay: 0.5s;
+        }
+
+        /* Card Hover Effect */
+        .hover-card {
+            transition: all 0.3s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
 </head>
 
 <body class="p-6 md:p-12">
-  <div class="max-w-6xl mx-auto space-y-16">
+    <div class="max-w-6xl mx-auto space-y-16">
 
-    <!-- Hero -->
-    <header class="text-center space-y-6 fade-in-up">
-      <div class="inline-block bg-slate-800 text-white px-5 py-2 rounded-full text-xs font-black tracking-widest border border-slate-700">
-        ENGLISH CORE IMAGE SERIES
-      </div>
+        <!-- Hero -->
+        <header class="text-center space-y-6 fade-in-up">
+            <div
+                class="inline-block bg-slate-800 text-white px-5 py-2 rounded-full text-xs font-black tracking-widest border border-slate-700">
+                ENGLISH CORE IMAGE SERIES
+            </div>
 
-      <h1 class="text-4xl md:text-6xl font-black leading-tight text-slate-900">
-        英語を<span class="text-blue-600">暗記</span>ではなく、<br class="md:hidden">
-        <span class="text-emerald-600">構造</span>で理解する
-      </h1>
+            <h1 class="text-4xl md:text-6xl font-black leading-tight text-slate-900">
+                英語を<span class="text-blue-600">暗記</span>ではなく、<br class="md:hidden">
+                <span class="text-emerald-600">構造</span>で理解する
+            </h1>
 
-      <p class="text-slate-500 font-bold text-lg md:text-xl">
-        「意味の丸暗記」から卒業して、<br class="md:hidden">文脈で判断できる英語へ。
-      </p>
-    </header>
+            <p class="text-slate-500 font-bold text-lg md:text-xl">
+                「意味の丸暗記」から卒業して、<br class="md:hidden">文脈で判断できる英語へ。
+            </p>
+        </header>
 
-    <!-- Philosophy -->
-    <section class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10 shadow-sm hover-card transition-shadow fade-in-up delay-100">
-      <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
-        <div class="space-y-4 flex-1">
-          <h2 class="text-2xl md:text-3xl font-black text-slate-800">このサイトの思想</h2>
-          <p class="text-sm md:text-base font-bold text-slate-600 leading-relaxed">
-            英語が難しく感じる理由は、単語や文法を「バラバラの知識」として増やし続けるからです。<br>
-            ここでは、英語を <span class="text-blue-600 bg-blue-50 px-1 rounded">コアイメージ（意味の核）</span> と
-            <span class="text-emerald-600 bg-emerald-50 px-1 rounded">構造（組み立て）</span> で整理します。<br>
-            目標は、テストだけでなく、読解・会話・仕事の場面でも「判断できる」こと。
-          </p>
-        </div>
-
-        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 md:w-80 shrink-0">
-          <p class="text-xs font-black text-slate-400 tracking-widest mb-4 border-b border-slate-200 pb-2">PRINCIPLES</p>
-          <ul class="text-sm font-bold text-slate-700 space-y-3">
-            <li class="flex items-center gap-2">
-                <span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
-                覚える前に、まず“核”をつかむ
-            </li>
-            <li class="flex items-center gap-2">
-                <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
-                意味はリストではなく、地図にする
-            </li>
-            <li class="flex items-center gap-2">
-                <span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
-                例文は「使い分け」が見える形で
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-4 mt-8">
-        <div class="bg-blue-50/50 rounded-2xl p-5 border border-blue-100">
-          <p class="text-blue-700 font-black text-xs tracking-wider">STEP 1</p>
-          <p class="mt-2 text-sm font-bold text-slate-700">コアイメージで一本化する</p>
-        </div>
-        <div class="bg-emerald-50/50 rounded-2xl p-5 border border-emerald-100">
-          <p class="text-emerald-700 font-black text-xs tracking-wider">STEP 2</p>
-          <p class="mt-2 text-sm font-bold text-slate-700">文法で“組み立て”を理解する</p>
-        </div>
-        <div class="bg-purple-50/50 rounded-2xl p-5 border border-purple-100">
-          <p class="text-purple-700 font-black text-xs tracking-wider">STEP 3</p>
-          <p class="mt-2 text-sm font-bold text-slate-700">語彙を“判断できる形”で増やす</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- NEW SECTION: TOEIC Message -->
-    <section class="bg-indigo-50/30 border border-indigo-100 rounded-3xl p-8 md:p-10 shadow-sm hover-card fade-in-up delay-200">
-        <div class="max-w-4xl mx-auto space-y-8">
-            <h2 class="text-2xl md:text-3xl font-black text-slate-800 text-center">
-                TOEICで点数を取るために必要な、<br class="md:hidden"><span class="text-indigo-600">最低条件</span>
-            </h2>
-            
-            <div class="space-y-6 text-slate-600 font-bold leading-relaxed text-sm md:text-base">
-                <p>
-                    TOEICの勉強をしているのに、なかなか点数が伸びない。<br class="hidden md:block">
-                    その理由の多くは、努力不足ではありません。
-                </p>
-                <p>
-                    原因は、<span class="bg-white text-indigo-700 px-2 py-0.5 rounded border border-indigo-100 shadow-sm">最低限の土台</span>がまだ築かれていないことにあります。
-                </p>
-                <p>
-                    中学・高校レベルの英語がきちんと身について、はじめて人は「自分の力で走り出す」ことができます。<br class="hidden md:block">
-                    この土台がないまま、問題集を何度も解いても、それは一時的な暗記力に過ぎません。
-                </p>
-                <p>
-                    同じミスを繰り返さないために必要なのは、<br>
-                    <span class="text-indigo-700 border-b-2 border-indigo-100">覚えることではなく、理解することです。</span>
-                </p>
-                <p>
-                    語彙でも、文法でも、それは同じ。<br>
-                    意味や仕組みを理解したうえで覚えるからこそ、それは「使える英語」になります。
-                </p>
-                <p>
-                    実際、大学受験レベルの英語を扱える力があれば、<br>
-                    TOEICでは問題集を解き続けるだけで自然と点数は伸び、600点を下回ることはほとんどありません。
-                </p>
-                <p>
-                    TOEIC特有のビジネス表現や形式は、<br>
-                    8〜9割を目指す段階になって、はじめて意味を持つものです。
-                </p>
-                <p>
-                    中級レベルから上級レベルへ進むための最短ルートは、<br>
-                    TOEIC対策ではなく、<span class="bg-white text-indigo-700 px-2 py-0.5 rounded border border-indigo-100 shadow-sm">英語力そのものを鍛えること</span>。
-                </p>
-                <div class="pt-4 border-t border-indigo-100/50">
-                    <p>
-                        やるべきことは、実はとてもシンプルです。<br>
-                        理解して、積み上げて、あとは毎日コツコツ進むだけ。
-                    </p>
-                    <p class="text-center font-black text-slate-800 mt-6 text-lg">
-                        このサイトは、そのための「地図」として作られています。
+        <!-- Philosophy -->
+        <section
+            class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10 shadow-sm hover-card transition-shadow fade-in-up delay-100">
+            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
+                <div class="space-y-4 flex-1">
+                    <h2 class="text-2xl md:text-3xl font-black text-slate-800">このサイトの思想</h2>
+                    <p class="text-sm md:text-base font-bold text-slate-600 leading-relaxed">
+                        英語が難しく感じる理由は、単語や文法を「バラバラの知識」として増やし続けるからです。<br>
+                        ここでは、英語を <span class="text-blue-600 bg-blue-50 px-1 rounded">コアイメージ（意味の核）</span> と
+                        <span class="text-emerald-600 bg-emerald-50 px-1 rounded">構造（組み立て）</span> で整理します。<br>
+                        目標は、テストだけでなく、読解・会話・仕事の場面でも「判断できる」こと。
                     </p>
                 </div>
+
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 md:w-80 shrink-0">
+                    <p class="text-xs font-black text-slate-400 tracking-widest mb-4 border-b border-slate-200 pb-2">
+                        PRINCIPLES</p>
+                    <ul class="text-sm font-bold text-slate-700 space-y-3">
+                        <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
+                            覚える前に、まず“核”をつかむ
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
+                            意味はリストではなく、地図にする
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
+                            例文は「使い分け」が見える形で
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Main Nav (3 cards) -->
-    <section class="space-y-8 fade-in-up delay-300">
-      <h2 class="text-2xl font-black text-center text-slate-800 flex items-center justify-center gap-2">
-        <span class="text-3xl">📚</span> 学習コンテンツ
-      </h2>
-
-      <div class="grid md:grid-cols-3 gap-6">
-
-        <!-- verbs -->
-        <a href="./verbs/" class="block bg-white border border-slate-200 rounded-3xl p-7 shadow-sm hover-card relative group overflow-hidden">
-          <div class="absolute top-0 right-0 w-24 h-24 bg-blue-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform"></div>
-          
-          <div class="relative">
-            <div class="flex items-center justify-between mb-4">
-                <span class="text-xs font-black text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">VERBS</span>
+            <div class="grid md:grid-cols-3 gap-4 mt-8">
+                <div class="bg-blue-50/50 rounded-2xl p-5 border border-blue-100">
+                    <p class="text-blue-700 font-black text-xs tracking-wider">STEP 1</p>
+                    <p class="mt-2 text-sm font-bold text-slate-700">コアイメージで一本化する</p>
+                </div>
+                <div class="bg-emerald-50/50 rounded-2xl p-5 border border-emerald-100">
+                    <p class="text-emerald-700 font-black text-xs tracking-wider">STEP 2</p>
+                    <p class="mt-2 text-sm font-bold text-slate-700">文法で“組み立て”を理解する</p>
+                </div>
+                <div class="bg-purple-50/50 rounded-2xl p-5 border border-purple-100">
+                    <p class="text-purple-700 font-black text-xs tracking-wider">STEP 3</p>
+                    <p class="mt-2 text-sm font-bold text-slate-700">語彙を“判断できる形”で増やす</p>
+                </div>
             </div>
-            <h3 class="text-2xl font-black text-slate-800 group-hover:text-blue-700 transition-colors">基本動詞</h3>
-            <p class="mt-3 text-sm font-bold text-slate-500 leading-relaxed">
-                get / take / make / go…<br>
-                「よく出るのに多義で迷う」動詞を、意味の核から整理します。
-            </p>
-            
-            <!-- Featured Link Example -->
-            <div class="mt-6 pt-4 border-t border-slate-100">
-                <p class="text-xs font-bold text-slate-400 mb-2">NEW ARRIVAL</p>
-                <span class="text-xs font-bold text-blue-600 flex items-center gap-1">
-                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                    get の完全解説ガイド
-                </span>
-            </div>
-          </div>
-        </a>
+        </section>
 
-        <!-- grammar -->
-        <a href="./grammar/" class="block bg-white border border-slate-200 rounded-3xl p-7 shadow-sm hover-card relative group overflow-hidden">
-          <div class="absolute top-0 right-0 w-24 h-24 bg-emerald-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform"></div>
-          
-          <div class="relative">
-            <div class="flex items-center justify-between mb-4">
-                <span class="text-xs font-black text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">GRAMMAR</span>
-            </div>
-            <h3 class="text-2xl font-black text-slate-800 group-hover:text-emerald-700 transition-colors">文法</h3>
-            <p class="mt-3 text-sm font-bold text-slate-500 leading-relaxed">
-                時制・助動詞・受動態・節…<br>
-                “暗記項目”ではなく「意味を作る仕組み」として整理します。
-            </p>
-            <div class="mt-6 pt-4 border-t border-slate-100">
-                <p class="text-sm font-black text-emerald-700 flex items-center gap-1 justify-end">
-                    View Series
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                </p>
-            </div>
-          </div>
-        </a>
+        <!-- NEW SECTION: TOEIC Message -->
+        <section
+            class="bg-indigo-50/30 border border-indigo-100 rounded-3xl p-8 md:p-10 shadow-sm hover-card fade-in-up delay-200">
+            <div class="max-w-4xl mx-auto space-y-8">
+                <h2 class="text-2xl md:text-3xl font-black text-slate-800 text-center">
+                    TOEICで点数を取るために必要な、<br class="md:hidden"><span class="text-indigo-600">最低条件</span>
+                </h2>
 
-        <!-- words -->
-        <a href="./words/" class="block bg-white border border-slate-200 rounded-3xl p-7 shadow-sm hover-card relative group overflow-hidden">
-          <div class="absolute top-0 right-0 w-24 h-24 bg-purple-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform"></div>
-          
-          <div class="relative">
-            <div class="flex items-center justify-between mb-4">
-                <span class="text-xs font-black text-purple-700 bg-purple-50 px-3 py-1 rounded-full border border-purple-100">WORDS</span>
+                <div class="space-y-6 text-slate-600 font-bold leading-relaxed text-sm md:text-base">
+                    <p>
+                        TOEICの勉強をしているのに、なかなか点数が伸びない。<br class="hidden md:block">
+                        その理由の多くは、努力不足ではありません。
+                    </p>
+                    <p>
+                        原因は、<span
+                            class="bg-white text-indigo-700 px-2 py-0.5 rounded border border-indigo-100 shadow-sm">最低限の土台</span>がまだ築かれていないことにあります。
+                    </p>
+                    <p>
+                        中学・高校レベルの英語がきちんと身について、はじめて人は「自分の力で走り出す」ことができます。<br class="hidden md:block">
+                        この土台がないまま、問題集を何度も解いても、それは一時的な暗記力に過ぎません。
+                    </p>
+                    <p>
+                        同じミスを繰り返さないために必要なのは、<br>
+                        <span class="text-indigo-700 border-b-2 border-indigo-100">覚えることではなく、理解することです。</span>
+                    </p>
+                    <p>
+                        語彙でも、文法でも、それは同じ。<br>
+                        意味や仕組みを理解したうえで覚えるからこそ、それは「使える英語」になります。
+                    </p>
+                    <p>
+                        実際、大学受験レベルの英語を扱える力があれば、<br>
+                        TOEICでは問題集を解き続けるだけで自然と点数は伸び、600点を下回ることはほとんどありません。
+                    </p>
+                    <p>
+                        TOEIC特有のビジネス表現や形式は、<br>
+                        8〜9割を目指す段階になって、はじめて意味を持つものです。
+                    </p>
+                    <p>
+                        中級レベルから上級レベルへ進むための最短ルートは、<br>
+                        TOEIC対策ではなく、<span
+                            class="bg-white text-indigo-700 px-2 py-0.5 rounded border border-indigo-100 shadow-sm">英語力そのものを鍛えること</span>。
+                    </p>
+                    <div class="pt-4 border-t border-indigo-100/50">
+                        <p>
+                            やるべきことは、実はとてもシンプルです。<br>
+                            理解して、積み上げて、あとは毎日コツコツ進むだけ。
+                        </p>
+                        <p class="text-center font-black text-slate-800 mt-6 text-lg">
+                            このサイトは、そのための「地図」として作られています。
+                        </p>
+                    </div>
+                </div>
             </div>
-            <h3 class="text-2xl font-black text-slate-800 group-hover:text-purple-700 transition-colors">語彙・単語</h3>
-            <p class="mt-3 text-sm font-bold text-slate-500 leading-relaxed">
-                抽象語・多義語・頻出語を、<br>
-                コアイメージと用法の“地図”として増やしていきます。
-            </p>
-            <div class="mt-6 pt-4 border-t border-slate-100">
-                <p class="text-sm font-black text-purple-700 flex items-center gap-1 justify-end">
-                    View Series
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                </p>
+        </section>
+
+        <!-- Main Nav (3 cards) -->
+        <section class="space-y-8 fade-in-up delay-300">
+            <h2 class="text-2xl font-black text-center text-slate-800 flex items-center justify-center gap-2">
+                <span class="text-3xl">📚</span> 学習コンテンツ
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- verbs -->
+                <a href="./verbs/"
+                    class="block bg-white border border-slate-200 rounded-3xl p-7 shadow-sm hover-card relative group overflow-hidden">
+                    <div
+                        class="absolute top-0 right-0 w-24 h-24 bg-blue-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform">
+                    </div>
+
+                    <div class="relative">
+                        <div class="flex items-center justify-between mb-4">
+                            <span
+                                class="text-xs font-black text-blue-700 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">VERBS</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-800 group-hover:text-blue-700 transition-colors">基本動詞
+                        </h3>
+                        <p class="mt-3 text-sm font-bold text-slate-500 leading-relaxed">
+                            get / take / make / go…<br>
+                            「よく出るのに多義で迷う」動詞を、意味の核から整理します。
+                        </p>
+
+                        <!-- Featured Link Example -->
+                        <div class="mt-6 pt-4 border-t border-slate-100">
+                            <p class="text-xs font-bold text-slate-400 mb-2">NEW ARRIVAL</p>
+                            <span class="text-xs font-bold text-blue-600 flex items-center gap-1">
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                get の完全解説ガイド
+                            </span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- grammar -->
+                <a href="./grammar/"
+                    class="block bg-white border border-slate-200 rounded-3xl p-7 shadow-sm hover-card relative group overflow-hidden">
+                    <div
+                        class="absolute top-0 right-0 w-24 h-24 bg-emerald-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform">
+                    </div>
+
+                    <div class="relative">
+                        <div class="flex items-center justify-between mb-4">
+                            <span
+                                class="text-xs font-black text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">GRAMMAR</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-800 group-hover:text-emerald-700 transition-colors">文法
+                        </h3>
+                        <p class="mt-3 text-sm font-bold text-slate-500 leading-relaxed">
+                            時制・助動詞・受動態・節…<br>
+                            “暗記項目”ではなく「意味を作る仕組み」として整理します。
+                        </p>
+                        <div class="mt-6 pt-4 border-t border-slate-100">
+                            <p class="text-sm font-black text-emerald-700 flex items-center gap-1 justify-end">
+                                View Series
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- words -->
+                <a href="./words/"
+                    class="block bg-white border border-slate-200 rounded-3xl p-7 shadow-sm hover-card relative group overflow-hidden">
+                    <div
+                        class="absolute top-0 right-0 w-24 h-24 bg-purple-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform">
+                    </div>
+
+                    <div class="relative">
+                        <div class="flex items-center justify-between mb-4">
+                            <span
+                                class="text-xs font-black text-purple-700 bg-purple-50 px-3 py-1 rounded-full border border-purple-100">WORDS</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-800 group-hover:text-purple-700 transition-colors">
+                            語彙・単語</h3>
+                        <p class="mt-3 text-sm font-bold text-slate-500 leading-relaxed">
+                            抽象語・多義語・頻出語を、<br>
+                            コアイメージと用法の“地図”として増やしていきます。
+                        </p>
+                        <div class="mt-6 pt-4 border-t border-slate-100">
+                            <p class="text-sm font-black text-purple-700 flex items-center gap-1 justify-end">
+                                View Series
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
             </div>
-          </div>
-        </a>
+        </section>
 
-      </div>
-    </section>
+        <!-- Footer -->
+        <footer
+            class="text-center text-xs text-slate-400 font-bold py-10 border-t border-slate-200 mt-12 fade-in-up delay-500">
+            English Core Image Series <br>
+            <span class="font-normal opacity-70">Created with AI Assistant</span>
+        </footer>
 
-    <!-- Footer -->
-    <footer class="text-center text-xs text-slate-400 font-bold py-10 border-t border-slate-200 mt-12 fade-in-up delay-500">
-      English Core Image Series <br>
-      <span class="font-normal opacity-70">Created with AI Assistant</span>
-    </footer>
-
-  </div>
+    </div>
 </body>
+
 </html>
-
-
-

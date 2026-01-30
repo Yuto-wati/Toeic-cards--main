@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PUT 完全解説｜全レベル網羅</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', system-ui, sans-serif;
+            background-color: #f1f5f9;
+            color: #334155;
+            line-height: 1.6;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', system-ui, sans-serif;
+        }
+
+        /* Animations */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .delay-100 {
+            animation-delay: 0.1s;
+        }
+
+        .delay-200 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-300 {
+            animation-delay: 0.3s;
+        }
+
+        .delay-400 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-500 {
+            animation-delay: 0.5s;
+        }
+
+        /* Card Hover */
+        .hover-card {
+            transition: all 0.3s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Visual Text */
+        .core-box {
+            background-color: #eff6ff;
+            /* Blue-50 */
+            border: 1px dashed #3b82f6;
+            /* Blue-500 */
+            padding: 1rem;
+            border-radius: 0.75rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .visual-text {
+            display: block;
+            font-family: monospace;
+            color: #475569;
+            font-weight: 700;
+            margin-top: 0.5rem;
+            white-space: pre-wrap;
+        }
+
+        /* Badges */
+        .level-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body class="p-6 md:p-12">
+    <div class="max-w-6xl mx-auto space-y-16">
+
+        <!-- Header -->
+        <header class="text-center space-y-6 fade-in-up">
+            <div
+                class="inline-block bg-slate-800 text-white px-5 py-2 rounded-full text-xs font-black tracking-widest border border-slate-700">
+                VERB SERIES: PUT
+            </div>
+            <h1 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
+                PUT のレベル別完全解説
+            </h1>
+            <p class="text-lg font-bold text-slate-500">
+                コアイメージから難関大・ビジネスレベルまで全網羅
+            </p>
+        </header>
+
+        <!-- CORE IMAGE SECTION -->
+        <section class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm fade-in-up delay-100">
+            <div class="text-center space-y-4">
+                <h2 class="text-2xl font-black text-blue-600">🎯 PUTのコアイメージ（基礎）</h2>
+                <p class="font-bold text-slate-700">本質：「ある場所に置く・位置づける」</p>
+
+                <div class="core-box max-w-md mx-auto">
+                    <span class="visual-text"> ●
+                        ↓
+                        ━━━━━
+                        （場所を定めて設置）</span>
+                </div>
+
+                <div
+                    class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm font-bold text-slate-600 text-left md:text-center bg-slate-50 p-4 rounded-xl">
+                    <div>置く<br><span class="text-xs font-normal text-slate-400">物を特定の場所に位置づける</span></div>
+                    <div>入れる<br><span class="text-xs font-normal text-slate-400">容器の中という場所に位置づける</span></div>
+                    <div>書く<br><span class="text-xs font-normal text-slate-400">紙という場所に文字を位置づける</span></div>
+                    <div>表現する<br><span class="text-xs font-normal text-slate-400">言葉という場所に意味を位置づける</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEVEL 1: MIDDLE SCHOOL -->
+        <section class="space-y-6 fade-in-up delay-200">
+            <div class="flex items-center gap-3 border-b border-slate-200 pb-3">
+                <span class="level-badge bg-green-100 text-green-700">Level 1</span>
+                <h2 class="text-2xl font-black text-slate-800">📚 中学生レベルの語法</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- 1 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-green-700 mb-2">1. put + 名詞 + 場所（〜を…に置く）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：物を「特定の場所に位置づける」動作</p>
+                    <ul class="space-y-4 text-sm text-slate-700">
+                        <li>
+                            <p class="font-bold font-poppins">Put the book on the table.</p>
+                            <p class="text-xs text-slate-500">本をテーブルに置いて。<br>→ 本をテーブルという場所に位置づけて</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">I put my keys in my pocket.</p>
+                            <p class="text-xs text-slate-500">鍵をポケットに入れた。<br>→ 鍵をポケットという場所に位置づけた</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">She put the dishes in the sink.</p>
+                            <p class="text-xs text-slate-500">彼女は皿をシンクに置いた。<br>→ 彼女が皿をシンクという場所に位置づけた</p>
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        putは「場所」が必須<br>
+                        - ✕ I put the book.（場所がない）<br>
+                        - ○ I put the book there.（場所がある）<br>
+                        <br>
+                        placeとの違い：<br>
+                        - put = 単に置く動作（中立）<br>
+                        - place = 慎重に配置（丁寧）
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-green-700 mb-2">2. put on（着る、身につける）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：体という場所の「上（on）に位置づける」</p>
+                    <ul class="space-y-4 text-sm text-slate-700">
+                        <li>
+                            <p class="font-bold font-poppins">Put on your coat.</p>
+                            <p class="text-xs text-slate-500">コートを着て。<br>→ コートを体の上に位置づけて</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">I put on my shoes.</p>
+                            <p class="text-xs text-slate-500">靴を履いた。<br>→ 靴を足の上に位置づけた</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">She put on her glasses.</p>
+                            <p class="text-xs text-slate-500">彼女は眼鏡をかけた。<br>→ 彼女が眼鏡を顔の上に位置づけた</p>
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        on = 接触・表面<br>
+                        take off（脱ぐ）の反対<br>
+                        <br>
+                        着る動作の動詞：<br>
+                        - put on = 着る動作（動詞）<br>
+                        - wear = 着ている状態（状態動詞）
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-green-700 mb-2">3. put in（入れる、投入する）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「内部（in）に位置づける」</p>
+                    <ul class="space-y-4 text-sm text-slate-700">
+                        <li>
+                            <p class="font-bold font-poppins">Put the letter in the envelope.</p>
+                            <p class="text-xs text-slate-500">手紙を封筒に入れて。<br>→ 手紙を封筒の内部に位置づけて</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">I put sugar in my coffee.</p>
+                            <p class="text-xs text-slate-500">コーヒーに砂糖を入れた。<br>→ 砂糖をコーヒーの内部に位置づけた</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">He put money in the bank.</p>
+                            <p class="text-xs text-slate-500">彼は銀行にお金を預けた。<br>→ 彼がお金を銀行の内部に位置づけた</p>
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        in = 内部<br>
+                        「容器・空間の中」のイメージ
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-green-700 mb-2">4. put down（置く、下ろす）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「下（down）に位置づける」</p>
+                    <ul class="space-y-4 text-sm text-slate-700">
+                        <li>
+                            <p class="font-bold font-poppins">Put down your bag.</p>
+                            <p class="text-xs text-slate-500">カバンを下ろして。<br>→ カバンを下の場所に位置づけて</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">I put down the phone.</p>
+                            <p class="text-xs text-slate-500">電話を切った。<br>→ 電話を下に位置づけた（受話器を置いた）</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">Put it down here.</p>
+                            <p class="text-xs text-slate-500">それをここに置いて。<br>→ それを下のこの場所に位置づけて</p>
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        down = 下方向<br>
+                        pick up（持ち上げる）の反対
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-green-700 mb-2">5. put away（片付ける、しまう）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「離れた場所（away）に位置づける」= 見えない所へ</p>
+                    <ul class="space-y-4 text-sm text-slate-700">
+                        <li>
+                            <p class="font-bold font-poppins">Put away your toys.</p>
+                            <p class="text-xs text-slate-500">おもちゃを片付けて。<br>→ おもちゃを離れた場所（箱・棚）に位置づけて</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">I put away the dishes.</p>
+                            <p class="text-xs text-slate-500">皿をしまった。<br>→ 皿を離れた場所（食器棚）に位置づけた</p>
+                        </li>
+                        <li>
+                            <p class="font-bold font-poppins">Put your phone away.</p>
+                            <p class="text-xs text-slate-500">携帯をしまいなさい。<br>→ 携帯を離れた場所（ポケット・カバン）に位置づけなさい</p>
+                        </li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        away = 離れた場所<br>
+                        「元の場所・見えない所へ」のニュアンス
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- LEVEL 2: HIGH SCHOOL -->
+        <section class="space-y-6 fade-in-up delay-300">
+            <div class="flex items-center gap-3 border-b border-slate-200 pb-3 mt-8">
+                <span class="level-badge bg-indigo-100 text-indigo-700">Level 2</span>
+                <h2 class="text-2xl font-black text-slate-800">🎓 高校生レベルの語法</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- 1 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">1. put off（延期する、脱ぐ）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「離れた場所（off）に位置づける」= 先送り</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">We put off the meeting.</span><br><span
+                                class="text-xs text-slate-500">会議を延期した。<br>→ 会議を今から離れた時点に位置づけた</span></li>
+                        <li><span class="font-bold">Don't put off until tomorrow what you can do today.</span><br><span
+                                class="text-xs text-slate-500">今日できることを明日に延ばすな。<br>→ 今日のことを明日という離れた場所に位置づけるな</span></li>
+                        <li><span class="font-bold">I can't put it off any longer.</span><br><span
+                                class="text-xs text-slate-500">これ以上延期できない。<br>→ これをより離れた場所に位置づけられない</span></li>
+                        <li><span class="font-bold">Put off your coat.</span><br><span
+                                class="text-xs text-slate-500">コートを脱いで。<br>→ コートを体から離れた場所に位置づけて</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        off = 離れて・分離<br>
+                        postpone と同義<br>
+                        <br>
+                        延期の表現：<br>
+                        - put off = 口語的<br>
+                        - postpone = フォーマル<br>
+                        - delay = 遅らせる
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">2. put up（掲げる、泊める、建てる）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「上方向（up）に位置づける」</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">Put up a poster.</span><br><span
+                                class="text-xs text-slate-500">ポスターを貼って。<br>→ ポスターを壁の上に位置づけて</span></li>
+                        <li><span class="font-bold">They put up a sign.</span><br><span
+                                class="text-xs text-slate-500">彼らは看板を掲げた。<br>→ 彼らが看板を上に位置づけた</span></li>
+                        <li><span class="font-bold">Can you put me up for the night?</span><br><span
+                                class="text-xs text-slate-500">今夜泊めてもらえますか？<br>→ 私を宿泊場所という上の状態に位置づけてもらえるか</span></li>
+                        <li><span class="font-bold">We put up our guests in the spare room.</span><br><span
+                                class="text-xs text-slate-500">客を予備の部屋に泊めた。<br>→ 客を予備の部屋という場所に位置づけた</span></li>
+                        <li><span class="font-bold">They're putting up a new building.</span><br><span
+                                class="text-xs text-slate-500">新しいビルを建てている。<br>→ 新しいビルを上方向に位置づけている</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        up = 上・立てる<br>
+                        take down（取り外す）の反対
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">3. put out（消す、出す）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「外（out）に位置づける」</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">Put out the fire.</span><br><span
+                                class="text-xs text-slate-500">火を消して。<br>→ 火を燃焼状態から外に位置づけて</span></li>
+                        <li><span class="font-bold">Please put out your cigarette.</span><br><span
+                                class="text-xs text-slate-500">タバコを消してください。<br>→ タバコを喫煙状態から外に位置づけて</span></li>
+                        <li><span class="font-bold">Put out the garbage.</span><br><span
+                                class="text-xs text-slate-500">ゴミを出して。<br>→ ゴミを外という場所に位置づけて</span></li>
+                        <li><span class="font-bold">The cat put out its paw.</span><br><span
+                                class="text-xs text-slate-500">猫が足を出した。<br>→ 猫が足を外に位置づけた</span></li>
+                        <li><span class="font-bold">They put out a statement.</span><br><span
+                                class="text-xs text-slate-500">彼らは声明を発表した。<br>→ 彼らが声明を外（公）に位置づけた</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        out = 外へ<br>
+                        「内から外への移動」
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">4. put forward（提案する、進める）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「前方（forward）に位置づける」</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">I'd like to put forward a suggestion.</span><br><span
+                                class="text-xs text-slate-500">提案を出したいのですが。<br>→ 提案を前方に位置づけたい</span></li>
+                        <li><span class="font-bold">He put forward a new theory.</span><br><span
+                                class="text-xs text-slate-500">彼は新しい理論を提唱した。<br>→ 彼が新理論を前方に位置づけた</span></li>
+                        <li><span class="font-bold">Can I put forward an idea?</span><br><span
+                                class="text-xs text-slate-500">アイデアを出してもいいですか？<br>→ アイデアを前方に位置づけてもいいか</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        forward = 前方へ<br>
+                        propose と同義
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">5. put back（戻す、延期する）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「後ろ（back）に位置づける」= 元の位置・時間へ</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">Put the book back on the shelf.</span><br><span
+                                class="text-xs text-slate-500">本を棚に戻して。<br>→ 本を棚という元の場所に位置づけて</span></li>
+                        <li><span class="font-bold">Put it back where you found it.</span><br><span
+                                class="text-xs text-slate-500">見つけた場所に戻して。<br>→ それを見つけた場所という元の位置に位置づけて</span></li>
+                        <li><span class="font-bold">Put the clock back one hour.</span><br><span
+                                class="text-xs text-slate-500">時計を1時間遅らせて。<br>→ 時計を1時間後ろに位置づけて</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        back = 後ろ・元の位置<br>
+                        「復帰」のイメージ
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">6. put aside（取っておく、脇に置く）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「脇（aside）に位置づける」</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">I put aside some money for emergencies.</span><br><span
+                                class="text-xs text-slate-500">緊急時のためにお金を取っておいた。<br>→ お金を緊急用という脇の場所に位置づけた</span></li>
+                        <li><span class="font-bold">Put aside some time for yourself.</span><br><span
+                                class="text-xs text-slate-500">自分のための時間を取っておいて。<br>→ 自分用の時間を脇に位置づけて</span></li>
+                        <li><span class="font-bold">Let's put aside our differences.</span><br><span
+                                class="text-xs text-slate-500">違いは脇に置いておこう。<br>→ 違いを脇という場所に位置づけよう</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        aside = 脇に<br>
+                        「保留・蓄え」のニュアンス
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">7. put across（伝える、理解させる）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「向こう側（across）に位置づける」</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">He put his ideas across clearly.</span><br><span
+                                class="text-xs text-slate-500">彼はアイデアを明確に伝えた。<br>→ 彼がアイデアを向こう側に位置づけた</span></li>
+                        <li><span class="font-bold">I couldn't put my point across.</span><br><span
+                                class="text-xs text-slate-500">自分の意見を伝えられなかった。<br>→ 意見を向こう側に位置づけられなかった</span></li>
+                        <li><span class="font-bold">She knows how to put herself across.</span><br><span
+                                class="text-xs text-slate-500">彼女は自分をうまく表現する方法を知っている。<br>→
+                                彼女が自分を向こう側に位置づける方法を知っている</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        across = 向こう側へ<br>
+                        get across と同義
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-indigo-700 mb-2">8. put through（つなぐ、経験させる）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「貫通して（through）位置づける」</p>
+                    <ul class="space-y-3 text-sm text-slate-700">
+                        <li><span class="font-bold">Please put me through to the manager.</span><br><span
+                                class="text-xs text-slate-500">マネージャーにつないでください。<br>→ 私をマネージャーへ貫通して位置づけて</span></li>
+                        <li><span class="font-bold">I'll put you through now.</span><br><span
+                                class="text-xs text-slate-500">今おつなぎします。<br>→ 今あなたを貫通して位置づけます</span></li>
+                        <li><span class="font-bold">She put him through a lot.</span><br><span
+                                class="text-xs text-slate-500">彼女は彼に多くの苦労をさせた。<br>→ 彼女が彼を多くの困難を通して位置づけた</span></li>
+                        <li><span class="font-bold">Don't put yourself through this.</span><br><span
+                                class="text-xs text-slate-500">こんな辛い思いをするな。<br>→ 自分をこれを通して位置づけるな</span></li>
+                    </ul>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-3 rounded">
+                        <span class="font-bold text-green-600 block mb-1">ポイント：</span>
+                        through = 貫通<br>
+                        「接続・通過」のイメージ
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- LEVEL 3: UNIVERSITY -->
+        <section class="space-y-6 fade-in-up delay-400">
+            <div class="flex items-center gap-3 border-b border-slate-200 pb-3 mt-8">
+                <span class="level-badge bg-amber-100 text-amber-700">Level 3</span>
+                <h2 class="text-2xl font-black text-slate-800">🏆 難関大学合格レベルの語法</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">1. put up with（我慢する、耐える）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「〜と共に上に位置づけて耐える」</p>
+                    <p class="text-sm font-bold text-slate-700">I can't put up with this noise.</p>
+                    <p class="text-xs text-slate-500 mt-2">この騒音には我慢できない。<br>→ この騒音と共に上に位置づけられない<br><br>How do you put up
+                        with him?（どうやって彼に耐えているの？）<br>I won't put up with such behavior.（そんな行動は我慢しない。）</p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">2. put down to（〜のせいにする、〜に帰する）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「〜に下ろして位置づける」= 原因を特定する</p>
+                    <p class="text-sm font-bold text-slate-700">I put it down to bad luck.</p>
+                    <p class="text-xs text-slate-500 mt-2">それを運が悪かったせいにした。<br>→ それを運の悪さという場所に下ろして位置づけた<br><br>We can put
+                        his success down to hard work.（彼の成功は努力のおかげだと言える。）<br>She put her illness down to
+                        stress.（彼女は病気をストレスのせいにした。）</p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">3. put out（迷惑をかける、困らせる）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「外（out）に位置づける」= 通常状態から外す</p>
+                    <p class="text-sm font-bold text-slate-700">Don't put yourself out.</p>
+                    <p class="text-xs text-slate-500 mt-2">無理しないで。<br>→ 自分を外の状態に位置づけないで<br><br>I don't want to put you
+                        out.（ご迷惑をおかけしたくありません。）<br>Would it put you out if I came early?（早く来たらご迷惑ですか？）</p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">4. put someone up to（〜をそそのかす）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「〜まで上に位置づける」= 悪い行動へ導く</p>
+                    <p class="text-sm font-bold text-slate-700">Who put you up to this?</p>
+                    <p class="text-xs text-slate-500 mt-2">誰にそそのかされたの？<br>→ 誰があなたをこれまで上に位置づけたのか<br><br>I think someone
+                        put him up to it.（誰かが彼をそそのかしたと思う。）<br>Nobody put me up to it.（誰にもそそのかされていない。）</p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">5. put one's finger on（正確に指摘する）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「指を〜の上に位置づける」= 特定する</p>
+                    <p class="text-sm font-bold text-slate-700">I can't put my finger on it.</p>
+                    <p class="text-xs text-slate-500 mt-2">何だか分からないけど変だ。<br>→ それの上に指を位置づけられない<br><br>You've put your
+                        finger on the problem.（あなたは問題の核心を突いた。）<br>There's something wrong, but I can't put my finger on
+                        what.（何か変だが、何かは特定できない。）</p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">6. put pressure on（〜に圧力をかける）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「圧力を〜の上に位置づける」</p>
+                    <p class="text-sm font-bold text-slate-700">They're putting pressure on us to decide.</p>
+                    <p class="text-xs text-slate-500 mt-2">彼らは我々に決断するよう圧力をかけている。<br>→ 彼らが圧力を我々の上に位置づけている<br><br>Don't
+                        put pressure on yourself.（自分にプレッシャーをかけるな。）<br>The deadline puts pressure on the
+                        team.（締め切りがチームに圧力をかけている。）</p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">7. put emphasis on（〜を強調する）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「強調を〜の上に位置づける」</p>
+                    <p class="text-sm font-bold text-slate-700">We put emphasis on quality.</p>
+                    <p class="text-xs text-slate-500 mt-2">我々は品質を重視する。<br>→ 我々が強調を品質の上に位置づける<br><br>The teacher puts
+                        emphasis on grammar.（先生は文法を強調する。）<br>They put too much emphasis on grades.（彼らは成績を重視しすぎる。）</p>
+                </div>
+
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700">8. put into practice（実践する、実行する）</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-2">コアイメージ：「実践の中に位置づける」</p>
+                    <p class="text-sm font-bold text-slate-700">We need to put this into practice.</p>
+                    <p class="text-xs text-slate-500 mt-2">これを実践する必要がある。<br>→ これを実践という場所の中に位置づける必要がある<br><br>It's time
+                        to put our plan into practice.（計画を実行する時だ。）<br>She put her ideas into practice.（彼女はアイデアを実践した。）
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BUSINESS: TOEIC -->
+        <section class="space-y-6 fade-in-up delay-500">
+            <div class="flex items-center gap-3 border-b border-slate-200 pb-3 mt-8">
+                <span class="level-badge bg-purple-100 text-purple-700">TOEIC</span>
+                <h2 class="text-2xl font-black text-slate-800">💼 TOEIC頻出ビジネス英語の語法</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">1. put in charge of</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（〜の担当にする）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「担当という場所の中に位置づける」<br><br>He was put in charge of the
+                        project.（彼がプロジェクトの担当にされた。）<br>→ 彼がプロジェクトの担当という場所に位置づけられた<br>Who will you put in
+                        charge?（誰を担当にしますか？）<br>I was put in charge of
+                        training.（私が研修担当にされた。）<br><br>TOEIC頻出：人事・役割分担の文脈<br>ポイント：in charge = 担当・責任者、「役割の配置」を表す</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">2. put on hold</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（保留にする）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「保留という状態に位置づける」<br><br>The project was put on
+                        hold.（プロジェクトは保留にされた。）<br>→ プロジェクトが保留という状態に位置づけられた<br>We had to put the plan on
+                        hold.（計画を保留にしなければならなかった。）<br>Can you put me on
+                        hold?（保留にしてもらえますか？）<br><br>TOEIC頻出：プロジェクト管理・電話対応の文脈<br>ポイント：on hold = 保留状態、suspend / postpone
+                        と類似</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">3. put into effect</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（実施する、発効させる）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「効力の中に位置づける」<br><br>The new policy will be put into effect
+                        next month.（新方針は来月実施されます。）<br>→ 新方針が来月効力の中に位置づけられます<br>When will this be put into
+                        effect?（これはいつ実施されますか？）<br>We put the changes into effect
+                        immediately.（変更を即座に実施した。）<br><br>TOEIC頻出：規則施行・方針実施の文脈<br>ポイント：into effect = 効力の中へ、implement と同義
+                    </p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">4. put together</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（まとめる、組み立てる）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「一緒に（together）位置づける」<br><br>Let's put together a
+                        proposal.（提案書をまとめましょう。）<br>→ 提案書を一緒に位置づけましょう<br>I put together a team.（チームをまとめた。）<br>Can you put
+                        together a report?（報告書をまとめてもらえますか？）<br><br>TOEIC頻出：資料作成・チーム編成の文脈<br>ポイント：together = 一緒に、assemble
+                        / compile と同義</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">5. put forward a proposal</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（提案を出す）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「提案を前方に位置づける」<br><br>I'd like to put forward a
+                        proposal.（提案を出したいのですが。）<br>→ 提案を前方に位置づけたい<br>They put forward several
+                        ideas.（彼らはいくつかのアイデアを出した。）<br>We need to put forward a
+                        solution.（解決策を提示する必要がある。）<br><br>TOEIC頻出：会議・提案の文脈<br>ポイント：forward = 前方へ、propose と同義</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">6. put aside</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（取っておく、脇に置く）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「脇（aside）に位置づける」<br><br>Put aside some budget for
+                        this.（これのために予算を取っておいて。）<br>→ これのために予算を脇に位置づけて<br>We've put aside funds for
+                        emergencies.（緊急時のために資金を取っておいた。）<br>Let's put aside personal
+                        feelings.（個人的な感情は脇に置いておこう。）<br><br>TOEIC頻出：予算管理・優先順位の文脈<br>ポイント：aside = 脇に、reserve / set aside
+                        と同義</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">7. put in an order</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（注文を出す）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「注文を中に位置づける」<br><br>I'd like to put in an
+                        order.（注文したいのですが。）<br>→ 注文を中に位置づけたい<br>We put in an order for 100 units.（100個注文した。）<br>When did
+                        you put in the order?（いつ注文しましたか？）<br><br>TOEIC頻出：発注・購買の文脈<br>ポイント：in an order = 注文の中に、place an
+                        order と同義</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">8. put in writing</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（書面にする）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「書面の中に位置づける」<br><br>Please put this in
+                        writing.（これを書面にしてください。）<br>→ これを書面の中に位置づけて<br>We need to put the agreement in
+                        writing.（合意を書面にする必要がある。）<br>Can you put that in
+                        writing?（それを書面にしてもらえますか？）<br><br>TOEIC頻出：契約・文書化の文脈<br>ポイント：in writing = 書面の中に、document と同義</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">9. put at risk</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（危険にさらす）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「リスクという場所に位置づける」<br><br>This puts the project at
+                        risk.（これはプロジェクトを危険にさらす。）<br>→ これがプロジェクトをリスクという場所に位置づける<br>Don't put your health at
+                        risk.（健康を危険にさらすな。）<br>The delay puts us at
+                        risk.（遅れが我々を危険にさらす。）<br><br>TOEIC頻出：リスク管理の文脈<br>ポイント：at risk = リスクの場所に、endanger と同義</p>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">10. put on the market</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">（市場に出す）</p>
+                    <p class="text-sm text-slate-700">コアイメージ：「市場という場所に位置づける」<br><br>We're putting a new product on the
+                        market.（新製品を市場に出します。）<br>→ 新製品を市場という場所に位置づけます<br>The house was put on the
+                        market.（その家が売りに出された。）<br>When will you put it on the
+                        market?（いつ市場に出しますか？）<br><br>TOEIC頻出：製品発売・販売の文脈<br>ポイント：on the market = 市場の上に、launch / release
+                        と類似</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SUMMARY SECTION -->
+        <section class="bg-blue-50 border border-blue-200 rounded-3xl p-8 fade-in-up delay-500">
+            <h2 class="text-xl font-black text-blue-800 flex items-center gap-2 mb-6">
+                📊 覚え方のコツ
+            </h2>
+
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="flex-1 text-center bg-white p-6 rounded-2xl shadow-sm">
+                    <p class="text-sm font-bold text-slate-500 mb-2">PUTの基本イメージの確認</p>
+                    <p class="text-lg font-black text-blue-600 mb-2">全ての用法に共通する核心：</p>
+                    <p class="text-lg font-black text-blue-600 mb-2">「ある場所に置く・位置づける」</p>
+                    <div class="core-box mt-4 bg-white border-blue-100">
+                        <span class="visual-text"> ●
+                            ↓
+                            ━━━━━
+                            （場所の指定）</span>
+                    </div>
+                </div>
+
+                <div class="flex-1 space-y-3 text-sm font-bold text-slate-700">
+                    <p class="text-lg font-black text-slate-800 mb-3">レベル別重要表現まとめ</p>
+                    <p><span class="text-green-500 font-black">中学レベル（最優先）:</span><br>put + 名詞 + 場所（置く）、put on（着る）、put
+                        in（入れる）、put down（下ろす）、put away（片付ける）</p>
+                    <p><span class="text-indigo-500 font-black">高校レベル（必須）:</span><br>put off（延期する）、put up（掲げる、泊める）、put
+                        out（消す）、put forward（提案する）、put back（戻す）</p>
+                    <p><span class="text-amber-500 font-black">大学受験レベル（差がつく）:</span><br>put up with（我慢する）、put down
+                        to（〜のせいにする）、put one's finger on（特定する）、put pressure on（圧力をかける）</p>
+                    <p><span class="text-purple-500 font-black">ビジネスレベル（TOEIC）:</span><br>put in charge of（担当にする）、put on
+                        hold（保留にする）、put into effect（実施する）、put together（まとめる）、put forward a proposal（提案を出す）</p>
+                </div>
+            </div>
+
+            <div class="mt-6 text-center">
+                <p class="text-lg font-black text-blue-800">PUTの核心：場所を定めて位置づける動作</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer
+            class="text-center text-xs text-slate-400 font-bold py-10 border-t border-slate-200 mt-12 fade-in-up delay-500">
+            <a href="../../" class="inline-flex items-center gap-2 hover:text-blue-600 transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                トップへ戻る
+            </a>
+        </footer>
+
+    </div>
+</body>
+
+</html>
