@@ -268,6 +268,15 @@ for i in range(1, len(sections), 3):
     cards_html += f'\t\t{section_title}\n'
     cards_html += f'\t</div>\n\n'
     
+    # Extract section description (text between section header and first phrasal verb)
+    desc_match = re.match(r'^(.*?)(?=###|\Z)', section_content, re.DOTALL)
+    if desc_match:
+        desc_text = desc_match.group(1).strip()
+        # Remove --- separators and clean up
+        desc_text = re.sub(r'^---+\s*$', '', desc_text, flags=re.MULTILINE).strip()
+        if desc_text:
+            cards_html += f'\t<p class="text-slate-600 mb-8 text-center">{desc_text}</p>\n\n'
+    
     # Parse phrasal verbs in this section
     phrases = re.split(r'### \*\*([^*]+) - ([^*]+)\*\*', section_content)
     
