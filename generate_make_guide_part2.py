@@ -252,6 +252,15 @@ for i in range(1, len(sections), 3):
     cards_html += f'\t\t{section_title}\n'
     cards_html += f'\t</div>\n\n'
     
+    # Extract section description (text before first ###)
+    desc_match = re.match(r'^(.*?)(?=###|\Z)', section_content, re.DOTALL)
+    if desc_match:
+        desc_text = desc_match.group(1).strip()
+        # Remove --- separators and clean up
+        desc_text = re.sub(r'^---+\s*$', '', desc_text, flags=re.MULTILINE).strip()
+        if desc_text:
+            cards_html += f'\t<p class="text-slate-600 mb-8 text-center">{desc_text}</p>\n\n'
+    
     # Parse phrasal verbs in this section
     phrases = re.split(r'### \*\*([^*]+) - ([^*]+)\*\*', section_content)
     
@@ -305,6 +314,73 @@ for i in range(1, len(sections), 3):
                 cards_html += f'\t\t\t\t\t<p class="en-sent">{en.strip()}</p>\n'
                 cards_html += f'\t\t\t\t\t<p class="jp-sent">{jp.strip()}</p>\n'
                 cards_html += f'\t\t\t\t</div>\n'
+            cards_html += f'\t\t\t</div>\n'
+        
+        # Point
+        if point:
+            cards_html += f'\t\t\t<div class="point-area"><span class="point-label">Point：</span>\n'
+            cards_html += f'\t\t\t\t<p>{point}</p>\n'
+            cards_html += f'\t\t\t</div>\n'
+        
+        cards_html += f'\t\t</div>\n'
+        cards_html += f'\t</div>\n\n'
+    
+    # Parse polysemous phrasal verbs (多義語) - special format
+    polysemy_phrases = re.split(r'### \*\*([^*]+)（多義）\*\*', section_content)
+    
+    for j in range(1, len(polysemy_phrases), 2):
+        phrase = polysemy_phrases[j].strip()
+        phrase_content = polysemy_phrases[j+1]
+        
+        # Extract intro text
+        intro_match = re.search(r'^(.*?)(?=\*\*意味\d+：)', phrase_content, re.DOTALL)
+        intro_text = intro_match.group(1).strip() if intro_match else ""
+        intro_text = re.sub(r'^---+\s*$', '', intro_text, flags=re.MULTILINE).strip()
+        
+        # Extract all meanings
+        meanings = re.findall(r'\*\*意味(\d+)：([^*]+)\*\*\s*```\n(.*?)\n```\s*\n(.*?)(?=\*\*意味\d+：|\*\*ポイント：|$)', phrase_content, re.DOTALL)
+        
+        # Extract point
+        point_match = re.search(r'\*\*ポイント：\*\* (.+?)(?=\n\n---|$)', phrase_content, re.DOTALL)
+        point = point_match.group(1).strip() if point_match else ""
+        
+        # Check for TOEIC badge
+        toeic_badge = ""
+        if "🎯 TOEIC" in point:
+            toeic_badge = '<span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>'
+            point = point.replace("**🎯 TOEIC超頻出**", "").replace("**🎯 TOEIC頻出**", "").strip()
+        
+        # Build polysemy card HTML
+        cards_html += f'\t<!-- {phrase}（多義） -->\n'
+        cards_html += f'\t<div class="card">\n'
+        cards_html += f'\t\t<div class="card-header"><span class="phrase">{phrase}</span><span class="translation">多義語</span>{toeic_badge}</div>\n'
+        cards_html += f'\t\t<div class="card-body">\n'
+        
+        # Intro text
+        if intro_text:
+            cards_html += f'\t\t\t<p class="text-slate-600 mb-4">{intro_text}</p>\n'
+        
+        # Each meaning
+        for meaning_num, meaning_title, core_text, examples_text in meanings:
+            cards_html += f'\t\t\t<div class="meaning-section">\n'
+            cards_html += f'\t\t\t\t<div class="meaning-title">意味{meaning_num}：{meaning_title}</div>\n'
+            
+            # Core image for this meaning
+            if core_text.strip():
+                core_lines = core_text.strip().split('\n')
+                core_visual = '<br>'.join(core_lines)
+                cards_html += f'\t\t\t\t<div class="core-box"><span class="core-title">コアイメージ</span>\n'
+                cards_html += f'\t\t\t\t\t<div class="visual-text">{core_visual}</div>\n'
+                cards_html += f'\t\t\t\t</div>\n'
+            
+            # Examples for this meaning
+            examples = re.findall(r'- (.+?)\n  → (.+?)(?=\n\n|- |$)', examples_text, re.DOTALL)
+            for en, jp in examples:
+                cards_html += f'\t\t\t\t<div class="example-box">\n'
+                cards_html += f'\t\t\t\t\t<p class="en-sent">{en.strip()}</p>\n'
+                cards_html += f'\t\t\t\t\t<p class="jp-sent">{jp.strip()}</p>\n'
+                cards_html += f'\t\t\t\t</div>\n'
+            
             cards_html += f'\t\t\t</div>\n'
         
         # Point
