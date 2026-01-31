@@ -1,0 +1,1143 @@
+
+# 【完全図解】MAKE句動詞のコアイメージ｜レベル別全38表現を体系的にマスター
+
+MAKEは「作る」という基本的な意味から、ビジネス、日常会話、学術英語まで幅広く使われる最重要動詞の一つです。この記事では、MAKEのコアイメージを理解し、中学レベルから難関大学・TOEICレベルまで体系的に学習できます。
+
+---
+
+## 🎯 MAKEのコアイメージ
+
+```
+   [材料] + [行動] = [新しいもの] ✨
+   
+     💡 → 🛠️ → 📦 MAKE
+   
+   「存在しなかったものを生み出す」
+   「変化を引き起こす」
+```
+
+MAKEの本質は「**何かを生み出す・変化させる力**」です。物理的なものを作るだけでなく、状況や関係性を「作り出す」、決定を「成立させる」など、「無→有」「A→B」の変化を引き起こすイメージが全ての意味に共通しています。
+
+---
+
+## 📚 中学生レベル（必須基本5表現）
+
+中学英語で必ず習う、日常会話の土台となるMAKE句動詞です。
+
+---
+
+### **make up - 作り話をする、仲直りする、構成する、化粧をする**
+
+```
+   [断片] + [断片] = [完成形] ⬆️ up
+     🧩 + 🧩 + 🧩 = 📦
+   
+   「バラバラのものを組み上げる」
+```
+
+部品を組み合わせて一つのものを「作り上げる」イメージです。話を創作する、関係を修復する、全体を構成するなど多義的です。
+
+**例文：**
+
+- He made up an excuse for being late.
+  → 彼は遅刻の言い訳を作り話した。
+
+- They had a fight but made up the next day.
+  → 彼らは喧嘩したが翌日仲直りした。
+
+- Women make up 60% of our workforce.
+  → 女性が我々の労働力の60%を構成している。
+
+- She makes up her face every morning.
+  → 彼女は毎朝化粧をする。
+
+- I can't make up my mind about which to choose.
+  → どちらを選ぶか決められない。
+
+**ポイント：** make up one's mind で「決心する」という最重要イディオムになります。文脈によって意味が大きく変わるため注意が必要です。
+
+---
+
+### **make out - 理解する、見分ける、（書類を）作成する、いちゃつく**
+
+```
+   😕 → 🔍 → 💡 out (明確化)
+   
+   「不明瞭なものをはっきりさせる」
+```
+
+ぼんやりしたものを明確に「外に出す」イメージです。見えにくいものを識別する、意味を理解する、書類を完成させるなどの意味があります。
+
+**例文：**
+
+- I can't make out what he's saying.
+  → 彼が何を言っているのか理解できない。
+
+- Can you make out the sign in the distance?
+  → 遠くの標識が見分けられますか？
+
+- Please make out the check to John Smith.
+  → ジョン・スミス宛に小切手を作成してください。
+
+- The teenagers were making out in the park.
+  → 十代の若者たちが公園でいちゃついていた。
+
+**ポイント：** figure out や understand と似ていますが、make out は視覚的・聴覚的に「判別する」ニュアンスが強い表現です。
+
+---
+
+### **make for - 〜に向かう、〜に役立つ、〜をもたらす**
+
+```
+   🏃‍♂️ ━━ for ━━→ 🎯 [目標]
+   
+   「目的地・結果に向かって進む」
+```
+
+特定の目標や結果に向かって進むイメージです。物理的に向かうことも、ある結果をもたらすことも表現できます。
+
+**例文：**
+
+- When it started raining, we made for the nearest shelter.
+  → 雨が降り始めたとき、私たちは最寄りの避難所に向かった。
+
+- Good communication makes for better teamwork.
+  → 良いコミュニケーションはより良いチームワークに役立つ。
+
+- This situation makes for an interesting discussion.
+  → この状況は興味深い議論をもたらす。
+
+- He made straight for the exit.
+  → 彼は出口に向かって真っすぐ進んだ。
+
+**ポイント：** head for や contribute to と類似していますが、make for はより「自然に導かれる」ニュアンスがあります。
+
+---
+
+### **make into - 〜に変える、作り変える**
+
+```
+   [A] ━━ into ━━→ [B] 🔄
+   
+   「あるものを別のものに変換する」
+```
+
+あるものを全く別のものに作り変えるイメージです。形態や性質を根本的に変化させる意味です。
+
+**例文：**
+
+- They made the garage into a home office.
+  → 彼らはガレージを在宅オフィスに作り変えた。
+
+- The novel was made into a movie.
+  → その小説は映画化された。
+
+- She made the fabric into a beautiful dress.
+  → 彼女は布地を美しいドレスに仕立てた。
+
+- This experience made him into a better person.
+  → この経験が彼をより良い人間に変えた。
+
+**ポイント：** turn into や convert into と似ていますが、make into は「作る」という意図的な行為を強調します。
+
+---
+
+### **make of - 〜をどう思うか、〜から作る**
+
+```
+   🤔 ← [状況] = make of?
+   
+   「何かから意味・判断を作り出す」
+```
+
+何かを材料にして判断や意見を「作り出す」イメージです。What do you make of...? の形で頻出します。
+
+**例文：**
+
+- What do you make of his behavior?
+  → 彼の行動をどう思いますか？
+
+- I don't know what to make of this situation.
+  → この状況をどう判断すればいいかわからない。
+
+- The table is made of solid wood.
+  → そのテーブルは無垢材で作られている。
+
+- What do you make of the new policy?
+  → 新しい方針についてどう思いますか？
+
+**ポイント：** 意見を尋ねる表現として非常に自然で、What do you think of...? よりもやや考察的なニュアンスがあります。
+
+---
+
+## 🎓 高校生レベル（重要応用10表現）
+
+高校英語で学ぶ、より洗練された表現と応用的な使い方です。
+
+---
+
+### **make up for - 埋め合わせる、補う**
+
+```
+   [不足] ━━ up for ━━→ [補完] ✅
+   
+   「足りないものを補って完成させる」
+```
+
+欠けているものや失われたものを補充して「埋め合わせる」イメージです。時間、損失、欠点などを補償する意味です。
+
+**例文：**
+
+- I need to make up for lost time.
+  → 失った時間を取り戻さなければならない。
+
+- He tried to make up for his mistake with hard work.
+  → 彼は一生懸命働いて自分のミスを埋め合わせようとした。
+
+- Nothing can make up for the loss of a loved one.
+  → 愛する人を失った喪失感は何でも埋め合わせられない。
+
+- Her enthusiasm makes up for her lack of experience.
+  → 彼女の熱意が経験不足を補っている。
+
+**ポイント：** compensate for や offset と同義ですが、make up for はより日常的で感情的なニュアンスを持ちます。
+
+---
+
+### **make over - 作り変える、改造する、譲渡する**
+
+```
+   [古い] ━━ over ━━→ [新しい] ✨
+   
+   「全体を覆すように変える」
+```
+
+既存のものを完全に作り変えるイメージです。外見の変身、建物の改装、所有権の移転などに使われます。
+
+**例文：**
+
+- The TV show gives people complete makeovers.
+  → そのテレビ番組は人々に完全な変身を提供する。
+
+- They made over the old house into a modern space.
+  → 彼らは古い家を現代的な空間に改造した。
+
+- He made over his property to his children.
+  → 彼は財産を子供たちに譲渡した。
+
+- She needs a complete makeover.
+  → 彼女は完全なイメージチェンジが必要だ。
+
+**ポイント：** 名詞形の makeover（メイクオーバー）は日本語にもなっている人気の表現です。
+
+---
+
+### **make off - 急いで逃げる、持ち逃げする**
+
+```
+   💨 🏃‍♂️ ━━ off ━━→
+   
+   「素早く離脱する」
+```
+
+急いで現場から離れるイメージです。特に何かを盗んで逃げる場面で使われます。
+
+**例文：**
+
+- The thieves made off with all the jewelry.
+  → 泥棒たちは宝石を全部持って逃げた。
+
+- He made off before anyone could stop him.
+  → 誰も止められないうちに彼は逃げた。
+
+- The robbers made off in a stolen car.
+  → 強盗たちは盗んだ車で逃走した。
+
+- Don't let him make off without paying!
+  → 彼を払わずに逃げさせないで！
+
+**ポイント：** run away や escape よりも「ずる賢く・素早く」逃げるニュアンスがあります。
+
+---
+
+### **make do - 間に合わせる、何とかやりくりする**
+
+```
+   [理想] ❌
+   [代替] ━━ do ━━→ ✅ [何とかする]
+   
+   「ないもので済ませる」
+```
+
+理想的ではないもので何とか対処するイメージです。限られた資源で工夫する状況を表します。
+
+**例文：**
+
+- We'll have to make do with what we have.
+  → 今あるもので何とかするしかない。
+
+- I forgot my umbrella, so I made do with a newspaper.
+  → 傘を忘れたので新聞で間に合わせた。
+
+- Can you make do with $50 until payday?
+  → 給料日まで50ドルで何とかできますか？
+
+- We had to make do without electricity for a week.
+  → 1週間電気なしで何とかしなければならなかった。
+
+**ポイント：** manage や get by と似ていますが、make do は「不十分だが仕方なく」というニュアンスが強い表現です。
+
+---
+
+### **make out of - 〜から作る**
+
+```
+   [材料A] ━━→ [製品B] 🔨
+   
+   「原材料から何かを作り出す」
+```
+
+特定の材料を使って何かを作り出すイメージです。made of と似ていますが、より製作過程を強調します。
+
+**例文：**
+
+- What can I make out of these old clothes?
+  → これらの古い服から何が作れますか？
+
+- She made a beautiful necklace out of shells.
+  → 彼女は貝殻から美しいネックレスを作った。
+
+- You can make furniture out of recycled materials.
+  → リサイクル材料から家具を作ることができる。
+
+- He made a fortune out of real estate.
+  → 彼は不動産で財産を築いた。
+
+**ポイント：** 物理的な製作だけでなく、「〜から利益を得る」という比喩的な意味でも使われます。
+
+---
+
+### **make after - 〜を追いかける**
+
+```
+   🏃‍♂️ ━━ after ━━→ 🎯
+   
+   「後を追って進む」
+```
+
+誰かや何かの後を追いかけるイメージです。やや古風な表現ですが、文学作品では今でも使われます。
+
+**例文：**
+
+- The dog made after the cat.
+  → 犬が猫を追いかけた。
+
+- He made after the suspect but lost him in the crowd.
+  → 彼は容疑者を追いかけたが人混みで見失った。
+
+- The police made after the fleeing vehicle.
+  → 警察は逃走車両を追跡した。
+
+- She made after him to return his wallet.
+  → 彼女は彼の財布を返すために追いかけた。
+
+**ポイント：** chase や pursue の方が現代的ですが、make after は文学的・やや古風な響きがあります。
+
+---
+
+### **make away with - 持ち逃げする、殺す、処分する**
+
+```
+   💰 ━━ away with ━━→ 消失
+   
+   「何かを取り去って消す」
+```
+
+何かを持ち去って消し去るイメージです。盗む、殺害する、処分するなど物騒な意味で使われることが多い表現です。
+
+**例文：**
+
+- The embezzler made away with millions of dollars.
+  → 横領犯は数百万ドルを持ち逃げした。
+
+- He tried to make away with himself. (古風な表現)
+  → 彼は自殺を図った。
+
+- Someone made away with my laptop.
+  → 誰かが私のノートパソコンを盗んだ。
+
+- The dictator made away with his opponents.
+  → 独裁者は反対派を殺害した。
+
+**ポイント：** やや古風で文学的な表現。現代では steal や eliminate の方が一般的です。
+
+---
+
+### **make toward(s) - 〜に向かう、〜に近づく**
+
+```
+   ━━ toward(s) ━━→ 🎯
+   
+   「目標に向かって進む」
+```
+
+特定の方向や目標に向かって進むイメージです。make for と似ていますが、より方向性を強調します。
+
+**例文：**
+
+- The ship made towards the harbor.
+  → 船は港に向かった。
+
+- He made towards the door when he heard the bell.
+  → ベルの音を聞いて彼はドアに向かった。
+
+- We made towards the summit at dawn.
+  → 私たちは夜明けに頂上を目指した。
+
+- The protesters made towards the government building.
+  → 抗議者たちは政府庁舎に向かった。
+
+**ポイント：** head towards や move towards とほぼ同義ですが、文学的な響きがあります。
+
+---
+
+### **make as if - 〜するふりをする、〜しようとする**
+
+```
+   😏 [ふり] ━━ as if ━━→ 👀
+   
+   「まるで〜のように振る舞う」
+```
+
+実際にはそうでないのに、そうであるかのように「見せかける」イメージです。
+
+**例文：**
+
+- He made as if to leave, but stayed.
+  → 彼は去るふりをしたが、留まった。
+
+- She made as if she didn't hear me.
+  → 彼女は私が聞こえないふりをした。
+
+- The cat made as if to pounce on the mouse.
+  → 猫はネズミに飛びかかろうとした。
+
+- He made as if he knew everything about it.
+  → 彼はそれについて全部知っているかのように振る舞った。
+
+**ポイント：** pretend to や act as if と同義ですが、やや文学的で形式的な表現です。
+
+---
+
+### **make at - 〜に襲いかかる、〜を攻撃する**
+
+```
+   💥 ━━ at ━━→ 🎯
+   
+   「標的に向かって攻撃的に進む」
+```
+
+誰かや何かに向かって攻撃的に進むイメージです。やや古風な表現です。
+
+**例文：**
+
+- The dog made at the intruder.
+  → 犬は侵入者に襲いかかった。
+
+- He made at me with a stick.
+  → 彼は棒を持って私に襲いかかった。
+
+- The bull made at the matador.
+  → 雄牛は闘牛士に突進した。
+
+- She made at him angrily.
+  → 彼女は怒って彼に詰め寄った。
+
+**ポイント：** attack や lunge at の方が現代的。make at は古風で文学的な表現です。
+
+---
+
+## 🏆 難関大学合格レベル（高度な9表現）
+
+入試やアカデミックな文章で出てくる、より高度なMAKE句動詞です。
+
+---
+
+### **make good - 成功する、補償する、証明する**
+
+```
+   [欠陥] ━━ good ━━→ [良好] ✅
+   
+   「悪い状態を良い状態にする」
+```
+
+不十分なものを「良い状態にする」イメージです。約束を果たす、損失を補填する、成功を収めるなどの意味があります。
+
+**例文：**
+
+- He made good his promise to help us.
+  → 彼は私たちを助けるという約束を果たした。
+
+- The company will make good any losses.
+  → 会社はいかなる損失も補償します。
+
+- She made good as a lawyer despite difficulties.
+  → 困難にもかかわらず、彼女は弁護士として成功した。
+
+- They made good their escape from prison.
+  → 彼らは刑務所からの脱獄に成功した。
+
+**ポイント：** fulfill や succeed よりも「欠けていたものを完成させる」というニュアンスが強い表現です。
+
+---
+
+### **make light of - 軽視する、軽く見る**
+
+```
+   [重大] ━━ light of ━━→ [軽い] 🪶
+   
+   「重いものを軽く扱う」
+```
+
+本来重大なことを軽く扱うイメージです。問題を過小評価したり、冗談めかしたりする態度を表します。
+
+**例文：**
+
+- Don't make light of his achievements.
+  → 彼の業績を軽視してはいけない。
+
+- She made light of her illness, but it was serious.
+  → 彼女は自分の病気を軽く扱ったが、それは深刻だった。
+
+- He tends to make light of important issues.
+  → 彼は重要な問題を軽く見る傾向がある。
+
+- The comedian made light of his own mistakes.
+  → コメディアンは自分のミスを笑いにした。
+
+**ポイント：** downplay や trivialize と同義ですが、make light of はより口語的で自然な表現です。
+
+---
+
+### **make believe - ふりをする、空想する**
+
+```
+   💭 [想像] ━━ believe ━━→ 🎭
+   
+   「信じさせるものを作る＝ふり」
+```
+
+現実でないことを「信じられるものとして作り出す」イメージです。主に子供の空想遊びや作り話の文脈で使われます。
+
+**例文：**
+
+- Children love to play make-believe.
+  → 子供たちはごっこ遊びが大好きだ。
+
+- Let's make believe we're pirates!
+  → 海賊のふりをしよう！
+
+- He's living in a make-believe world.
+  → 彼は空想の世界に生きている。
+
+- Stop this make-believe and face reality.
+  → この空想をやめて現実に向き合いなさい。
+
+**ポイント：** 名詞として make-believe（ハイフン付き）で「ごっこ遊び、見せかけ」という意味になります。
+
+---
+
+### **make much of - 重視する、大げさに扱う、可愛がる**
+
+```
+   [小] ━━ much of ━━→ [大] 📢
+   
+   「小さいものを大きく扱う」
+```
+
+何かを重要なものとして扱う、または大げさに扱うイメージです。意味によってニュアンスが変わります。
+
+**例文：**
+
+- The media made much of the scandal.
+  → メディアはそのスキャンダルを大々的に取り上げた。
+
+- Don't make too much of a small mistake.
+  → 小さなミスを大げさに扱わないで。
+
+- She made much of her grandchildren.
+  → 彼女は孫たちをとても可愛がった。
+
+- I couldn't make much of his explanation.
+  → 彼の説明はあまり理解できなかった。
+
+**ポイント：** 否定文で使うと「あまり理解できない」という意味になります。文脈で意味が変わる多義的表現です。
+
+---
+
+### **make little of - 軽視する、理解できない**
+
+```
+   [多] ━━ little of ━━→ [少] 🤏
+   
+   「多くのものを少なく扱う」
+```
+
+本来重要なものを小さく扱う、または理解が浅いイメージです。make much of の反対表現です。
+
+**例文：**
+
+- He made little of the danger.
+  → 彼はその危険を軽視した。
+
+- I could make little of the technical jargon.
+  → 専門用語があまり理解できなかった。
+
+- They made little of our concerns.
+  → 彼らは私たちの懸念を軽く見た。
+
+- She made little of her own contributions.
+  → 彼女は自分の貢献を控えめに扱った。
+
+**ポイント：** underestimate や dismiss と似ていますが、より文学的で形式的な表現です。
+
+---
+
+### **make nothing of - 何とも思わない、理解できない、簡単にやってのける**
+
+```
+   [何か] ━━ nothing of ━━→ [無] 🚫
+   
+   「何かを無いものとして扱う」
+```
+
+本来意味があるものを「無いもの」として扱うイメージです。文脈によって3つの異なる意味があります。
+
+**例文：**
+
+- He made nothing of walking 10 miles a day.
+  → 彼は1日10マイル歩くことを何とも思わなかった。
+
+- I could make nothing of his strange behavior.
+  → 彼の奇妙な行動が全く理解できなかった。
+
+- She makes nothing of the most difficult problems.
+  → 彼女は最も難しい問題を簡単にこなす。
+
+- They made nothing of our objections.
+  → 彼らは私たちの反対意見を無視した。
+
+**ポイント：** think nothing of と make nothing of はほぼ同義で「簡単にやる」という意味になります。
+
+---
+
+### **make certain/sure - 確認する、確実にする**
+
+```
+   [不確実] ━━ certain ━━→ [確実] ✓
+   
+   「確実な状態を作り出す」
+```
+
+不確かなことを「確実な状態にする」イメージです。確認や保証の意味で非常に頻繁に使われます。
+
+**例文：**
+
+- Make certain that all doors are locked.
+  → 全てのドアが施錠されていることを確認してください。
+
+- I want to make sure I understand correctly.
+  → 正しく理解していることを確認したい。
+
+- Make certain you arrive on time.
+  → 時間通りに到着するようにしてください。
+
+- They made sure everything was ready.
+  → 彼らは全ての準備が整っていることを確認した。
+
+**ポイント：** ensure や verify と同義ですが、make sure/certain はより日常的で自然な表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **make bold - 大胆にも〜する、あえて〜する**
+
+```
+   [謙遜] ━━ bold ━━→ [大胆] 💪
+   
+   「勇気を出して行動する」
+```
+
+遠慮がちな状態から「大胆な行動を作り出す」イメージです。やや古風で形式的な表現です。
+
+**例文：**
+
+- May I make bold to suggest an alternative?
+  → 大胆にも代案を提案してもよろしいでしょうか？
+
+- He made bold to ask for a raise.
+  → 彼はあえて昇給を求めた。
+
+- If I may make bold to say so, this is incorrect.
+  → 僭越ながら申し上げますと、これは間違っています。
+
+- She made bold to question the professor.
+  → 彼女は思い切って教授に質問した。
+
+**ポイント：** dare to や venture to と似ていますが、make bold はより格式高く古風な表現です。
+
+---
+
+### **make free with - 勝手に使う、遠慮なく使う**
+
+```
+   🚫 [制限] ━━ free with ━━→ 💰 [自由使用]
+   
+   「自由に使える状態を作る」
+```
+
+本来制限があるべきものを「自由に使える状態にする」イメージです。しばしば批判的なニュアンスで使われます。
+
+**例文：**
+
+- Don't make free with my belongings.
+  → 私の持ち物を勝手に使わないで。
+
+- He made free with the company's resources.
+  → 彼は会社の資源を勝手に使った。
+
+- You shouldn't make free with other people's time.
+  → 他人の時間を勝手に使うべきではない。
+
+- She made rather free with my credit card.
+  → 彼女は私のクレジットカードをかなり勝手に使った。
+
+**ポイント：** help oneself to と似ていますが、make free with はより批判的で「無遠慮に使う」というニュアンスが強い表現です。
+
+---
+
+## 💼 TOEIC頻出ビジネス英語（14表現）
+
+ビジネスシーンやTOEICで特に頻出する実用的なMAKE句動詞です。
+
+---
+
+### **make a decision - 決定を下す**
+
+```
+   [選択肢] ━━→ [決定] ✓
+   
+   「決断という結果を作り出す」
+```
+
+複数の選択肢から一つの決定を「作り出す」イメージです。ビジネスで最も頻出する表現の一つです。
+
+**例文：**
+
+- We need to make a decision by Friday.
+  → 金曜日までに決定を下す必要があります。
+
+- Have you made a decision about the proposal?
+  → その提案について決定しましたか？
+
+- Management will make a decision next week.
+  → 経営陣は来週決定を下します。
+
+- It's time to make a final decision.
+  → 最終決定を下す時です。
+
+**ポイント：** decide よりもフォーマルで、特にビジネス文書で好まれます。**🎯 TOEIC超頻出**
+
+---
+
+### **make a difference - 違いを生む、重要である**
+
+```
+   [現状] ━━→ [変化] ⚡ difference
+   
+   「変化・影響を作り出す」
+```
+
+状況に変化や影響を「生み出す」イメージです。重要性や有意義さを表す頻出表現です。
+
+**例文：**
+
+- Your contribution really made a difference.
+  → あなたの貢献は本当に違いを生みました。
+
+- Does it make a difference which option we choose?
+  → どの選択肢を選ぶかで違いがありますか？
+
+- Every vote makes a difference.
+  → 一票一票が重要です。
+
+- This new system will make a big difference in efficiency.
+  → この新しいシステムは効率に大きな違いをもたらすでしょう。
+
+**ポイント：** matter と似ていますが、make a difference はより具体的な「変化・影響」を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **make sense - 意味をなす、理にかなう**
+
+```
+   [混乱] ━━ sense ━━→ [理解] 💡
+   
+   「理解可能な状態を作る」
+```
+
+バラバラだった情報が「意味を持つ形になる」イメージです。論理性や妥当性を表します。
+
+**例文：**
+
+- Does this explanation make sense to you?
+  → この説明は理解できますか？
+
+- It doesn't make sense to invest now.
+  → 今投資するのは理にかなわない。
+
+- Your argument makes perfect sense.
+  → あなたの主張は完全に筋が通っています。
+
+- The data finally started to make sense.
+  → データがついに意味を持ち始めた。
+
+**ポイント：** be logical や be reasonable と似ていますが、make sense はより自然で日常的な表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **make progress - 進歩する、前進する**
+
+```
+   [開始] ━━━→ ━━→ progress → [目標]
+   
+   「前進という結果を作り出す」
+```
+
+努力によって「進歩を生み出す」イメージです。プロジェクトや学習の進捗を表す重要表現です。
+
+**例文：**
+
+- We're making good progress on the project.
+  → プロジェクトで順調に進歩しています。
+
+- Have you made any progress with the negotiations?
+  → 交渉で何か進展がありましたか？
+
+- The patient is making steady progress.
+  → 患者は着実に回復しています。
+
+- They've made significant progress this quarter.
+  → 彼らは今四半期に大きな進展を遂げました。
+
+**ポイント：** advance や improve よりも、具体的な「進捗」を表現する際に好まれます。**🎯 TOEIC超頻出**
+
+---
+
+### **make an effort - 努力する、尽力する**
+
+```
+   💪 ━━ effort ━━→ [行動]
+   
+   「努力という行動を作り出す」
+```
+
+意識的に「努力を生み出す」イメージです。try よりもフォーマルで意図的なニュアンスがあります。
+
+**例文：**
+
+- Please make an effort to arrive on time.
+  → 時間通りに到着するよう努力してください。
+
+- We should make every effort to resolve this.
+  → これを解決するためにあらゆる努力をすべきです。
+
+- She made a great effort to learn English.
+  → 彼女は英語を学ぶために大変な努力をした。
+
+- They're making efforts to reduce costs.
+  → 彼らはコスト削減に努力しています。
+
+**ポイント：** try hard よりもフォーマルで、ビジネス文書で頻繁に使用されます。**🎯 TOEIC頻出**
+
+---
+
+### **make arrangements - 手配する、準備する**
+
+```
+   [計画] ━━ arrangements ━━→ [実行準備]
+   
+   「準備という構造を作り出す」
+```
+
+イベントやミーティングのための「準備を整える」イメージです。ビジネスで非常に頻出します。
+
+**例文：**
+
+- I'll make arrangements for the conference room.
+  → 会議室の手配をします。
+
+- Have you made travel arrangements yet?
+  → 旅行の手配はもう済みましたか？
+
+- We need to make arrangements for the guests.
+  → ゲストのための準備をする必要があります。
+
+- She's making all the arrangements for the event.
+  → 彼女がイベントの全ての手配をしています。
+
+**ポイント：** arrange よりも名詞形で使う方が自然で、ビジネスメールで頻出します。**🎯 TOEIC超頻出**
+
+---
+
+### **make a contribution - 貢献する、寄付する**
+
+```
+   💡 ━━ contribution ━━→ [全体]
+   
+   「貢献という価値を作り出す」
+```
+
+全体に対して「価値ある貢献を加える」イメージです。仕事、社会、議論などへの寄与を表します。
+
+**例文：**
+
+- Everyone should make a contribution to the team.
+  → 全員がチームに貢献すべきです。
+
+- He made a significant contribution to the project.
+  → 彼はプロジェクトに多大な貢献をした。
+
+- Would you like to make a contribution to the charity?
+  → その慈善団体に寄付をしたいですか？
+
+- Her research made an important contribution to science.
+  → 彼女の研究は科学に重要な貢献をした。
+
+**ポイント：** contribute よりもフォーマルで、特に成果や寄付を強調する際に使われます。**🎯 TOEIC頻出**
+
+---
+
+### **make an appointment - 予約する、約束を取り付ける**
+
+```
+   📅 [空き] ━━ appointment ━━→ [予約確定]
+   
+   「約束という枠を作り出す」
+```
+
+スケジュールに「予定を入れる」イメージです。医療、ビジネスミーティングなどで頻出します。
+
+**例文：**
+
+- I'd like to make an appointment with Dr. Smith.
+  → スミス医師と予約を取りたいです。
+
+- Can we make an appointment to discuss this?
+  → これについて話し合う予約を取れますか？
+
+- She made an appointment for next Tuesday.
+  → 彼女は来週火曜日に予約を取った。
+
+- Please make an appointment before visiting.
+  → 訪問前に予約を取ってください。
+
+**ポイント：** book や schedule よりも、特に専門家（医師、弁護士など）との面会予約で使われます。**🎯 TOEIC超頻出**
+
+---
+
+### **make a profit - 利益を上げる**
+
+```
+   [収入] - [支出] = [profit] 💰
+   
+   「利益という結果を作り出す」
+```
+
+ビジネス活動によって「利益を生み出す」イメージです。財務・経営の基本表現です。
+
+**例文：**
+
+- The company made a profit of $2 million last year.
+  → 会社は昨年200万ドルの利益を上げた。
+
+- We need to make a profit to stay in business.
+  → ビジネスを続けるためには利益を上げる必要がある。
+
+- They finally made a profit in the third quarter.
+  → 彼らはついに第3四半期に利益を上げた。
+
+- How much profit did you make on the sale?
+  → その販売でいくら利益を得ましたか？
+
+**ポイント：** earn a profit とも言えますが、make a profit の方が一般的です。**🎯 TOEIC超頻出**
+
+---
+
+### **make a living - 生計を立てる**
+
+```
+   💼 [仕事] ━━ living ━━→ 💰 [収入]
+   
+   「生活の糧を作り出す」
+```
+
+働くことで「生活費を稼ぐ」イメージです。職業や収入源について話す際の基本表現です。
+
+**例文：**
+
+- What do you do to make a living?
+  → 生計を立てるために何をしていますか？
+
+- It's hard to make a living as an artist.
+  → 芸術家として生計を立てるのは難しい。
+
+- She makes a good living selling real estate.
+  → 彼女は不動産販売で良い収入を得ている。
+
+- They barely make a living from farming.
+  → 彼らは農業でかろうじて生計を立てている。
+
+**ポイント：** earn a living とほぼ同義ですが、make a living の方が日常的です。**🎯 TOEIC頻出**
+
+---
+
+### **make a point - 要点を述べる、主張する、心がける**
+
+```
+   💬 [議論] ━━ point ━━→ ・[要点]
+   
+   「要点という焦点を作り出す」
+```
+
+議論や説明の中で「明確な要点を提示する」イメージです。ビジネスプレゼンで頻出します。
+
+**例文：**
+
+- You've made a good point.
+  → あなたは良い指摘をしましたね。
+
+- Let me make a point about the budget.
+  → 予算について一点述べさせてください。
+
+- He made a point of thanking everyone.
+  → 彼は全員に感謝することを心がけた。
+
+- She always makes a point of being punctual.
+  → 彼女はいつも時間厳守を心がけている。
+
+**ポイント：** make a point of doing で「必ず〜するようにする」という重要イディオムになります。**🎯 TOEIC頻出**
+
+---
+
+### **make an exception - 例外を認める**
+
+```
+   [規則] ━━━━━━━━→
+             ↓ exception
+          [特別扱い]
+   
+   「例外という特別枠を作る」
+```
+
+通常の規則から外れた「例外を設ける」イメージです。特別な対応を認める場面で使われます。
+
+**例文：**
+
+- We'll make an exception in your case.
+  → あなたの場合は例外を認めます。
+
+- The manager agreed to make an exception.
+  → マネージャーは例外を認めることに同意した。
+
+- Can you make an exception this one time?
+  → 今回だけ例外を認めてもらえますか？
+
+- We don't usually make exceptions to this policy.
+  → この方針に対して通常は例外を認めません。
+
+**ポイント：** allow an exception とも言えますが、make an exception の方が一般的です。**🎯 TOEIC頻出**
+
+---
+
+### **make allowances for - 〜を考慮する、大目に見る**
+
+```
+   [基準] ━━ allowances for ━━→ [調整]
+   
+   「特別な事情を考慮に入れる」
+```
+
+通常の基準に「特別な調整を加える」イメージです。事情を汲んで寛容に対応する意味です。
+
+**例文：**
+
+- We should make allowances for his inexperience.
+  → 彼の経験不足を考慮すべきです。
+
+- Make allowances for traffic when planning your trip.
+  → 旅行を計画する際は渋滞を考慮してください。
+
+- The teacher makes allowances for students with disabilities.
+  → その先生は障害を持つ生徒に配慮している。
+
+- You need to make allowances for cultural differences.
+  → 文化的な違いを考慮する必要があります。
+
+**ポイント：** take into account や consider と似ていますが、make allowances for は「寛容さ」のニュアンスがあります。**🎯 TOEIC頻出**
+
+---
+
+### **make way for - 〜に道を譲る、〜のために場所を空ける**
+
+```
+   [障害物] ━━ way for ━━→ [空間] 🚶‍♂️
+   
+   「通り道を作り出す」
+```
+
+何かが通れるように「道を開ける」イメージです。物理的にも比喩的にも使われます。
+
+**例文：**
+
+- Please make way for the ambulance.
+  → 救急車のために道を空けてください。
+
+- Old buildings were demolished to make way for the new mall.
+  → 新しいモールのために古い建物が取り壊された。
+
+- The CEO is retiring to make way for younger leadership.
+  → CEOは若い指導者に道を譲るために引退する。
+
+- We need to make way for innovation.
+  → 私たちはイノベーションのために場所を空ける必要がある。
+
+**ポイント：** give way to や clear the way for と類似していますが、make way for が最も一般的です。**🎯 TOEIC頻出**
+
+---
+
+## まとめ
+
+この記事では、MAKEの句動詞を4つのレベルに分けて体系的に解説しました。
+
+**最優先でマスターすべき表現：**
+- make up（作り話をする、仲直りする）
+- make out（理解する、見分ける）
+- make for（向かう、役立つ）
+
+**TOEIC・ビジネス超頻出：**
+- make a decision（決定を下す）
+- make sense（意味をなす）
+- make progress（進歩する）
+- make arrangements（手配する）
+- make an appointment（予約する）
+- make certain/sure（確認する）
+
+MAKEのコアイメージである「**何かを生み出す・変化させる**」を常に意識すると、新しい表現にも対応できるようになります。
+
+次のステップとして、これらの表現を使った実践練習に進みましょう！
+
+---
+
+以上が「MAKEのコアイメージ解説記事」です。
+
+次に「MAKEの早見表記事」を作成しましょうか？
