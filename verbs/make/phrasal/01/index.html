@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>01 基本・最優先｜make 句動詞</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', system-ui, sans-serif;
+            background-color: #f1f5f9;
+            color: #334155;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', system-ui, sans-serif;
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hover-card {
+            transition: all 0.3s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .core-box {
+            background-color: #fff7ed;
+            border: 1px dashed #fdba74;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 16px;
+            font-size: 0.9rem;
+            color: #ea580c;
+            font-weight: 700;
+        }
+
+        .visual-text {
+            display: block;
+            font-family: monospace;
+            color: #475569;
+            margin-top: 4px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body class="p-6 md:p-12">
+    <div class="max-w-5xl mx-auto space-y-10">
+
+        <header class="text-center space-y-4 fade-in-up">
+            <div
+                class="inline-block bg-orange-50 text-orange-700 px-4 py-1 rounded-full text-xs font-black tracking-widest border border-orange-100">
+                SECTION 01</div>
+            <h1 class="text-3xl md:text-4xl font-black text-slate-900">基本・最優先</h1>
+            <p class="font-bold text-slate-500">まずはここから。makeの基本的な句動詞を押さえる。</p>
+        </header>
+
+        <div class="grid md:grid-cols-2 gap-6 fade-in-up" style="animation-delay: 0.1s;">
+
+            <!-- make up -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make up <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">作り上げる</span></h3>
+                <div class="core-box mt-4">無→有を生み出す/構成する<span class="visual-text">材料 → 🛠️ → 完成品</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> She made up a story.<br><span
+                            class="text-slate-400 font-normal">彼女は話を作り上げた。（創作）</span></li>
+                    <li><span class="text-orange-500">●</span> Let's make up for lost time.<br><span
+                            class="text-slate-400 font-normal">失った時間を取り戻そう。（埋め合わせ）</span></li>
+                </ul>
+                <p class="mt-4 text-xs font-bold text-amber-600 bg-amber-50 p-2 rounded">Point:
+                    多義語。文脈で「創作/仲直り/構成/化粧」を見分ける。</p>
+            </div>
+
+            <!-- make out -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make out <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">理解する</span></h3>
+                <div class="core-box mt-4">外へ形を作り出す→見分ける<span class="visual-text">? → 🔍 → 理解</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> I can't make out what he's saying.<br><span
+                            class="text-slate-400 font-normal">彼が何を言っているか分からない。</span></li>
+                    <li><span class="text-orange-500">●</span> How did you make out?<br><span
+                            class="text-slate-400 font-normal">どうだった？（結果を問う）</span></li>
+                </ul>
+            </div>
+
+            <!-- make for -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make for <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">向かう</span></h3>
+                <div class="core-box mt-4">方向へ作用する→向かう/役立つ<span class="visual-text">現在地 ━━→ 目的地</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> She made for the exit.<br><span
+                            class="text-slate-400 font-normal">彼女は出口に向かった。</span></li>
+                    <li><span class="text-orange-500">●</span> This makes for a good team.<br><span
+                            class="text-slate-400 font-normal">これは良いチームを作る。（役立つ）</span></li>
+                </ul>
+            </div>
+
+            <!-- make off -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make off <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">逃げる</span></h3>
+                <div class="core-box mt-4">離れた状態を作る→急いで去る<span class="visual-text">現在地 ━━→ 遠く</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> The thief made off with the money.<br><span
+                            class="text-slate-400 font-normal">泥棒は金を持って逃げた。</span></li>
+                </ul>
+            </div>
+
+            <!-- make over -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make over <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">作り変える</span></h3>
+                <div class="core-box mt-4">上から作り直す→リメイク/譲渡<span class="visual-text">古い → 🔄 → 新しい</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> She made over the old dress.<br><span
+                            class="text-slate-400 font-normal">彼女は古いドレスを作り変えた。</span></li>
+                    <li><span class="text-orange-500">●</span> He made the property over to his son.<br><span
+                            class="text-slate-400 font-normal">彼は財産を息子に譲渡した。</span></li>
+                </ul>
+            </div>
+
+            <!-- make do -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make do <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">間に合わせる</span></h3>
+                <div class="core-box mt-4">行動(do)を成立させる→やりくりする<span class="visual-text">限られた資源 → 何とかする</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> We'll have to make do with this.<br><span
+                            class="text-slate-400 font-normal">これで間に合わせるしかない。</span></li>
+                </ul>
+            </div>
+
+            <!-- make it -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make it <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">成功する</span></h3>
+                <div class="core-box mt-4">「それ」を達成する→成功/間に合う<span class="visual-text">挑戦 → 💪 → 達成</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> I knew you'd make it!<br><span
+                            class="text-slate-400 font-normal">君なら成功すると思っていた！</span></li>
+                    <li><span class="text-orange-500">●</span> Can you make it by 5?<br><span
+                            class="text-slate-400 font-normal">5時までに間に合う？</span></li>
+                </ul>
+                <p class="mt-4 text-xs font-bold text-amber-600 bg-amber-50 p-2 rounded">Point: 多義語。成功/間に合う/出席/生き延びる。
+                </p>
+            </div>
+
+            <!-- make of -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make of <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">思う</span></h3>
+                <div class="core-box mt-4">〜から判断を作る→どう思うか<span class="visual-text">情報 → 🤔 → 判断</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> What do you make of this?<br><span
+                            class="text-slate-400 font-normal">これをどう思う？</span></li>
+                    <li><span class="text-orange-500">●</span> This table is made of wood.<br><span
+                            class="text-slate-400 font-normal">このテーブルは木で作られている。</span></li>
+                </ul>
+            </div>
+
+            <!-- make sure -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make sure <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">確認する</span></h3>
+                <div class="core-box mt-4">確実な状態を作る→確認する<span class="visual-text">不確定 → ✓ → 確定</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> Make sure you lock the door.<br><span
+                            class="text-slate-400 font-normal">必ずドアに鍵をかけて。</span></li>
+                </ul>
+            </div>
+
+            <!-- make sense -->
+            <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
+                <h3 class="font-poppins text-2xl font-black text-orange-600 flex justify-between">make sense <span
+                        class="text-sm bg-slate-100 text-slate-500 px-2 py-1 rounded font-bold">意味が通る</span></h3>
+                <div class="core-box mt-4">意味を作り出す→理にかなう<span class="visual-text">混乱 → 整理 → 理解</span></div>
+                <ul class="space-y-3 text-sm font-bold text-slate-700">
+                    <li><span class="text-orange-500">●</span> Does this make sense to you?<br><span
+                            class="text-slate-400 font-normal">これ意味分かる？</span></li>
+                    <li><span class="text-orange-500">●</span> It makes no sense.<br><span
+                            class="text-slate-400 font-normal">意味が分からない。</span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <footer class="text-center text-xs text-slate-400 font-bold py-10 border-t border-slate-200 mt-8">
+            <a href="../" class="hover:text-orange-600">一覧へ戻る</a>
+        </footer>
+
+    </div>
+</body>
+
+</html>
