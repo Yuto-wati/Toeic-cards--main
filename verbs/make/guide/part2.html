@@ -2,583 +2,1522 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAKE 句動詞 完全解説【後編】</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@400;600;700&display=swap"
-        rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Noto Sans JP', sans-serif;
-            background-color: #f8fafc;
-            color: #334155;
-            line-height: 1.6;
-        }
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MAKE 句動詞 完全解説【後編】 - Phrasal Verb Master</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@400;600;700&display=swap"
+		rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Noto Sans JP', sans-serif;
+			background-color: #f8fafc;
+			color: #334155;
+			line-height: 1.6;
+		}
 
-        .font-poppins {
-            font-family: 'Poppins', sans-serif;
-        }
+		.font-poppins {
+			font-family: 'Poppins', sans-serif;
+		}
 
-        .card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-            border: 1px solid #e2e8f0;
-            margin-bottom: 24px;
-            overflow: hidden;
-        }
+		.card {
+			background: white;
+			border-radius: 12px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.01);
+			border: 1px solid #e2e8f0;
+			margin-bottom: 24px;
+			overflow: hidden;
+		}
 
-        .card-header {
-            background-color: #fff7ed;
-            padding: 16px 24px;
-            border-bottom: 1px solid #fed7aa;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+		.card-header {
+			background-color: #f1f5f9;
+			padding: 16px 24px;
+			border-bottom: 1px solid #e2e8f0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
 
-        .phrase {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
-            font-size: 1.5rem;
-            color: #1e293b;
-        }
+		.phrase {
+			font-family: 'Poppins', sans-serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			color: #1e293b;
+		}
 
-        .translation {
-            font-size: 0.9rem;
-            font-weight: 700;
-            color: #64748b;
-            background: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            border: 1px solid #cbd5e1;
-        }
+		.translation {
+			font-size: 0.9rem;
+			font-weight: 700;
+			color: #64748b;
+			background: white;
+			padding: 4px 12px;
+			border-radius: 20px;
+			border: 1px solid #cbd5e1;
+		}
 
-        .card-body {
-            padding: 24px;
-        }
+		.card-body {
+			padding: 24px;
+		}
 
-        .core-box {
-            background-color: #fff7ed;
-            border: 1px dashed #fdba74;
-            border-radius: 8px;
-            padding: 16px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+		.core-box {
+			background-color: #fff7ed;
+			border: 1px dashed #fdba74;
+			border-radius: 8px;
+			padding: 16px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
 
-        .core-title {
-            font-weight: 700;
-            color: #ea580c;
-            font-size: 0.9rem;
-            margin-bottom: 8px;
-            display: block;
-        }
+		.core-title {
+			font-weight: 700;
+			color: #ea580c;
+			font-size: 0.9rem;
+			margin-bottom: 8px;
+			display: block;
+		}
 
-        .visual-text {
-            font-family: monospace;
-            white-space: pre-wrap;
-            color: #475569;
-            font-weight: 700;
-            line-height: 1.4;
-        }
+		.visual-text {
+			font-family: monospace;
+			white-space: pre-wrap;
+			color: #475569;
+			font-weight: 700;
+			line-height: 1.4;
+		}
 
-        .meaning-section {
-            margin-bottom: 20px;
-            padding-bottom: 16px;
-            border-bottom: 1px solid #f1f5f9;
-        }
+		.meaning-section {
+			margin-bottom: 20px;
+			padding-bottom: 16px;
+			border-bottom: 1px solid #f1f5f9;
+		}
 
-        .meaning-section:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
+		.meaning-section:last-child {
+			border-bottom: none;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
 
-        .meaning-title {
-            font-weight: 700;
-            color: #ea580c;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+		.meaning-title {
+			font-weight: 700;
+			color: #3b82f6;
+			margin-bottom: 8px;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+		}
 
-        .example-box {
-            background-color: #f8fafc;
-            border-left: 3px solid #fdba74;
-            padding: 10px 16px;
-            margin-bottom: 8px;
-        }
+		.example-box {
+			background-color: #f8fafc;
+			border-left: 3px solid #cbd5e1;
+			padding: 10px 16px;
+			margin-bottom: 8px;
+		}
 
-        .en-sent {
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-            color: #0f172a;
-        }
+		.en-sent {
+			font-family: 'Poppins', sans-serif;
+			font-weight: 600;
+			color: #0f172a;
+		}
 
-        .jp-sent {
-            font-size: 0.9rem;
-            color: #64748b;
-        }
+		.jp-sent {
+			font-size: 0.9rem;
+			color: #64748b;
+		}
 
-        .explanation {
-            font-size: 0.85rem;
-            color: #475569;
-            margin-top: 4px;
-        }
+		.explanation {
+			font-size: 0.85rem;
+			color: #475569;
+			margin-top: 4px;
+		}
 
-        .point-area {
-            background-color: #fff7ed;
-            border-radius: 8px;
-            padding: 16px;
-            margin-top: 20px;
-            font-size: 0.9rem;
-        }
+		.point-area {
+			background-color: #fff7ed;
+			border-radius: 8px;
+			padding: 16px;
+			margin-top: 20px;
+			font-size: 0.9rem;
+		}
 
-        .point-label {
-            font-weight: 700;
-            color: #c2410c;
-            margin-bottom: 4px;
-            display: block;
-        }
+		.point-label {
+			font-weight: 700;
+			color: #ea580c;
+			margin-bottom: 4px;
+			display: block;
+		}
 
-        .section-title {
-            font-size: 1.5rem;
-            font-weight: 900;
-            color: #1e293b;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #ea580c;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
+		.section-title {
+			font-size: 1.5rem;
+			font-weight: 900;
+			color: #1e293b;
+			margin-top: 40px;
+			margin-bottom: 20px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #f97316;
+			display: flex;
+			align-items: center;
+			gap: 12px;
+		}
 
-        .section-badge {
-            background-color: #ea580c;
-            color: white;
-            font-size: 1rem;
-            padding: 4px 12px;
-            border-radius: 9999px;
-            font-family: 'Poppins', sans-serif;
-        }
+		.section-badge {
+			background-color: #f97316;
+			color: white;
+			font-size: 1rem;
+			padding: 4px 12px;
+			border-radius: 9999px;
+			font-family: 'Poppins', sans-serif;
+		}
 
-        .link-button {
-            display: block;
-            width: 100%;
-            text-align: center;
-            background: #ea580c;
-            color: white;
-            padding: 16px;
-            border-radius: 8px;
-            font-weight: bold;
-            margin-top: 40px;
-            text-decoration: none;
-        }
+		.link-button {
+			display: block;
+			width: 100%;
+			text-align: center;
+			background: #f97316;
+			color: white;
+			padding: 16px;
+			border-radius: 8px;
+			font-weight: bold;
+			margin-top: 40px;
+			text-decoration: none;
+			transition: background-color 0.3s;
+		}
 
-        .polysemy-box {
-            background: linear-gradient(135deg, #ecfdf5, #d1fae5);
-            border: 2px solid #6ee7b7;
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 24px;
-        }
+		.link-button:hover {
+			background-color: #ea580c;
+		}
 
-        .polysemy-title {
-            font-weight: 900;
-            color: #047857;
-            font-size: 1.2rem;
-            margin-bottom: 12px;
-        }
+		@media print {
+			.card {
+				break-inside: avoid;
+				border: 1px solid #ccc;
+				box-shadow: none;
+				print-color-adjust: exact;
+				-webkit-print-color-adjust: exact;
+			}
 
-        .meaning-badge {
-            display: inline-block;
-            background: white;
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 700;
-            margin: 4px 4px 4px 0;
-            border: 1px solid #cbd5e1;
-        }
-    </style>
+			.nav-container,
+			.link-button,
+			footer {
+				display: none;
+			}
+
+			body {
+				background: white;
+			}
+		}
+	</style>
 </head>
 
 <body class="p-4 md:p-8 max-w-5xl mx-auto">
 
-    <header class="text-center mb-12">
-        <h1 class="text-3xl md:text-5xl font-black text-slate-800 mb-4">
-            MAKE 句動詞 <span class="text-orange-600">完全解説</span>
-        </h1>
-        <p class="text-slate-500 font-bold">【後編】 ビジネス・上級・多義語編（Section 03 - 04）</p>
-    </header>
+	<header class="text-center mb-12">
+		<div
+			class="inline-block px-4 py-1 rounded-full bg-orange-50 text-orange-600 font-bold text-sm mb-4 tracking-wider uppercase">
+			MAKE PHRASAL VERBS
+		</div>
+		<h1 class="text-3xl md:text-5xl font-black text-slate-800 mb-4">
+			MAKE 句動詞 <span class="text-orange-600">完全解説【後編】</span>
+		</h1>
+		<p class="text-slate-500 font-bold">多義語・慣用表現（Section 3〜4）</p>
+	</header>
 
-    <!-- SECTION 03: ビジネス・上級 -->
-    <div class="section-title">
-        <span class="section-badge">03</span>
-        ビジネス・上級
-    </div>
+	<!-- SECTION 03 -->
+	<div class="section-title">
+		<span class="section-badge">03</span>
+		ビジネス・上級
+	</div>
 
-    <!-- make allowances for -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make allowances for</span><span
-                class="translation">考慮に入れる／酌量する</span></div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：許容を「作る」→配慮する</span></div>
-            <div class="meaning-section">
-                <div class="example-box">
-                    <p class="en-sent">Make allowances for his age.</p>
-                    <p class="jp-sent">彼の年齢を考慮してあげて。</p>
-                    <p class="explanation">→ 事情を考慮した「余地」を作る</p>
-                </div>
-                <div class="example-box">
-                    <p class="en-sent">We should make allowances for the delay in shipping.</p>
-                    <p class="jp-sent">配送の遅延を考慮すべきだ。</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- make good -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make good</span><span class="translation">成功する、補償する、証明する</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [欠陥] ━━ good ━━→ [良好] ✅<br>   <br>   「悪い状態を良い状態にする」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made good his promise to help us.</p>
+					<p class="jp-sent">彼は私たちを助けるという約束を果たした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The company will make good any losses.</p>
+					<p class="jp-sent">会社はいかなる損失も補償します。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made good as a lawyer despite difficulties.</p>
+					<p class="jp-sent">困難にもかかわらず、彼女は弁護士として成功した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made good their escape from prison.</p>
+					<p class="jp-sent">彼らは刑務所からの脱獄に成功した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We need to make good on our commitments.</p>
+					<p class="jp-sent">私たちは約束を果たす必要があります。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>fulfill や succeed よりも「欠けていたものを完成させる」というニュアンスが強い表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make waves -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make waves</span><span class="translation">波風を立てる／注目を集める</span>
-        </div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：波を「起こす」→影響を与える</span></div>
-            <div class="meaning-section">
-                <div class="example-box">
-                    <p class="en-sent">Don't make waves in the office.</p>
-                    <p class="jp-sent">職場で波風を立てるな。</p>
-                    <p class="explanation">→ 問題を起こす</p>
-                </div>
-                <div class="example-box">
-                    <p class="en-sent">The new product is making waves in the industry.</p>
-                    <p class="jp-sent">その新製品は業界で話題になっている。</p>
-                    <p class="explanation">→ 注目を集める（ポジティブ）</p>
-                </div>
-            </div>
-            <div class="point-area"><span class="point-label">ニュアンス：</span>文脈により、ネガティブ（問題を起こす）にもポジティブ（注目される）にもなる</div>
-        </div>
-    </div>
+	<!-- make good on -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make good on</span><span class="translation">〜を果たす、〜を実行する</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [約束] ━━ good on ━━→ [実行] ✓<br>   <br>   「約束を良い形で完遂する」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The president made good on his campaign promises.</p>
+					<p class="jp-sent">大統領は選挙公約を果たした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They failed to make good on their threat.</p>
+					<p class="jp-sent">彼らは脅しを実行できなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We must make good on our word.</p>
+					<p class="jp-sent">私たちは約束を守らなければならない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He always makes good on his commitments.</p>
+					<p class="jp-sent">彼はいつも約束を果たす。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>deliver on や fulfill と似ていますが、make good on はより口語的な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make a point -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make a point</span><span class="translation">要点を述べる／心がける</span>
-        </div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：論点を「作り出す」</span></div>
-            <div class="meaning-section">
-                <div class="meaning-title">意味1：要点を述べる</div>
-                <div class="example-box">
-                    <p class="en-sent">He made a good point about the budget.</p>
-                    <p class="jp-sent">彼は予算についていい点を指摘した。</p>
-                </div>
-            </div>
-            <div class="meaning-section">
-                <div class="meaning-title">意味2：心がける（make a point of + 動名詞）</div>
-                <div class="example-box">
-                    <p class="en-sent">I make a point of exercising every day.</p>
-                    <p class="jp-sent">私は毎日運動するよう心がけている。</p>
-                    <p class="explanation">→ 意識的に実行の「ポイント」にする</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- make light of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make light of</span><span class="translation">軽視する、軽く見る</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [重大] ━━ light of ━━→ [軽い] 🪶<br>   <br>   「重いものを軽く扱う」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Don't make light of his achievements.</p>
+					<p class="jp-sent">彼の業績を軽視してはいけない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made light of her illness, but it was serious.</p>
+					<p class="jp-sent">彼女は自分の病気を軽く扱ったが、それは深刻だった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He tends to make light of important issues.</p>
+					<p class="jp-sent">彼は重要な問題を軽く見る傾向がある。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The comedian made light of his own mistakes.</p>
+					<p class="jp-sent">コメディアンは自分のミスを笑いにした。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>downplay や trivialize と同義ですが、make light of はより口語的で自然な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make good -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make good</span><span class="translation">成功する／補償する／履行する</span>
-        </div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：良い結果を「生む」</span></div>
-            <div class="meaning-section">
-                <div class="meaning-title">意味1：成功する</div>
-                <div class="example-box">
-                    <p class="en-sent">He made good in business.</p>
-                    <p class="jp-sent">彼はビジネスで成功した。</p>
-                </div>
-            </div>
-            <div class="meaning-section">
-                <div class="meaning-title">意味2：補償する</div>
-                <div class="example-box">
-                    <p class="en-sent">I'll make good the damage.</p>
-                    <p class="jp-sent">損害を補償します。</p>
-                </div>
-            </div>
-            <div class="meaning-section">
-                <div class="meaning-title">意味3：履行する（make good on + 約束）</div>
-                <div class="example-box">
-                    <p class="en-sent">She made good on her promise.</p>
-                    <p class="jp-sent">彼女は約束を果たした。</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- make much of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make much of</span><span class="translation">重視する、大げさに扱う、可愛がる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [小] ━━ much of ━━→ [大] 📢<br>   <br>   「小さいものを大きく扱う」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The media made much of the scandal.</p>
+					<p class="jp-sent">メディアはそのスキャンダルを大々的に取り上げた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Don't make too much of a small mistake.</p>
+					<p class="jp-sent">小さなミスを大げさに扱わないで。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made much of her grandchildren.</p>
+					<p class="jp-sent">彼女は孫たちをとても可愛がった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I couldn't make much of his explanation.</p>
+					<p class="jp-sent">彼の説明はあまり理解できなかった。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>否定文で使うと「あまり理解できない」という意味になります。文脈で意味が変わる表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make headway -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make headway</span><span class="translation">進展する／前進する</span>
-        </div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：前進を「生み出す」</span>
-                <div class="visual-text">停滞 → 前進</div>
-            </div>
-            <div class="meaning-section">
-                <div class="example-box">
-                    <p class="en-sent">We're making headway on the project.</p>
-                    <p class="jp-sent">プロジェクトは進展している。</p>
-                </div>
-                <div class="example-box">
-                    <p class="en-sent">The ship couldn't make headway against the wind.</p>
-                    <p class="jp-sent">船は向かい風に逆らって進めなかった。</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- make little of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make little of</span><span class="translation">軽視する、理解できない</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [多] ━━ little of ━━→ [少] 🤏<br>   <br>   「多くのものを少なく扱う」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made little of the danger.</p>
+					<p class="jp-sent">彼はその危険を軽視した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I could make little of the technical jargon.</p>
+					<p class="jp-sent">専門用語があまり理解できなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made little of our concerns.</p>
+					<p class="jp-sent">彼らは私たちの懸念を軽く見た。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made little of her own contributions.</p>
+					<p class="jp-sent">彼女は自分の貢献を控えめに扱った。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>underestimate や dismiss と似ていますが、より文学的で形式的な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make inroads -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make inroads</span><span class="translation">進出する／侵食する</span>
-        </div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：道を「切り開く」→進出</span></div>
-            <div class="meaning-section">
-                <div class="example-box">
-                    <p class="en-sent">They're making inroads into the European market.</p>
-                    <p class="jp-sent">彼らはヨーロッパ市場に進出している。</p>
-                </div>
-                <div class="example-box">
-                    <p class="en-sent">Automation is making inroads into traditional jobs.</p>
-                    <p class="jp-sent">自動化が従来の仕事に侵食している。</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- make nothing of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make nothing of</span><span class="translation">何とも思わない、理解できない、簡単にやってのける</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [何か] ━━ nothing of ━━→ [無] 🚫<br>   <br>   「何かを無いものとして扱う」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made nothing of walking 10 miles a day.</p>
+					<p class="jp-sent">彼は1日10マイル歩くことを何とも思わなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I could make nothing of his strange behavior.</p>
+					<p class="jp-sent">彼の奇妙な行動が全く理解できなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She makes nothing of the most difficult problems.</p>
+					<p class="jp-sent">彼女は最も難しい問題を簡単にこなす。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made nothing of our objections.</p>
+					<p class="jp-sent">彼らは私たちの反対意見を無視した。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>think nothing of と make nothing of はほぼ同義で「簡単にやる」という意味になります。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make light of -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make light of</span><span class="translation">軽視する／冗談にする</span>
-        </div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：「軽く」する→軽視</span></div>
-            <div class="meaning-section">
-                <div class="example-box">
-                    <p class="en-sent">Don't make light of the situation.</p>
-                    <p class="jp-sent">状況を軽視するな。</p>
-                </div>
-                <div class="example-box">
-                    <p class="en-sent">He made light of his own achievements.</p>
-                    <p class="jp-sent">彼は自分の功績を軽く見せた。</p>
-                </div>
-            </div>
-            <div class="point-area"><span class="point-label">反対表現：</span>make much of 〜 = 〜を重視する</div>
-        </div>
-    </div>
+	<!-- make the most of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make the most of</span><span class="translation">〜を最大限に活用する</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [資源] ━━ the most of ━━→ [最大化] 📈<br>   <br>   「最大の価値を引き出す」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Let's make the most of this opportunity.</p>
+					<p class="jp-sent">この機会を最大限に活用しましょう。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She's making the most of her time abroad.</p>
+					<p class="jp-sent">彼女は海外での時間を最大限に活用している。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We should make the most of the good weather.</p>
+					<p class="jp-sent">良い天気を最大限に楽しむべきです。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made the most of his talents.</p>
+					<p class="jp-sent">彼は自分の才能を最大限に活かした。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>maximize や take full advantage of と同義ですが、より日常的な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make much of -->
-    <div class="card">
-        <div class="card-header"><span class="phrase">make much of</span><span class="translation">重視する／大げさにする</span>
-        </div>
-        <div class="card-body">
-            <div class="core-box"><span class="core-title">コアイメージ：「大きく」する→重視</span></div>
-            <div class="meaning-section">
-                <div class="example-box">
-                    <p class="en-sent">The media made much of the scandal.</p>
-                    <p class="jp-sent">メディアはそのスキャンダルを大々的に報じた。</p>
-                </div>
-                <div class="example-box">
-                    <p class="en-sent">I can't make much of this document.</p>
-                    <p class="jp-sent">この書類がよく理解できない。</p>
-                    <p class="explanation">→ 「多く」を作れない＝理解できない</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- make the best of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make the best of</span><span class="translation">〜を最大限に活用する、前向きに対処する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [困難] ━━ the best of ━━→ [最善] 💪<br>   <br>   「悪い状況でも最善を尽くす」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">We'll just have to make the best of the situation.</p>
+					<p class="jp-sent">この状況で最善を尽くすしかない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She's making the best of a bad situation.</p>
+					<p class="jp-sent">彼女は悪い状況を前向きに捉えている。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Let's make the best of what we have.</p>
+					<p class="jp-sent">今あるもので最善を尽くしましょう。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He always makes the best of difficult circumstances.</p>
+					<p class="jp-sent">彼はいつも困難な状況でも最善を尽くす。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>make the most of よりも「困難な中で」というニュアンスが強い表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- SECTION 04: 多義語・注意 -->
-    <div class="section-title">
-        <span class="section-badge">04</span>
-        多義語・注意
-    </div>
+	<!-- make toward(s) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make toward(s)</span><span class="translation">〜に向かう</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   ━━ toward(s) ━━→ 🎯<br>   <br>   「目標に向かって進む」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The ship made towards the harbor.</p>
+					<p class="jp-sent">船は港に向かった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made towards the door when he heard the bell.</p>
+					<p class="jp-sent">ベルの音を聞いて彼はドアに向かった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We made towards the summit at dawn.</p>
+					<p class="jp-sent">私たちは夜明けに頂上を目指した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The protesters made towards the government building.</p>
+					<p class="jp-sent">抗議者たちは政府庁舎に向かった。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>head towards や move towards とほぼ同義ですが、文学的な響きがあります。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make up 多義語まとめ -->
-    <div class="polysemy-box">
-        <div class="polysemy-title">🔄 make up - 多義語まとめ</div>
-        <div class="mb-4">
-            <span class="meaning-badge text-orange-700 bg-orange-50 border-orange-200">作り話をする</span>
-            <span class="meaning-badge text-blue-700 bg-blue-50 border-blue-200">仲直りする</span>
-            <span class="meaning-badge text-purple-700 bg-purple-50 border-purple-200">構成する</span>
-            <span class="meaning-badge text-pink-700 bg-pink-50 border-pink-200">化粧をする</span>
-        </div>
-        <table class="w-full text-sm">
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">① 作り話をする</td>
-                <td>She made up an excuse.</td>
-                <td class="text-slate-500">言い訳を作り上げた</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">② 仲直りする</td>
-                <td>Let's make up.</td>
-                <td class="text-slate-500">仲直りしよう</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">③ 構成する</td>
-                <td>Women make up 60%.</td>
-                <td class="text-slate-500">女性が60%を占める</td>
-            </tr>
-            <tr>
-                <td class="py-2 font-bold">④ 化粧をする</td>
-                <td>She made up her face.</td>
-                <td class="text-slate-500">化粧をした</td>
-            </tr>
-        </table>
-        <div class="mt-4 text-sm bg-white p-3 rounded-lg">
-            <strong>見分け方：</strong>目的語の有無と種類で判断。人と→仲直り、話を→創作、数字→構成、顔→化粧
-        </div>
-    </div>
+	<!-- make as if -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make as if</span><span class="translation">〜するふりをする、〜しようとする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   😏 [ふり] ━━ as if ━━→ 👀<br>   <br>   「まるで〜のように振る舞う」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made as if to leave, but stayed.</p>
+					<p class="jp-sent">彼は去るふりをしたが、留まった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made as if she didn't hear me.</p>
+					<p class="jp-sent">彼女は私が聞こえないふりをした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The cat made as if to pounce on the mouse.</p>
+					<p class="jp-sent">猫はネズミに飛びかかろうとした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made as if he knew everything about it.</p>
+					<p class="jp-sent">彼はそれについて全部知っているかのように振る舞った。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>pretend to や act as if と同義ですが、やや文学的で形式的な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make out 多義語まとめ -->
-    <div class="polysemy-box">
-        <div class="polysemy-title">🔄 make out - 多義語まとめ</div>
-        <div class="mb-4">
-            <span class="meaning-badge text-blue-700 bg-blue-50 border-blue-200">理解する</span>
-            <span class="meaning-badge text-green-700 bg-green-50 border-green-200">見分ける</span>
-            <span class="meaning-badge text-amber-700 bg-amber-50 border-amber-200">作成する</span>
-            <span class="meaning-badge text-rose-700 bg-rose-50 border-rose-200">うまくやる</span>
-        </div>
-        <table class="w-full text-sm">
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">① 理解する</td>
-                <td>I can't make out his handwriting.</td>
-                <td class="text-slate-500">彼の字が読めない</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">② 見分ける</td>
-                <td>I could make out a figure in the dark.</td>
-                <td class="text-slate-500">暗闇で人影が見えた</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">③ 作成する</td>
-                <td>Make out a check.</td>
-                <td class="text-slate-500">小切手を作成して</td>
-            </tr>
-            <tr>
-                <td class="py-2 font-bold">④ うまくやる</td>
-                <td>How did you make out?</td>
-                <td class="text-slate-500">どうだった？</td>
-            </tr>
-        </table>
-    </div>
+	<!-- make as though -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make as though</span><span class="translation">〜するふりをする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   😏 [ふり] ━━ as though ━━→ 👀<br>   <br>   「あたかも〜であるかのように」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made as though he didn't understand.</p>
+					<p class="jp-sent">彼は理解していないかのように振る舞った。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made as though to protest, but said nothing.</p>
+					<p class="jp-sent">彼女は抗議しようとしたが、何も言わなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The dog made as though it would attack.</p>
+					<p class="jp-sent">犬は攻撃しそうな素振りを見せた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made as though he was too busy to help.</p>
+					<p class="jp-sent">彼は忙しすぎて手伝えないかのように振る舞った。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>make as if とほぼ同義で、どちらも文学的な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make it 多義語まとめ -->
-    <div class="polysemy-box">
-        <div class="polysemy-title">🔄 make it - 多義語まとめ</div>
-        <div class="mb-4">
-            <span class="meaning-badge text-green-700 bg-green-50 border-green-200">成功する</span>
-            <span class="meaning-badge text-blue-700 bg-blue-50 border-blue-200">間に合う</span>
-            <span class="meaning-badge text-purple-700 bg-purple-50 border-purple-200">出席する</span>
-            <span class="meaning-badge text-red-700 bg-red-50 border-red-200">生き延びる</span>
-        </div>
-        <table class="w-full text-sm">
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">① 成功する</td>
-                <td>I knew you'd make it!</td>
-                <td class="text-slate-500">君なら成功すると思っていた</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">② 間に合う</td>
-                <td>Can you make it by 5?</td>
-                <td class="text-slate-500">5時までに間に合う？</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">③ 出席する</td>
-                <td>I can't make it tonight.</td>
-                <td class="text-slate-500">今夜は行けない</td>
-            </tr>
-            <tr>
-                <td class="py-2 font-bold">④ 生き延びる</td>
-                <td>He didn't make it.</td>
-                <td class="text-slate-500">彼は助からなかった</td>
-            </tr>
-        </table>
-        <div class="mt-4 text-sm bg-white p-3 rounded-lg">
-            <strong>見分け方：</strong>キャリア→成功、時間→間に合う、イベント→出席、危機→生存
-        </div>
-    </div>
+	<!-- make at -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make at</span><span class="translation">〜に襲いかかる、〜を攻撃する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   💥 ━━ at ━━→ 🎯<br>   <br>   「標的に向かって攻撃的に進む」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The dog made at the intruder.</p>
+					<p class="jp-sent">犬は侵入者に襲いかかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made at me with a stick.</p>
+					<p class="jp-sent">彼は棒を持って私に襲いかかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The bull made at the matador.</p>
+					<p class="jp-sent">雄牛は闘牛士に突進した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made at him angrily.</p>
+					<p class="jp-sent">彼女は怒って彼に詰め寄った。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>attack や lunge at の方が現代的。make at は古風で文学的な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make for 多義語まとめ -->
-    <div class="polysemy-box">
-        <div class="polysemy-title">🔄 make for - 多義語まとめ</div>
-        <div class="mb-4">
-            <span class="meaning-badge text-blue-700 bg-blue-50 border-blue-200">向かう</span>
-            <span class="meaning-badge text-green-700 bg-green-50 border-green-200">役立つ</span>
-            <span class="meaning-badge text-amber-700 bg-amber-50 border-amber-200">もたらす</span>
-        </div>
-        <table class="w-full text-sm">
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">① 向かう</td>
-                <td>He made for the door.</td>
-                <td class="text-slate-500">ドアに向かった</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">② 役立つ</td>
-                <td>This makes for efficiency.</td>
-                <td class="text-slate-500">これは効率化に役立つ</td>
-            </tr>
-            <tr>
-                <td class="py-2 font-bold">③ もたらす</td>
-                <td>It makes for a good result.</td>
-                <td class="text-slate-500">良い結果をもたらす</td>
-            </tr>
-        </table>
-        <div class="mt-4 text-sm bg-white p-3 rounded-lg">
-            <strong>見分け方：</strong>場所と→向かう、抽象名詞と→役立つ/もたらす
-        </div>
-    </div>
+	<!-- make bold -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make bold</span><span class="translation">大胆にも〜する、あえて〜する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [謙遜] ━━ bold ━━→ [大胆] 💪<br>   <br>   「勇気を出して行動する」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">May I make bold to suggest an alternative?</p>
+					<p class="jp-sent">大胆にも代案を提案してもよろしいでしょうか？</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made bold to ask for a raise.</p>
+					<p class="jp-sent">彼はあえて昇給を求めた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">If I may make bold to say so, this is incorrect.</p>
+					<p class="jp-sent">僭越ながら申し上げますと、これは間違っています。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made bold to question the professor.</p>
+					<p class="jp-sent">彼女は思い切って教授に質問した。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>dare to や venture to と似ていますが、make bold はより格式高く古風な表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <!-- make good 多義語まとめ -->
-    <div class="polysemy-box">
-        <div class="polysemy-title">🔄 make good - 多義語まとめ</div>
-        <div class="mb-4">
-            <span class="meaning-badge text-green-700 bg-green-50 border-green-200">成功する</span>
-            <span class="meaning-badge text-blue-700 bg-blue-50 border-blue-200">補償する</span>
-            <span class="meaning-badge text-amber-700 bg-amber-50 border-amber-200">履行する</span>
-        </div>
-        <table class="w-full text-sm">
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">① 成功する</td>
-                <td>He made good in business.</td>
-                <td class="text-slate-500">ビジネスで成功した</td>
-            </tr>
-            <tr class="border-b border-emerald-200">
-                <td class="py-2 font-bold">② 補償する</td>
-                <td>I'll make good the damage.</td>
-                <td class="text-slate-500">損害を補償する</td>
-            </tr>
-            <tr>
-                <td class="py-2 font-bold">③ 履行する</td>
-                <td>Make good on your promise.</td>
-                <td class="text-slate-500">約束を果たせ</td>
-            </tr>
-        </table>
-        <div class="mt-4 text-sm bg-white p-3 rounded-lg">
-            <strong>見分け方：</strong>自動詞で→成功、損害と→補償、on+約束と→履行
-        </div>
-    </div>
+	<!-- make free with -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make free with</span><span class="translation">勝手に使う、遠慮なく使う</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   🚫 [制限] ━━ free with ━━→ 💰 [自由使用]<br>   <br>   「自由に使える状態を作る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Don't make free with my belongings.</p>
+					<p class="jp-sent">私の持ち物を勝手に使わないで。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made free with the company's resources.</p>
+					<p class="jp-sent">彼は会社の資源を勝手に使った。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">You shouldn't make free with other people's time.</p>
+					<p class="jp-sent">他人の時間を勝手に使うべきではない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made rather free with my credit card.</p>
+					<p class="jp-sent">彼女は私のクレジットカードをかなり勝手に使った。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>help oneself to と似ていますが、make free with はより批判的で「無遠慮に使う」というニュアンスが強い表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <a href="./part1.html" class="link-button" style="background: #64748b;">← 前編（Section 01-02）へ戻る</a>
+	<!-- make a go of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a go of</span><span class="translation">〜を成功させる</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [挑戦] ━━ a go of ━━→ [成功] ✓<br>   <br>   「試みを成功に導く」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">They're trying to make a go of the restaurant business.</p>
+					<p class="jp-sent">彼らはレストラン事業を成功させようとしている。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Can we make a go of this partnership?</p>
+					<p class="jp-sent">この提携を成功させられるでしょうか？</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He's determined to make a go of his new venture.</p>
+					<p class="jp-sent">彼は新しい事業を成功させる決意だ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">It's hard to make a go of farming these days.</p>
+					<p class="jp-sent">最近は農業を成功させるのは難しい。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>succeed in よりも「困難を乗り越えて成功させる」というニュアンスが強い表現です。</p>
+			</div>
+		</div>
+	</div>
 
-    <footer class="text-center text-sm text-slate-400 mt-12 pb-8">
-        MAKE 句動詞 完全解説【後編】
-    </footer>
+	<!-- make or break -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make or break</span><span class="translation">成否を決める</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   ⚡ [決定的瞬間] = make or break<br>   <br>   「成功か失敗かの分かれ道」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">This decision will make or break the company.</p>
+					<p class="jp-sent">この決定が会社の成否を決める。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">It's a make-or-break moment for his career.</p>
+					<p class="jp-sent">彼のキャリアにとって正念場だ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The next quarter will be make or break for us.</p>
+					<p class="jp-sent">次の四半期が私たちにとって成否の分かれ目になる。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">This is a make-or-break year for the project.</p>
+					<p class="jp-sent">これはプロジェクトにとって成否を決する年だ。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>形容詞として make-or-break（ハイフン付き）で「決定的な」という意味になります。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make do with -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make do with</span><span class="translation">〜で間に合わせる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [理想] ❌ → [代替] ━━ do with ━━→ ✅<br>   <br>   「限られたもので済ませる」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">We'll have to make do with a smaller budget.</p>
+					<p class="jp-sent">もっと少ない予算で何とかしなければならない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Can you make do with these tools?</p>
+					<p class="jp-sent">これらの道具で間に合わせられますか？</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I had to make do with instant coffee.</p>
+					<p class="jp-sent">インスタントコーヒーで我慢しなければならなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made do with second-hand equipment.</p>
+					<p class="jp-sent">彼らは中古の機器で間に合わせた。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>manage with や get by with と似ていますが、make do with は「不十分だが仕方ない」というニュアンスがより強い表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make do without -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make do without</span><span class="translation">〜なしで済ませる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [必要] ❌ → without ━━→ ✅ [工夫]<br>   <br>   「何かが無い状態で対処する」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">We'll have to make do without air conditioning.</p>
+					<p class="jp-sent">エアコンなしで我慢しなければならない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Can you make do without your phone for a day?</p>
+					<p class="jp-sent">1日スマホなしで過ごせますか？</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They had to make do without electricity.</p>
+					<p class="jp-sent">彼らは電気なしで何とかしなければならなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I can make do without a car in the city.</p>
+					<p class="jp-sent">都会では車なしで何とかできる。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>go without や manage without と似ていますが、make do without は工夫して対処するニュアンスが強い表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a fuss -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a fuss</span><span class="translation">大騒ぎする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   😤 [小さな問題] ━━ fuss ━━→ 💥 [大騒ぎ]<br>   <br>   「必要以上に騒ぐ」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Don't make a fuss over nothing.</p>
+					<p class="jp-sent">何でもないことで騒がないで。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She always makes a fuss about small details.</p>
+					<p class="jp-sent">彼女はいつも些細なことで大騒ぎする。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The children made a fuss when it was time to leave.</p>
+					<p class="jp-sent">帰る時間になると子供たちが騒いだ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made a big fuss about the service.</p>
+					<p class="jp-sent">彼はサービスについて大騒ぎした。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>make a fuss of/over someone で「〜をちやほやする」というポジティブな意味にもなります。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a scene -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a scene</span><span class="translation">騒ぎを起こす、醜態をさらす</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   😡 [感情爆発] ━━ scene ━━→ 👀 [注目]<br>   <br>   「人前で騒ぎを起こす」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Please don't make a scene in the restaurant.</p>
+					<p class="jp-sent">レストランで騒ぎを起こさないでください。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made a scene when they refused her request.</p>
+					<p class="jp-sent">彼女は要求を拒否されると騒ぎを起こした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I don't want to make a scene, but this is unacceptable.</p>
+					<p class="jp-sent">騒ぎを起こしたくはないが、これは受け入れられない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He's known for making scenes at meetings.</p>
+					<p class="jp-sent">彼は会議で騒ぎを起こすことで知られている。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>cause a scene とも言えますが、make a scene の方が一般的です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make ends meet -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make ends meet</span><span class="translation">収支を合わせる、やりくりする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   💰 [収入] ━━━━━━→ [支出] 💸<br>         ends meet ↑<br>   <br>   「収入と支出の端を合わせる」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">It's hard to make ends meet on a single income.</p>
+					<p class="jp-sent">一つの収入だけでは生活がやりくりできない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They're struggling to make ends meet.</p>
+					<p class="jp-sent">彼らは生活費のやりくりに苦労している。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She works two jobs to make ends meet.</p>
+					<p class="jp-sent">彼女は生活費を稼ぐために2つの仕事をしている。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Can you make ends meet with that salary?</p>
+					<p class="jp-sent">その給料で生活できますか？</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>経済的困難を表す定型表現で、ends は必ず複数形になります。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a fool of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a fool of</span><span class="translation">〜を馬鹿にする、恥をかかせる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   😏 [嘲笑] ━━ fool of ━━→ 😳 [恥]<br>   <br>   「誰かを愚か者にする」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Don't make a fool of yourself.</p>
+					<p class="jp-sent">恥をかかないで。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made a fool of me in front of everyone.</p>
+					<p class="jp-sent">彼はみんなの前で私を馬鹿にした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She felt she had been made a fool of.</p>
+					<p class="jp-sent">彼女は馬鹿にされたと感じた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Stop making a fool of him!</p>
+					<p class="jp-sent">彼を馬鹿にするのはやめて！</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>make a fool of oneself で「自分で恥をかく」という再帰的な使い方が非常に一般的です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make fun of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make fun of</span><span class="translation">〜をからかう、〜を笑いものにする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   😄 [笑い] ━━ fun of ━━→ 😢 [対象]<br>   <br>   「誰かを笑いの対象にする」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Don't make fun of people's accents.</p>
+					<p class="jp-sent">人のアクセントをからかわないで。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made fun of his new haircut.</p>
+					<p class="jp-sent">彼らは彼の新しい髪型を笑った。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Kids often make fun of those who are different.</p>
+					<p class="jp-sent">子供たちはしばしば違う人をからかう。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I'm not making fun of you.</p>
+					<p class="jp-sent">あなたをからかっているわけではない。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>tease や mock と似ていますが、make fun of が最も一般的で日常的な表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a name for oneself -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a name for oneself</span><span class="translation">名を上げる、有名になる</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [無名] ━━ name ━━→ [名声] ⭐<br>   <br>   「名声という評判を作る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">She made a name for herself in the fashion industry.</p>
+					<p class="jp-sent">彼女はファッション業界で名を上げた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He's trying to make a name for himself as a writer.</p>
+					<p class="jp-sent">彼は作家として名を上げようとしている。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made a name for themselves with innovative designs.</p>
+					<p class="jp-sent">彼らは革新的なデザインで名を馳せた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">It takes years to make a name for yourself.</p>
+					<p class="jp-sent">名を上げるには何年もかかる。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>become famous よりも「努力して名声を獲得する」というニュアンスが強い表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a fortune -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a fortune</span><span class="translation">財産を築く、大金を稼ぐ</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   💰 [努力] ━━ fortune ━━→ 💎 [富]<br>   <br>   「富という財産を作り出す」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made a fortune in real estate.</p>
+					<p class="jp-sent">彼は不動産で財産を築いた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made a fortune selling her company.</p>
+					<p class="jp-sent">彼女は会社を売却して大金を手に入れた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">You could make a fortune with that idea!</p>
+					<p class="jp-sent">そのアイデアで大儲けできるかもしれない！</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made a fortune during the gold rush.</p>
+					<p class="jp-sent">彼らはゴールドラッシュで財産を築いた。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>get rich よりもドラマチックで、特に大きな成功を強調する表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a killing -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a killing</span><span class="translation">大もうけする</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   💰 ━━ killing ━━→ 💰💰💰 [大儲け]<br>   <br>   「驚くような利益を得る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made a killing on the stock market.</p>
+					<p class="jp-sent">彼は株式市場で大儲けした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made a killing selling their startup.</p>
+					<p class="jp-sent">彼らはスタートアップを売却して大儲けした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">You can make a killing if you invest wisely.</p>
+					<p class="jp-sent">賢く投資すれば大儲けできる。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made a killing in cryptocurrency.</p>
+					<p class="jp-sent">彼女は仮想通貨で大儲けした。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>make a fortune よりもカジュアルで、特に短期間での大きな利益を強調します。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a move -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a move</span><span class="translation">行動を起こす、動く</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [静止] ━━ move ━━→ [行動] 🚀<br>   <br>   「動きという行動を起こす」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">It's time to make a move.</p>
+					<p class="jp-sent">行動を起こす時だ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He's ready to make a move on the project.</p>
+					<p class="jp-sent">彼はプロジェクトで行動を起こす準備ができている。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">If we don't make a move soon, we'll lose the opportunity.</p>
+					<p class="jp-sent">すぐに行動を起こさないと機会を失う。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made a move to leave the company.</p>
+					<p class="jp-sent">彼女は会社を辞める動きを見せた。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>take action よりも口語的で、特にタイミングを意識した行動を表します。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make headway -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make headway</span><span class="translation">前進する、進展する</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [停滞] ━━ headway ━━→ [前進] →<br>   <br>   「頭を前に進める＝前進」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">We're finally making headway on the project.</p>
+					<p class="jp-sent">プロジェクトでついに進展がある。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made little headway in the negotiations.</p>
+					<p class="jp-sent">彼らは交渉であまり進展を得られなかった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">It's hard to make headway against such strong opposition.</p>
+					<p class="jp-sent">そのような強い反対に対して前進するのは難しい。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The team is making steady headway.</p>
+					<p class="jp-sent">チームは着実に前進している。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>make progress と似ていますが、make headway は特に困難に対する前進を強調します。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make inroads -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make inroads</span><span class="translation">進出する、浸透する</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [外部] ━━ inroads ━━→ [侵入] 🎯<br>   <br>   「内部への道を作る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The company is making inroads into the Asian market.</p>
+					<p class="jp-sent">会社はアジア市場に進出しつつある。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They've made significant inroads against their competitors.</p>
+					<p class="jp-sent">彼らは競合に対して大きな進展を遂げた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We need to make inroads in this demographic.</p>
+					<p class="jp-sent">この層に浸透する必要がある。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Technology is making inroads into traditional industries.</p>
+					<p class="jp-sent">テクノロジーは伝統産業に浸透しつつある。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>penetrate や break into よりもビジネス的で、徐々に浸透するニュアンスがあります。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make amends -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make amends</span><span class="translation">償いをする、埋め合わせをする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [過ち] ━━ amends ━━→ [償い] 🙏<br>   <br>   「修正という償いを作る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He's trying to make amends for his past mistakes.</p>
+					<p class="jp-sent">彼は過去の過ちを償おうとしている。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">I want to make amends for what I said.</p>
+					<p class="jp-sent">私が言ったことを償いたい。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made amends by offering compensation.</p>
+					<p class="jp-sent">彼らは補償を申し出て償いをした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">It's never too late to make amends.</p>
+					<p class="jp-sent">償いをするのに遅すぎることはない。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>apologize よりも具体的な償いの行動を含意する表現です。amends は常に複数形です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make haste -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make haste</span><span class="translation">急ぐ</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   ⏰ [緊急] ━━ haste ━━→ 💨 [急行]<br>   <br>   「急ぎという行動を作る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Make haste! We're running late.</p>
+					<p class="jp-sent">急いで！遅れているよ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made haste to finish before the deadline.</p>
+					<p class="jp-sent">彼らは締め切り前に終えようと急いだ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We must make haste if we want to catch the train.</p>
+					<p class="jp-sent">電車に間に合いたいなら急がなければ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Make haste slowly. (ことわざ)</p>
+					<p class="jp-sent">急がば回れ。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>hurry の方が現代的ですが、make haste は格式高い文脈や文学作品で使われます。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make waves -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make waves</span><span class="translation">波風を立てる、物議を醸す</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   🌊 [平穏] ━━ waves ━━→ 💥 [騒動]<br>   <br>   「波という騒動を起こす」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He's not afraid to make waves in the industry.</p>
+					<p class="jp-sent">彼は業界で波風を立てることを恐れていない。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Don't make waves on your first day.</p>
+					<p class="jp-sent">初日から問題を起こさないで。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Her proposal is making waves in the committee.</p>
+					<p class="jp-sent">彼女の提案は委員会で物議を醸している。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Sometimes you need to make waves to create change.</p>
+					<p class="jp-sent">変化を起こすには時々波風を立てる必要がある。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>肯定的にも否定的にも使えますが、通常は「現状を揺さぶる」というニュアンスがあります。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a stand -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a stand</span><span class="translation">立場を明確にする、抵抗する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   💪 [決意] ━━ stand ━━→ [抵抗] 🛡️<br>   <br>   「立場という姿勢を確立する」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">We need to make a stand against injustice.</p>
+					<p class="jp-sent">不正義に対して立ち向かう必要がある。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made a stand for what he believed in.</p>
+					<p class="jp-sent">彼は自分の信念のために立ち上がった。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">It's time to make a stand.</p>
+					<p class="jp-sent">立場を明確にする時だ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made their final stand at the fortress.</p>
+					<p class="jp-sent">彼らは要塞で最後の抵抗をした。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>take a stand とほぼ同義で、both とも強い決意を表します。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a comeback -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a comeback</span><span class="translation">復活する、カムバックする</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   📉 [低迷] ━━ comeback ━━→ 📈 [復活]<br>   <br>   「戻りという復活を実現する」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The company is making a comeback after years of losses.</p>
+					<p class="jp-sent">会社は何年もの損失の後、復活しつつある。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made an impressive comeback in the second half.</p>
+					<p class="jp-sent">彼は後半に見事な復活を遂げた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Vinyl records are making a comeback.</p>
+					<p class="jp-sent">アナログレコードが復活している。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She's trying to make a comeback in her career.</p>
+					<p class="jp-sent">彼女はキャリアでカムバックしようとしている。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>名詞 comeback は日本語にもなっている表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a breakthrough -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a breakthrough</span><span class="translation">躍進する、突破口を開く</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   🧱 [障壁] ━━ breakthrough ━━→ ⚡ [突破]<br>   <br>   「突破という進展を実現する」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Scientists have made a breakthrough in cancer research.</p>
+					<p class="jp-sent">科学者たちはがん研究で躍進を遂げた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We need to make a breakthrough in these negotiations.</p>
+					<p class="jp-sent">この交渉で突破口を開く必要がある。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The company made a major breakthrough with this technology.</p>
+					<p class="jp-sent">会社はこの技術で大きな躍進を遂げた。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They're trying to make a breakthrough in renewable energy.</p>
+					<p class="jp-sent">彼らは再生可能エネルギーで突破口を開こうとしている。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>achieve a breakthrough とも言えますが、make a breakthrough の方が一般的です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make it up to -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make it up to</span><span class="translation">〜に埋め合わせをする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [過ち] ━━ it up to ━━→ [償い] 🎁<br>   <br>   「相手への償いを作る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">I'll make it up to you, I promise.</p>
+					<p class="jp-sent">埋め合わせをするから、約束するよ。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">How can I make it up to you?</p>
+					<p class="jp-sent">どうやって埋め合わせをすればいいですか？</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He tried to make it up to her by buying flowers.</p>
+					<p class="jp-sent">彼は花を買って彼女に埋め合わせをしようとした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Let me make it up to you next time.</p>
+					<p class="jp-sent">今度埋め合わせさせてください。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>compensate someone よりも感情的で個人的なニュアンスがある表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make over to -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make over to</span><span class="translation">〜に譲渡する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   [所有権] ━━ over to ━━→ [移転] 📜<br>   <br>   「権利を他者に移す」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He made over his estate to his children.</p>
+					<p class="jp-sent">彼は財産を子供たちに譲渡した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The property was made over to the trust.</p>
+					<p class="jp-sent">その財産は信託に譲渡された。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made over all her shares to her partner.</p>
+					<p class="jp-sent">彼女は全ての株式をパートナーに譲渡した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The land was made over to the government.</p>
+					<p class="jp-sent">その土地は政府に譲渡された。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>transfer よりも法的で正式なニュアンスがある表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make like -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make like</span><span class="translation">〜のふりをする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   🎭 [演技] ━━ like ━━→ [模倣]<br>   <br>   「〜のように振る舞う」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Make like a tree and leave! (ジョーク)</p>
+					<p class="jp-sent">木のようになって「葉（=去れ）」！</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He made like he didn't care.</p>
+					<p class="jp-sent">彼は気にしないふりをした。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Make like you're sleeping.</p>
+					<p class="jp-sent">寝ているふりをして。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">She made like a statue and didn't move.</p>
+					<p class="jp-sent">彼女は彫像のようにじっとしていた。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>act like や pretend よりもカジュアルで、しばしばユーモラスな文脈で使われます。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make a bid for -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make a bid for</span><span class="translation">〜に入札する、〜を狙う</span><span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">   💰 [提案] ━━ bid for ━━→ 🎯 [獲得]<br>   <br>   「入札という試みを作る」</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The company made a bid for the contract.</p>
+					<p class="jp-sent">会社はその契約に入札した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">He's making a bid for the championship.</p>
+					<p class="jp-sent">彼は優勝を狙っている。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">They made a bid for independence.</p>
+					<p class="jp-sent">彼らは独立を目指した。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Several firms made bids for the project.</p>
+					<p class="jp-sent">複数の企業がそのプロジェクトに入札した。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>attempt や try for よりもビジネス的で、特に正式な提案や競争を含意します。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- SECTION 04 -->
+	<div class="section-title">
+		<span class="section-badge">04</span>
+		多義語・注意
+	</div>
+
+	<!-- make for it -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make for it</span><span class="translation">急いで向かう</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃‍♂️💨 ━━ for it ━━→ 🎯</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- make against -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make against</span><span class="translation">〜に不利に働く</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">❌ ━━ against ━━→ [不利]</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>work against や count against の方が現代的です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make bold to -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make bold to</span><span class="translation">あえて〜する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">[謙遜] ━━ bold to ━━→ [大胆]</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>非常にフォーマルで古風な表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make out like -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make out like</span><span class="translation">〜のように見せかける</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🎭 ━━ out like ━━→ [演技]</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>主にアメリカ口語で使われるカジュアルな表現です。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- make as if to -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">make as if to</span><span class="translation">〜しようとする</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">[動作] ━━ as if to ━━→ [企図]</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>文学的な表現で、実際には行動に移さない場合が多いです。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="text-center mt-12 mb-12">
+		<a href="./part1.html"
+			class="inline-block bg-slate-600 text-white font-bold py-4 px-8 rounded-full shadow hover:bg-slate-700 transition">
+			← MAKE 句動詞【前編】に戻る
+		</a>
+	</footer>
 
 </body>
 
