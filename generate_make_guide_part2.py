@@ -392,6 +392,71 @@ for i in range(1, len(sections), 3):
         cards_html += f'\t\t</div>\n'
         cards_html += f'\t</div>\n\n'
 
+# Extract summary section (## まとめ)
+summary_html = ""
+summary_match = re.search(r'## まとめ\s*\n\n(.*?)(?=\n---\n\n\*\*MAKE句動詞大全|$)', content, re.DOTALL)
+if summary_match:
+    summary_content = summary_match.group(1).strip()
+    
+    # Build summary HTML
+    summary_html += '\t<!-- Summary Section -->\n'
+    summary_html += '\t<div class="card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; margin-top: 48px;">\n'
+    summary_html += '\t\t<div class="card-header" style="background: rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.2);">\n'
+    summary_html += '\t\t\t<span class="phrase" style="color: white; font-size: 2rem;">📚 まとめ</span>\n'
+    summary_html += '\t\t</div>\n'
+    summary_html += '\t\t<div class="card-body" style="color: white;">\n'
+    
+    # Split by sections (marked by **)
+    lines = summary_content.split('\n')
+    current_section = []
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # Check if it's a section header (starts with **)
+        if line.startswith('**') and line.endswith('**'):
+            # Output previous section if exists
+            if current_section:
+                summary_html += '\t\t\t<div class="mb-6">\n'
+                for item in current_section:
+                    summary_html += f'\t\t\t\t<p class="ml-4">{item}</p>\n'
+                summary_html += '\t\t\t</div>\n'
+                current_section = []
+            
+            # Add section header
+            section_title = line.replace('**', '').replace('：', ':')
+            summary_html += f'\t\t\t<h3 class="text-xl font-bold mb-3 mt-6" style="color: #fbbf24;">{section_title}</h3>\n'
+        elif line.startswith('-'):
+            # List item
+            item_text = line[1:].strip()
+            current_section.append(f'• {item_text}')
+        else:
+            # Regular paragraph
+            if current_section:
+                summary_html += '\t\t\t<div class="mb-6">\n'
+                for item in current_section:
+                    summary_html += f'\t\t\t\t<p class="ml-4">{item}</p>\n'
+                summary_html += '\t\t\t</div>\n'
+                current_section = []
+            summary_html += f'\t\t\t<p class="mb-4 text-lg leading-relaxed">{line}</p>\n'
+    
+    # Output remaining items
+    if current_section:
+        summary_html += '\t\t\t<div class="mb-6">\n'
+        for item in current_section:
+            summary_html += f'\t\t\t\t<p class="ml-4">{item}</p>\n'
+        summary_html += '\t\t\t</div>\n'
+    
+    summary_html += '\t\t</div>\n'
+    summary_html += '\t</div>\n\n'
+    
+    # Add completion message
+    summary_html += '\t<div class="text-center mt-8 mb-8">\n'
+    summary_html += '\t\t<p class="text-2xl font-black text-slate-800">🎉 MAKE句動詞大全（全編）完 🎉</p>\n'
+    summary_html += '\t</div>\n\n'
+
 # Footer
 footer = '''\t<!-- Footer -->
 	<footer class="text-center mt-12 mb-12">
@@ -407,6 +472,6 @@ footer = '''\t<!-- Footer -->
 
 # Write complete HTML
 with open(r'c:\Users\yuto\OneDrive\Toeic-cards--main\verbs\make\guide\part2.html', 'w', encoding='utf-8') as f:
-    f.write(html + cards_html + footer)
+    f.write(html + cards_html + summary_html + footer)
 
 print("Generated part2.html successfully!")
