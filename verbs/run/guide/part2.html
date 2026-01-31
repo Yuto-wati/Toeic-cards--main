@@ -1,1459 +1,1340 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-	<title>RUN 句動詞 完全解説【後編】</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RUN 句動詞 完全解説【後編】 (66-130)</title>
 	<script src="https://cdn.tailwindcss.com"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@500;600;700;900&display=swap"
 		rel="stylesheet">
 	<style>
 		body {
-			font-family: 'Noto Sans JP', system-ui, sans-serif;
-			background-color: #f1f5f9;
+			background-color: #f8fafc;
+			font-family: 'Noto Sans JP', sans-serif;
 			color: #334155;
-			line-height: 1.7;
 		}
 
-		.font-poppins {
-			font-family: 'Poppins', system-ui, sans-serif;
-		}
-
-		/* Animation */
-		.fade-in-up {
-			animation: fadeInUp 0.8s ease-out forwards;
-			opacity: 0;
-			transform: translateY(20px);
-		}
-
-		@keyframes fadeInUp {
-			to {
-				opacity: 1;
-				transform: translateY(0);
-			}
-		}
-
-		.delay-100 {
-			animation-delay: 0.1s;
-		}
-
-		.delay-200 {
-			animation-delay: 0.2s;
-		}
-
-		.delay-300 {
-			animation-delay: 0.3s;
-		}
-
-		/* Card */
-		.hover-card {
-			transition: all 0.3s ease;
-		}
-
-		.hover-card:hover {
-			transform: translateY(-4px);
-			box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-		}
-
-		/* Visuals */
-		.core-box {
-			background-color: #eff6ff;
-			border: 1px dashed #3b82f6;
-			padding: 16px;
+		.card {
+			background: white;
 			border-radius: 12px;
-			text-align: center;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+			border: 1px solid #e2e8f0;
+			margin-bottom: 24px;
+			overflow: hidden;
+		}
+
+		.card-header {
+			background-color: #f1f5f9;
+			padding: 16px 24px;
+			border-bottom: 1px solid #e2e8f0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+
+		.phrase {
+			font-family: 'Poppins', sans-serif;
+			font-weight: 700;
+			font-size: 1.5rem;
+			color: #1e293b;
+		}
+
+		.translation {
+			font-size: 0.9rem;
+			font-weight: 700;
+			color: #64748b;
+			background: white;
+			padding: 4px 12px;
+			border-radius: 20px;
+			border: 1px solid #cbd5e1;
+		}
+
+		.core-box {
+			background-color: #fffbeb;
+			border: 1px dashed #fcd34d;
+			border-radius: 8px;
+			padding: 16px;
 			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		.core-title {
+			font-weight: 700;
+			color: #d97706;
+			font-size: 0.9rem;
+			margin-bottom: 8px;
+			display: block;
 		}
 
 		.visual-text {
-			display: block;
 			font-family: monospace;
-			color: #1e293b;
-			font-weight: 700;
-			margin-top: 8px;
-			font-size: 1.1rem;
 			white-space: pre-wrap;
+			color: #475569;
+			font-weight: 700;
 			line-height: 1.4;
 		}
 
-		/* Badges */
-		.level-badge {
-			display: inline-block;
+		.explanation {
+			font-size: 0.85rem;
+			color: #475569;
+			margin-top: 4px;
+		}
+
+		.point-area {
+			background-color: #f0f9ff;
+			border-radius: 8px;
+			padding: 16px;
+			margin-top: 20px;
+			font-size: 0.9rem;
+		}
+
+		.point-label {
+			font-weight: 700;
+			color: #0369a1;
+			margin-bottom: 4px;
+			display: block;
+		}
+
+		.section-title {
+			font-size: 1.5rem;
+			font-weight: 900;
+			color: #1e293b;
+			margin-top: 40px;
+			margin-bottom: 20px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #3b82f6;
+			display: flex;
+			align-items: center;
+			gap: 12px;
+		}
+
+		.section-badge {
+			background-color: #3b82f6;
+			color: white;
+			font-size: 1rem;
 			padding: 4px 12px;
 			border-radius: 9999px;
-			font-size: 0.75rem;
-			font-weight: 900;
-			letter-spacing: 0.05em;
-			margin-right: 8px;
+			font-family: 'Poppins', sans-serif;
+		}
+
+		.link-button {
+			display: block;
+			width: 100%;
+			text-align: center;
+			background: #3b82f6;
+			color: white;
+			padding: 16px;
+			border-radius: 8px;
+			font-weight: bold;
+			margin-top: 40px;
+			text-decoration: none;
+			transition: background-color 0.3s;
+		}
+
+		@media print {
+			.card {
+				break-inside: avoid;
+				border: 1px solid #ccc;
+				box-shadow: none;
+				print-color-adjust: exact;
+				-webkit-print-color-adjust: exact;
+			}
+
+			.nav-container,
+			.link-button,
+			footer {
+				display: none;
+			}
+
+			body {
+				background: white;
+			}
 		}
 	</style>
 </head>
 
-<body class="p-6 md:p-12">
-	<div class="max-w-5xl mx-auto space-y-16">
-
-		<!-- Header -->
-		<header class="text-center space-y-6 fade-in-up">
-			<div
-				class="inline-block bg-emerald-600 text-white px-5 py-2 rounded-full text-xs font-black tracking-widest border border-emerald-700">
-				RUN PHRASAL VERBS
-			</div>
-			<h1 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
-				RUN 句動詞 完全解説【後編】
-			</h1>
-			<p class="text-lg font-bold text-slate-500">
-				ビジネス上級・多義語・慣用表現（66〜130）
-			</p>
-		</header>
-
-		<!-- 66. run at a profit -->
-		<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-			<div class="absolute top-4 right-4">
-				<span
-					class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-					TOEIC頻出</span>
-			</div>
-			<h3 class="text-xl font-black text-amber-700 mb-2">66. run at a profit</h3>
-			<p class="text-xs font-bold text-slate-400 mb-4">黒字経営する</p>
-			<div class="core-box bg-amber-50 border-amber-200">
-				<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-				<span class="visual-text text-amber-900">💰 ━━→→→ ✅<br>利益が出ている状態で動く</span>
-			</div>
-			<div class="space-y-4 text-sm text-slate-700">
-				<div>
-					<p class="font-bold">The company is finally running at a profit.</p>
-					<p class="text-xs text-slate-500">その会社はようやく黒字経営になっています。</p>
-					<p class="font-bold mt-2">We aim to run the new branch at a profit within a year.</p>
-					<p class="text-xs text-slate-500">1年以内に新支店を黒字化することを目指しています。</p>
-				</div>
-			</div>
-			<div class="mt-4 p-3 bg-slate-50 text-slate-600 text-xs rounded font-bold">
-				ポイント：損失を出さず、利益を上げながら運営している状態。
-			</div>
-		</div>
-
-		<!-- 67. run on a budget -->
-		<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-			<h3 class="text-xl font-black text-amber-700 mb-2">67. run on a budget</h3>
-			<p class="text-xs font-bold text-slate-400 mb-4">限られた予算内で運営する</p>
-			<div class="core-box bg-amber-50 border-amber-200">
-				<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-				<span class="visual-text text-amber-900">🪙 ━━→→→ [Budget]<br>予算という枠組みの上で動く</span>
-			</div>
-			<div class="space-y-4 text-sm text-slate-700">
-				<div>
-					<p class="font-bold">The project is being run on a tight budget.</p>
-					<p class="text-xs text-slate-500">そのプロジェクトは厳しい予算内で運営されています。</p>
-					<p class="font-bold mt-2">It&#x27;s difficult to run a department on such a small budget.</p>
-					<p class="text-xs text-slate-500">そのような少ない予算で部署を運営するのは難しいです。</p>
-				</div>
-			</div>
-			<div class="mt-4 p-3 bg-slate-50 text-slate-600 text-xs rounded font-bold">
-				ポイント：潤沢な資金ではなく、決まった予算の範囲内でやりくりすること。
-			</div>
-		</div>
-
-		<!-- 68. run on schedule -->
-		<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-			<div class="absolute top-4 right-4">
-				<span
-					class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-					TOEIC頻出</span>
-			</div>
-			<h3 class="text-xl font-black text-amber-700 mb-2">68. run on schedule</h3>
-			<p class="text-xs font-bold text-slate-400 mb-4">予定通りに運行・進行する</p>
-			<div class="core-box bg-amber-50 border-amber-200">
-				<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-				<span class="visual-text text-amber-900">📅 ━━→→→ [Schedule]<br>予定という線の上を動く</span>
-			</div>
-			<div class="space-y-4 text-sm text-slate-700">
-				<div>
-					<p class="font-bold">The trains are running on schedule today.</p>
-					<p class="text-xs text-slate-500">今日の電車は予定通りに運行しています。</p>
-					<p class="font-bold mt-2">Is the renovation project running on schedule?</p>
-					<p class="text-xs text-slate-500">リフォーム計画は予定通りに進んでいますか？</p>
-				</div>
-			</div>
-			<div class="mt-4 p-3 bg-slate-50 text-slate-600 text-xs rounded font-bold">
-				ポイント：遅延なく、決められたスケジュール通りに物事が進んでいること。
-			</div>
-		</div>
-
-		<!-- 69. run by the rules -->
-		<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-			<h3 class="text-xl font-black text-amber-700 mb-2">69. run by the rules</h3>
-			<p class="text-xs font-bold text-slate-400 mb-4">規則に従って運営する</p>
-			<div class="core-box bg-amber-50 border-amber-200">
-				<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-				<span class="visual-text text-amber-900">⚖️ ━━→→→ [Rules]<br>ルールによって動かされる</span>
-			</div>
-			<div class="space-y-4 text-sm text-slate-700">
-				<div>
-					<p class="font-bold">The organization is run strictly by the rules.</p>
-					<p class="text-xs text-slate-500">その組織は厳格に規則に従って運営されています。</p>
-					<p class="font-bold mt-2">We must run the competition by the official rules.</p>
-					<p class="text-xs text-slate-500">大会は公式ルールに則って運営しなければなりません。</p>
-				</div>
-			</div>
-			<div class="mt-4 p-3 bg-slate-50 text-slate-600 text-xs rounded font-bold">
-				ポイント：独自の判断ではなく、既存の規則を遵守して物事を進めること。
-			</div>
-		</div>
-
-		<!-- 70. run according to plan -->
-		<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-			<h3 class="text-xl font-black text-amber-700 mb-2">70. run according to plan</h3>
-			<p class="text-xs font-bold text-slate-400 mb-4">計画通りに進む</p>
-			<div class="core-box bg-amber-50 border-amber-200">
-				<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-				<span class="visual-text text-amber-900">🗺️ ━━→→→ [Plan]<br>計画に一致して動く</span>
-			</div>
-			<div class="space-y-4 text-sm text-slate-700">
-				<div>
-					<p class="font-bold">Thankfully, everything is running according to plan.</p>
-					<p class="text-xs text-slate-500">ありがたいことに、すべてが計画通りに進んでいます。</p>
-					<p class="font-bold mt-2">The product launch ran according to plan.</p>
-					<p class="text-xs text-slate-500">製品の発売は計画通りに進みました。</p>
-				</div>
-			</div>
-			<div class="mt-4 p-3 bg-slate-50 text-slate-600 text-xs rounded font-bold">
-				ポイント：予期せぬトラブルなく、当初の計画と一致して進行すること。
-			</div>
-		</div>
-
-		<!-- SECTION 4 -->
-		<section class="space-y-8 fade-in-up delay-200">
-			<div class="flex items-center gap-3 border-b-2 border-rose-300 pb-3">
-				<span class="level-badge bg-rose-100 text-rose-700">Section 4</span>
-				<h2 class="text-2xl font-black text-slate-800">多義語・慣用表現</h2>
-			</div>
-
-			<div class="grid md:grid-cols-2 gap-6" id="section-4-content">
-				<!-- 71. run out (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<h3 class="text-xl font-black text-rose-700 mb-2">71. run out</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（在庫や蓄えが）尽きる、なくなる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� → → → 💨 [空]<br>中から外へ出て空になる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">Our supplies have run out.</p>
-							<p class="text-xs text-slate-500">蓄えが底をつきました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 72. run out (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">72. run out</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">外へ走り出る</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏠 ━━→ 🏃 [Out]<br>建物などから外へ走る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He ran out into the street.</p>
-							<p class="text-xs text-slate-500">彼は通りへ走り出しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 73. run out (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">73. run out</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（契約などが）切れる、満了する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━→ 🛑 [End]<br>有効期限が外へ出る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">My passport runs out next month.</p>
-							<p class="text-xs text-slate-500">パスポートの期限が来月で切れます。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 74. run out (4) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">74. run out</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（紐などが）伸びる、繰り出される</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">➰ ━━→→→ [Extend]<br>巻かれたものが伸びていく</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">Let the line run out.</p>
-							<p class="text-xs text-slate-500">（釣りの糸などを）繰り出しなさい。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 75. run into (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">75. run into</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（人）にばったり会う</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">👤 ━━→ � [偶然]<br>偶然の領域に走り込む</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">I ran into an old friend yesterday.</p>
-							<p class="text-xs text-slate-500">昨日、旧友にばったり会いました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 76. run into (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">76. run into</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（物に）衝突する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━→ � [物体]<br>物理的にぶつかる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The car ran into a tree.</p>
-							<p class="text-xs text-slate-500">車が木に衝突しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 77. run into (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">77. run into</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（問題・困難に）直面する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">⚠ ━━→ � [Trouble]<br>問題の中に突っ込む</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">We ran into some problems with the plan.</p>
-							<p class="text-xs text-slate-500">計画にいくつか問題が発生しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 78. run into (4) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">78. run into</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（合計などが）〜に達する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━→ [Amount]<br>ある数値の領域に達する</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The cost ran into millions of dollars.</p>
-							<p class="text-xs text-slate-500">費用は数百万ドルに達しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 79. run into (5) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">79. run into</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（ある状態に）発展する、変わる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">📈 ━━→ [Status]<br>別の状態へ移行する</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The storm ran into a hurricane.</p>
-							<p class="text-xs text-slate-500">嵐はハリケーンへと発展しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 80. run over (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">80. run over</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（車で）ひく、はねる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🚗 ━━↗️━━ [対象]<br>物理的に上を越えていく</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">A cat was run over by a car.</p>
-							<p class="text-xs text-slate-500">猫が車にひかれました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 81. run over (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">81. run over</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">時間を超過する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">⏰ ━━→ [Limit] ━━→<br>制限時間をはみ出す</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The meeting ran over by ten minutes.</p>
-							<p class="text-xs text-slate-500">会議は10分超過しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 82. run over (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">82. run over</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（要点を）ざっと見直す、確認する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">📄 ━━↗️━━ [Review]<br>表面をサッと撫でるように見る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">Let me run over the main points again.</p>
-							<p class="text-xs text-slate-500">要点をもう一度ざっとおさらいさせてください。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 83. run over (4) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">83. run over</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（液体が）あふれる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">💧 ━━↗️━━ [リム]<br>縁を越えて流れ出す</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The bathwater is running over.</p>
-							<p class="text-xs text-slate-500">お風呂のお湯があふれています。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 84. run through (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">84. run through</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（手順などを）復習する、練習する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏁 ━━→ [Step] ━━→<br>一連の流れを突き抜ける</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">Let&#x27;s run through the script once more.</p>
-							<p class="text-xs text-slate-500">台本をもう一度おさらいしましょう。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 85. run through (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">85. run through</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（お金などを）使い果たす</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">💰 ━━→ [End] ━━→<br>資産を貫通して消費し尽くす</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He ran through all his money in a week.</p>
-							<p class="text-xs text-slate-500">彼は1週間でお金をすべて使い果たしました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 86. run through (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">86. run through</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（思想や特徴が）貫く、流れる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">〰️ ━━→ [Core] ━━→<br>全体を一貫して通っている</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">A sense of optimism runs through the book.</p>
-							<p class="text-xs text-slate-500">その本には楽観的な考えが貫かれています。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 87. run through (4) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">87. run through</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（文書などに）ざっと目を通す</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">📄 🏃 ━━→ [Finish]<br>端から端まで素早く読み切る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">I ran through the report before the meeting.</p>
-							<p class="text-xs text-slate-500">会議の前にレポートにざっと目を通しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 88. run down (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">88. run down</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">駆け下りる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏃 ━━━↘️<br>高い所から低い所へ走る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He ran down the stairs.</p>
-							<p class="text-xs text-slate-500">彼は階段を駆け下りました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 89. run down (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">89. run down</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（電池が）切れる、止まる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━↘️ 🛑<br>エネルギーが低下して止まる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The battery has run down.</p>
-							<p class="text-xs text-slate-500">電池が切れてしまいました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 90. run down (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">90. run down</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">批判する、けなす</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━↘️ [Target]<br>言葉で相手の評価を下げる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">Stop running down your coworkers.</p>
-							<p class="text-xs text-slate-500">同僚をけなすのはやめなさい。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 91. run down (4) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">91. run down</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（車で）ひく</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━↘️ [対象]<br>対象を倒すようにひく</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He was run down by a truck.</p>
-							<p class="text-xs text-slate-500">彼はトラックにひかれました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 92. run down (5) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">92. run down</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">捜し出す、追い詰める</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🔍 ━━↘️ [Goal]<br>追跡して最後に捕まえる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">I finally ran down the source of the problem.</p>
-							<p class="text-xs text-slate-500">ようやく問題の原因を突き止めました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 93. run down (6) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">93. run down</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">衰退する、（質が）低下する</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">�️ ━━↘️ [Degrade]<br>活力がなくなり落ちぶれる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The neighborhood has run down over the years.</p>
-							<p class="text-xs text-slate-500">その界隈は何年もかけて衰退してしまいました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 94. run up (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">94. run up</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">駆け上がる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏃 ━━━↗️<br>低い所から高い所へ走る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">She ran up the hill.</p>
-							<p class="text-xs text-slate-500">彼女は丘を駆け上がりました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 95. run up (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">95. run up</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（借金や費用を）かさませる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━↗️ [Debt]<br>未払いの額が積み上がる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He ran up a huge debt on his credit card.</p>
-							<p class="text-xs text-slate-500">彼はクレジットカードで多額の借金をこしらえました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 96. run up (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">96. run up</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">急いで作る（縫う）</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🧵 ━━↗️ [Fast]<br>一気に仕上げる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">She ran up a dress in one afternoon.</p>
-							<p class="text-xs text-slate-500">彼女は午後の間にドレスを一着急いで作りました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 97. run up (4) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">97. run up</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（旗を）掲げる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━━↗️<br>ポールの頂上まで上げる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">They ran up the national flag.</p>
-							<p class="text-xs text-slate-500">彼らは国旗を掲げました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 98. run on (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">98. run on</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（時間が）長引く、続く</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">⏳ ━━━→ [Continue]<br>止まらずに先へ進み続ける</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The play ran on for over three hours.</p>
-							<p class="text-xs text-slate-500">その劇は3時間以上も続きました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 99. run on (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">99. run on</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">延々と話す</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🗣️ ━━━→ [Endless]<br>口が止まらずに動き続ける</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He tends to run on about his hobbies.</p>
-							<p class="text-xs text-slate-500">彼は自分の趣味について延々と話す傾向があります。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 100. run on (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">100. run on</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">〜を動力源（燃料）として動く</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">⚙️ ━━━→ [Energy]<br>特定のエネルギーの上で動く</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">This machine runs on solar power.</p>
-							<p class="text-xs text-slate-500">この機械は太陽光で動きます。</p>
-						</div>
-					</div>
-				</div>
-				<!-- 101. run off (1) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">101. run off</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">逃げ去る、急いで去る</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏃 ━━━→ [Away]<br>その場所から走り去る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">They ran off when they saw the police.</p>
-							<p class="text-xs text-slate-500">彼らは警察を見て逃げ去りました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 102. run off (2) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">102. run off</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">印刷する、コピーを取る</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">📄 ━━→ [Print]<br>機械を動かして紙を出す</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">Could you run off 20 copies of this?</p>
-							<p class="text-xs text-slate-500">これのコピーを20部取ってもらえますか？</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 103. run off (3) -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">103. run off</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（液体などが）流れ出る</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� ━━━→ [Surface]<br>表面を伝って外へ流れる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The rainwater runs off the roof.</p>
-							<p class="text-xs text-slate-500">雨水が屋根から流れ落ちます。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 104. run a red light -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">104. run a red light</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">信号無視をする</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🚦 🏃 ━━→ [Cross]<br>止まるべき点を走り抜ける</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He got a ticket for running a red light.</p>
-							<p class="text-xs text-slate-500">彼は信号無視で切符を切られました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 105. run a mile -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">105. run a mile</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（嫌がって）逃げ出す、全力で避ける</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏃 ━━━ [1 Mile] ━━→<br>遠くまで逃げる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He’d run a mile if you asked him to help.</p>
-							<p class="text-xs text-slate-500">手伝いを頼もうものなら、彼は一目散に逃げるでしょう。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 106. run amok -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">106. run amok</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">暴れ回る、収拾がつかなくなる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🌀 🏃 ━━→ [Chaos]<br>制御不能で狂ったように動く</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The crowds ran amok in the streets.</p>
-							<p class="text-xs text-slate-500">群衆が通りで暴れ回りました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 107. run circles around -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">107. run circles around</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（能力などで）〜を圧倒する、赤子同然に扱う</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏃 🔄 [Target] 🔄<br>相手の周りを回れるほど速い</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">She runs circles around the other players.</p>
-							<p class="text-xs text-slate-500">彼女は他の選手たちを圧倒しています。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 108. run dry -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">108. run dry</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">枯渇する、尽きる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">💧 📉 [Dry] 🛑<br>流れるものがなくなって乾く</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The wells have run dry.</p>
-							<p class="text-xs text-slate-500">井戸が枯れてしまいました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 109. run ragged -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">109. run ragged</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">くたくたに疲れさせる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏃 ━━━ [Exhaust] ━━→<br>服がボロボロになるまで走らせる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The kids have run me ragged all day.</p>
-							<p class="text-xs text-slate-500">子供たちの相手で一日中くたくたです。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 110. run rings around -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">110. run rings around</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">〜を圧倒する（circles aroundと同義）</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🏃 🔄 [Target] 🔄<br>相手を翻弄して圧倒する</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">Our team ran rings around the opposition.</p>
-							<p class="text-xs text-slate-500">私たちのチームは相手チームを圧倒しました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 111. run riot -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">111. run riot</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">暴動を起こす、（想像などが）手がつけられなくなる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🔥 🏃 ━━→ [Riot]<br>法や制限を無視して暴れる</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">His imagination was allowed to run riot.</p>
-							<p class="text-xs text-slate-500">彼の想像力はとどまるところを知りませんでした。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 112. run scared -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">112. run scared</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">怖がって逃げる、びくびくする</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">😨 🏃 ━━━→<br>恐怖を感じながら逃げ回る</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The candidate is running scared.</p>
-							<p class="text-xs text-slate-500">その候補者は（落選を恐れて）びくびくしています。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 113. run the show -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-					<div class="absolute top-4 right-4">
-						<span
-							class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-							TOEIC頻出</span>
-					</div>
-					<h3 class="text-xl font-black text-rose-700 mb-2">113. run the show</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（組織や状況を）仕切る、取り仕切る</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">� 👤 ━━→ [Control]<br>全体の進行を一手に担う</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">She's the one who really runs the show here.</p>
-							<p class="text-xs text-slate-500">ここで実際にすべてを仕切っているのは彼女です。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 114. run the gauntlet -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">114. run the gauntlet</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">厳しい試練を受ける、非難の的になる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">⚔️ 🏃 ⚔️ [Ordeal]<br>両側から攻撃される中を通り抜ける</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">He had to run the gauntlet of press questions.</p>
-							<p class="text-xs text-slate-500">彼はメディアからの厳しい質問攻めに遭いました。</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- 115. run to seed -->
-				<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-					<h3 class="text-xl font-black text-rose-700 mb-2">115. run to seed</h3>
-					<p class="text-xs font-bold text-slate-400 mb-4">（植物が種をつけて）荒れ果てる、盛りが過ぎる</p>
-					<div class="core-box bg-rose-50 border-rose-200">
-						<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-						<span class="visual-text text-rose-900">🌿 ━━━→ [Seed] 🏚️<br>手入れがされず種をつけるまで放置される</span>
-					</div>
-					<div class="space-y-4 text-sm text-slate-700">
-						<div>
-							<p class="font-bold">The garden has run to seed.</p>
-							<p class="text-xs text-slate-500">庭が荒れ放題になっています。</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- run to seed -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">115. run to seed</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">荒れ果てる</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The garden has run to seed.</p>
-						<p class="text-xs text-slate-500">庭が荒れ果てています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run a tight ship -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">116. run a tight ship</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">厳格に管理する</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">Our manager runs a tight ship.</p>
-						<p class="text-xs text-slate-500">私たちのマネージャーは部内を厳格に管理しています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run in the red -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">117. run in the red</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">赤字経営する</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The store has been running in the red for months.</p>
-						<p class="text-xs text-slate-500">その店は数ヶ月間赤字経営が続いています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run in the black -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">118. run in the black</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">黒字経営する</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">Finally, we are running in the black.</p>
-						<p class="text-xs text-slate-500">ついに、黒字経営になりました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run roughshod over -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">119. run roughshod over</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">〜を踏みにじる</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">They run roughshod over the feelings of others.</p>
-						<p class="text-xs text-slate-500">彼らは他人の感情を踏みにじります。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run for cover -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">120. run for cover</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">逃げて隠れる</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">Everyone ran for cover when it started raining.</p>
-						<p class="text-xs text-slate-500">雨が降り出すと、みんな逃げて隠れました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run for one's life -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">121. run for one's life</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">命からがら逃げる</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">He had to run for his life.</p>
-						<p class="text-xs text-slate-500">彼は命からがら逃げなければなりませんでした。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run a temperature -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">122. run a temperature</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">熱がある</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The baby is running a high temperature.</p>
-						<p class="text-xs text-slate-500">赤ちゃんが高い熱を出しています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run to fat -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">123. run to fat</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">太る</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">He&#x27;s started to run to fat since he stopped exercising.</p>
-						<p class="text-xs text-slate-500">彼は運動をやめてから太り始めました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run to type -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-lg font-black text-amber-700 mb-2">124. run to type</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">典型的である</p>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">His reaction ran to type.</p>
-						<p class="text-xs text-slate-500">彼の反応は典型的なものでした。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- run like clockwork -->
-			<!-- 116. run a tight ship -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-				<div class="absolute top-4 right-4">
-					<span
-						class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-						TOEIC頻出</span>
-				</div>
-				<h3 class="text-xl font-black text-rose-700 mb-2">116. run a tight ship</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">（組織などを）厳格に管理する</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">⚓ 👤 ━━→ [Tight]<br>緩みのない船を操縦する</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">Our manager runs a tight ship.</p>
-						<p class="text-xs text-slate-500">私たちのマネージャーは部内を厳格に管理しています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 117. run in the red -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">117. run in the red</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">赤字経営する</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">📉 📉 [Red-Ink] 🛑<br>帳簿が赤字の状態で運営する</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The store has been running in the red for months.</p>
-						<p class="text-xs text-slate-500">その店は数ヶ月間赤字経営が続いています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 118. run in the black -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">118. run in the black</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">黒字経営する</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">📈 📈 [Black-Ink] ✨<br>帳簿が黒字の状態で運営する</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">Finally, we are running in the black.</p>
-						<p class="text-xs text-slate-500">ついに、黒字経営になりました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 119. run roughshod over -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">119. run roughshod over</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">〜を傍若無人に扱う、〜を踏みにじる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🐎 👞 ━━→ [Others]<br>滑り止めの蹄鉄で踏みつける</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">They run roughshod over the feelings of others.</p>
-						<p class="text-xs text-slate-500">彼らは他人の感情を平気で踏みにじります。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 120. run for cover -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">120. run for cover</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">避難する、逃げて隠れる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🏃 ━━━→ [Cover] 🛡️<br>身を隠せる場所を求めて走る</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">Everyone ran for cover when it started raining.</p>
-						<p class="text-xs text-slate-500">雨が降り出すと、みんな避難しました（逃げて隠れました）。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 121. run for one's life -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">121. run for one's life</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">命からがら逃げる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🏃 � ━━→ [Survival]<br>生き延びるために全速力で逃げる</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">He had to run for his life.</p>
-						<p class="text-xs text-slate-500">彼は命からがら逃げなければなりませんでした。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 122. run a temperature -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">122. run a temperature</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">熱がある</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🌡️ 📈 [High] 🤒<br>体温が上昇して「走っている」状態</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The baby is running a high temperature.</p>
-						<p class="text-xs text-slate-500">赤ちゃんが高い熱を出しています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 123. run to fat -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">123. run to fat</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">太る、太り気味になる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">⚖️ ━━━→ [Fat] 🍔<br>脂肪がつく方向へ進む</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">He's started to run to fat since he stopped exercising.</p>
-						<p class="text-xs text-slate-500">彼は運動をやめてから太り始めました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 124. run to type -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">124. run to type</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">典型的である、型通りである</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">📦 ━━→ [Type]<br>決まった型（期待通り）に進む</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">His reaction ran to type.</p>
-						<p class="text-xs text-slate-500">彼の反応は典型的なものでした。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 125. run like clockwork -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">125. run like clockwork</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">順調に進む、計画通りに運ぶ</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">⚙️ 🔄 [Smooth] ✨<br>時計の仕掛けのように正確に動く</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">Everything ran like clockwork.</p>
-						<p class="text-xs text-slate-500">すべてが（時計の針のように）順調に進みました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 126. run someone ragged -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">126. run someone ragged</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">（人を）くたくたに疲れさせる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🥵 � ━━━→ [Ragged]<br>人をボロボロ（Ragged）になるまで走らせる</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The children ran their mother ragged.</p>
-						<p class="text-xs text-slate-500">子供たちは母親をくたくたに疲れさせました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 127. run out of steam -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-				<div class="absolute top-4 right-4">
-					<span
-						class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-						TOEIC頻出</span>
-				</div>
-				<h3 class="text-xl font-black text-rose-700 mb-2">127. run out of steam</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">勢いがなくなる、力尽きる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🚂 💨 [Empty] 🛑<br>蒸気（動力源）がなくなる</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The project started well but soon ran out of steam.</p>
-						<p class="text-xs text-slate-500">プロジェクトは順調に滑り出しましたが、すぐに勢いを失いました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 128. run out of gas -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">128. run out of gas</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">ガス欠になる、力尽きる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🚗 ⛽ [Empty] 🛑<br>燃料（ガソリン）が尽きて止まる</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The runners are starting to run out of gas.</p>
-						<p class="text-xs text-slate-500">ランナーたちは力尽き始めています。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 129. run up against -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card relative">
-				<div class="absolute top-4 right-4">
-					<span
-						class="bg-amber-100 text-amber-700 text-[10px] font-black px-2 py-1 rounded-full border border-amber-200">🎯
-						TOEIC頻出</span>
-				</div>
-				<h3 class="text-xl font-black text-rose-700 mb-2">129. run up against</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">（困難などに）突き当たる</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">🏃 ━━→ 🧱 [Problem]<br>進んでいる途中で壁にぶつかる</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">We ran up against some unexpected difficulties.</p>
-						<p class="text-xs text-slate-500">私たちは予期せぬ困難に突き当たりました。</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- 130. run afoul of -->
-			<div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-				<h3 class="text-xl font-black text-rose-700 mb-2">130. run afoul of</h3>
-				<p class="text-xs font-bold text-slate-400 mb-4">（規則などに）抵触する、〜と衝突する</p>
-				<div class="core-box bg-rose-50 border-rose-200">
-					<p class="text-xs font-bold text-slate-500">コアイメージ</p>
-					<span class="visual-text text-rose-900">⛵ ⚓ ━━→ [Rule]<br>航行中に障害物（規則など）と絡まる</span>
-				</div>
-				<div class="space-y-4 text-sm text-slate-700">
-					<div>
-						<p class="font-bold">The company ran afoul of environmental regulations.</p>
-						<p class="text-xs text-slate-500">その会社は環境規制に抵触しました。</p>
-					</div>
-				</div>
-			</div>
-
-
-			<!-- SUMMARY SECTION -->
-			<section
-				class="bg-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-xl fade-in-up delay-300 overflow-hidden relative">
-				<div class="relative z-10 space-y-6">
-					<div class="flex items-center gap-3">
-						<div class="w-10 h-10 bg-emerald-500 rounded-xl flex items-center justify-center text-2xl">
-							🏆
-						</div>
-						<h2 class="text-3xl font-black italic text-white">RUN Mastery Complete!</h2>
-					</div>
-					<p class="text-slate-300 font-bold leading-relaxed">
-						全130フレーズの学習お疲れ様でした！<br>
-						RUNの「勢いよく進む」イメージは、ビジネスの運営から情報の拡散、そしてエネルギーの枯渇まで、驚くほど広い範囲をカバーしています。
-					</p>
-					<div class="grid md:grid-cols-4 gap-4">
-						<div class="bg-white/10 backdrop-blur-md p-4 rounded-2xl">
-							<p class="text-emerald-400 font-black mb-1">01 基礎</p>
-							<p class="text-xs">18フレーズ</p>
-						</div>
-						<div class="bg-white/10 backdrop-blur-md p-4 rounded-2xl">
-							<p class="text-emerald-400 font-black mb-1">02 日常</p>
-							<p class="text-xs">22フレーズ</p>
-						</div>
-						<div class="bg-white/10 backdrop-blur-md p-4 rounded-2xl">
-							<p class="text-emerald-400 font-black mb-1">03 上級</p>
-							<p class="text-xs">30フレーズ</p>
-						</div>
-						<div class="bg-white/10 backdrop-blur-md p-4 rounded-2xl">
-							<p class="text-emerald-400 font-black mb-1">04 多義</p>
-							<p class="text-xs">60フレーズ</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<!-- Footer -->
-			<footer class="text-center mt-12 fade-in-up delay-300 pb-12 space-y-4">
-				<div>
-					<a href="./part1.html" class="text-emerald-600 font-bold hover:underline">
-						← 前編（フレーズ1〜65）に戻る
-					</a>
-				</div>
-				<a href="../index.html"
-					class="inline-block bg-white text-slate-600 font-bold py-4 px-8 rounded-full border border-slate-200 shadow hover:shadow-lg hover:-translate-y-1 transition">
-					← 句動詞一覧（地図）に戻る
-				</a>
-			</footer>
-
+<body class="p-4 md:p-8 max-w-5xl mx-auto">
+
+	<!-- Header -->
+	<div class="header-section text-center mb-12">
+		<h1 class="text-4xl md:text-5xl font-black text-slate-800 mb-4 tracking-tight">
+			RUN <span class="text-blue-600">Part 2</span>
+		</h1>
+		<p class="text-lg text-slate-600 font-bold">
+			多義語・慣用表現・熟語 (66-130)
+		</p>
 	</div>
+
+	<!-- 66. run at a profit -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run at a profit</span><span class="translation">黒字経営する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💰 ━━→→→ ✅<br>利益が出ている状態で動く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The company is finally running at a profit.</p>
+					<p class="jp-sent">その会社はようやく黒字経営になっています。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We aim to run the new branch at a profit within a year.</p>
+					<p class="jp-sent">1年以内に新支店を黒字化することを目指しています。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>損失を出さず、利益を上げながら運営している状態。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 67. run on a budget -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run on a budget</span><span
+				class="translation">限られた予算内で運営する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🪙 ━━→→→ [Budget]<br>予算という枠組みの上で動く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The project is being run on a tight budget.</p>
+					<p class="jp-sent">そのプロジェクトは厳しい予算内で運営されています。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">It's difficult to run a department on such a small budget.</p>
+					<p class="jp-sent">そのような少ない予算で部署を運営するのは難しいです。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>潤沢な資金ではなく、決まった予算の範囲内でやりくりすること。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 68. run on schedule -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run on schedule</span><span
+				class="translation">予定通りに運行・進行する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📅 ━━→→→ [Schedule]<br>予定という線の上を動く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The trains are running on schedule today.</p>
+					<p class="jp-sent">今日の電車は予定通りに運行しています。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">Is the renovation project running on schedule?</p>
+					<p class="jp-sent">リフォーム計画は予定通りに進んでいますか？</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>遅延なく、決められたスケジュール通りに物事が進んでいること。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 69. run by the rules -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run by the rules</span><span class="translation">規則に従って運営する</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⚖️ ━━→→→ [Rules]<br>ルールによって動かされる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The organization is run strictly by the rules.</p>
+					<p class="jp-sent">その組織は厳格に規則に従って運営されています。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">We must run the competition by the official rules.</p>
+					<p class="jp-sent">大会は公式ルールに則って運営しなければなりません。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>独自の判断ではなく、既存の規則を遵守して物事を進めること。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 70. run according to plan -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run according to plan</span><span
+				class="translation">計画通りに進む</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🗺️ ━━→→→ [Plan]<br>計画に一致して動く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Thankfully, everything is running according to plan.</p>
+					<p class="jp-sent">ありがたいことに、すべてが計画通りに進んでいます。</p>
+				</div>
+				<div class="example-box">
+					<p class="en-sent">The product launch ran according to plan.</p>
+					<p class="jp-sent">製品の発売は計画通りに進みました。</p>
+				</div>
+			</div>
+			<div class="point-area"><span class="point-label">Point：</span>
+				<p>予期せぬトラブルなく、当初の計画と一致して進行すること。</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- SECTION 4 -->
+	<div class="section-title">
+		<span class="section-badge">4</span>
+		多義語・慣用表現
+	</div>
+
+	<!-- 71. run out (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run out</span><span class="translation">（在庫や蓄えが）尽きる、なくなる</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📦 → → → 💨 [空]<br>中から外へ出て空になる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Our supplies have run out.</p>
+					<p class="jp-sent">蓄えが底をつきました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 72. run out (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run out</span><span class="translation">外へ走り出る</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏠 ━━→ 🏃 [Out]<br>建物などから外へ走る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He ran out into the street.</p>
+					<p class="jp-sent">彼は通りへ走り出しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 73. run out (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run out</span><span class="translation">（契約などが）切れる、満了する</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📄 ━━→ 🛑 [End]<br>有効期限が外へ出る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">My passport runs out next month.</p>
+					<p class="jp-sent">パスポートの期限が来月で切れます。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 74. run out (4) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run out</span><span class="translation">（紐などが）伸びる、繰り出される</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">➰ ━━→→→ [Extend]<br>巻かれたものが伸びていく</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Let the line run out.</p>
+					<p class="jp-sent">（釣りの糸などを）繰り出しなさい。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 75. run into (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run into</span><span class="translation">（人）にばったり会う</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">👤 ━━→ 😲 [偶然]<br>偶然の領域に走り込む</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">I ran into an old friend yesterday.</p>
+					<p class="jp-sent">昨日、旧友にばったり会いました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 76. run into (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run into</span><span class="translation">（物に）衝突する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💥 ━━→ 🌳 [物体]<br>物理的にぶつかる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The car ran into a tree.</p>
+					<p class="jp-sent">車が木に衝突しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 77. run into (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run into</span><span class="translation">（問題・困難に）直面する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⚠ ━━→ 🌫 [Trouble]<br>問題の中に突っ込む</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">We ran into some problems with the plan.</p>
+					<p class="jp-sent">計画にいくつか問題が発生しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 78. run into (4) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run into</span><span class="translation">（合計などが）〜に達する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💰 ━━→ [Amount]<br>ある数値の領域に達する</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The cost ran into millions of dollars.</p>
+					<p class="jp-sent">費用は数百万ドルに達しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 79. run into (5) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run into</span><span class="translation">（ある状態に）発展する、変わる</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📈 ━━→ [Status]<br>別の状態へ移行する</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The storm ran into a hurricane.</p>
+					<p class="jp-sent">嵐はハリケーンへと発展しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 80. run over (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run over</span><span class="translation">（車で）ひく、はねる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🚗 ━━↗️━━ [対象]<br>物理的に上を越えていく</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">A cat was run over by a car.</p>
+					<p class="jp-sent">猫が車にひかれました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 81. run over (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run over</span><span class="translation">時間を超過する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⏰ ━━→ [Limit] ━━→<br>制限時間をはみ出す</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The meeting ran over by ten minutes.</p>
+					<p class="jp-sent">会議は10分超過しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 82. run over (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run over</span><span
+				class="translation">（要点を）ざっと見直す、確認する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📄 ━━↗️━━ [Review]<br>表面をサッと撫でるように見る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Let me run over the main points again.</p>
+					<p class="jp-sent">要点をもう一度ざっとおさらいさせてください。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 83. run over (4) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run over</span><span class="translation">（液体が）あふれる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💧 ━━↗️━━ [Rim]<br>縁を越えて流れ出す</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The bathwater is running over.</p>
+					<p class="jp-sent">お風呂のお湯があふれています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 84. run through (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run through</span><span
+				class="translation">（手順などを）復習する、練習する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏁 ━━→ [Step] ━━→<br>一連の流れを突き抜ける</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Let's run through the script once more.</p>
+					<p class="jp-sent">台本をもう一度おさらいしましょう。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 85. run through (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run through</span><span class="translation">（お金などを）使い果たす</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💰 ━━→ [End] ━━→<br>資産を貫通して消費し尽くす</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He ran through all his money in a week.</p>
+					<p class="jp-sent">彼は1週間でお金をすべて使い果たしました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 86. run through (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run through</span><span class="translation">（思想や特徴が）貫く、流れる</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">〰️ ━━→ [Core] ━━→<br>全体を一貫して通っている</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">A sense of optimism runs through the book.</p>
+					<p class="jp-sent">その本には楽観的な考えが貫かれています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 87. run through (4) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run through</span><span
+				class="translation">（文書などに）ざっと目を通す</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📄 🏃 ━━→ [Finish]<br>端から端まで素早く読み切る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">I ran through the report before the meeting.</p>
+					<p class="jp-sent">会議の前にレポートにざっと目を通しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 88. run down (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run down</span><span class="translation">駆け下りる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 ━━━↘️<br>高い所から低い所へ走る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He ran down the stairs.</p>
+					<p class="jp-sent">彼は階段を駆け下りました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 89. run down (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run down</span><span class="translation">（電池が）切れる、止まる</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🔋 ━━↘️ 🛑<br>エネルギーが低下して止まる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The battery has run down.</p>
+					<p class="jp-sent">電池が切れてしまいました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 90. run down (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run down</span><span class="translation">批判する、けなす</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🗣️ ━━↘️ [Target]<br>言葉で相手の評価を下げる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Stop running down your coworkers.</p>
+					<p class="jp-sent">同僚をけなすのはやめなさい。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 91. run down (4) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run down</span><span class="translation">（車で）ひく</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🚗 ━━↘️ [対象]<br>対象を倒すようにひく</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He was run down by a truck.</p>
+					<p class="jp-sent">彼はトラックにひかれました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 92. run down (5) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run down</span><span class="translation">捜し出す、追い詰める</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🔍 ━━↘️ [Goal]<br>追跡して最後に捕まえる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">I finally ran down the source of the problem.</p>
+					<p class="jp-sent">ようやく問題の原因を突き止めました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 93. run down (6) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run down</span><span class="translation">衰退する、（質が）低下する</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏚️ ━━↘️ [Degrade]<br>活力がなくなり落ちぶれる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The neighborhood has run down over the years.</p>
+					<p class="jp-sent">その界隈は何年もかけて衰退してしまいました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 94. run up (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run up</span><span class="translation">駆け上がる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 ━━━↗️<br>低い所から高い所へ走る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">She ran up the hill.</p>
+					<p class="jp-sent">彼女は丘を駆け上がりました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 95. run up (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run up</span><span class="translation">（借金や費用を）かさませる</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💸 ━━↗️ [Debt]<br>未払いの額が積み上がる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He ran up a huge debt on his credit card.</p>
+					<p class="jp-sent">彼はクレジットカードで多額の借金をこしらえました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 96. run up (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run up</span><span class="translation">急いで作る（縫う）</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🧵 ━━↗️ [Fast]<br>一気に仕上げる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">She ran up a dress in one afternoon.</p>
+					<p class="jp-sent">彼女は午後の間にドレスを一着急いで作りました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 97. run up (4) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run up</span><span class="translation">（旗を）掲げる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🚩 ━━━↗️<br>ポールの頂上まで上げる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">They ran up the national flag.</p>
+					<p class="jp-sent">彼らは国旗を掲げました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 98. run on (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run on</span><span class="translation">（時間が）長引く、続く</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⏳ ━━━→ [Continue]<br>止まらずに先へ進み続ける</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The play ran on for over three hours.</p>
+					<p class="jp-sent">その劇は3時間以上も続きました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 99. run on (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run on</span><span class="translation">延々と話す</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🗣️ ━━━→ [Endless]<br>口が止まらずに動き続ける</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He tends to run on about his hobbies.</p>
+					<p class="jp-sent">彼は自分の趣味について延々と話す傾向があります。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 100. run on (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run on</span><span class="translation">〜を動力源（燃料）として動く</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⚙️ ━━━→ [Energy]<br>特定のエネルギーの上で動く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">This machine runs on solar power.</p>
+					<p class="jp-sent">この機械は太陽光で動きます。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 101. run off (1) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run off</span><span class="translation">逃げ去る、急いで去る</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 ━━━→ [Away]<br>その場所から走り去る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">They ran off when they saw the police.</p>
+					<p class="jp-sent">彼らは警察を見て逃げ去りました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 102. run off (2) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run off</span><span class="translation">印刷する、コピーを取る</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📄 ━━→ [Print]<br>機械を動かして紙を出す</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Could you run off 20 copies of this?</p>
+					<p class="jp-sent">これのコピーを20部取ってもらえますか？</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 103. run off (3) -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run off</span><span class="translation">（液体などが）流れ出る</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💧 ━━━→ [Surface]<br>表面を伝って外へ流れる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The rainwater runs off the roof.</p>
+					<p class="jp-sent">雨水が屋根から流れ落ちます。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 104. run a red light -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run a red light</span><span class="translation">信号無視をする</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🚦 🏃 ━━→ [Cross]<br>止まるべき点を走り抜ける</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He got a ticket for running a red light.</p>
+					<p class="jp-sent">彼は信号無視で切符を切られました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 105. run a mile -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run a mile</span><span
+				class="translation">（嫌がって）逃げ出す、全力で避ける</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 ━━━ [1 Mile] ━━→<br>遠くまで逃げる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He’d run a mile if you asked him to help.</p>
+					<p class="jp-sent">手伝いを頼もうものなら、彼は一目散に逃げるでしょう。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 106. run amok -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run amok</span><span class="translation">暴れ回る、収拾がつかなくなる</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🌀 🏃 ━━→ [Chaos]<br>制御不能で狂ったように動く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The crowds ran amok in the streets.</p>
+					<p class="jp-sent">群衆が通りで暴れ回りました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 107. run circles around -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run circles around</span><span
+				class="translation">（能力などで）〜を圧倒する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 🔄 [Target] 🔄<br>相手の周りを回れるほど速い</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">She runs circles around the other players.</p>
+					<p class="jp-sent">彼女は他の選手たちを圧倒しています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 108. run dry -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run dry</span><span class="translation">枯渇する、尽きる</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">💧 📉 [Dry] 🛑<br>流れるものがなくなって乾く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The wells have run dry.</p>
+					<p class="jp-sent">井戸が枯れてしまいました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 109. run ragged -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run ragged</span><span class="translation">くたくたに疲れさせる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 ━━━ [Exhaust] ━━→<br>服がボロボロになるまで走らせる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The kids have run me ragged all day.</p>
+					<p class="jp-sent">子供たちの相手で一日中くたくたです。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 110. run rings around -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run rings around</span><span class="translation">〜を圧倒する</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 🔄 [Target] 🔄<br>相手を翻弄して圧倒する</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Our team ran rings around the opposition.</p>
+					<p class="jp-sent">私たちのチームは相手チームを圧倒しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 111. run riot -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run riot</span><span
+				class="translation">暴動を起こす、（想像などが）手がつけられなくなる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🔥 🏃 ━━→ [Riot]<br>法や制限を無視して暴れる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">His imagination was allowed to run riot.</p>
+					<p class="jp-sent">彼の想像力はとどまるところを知りませんでした。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 112. run scared -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run scared</span><span class="translation">怖がって逃げる、びくびくする</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">😨 🏃 ━━━→<br>恐怖を感じながら逃げ回る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The candidate is running scared.</p>
+					<p class="jp-sent">その候補者は（落選を恐れて）びくびくしています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 113. run the show -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run the show</span><span
+				class="translation">（組織や状況を）仕切る、取り仕切る</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📢 👤 ━━→ [Control]<br>全体の進行を一手に担う</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">She's the one who really runs the show here.</p>
+					<p class="jp-sent">ここで実際にすべてを仕切っているのは彼女です。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 114. run the gauntlet -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run the gauntlet</span><span
+				class="translation">厳しい試練を受ける、非難の的になる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⚔️ 🏃 ⚔️ [Ordeal]<br>両側から攻撃される中を通り抜ける</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He had to run the gauntlet of press questions.</p>
+					<p class="jp-sent">彼はメディアからの厳しい質問攻めに遭いました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 115. run to seed -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run to seed</span><span
+				class="translation">（植物が種をつけて）荒れ果てる、盛りが過ぎる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🌿 ━━━→ [Seed] 🏚️<br>手入れがされず種をつけるまで放置される</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The garden has run to seed.</p>
+					<p class="jp-sent">庭が荒れ放題になっています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 116. run a tight ship -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run a tight ship</span><span
+				class="translation">（組織などを）厳格に管理する</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⚓ 👤 ━━→ [Tight]<br>緩みのない船を操縦する</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Our manager runs a tight ship.</p>
+					<p class="jp-sent">私たちのマネージャーは部内を厳格に管理しています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 117. run in the red -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run in the red</span><span class="translation">赤字経営する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📉 📉 [Red-Ink] 🛑<br>帳簿が赤字の状態で運営する</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The store has been running in the red for months.</p>
+					<p class="jp-sent">その店は数ヶ月間赤字経営が続いています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 118. run in the black -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run in the black</span><span class="translation">黒字経営する</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📈 📈 [Black-Ink] ✨<br>帳簿が黒字の状態で運営する</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Finally, we are running in the black.</p>
+					<p class="jp-sent">ついに、黒字経営になりました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 119. run roughshod over -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run roughshod over</span><span
+				class="translation">〜を傍若無人に扱う、〜を踏みにじる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🐎 👞 ━━→ [Others]<br>滑り止めの蹄鉄で踏みつける</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">They run roughshod over the feelings of others.</p>
+					<p class="jp-sent">彼らは他人の感情を平気で踏みにじります。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 120. run for cover -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run for cover</span><span class="translation">避難する、逃げて隠れる</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 ━━━→ [Cover] 🛡️<br>身を隠せる場所を求めて走る</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Everyone ran for cover when it started raining.</p>
+					<p class="jp-sent">雨が降り出すと、みんな避難しました（逃げて隠れました）。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 121. run for one's life -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run for one's life</span><span class="translation">命からがら逃げる</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 😱 ━━→ [Survival]<br>生き延びるために全速力で逃げる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He had to run for his life.</p>
+					<p class="jp-sent">彼は命からがら逃げなければなりませんでした。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 122. run a temperature -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run a temperature</span><span class="translation">熱がある</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🌡️ 📈 [High] 🤒<br>体温が上昇して「走っている」状態</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The baby is running a high temperature.</p>
+					<p class="jp-sent">赤ちゃんが高い熱を出しています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 123. run to fat -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run to fat</span><span class="translation">太る、太り気味になる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⚖️ ━━━→ [Fat] 🍔<br>脂肪がつく方向へ進む</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He's started to run to fat since he stopped exercising.</p>
+					<p class="jp-sent">彼は運動をやめてから太り始めました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 124. run to type -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run to type</span><span class="translation">典型的である、型通りである</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">📦 ━━→ [Type]<br>決まった型（期待通り）に進む</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">His reaction ran to type.</p>
+					<p class="jp-sent">彼の反応は典型的なものでした。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 125. run like clockwork -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run like clockwork</span><span
+				class="translation">順調に進む、計画通りに運ぶ</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⚙️ 🔄 [Smooth] ✨<br>時計の仕掛けのように正確に動く</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">Everything ran like clockwork.</p>
+					<p class="jp-sent">すべてが（時計の針のように）順調に進みました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 126. run someone ragged -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run someone ragged</span><span
+				class="translation">（人を）くたくたに疲れさせる</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🥵 🏃 ━━━→ [Ragged]<br>人をボロボロ（Ragged）になるまで走らせる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The children ran their mother ragged.</p>
+					<p class="jp-sent">子供たちは母親をくたくたに疲れさせました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 127. run out of steam -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run out of steam</span><span
+				class="translation">勢いがなくなる、力尽きる</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🚂 💨 [Empty] 🛑<br>蒸気（動力源）がなくなる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The project started well but soon ran out of steam.</p>
+					<p class="jp-sent">プロジェクトは順調に滑り出しましたが、すぐに勢いを失いました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 128. run out of gas -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run out of gas</span><span class="translation">ガス欠になる、力尽きる</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🚗 ⛽ [Empty] 🛑<br>燃料（ガソリン）が尽きて止まる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">The runners are starting to run out of gas.</p>
+					<p class="jp-sent">ランナーたちは力尽き始めています。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 129. run up against -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run up against</span><span
+				class="translation">（困難などに）突き当たる</span><span
+				class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>
+		</div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">🏃 ━━→ 🧱 [Problem]<br>進んでいる途中で壁にぶつかる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">We ran up against some unexpected difficulties.</p>
+					<p class="jp-sent">私たちは予期せぬ困難に突き当たりました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 130. run afoul of -->
+	<div class="card">
+		<div class="card-header"><span class="phrase">run afoul of</span><span
+				class="translation">（規則などに）抵触する、〜と衝突する</span></div>
+		<div class="card-body">
+			<div class="core-box"><span class="core-title">コアイメージ</span>
+				<div class="visual-text">⛵ ⚓ ━━→ [Rule]<br>航行中に障害物（規則など）と絡まる</div>
+			</div>
+			<div class="meaning-section">
+				<div class="example-box">
+					<p class="en-sent">He ran afoul of the law.</p>
+					<p class="jp-sent">彼は法律に抵触しました。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="text-center mt-12 mb-12">
+		<a href="./part1.html"
+			class="inline-block bg-blue-600 text-white font-bold py-4 px-8 rounded-full shadow hover:bg-blue-700 transition">
+			← RUN 句動詞【前編】基本・ビジネス会話 (1-65)
+		</a>
+	</footer>
+
 </body>
 
 </html>

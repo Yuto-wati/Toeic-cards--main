@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUT 句動詞 完全解説【前編】 - Phrasal Verb Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary: #059669;
+            /* Emerald 600 */
+            --primary-dark: #047857;
+            /* Emerald 700 */
+            --secondary: #64748b;
+            --accent: #f59e0b;
+            --background: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: var(--background);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .font-outfit {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        /* Card Styles */
+        .card {
+            background: var(--card-bg);
+            border-radius: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            break-inside: avoid;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        }
+
+        .card-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid #f1f5f9;
+            background: linear-gradient(to right, #ffffff, #f8fafc);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        /* Typography */
+        .phrase-title {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--primary);
+            letter-spacing: -0.02em;
+        }
+
+        .meaning-jp {
+            font-weight: 700;
+            font-size: 1.125rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Core Image Area */
+        .core-image-container {
+            background: #f0fdf4;
+            /* Emerald 50 */
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border: 1px dashed #6ee7b7;
+            /* Emerald 300 */
+            text-align: center;
+        }
+
+        .core-image-caption {
+            font-size: 0.875rem;
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .visual-representation {
+            font-family: 'Courier New', monospace;
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--primary);
+            white-space: pre-wrap;
+            line-height: 1.2;
+        }
+
+        /* Examples Area */
+        .example-item {
+            border-left: 4px solid #d1fae5;
+            /* Emerald 100 */
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .example-en {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text-main);
+            display: block;
+        }
+
+        .example-jp {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            display: block;
+            margin-top: 0.25rem;
+        }
+
+        .nuance-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-top: 0.25rem;
+            font-weight: 500;
+        }
+
+        /* Labels */
+        .label {
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .label-core {
+            background: #ecfdf5;
+            color: var(--primary);
+            border: 1px solid #a7f3d0;
+        }
+
+        .label-toeic {
+            background: #eff6ff;
+            color: #2563eb;
+            border: 1px solid #bfdbfe;
+        }
+
+        /* Navigation */
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .nav-btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 700;
+            transition: all 0.2s;
+            gap: 0.5rem;
+        }
+
+        .nav-btn-primary {
+            background: var(--primary);
+            color: #ffffff;
+        }
+
+        .nav-btn-primary:hover {
+            background: var(--primary-dark);
+            transform: scale(1.02);
+        }
+
+        .nav-btn-outline {
+            background: white;
+            color: var(--secondary);
+            border: 1px solid #e2e8f0;
+        }
+
+        .nav-btn-outline:hover {
+            background: #f8fafc;
+            color: var(--primary);
+            border-color: var(--primary);
+        }
+
+        @media (print) {
+            .card {
+                box-shadow: none;
+                border: 1px solid #000;
+                break-inside: avoid;
+            }
+
+            .nav-container {
+                display: none;
+            }
+
+            body {
+                background-color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <div
+                class="inline-block px-4 py-1 rounded-full bg-emerald-50 text-emerald-600 font-bold text-sm mb-4 tracking-wider uppercase">
+                PUT Phrasal Verbs
+            </div>
+            <h1 class="text-4xl md:text-5xl font-black mb-4 tracking-tight">
+                PUT 句動詞 <span class="text-emerald-600">完全解説</span>
+            </h1>
+            <p class="text-slate-500 font-medium">基本イメージから日常会話表現まで【前編】</p>
+        </header>
+
+        <!-- Navigation -->
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-btn nav-btn-outline flex items-center">
+                ← Index
+            </a>
+            <a href="part2.html" class="nav-btn nav-btn-primary flex items-center shadow-lg shadow-emerald-200">
+                後編へ（上級・多義語） →
+            </a>
+        </div>
+
+        <!-- Core Image -->
+        <section class="mb-16">
+            <div class="card bg-emerald-50 border-emerald-200">
+                <div class="card-body">
+                    <h2 class="text-2xl font-black text-emerald-900 mb-4 flex items-center gap-3">
+                        <span
+                            class="w-8 h-8 bg-emerald-600 text-white rounded-full flex items-center justify-center text-sm">🎯</span>
+                        PUTのコアイメージ
+                    </h2>
+                    <div class="core-image-container bg-white border-emerald-100">
+                        <div class="core-image-caption text-emerald-600 font-bold">本質：「ある場所に置く・位置づける」</div>
+                        <div class="visual-representation text-xl mb-2">
+                            ●
+                            ↓
+                            ━━━━━
+                            （場所を定めて設置）</div>
+                    </div>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+                        <div class="text-center p-3 bg-white rounded-xl shadow-sm border border-emerald-100">
+                            <div class="text-emerald-600 font-black mb-1">置く</div>
+                            <div class="text-[10px] text-slate-500 leading-tight">物を特定の場所へ</div>
+                        </div>
+                        <div class="text-center p-3 bg-white rounded-xl shadow-sm border border-emerald-100">
+                            <div class="text-emerald-600 font-black mb-1">入れる</div>
+                            <div class="text-[10px] text-slate-500 leading-tight">容器の中へ</div>
+                        </div>
+                        <div class="text-center p-3 bg-white rounded-xl shadow-sm border border-emerald-100">
+                            <div class="text-emerald-600 font-black mb-1">書く</div>
+                            <div class="text-[10px] text-slate-500 leading-tight">紙の上に文字を</div>
+                        </div>
+                        <div class="text-center p-3 bg-white rounded-xl shadow-sm border border-emerald-100">
+                            <div class="text-emerald-600 font-black mb-1">表現する</div>
+                            <div class="text-[10px] text-slate-500 leading-tight">言葉の中に意味を</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 01 -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-black mb-8 flex items-center gap-3 text-slate-800">
+                <span class="text-3xl">🏁</span> 01 | 基本・最優先
+            </h2>
+
+            <!-- put + N + Place -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put + 名詞 + 場所</div>
+                    <div class="label label-core">CORE</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">〜を…に置く</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            ●（物）
+                            ↓
+                            ━━━━━ 場所</div>
+                    </div>
+
+                    <div class="example-item">
+                        <span class="example-en">Put the book on the table.</span>
+                        <span class="example-jp">本をテーブルに置いて。</span>
+                        <div class="nuance-badge">→ 本をテーブルという場所に位置づけて</div>
+                    </div>
+                    <div class="example-item">
+                        <span class="example-en">I put my keys in my pocket.</span>
+                        <span class="example-jp">鍵をポケットに入れた。</span>
+                        <div class="nuance-badge">→ 鍵をポケットという場所に位置づけた</div>
+                    </div>
+                    <div class="example-item">
+                        <span class="example-en">Please put your name here.</span>
+                        <span class="example-jp">ここに名前を書いてください。</span>
+                        <div class="nuance-badge">→ ここという場所に名前を位置づけて</div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-lg p-4 text-sm text-slate-600 border border-slate-100 mt-4">
+                        <span class="font-bold text-slate-700 block mb-1">💡 POINT</span>
+                        putは「場所」が必須。placeとの違いは、putが中立的であるのに対し、placeは「丁寧・慎重に置く」ニュアンス。
+                    </div>
+                </div>
+            </div>
+
+            <!-- put on -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put on</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">着る、身につける</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            体 ━━●━━
+                            ↓ on
+                            服（接触）</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 衣服を着る</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put on your coat.</span>
+                            <span class="example-jp">コートを着て。</span>
+                            <div class="nuance-badge">→ コートを体の上に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 化粧をする</h4>
+                        <div class="example-item">
+                            <span class="example-en">She's putting on makeup.</span>
+                            <span class="example-jp">彼女は化粧をしている。</span>
+                            <div class="nuance-badge">→ 彼女が化粧を顔の上に位置づけている</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 3: 電気をつける</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put on the light.</span>
+                            <span class="example-jp">明かりをつけて。</span>
+                            <div class="nuance-badge">→ 明かりを点灯状態に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-lg p-4 text-sm text-slate-600 border border-slate-100 mt-4">
+                        <span class="font-bold text-slate-700 block mb-1">💡 POINT</span>
+                        put on = 着る動作（動詞）、wear = 着ている状態（状態動詞）
+                    </div>
+                </div>
+            </div>
+
+            <!-- put in -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put in</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">入れる、投入する</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            [容器] ← ● in
+                            （内部へ）</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 物を入れる</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put the letter in the envelope.</span>
+                            <span class="example-jp">手紙を封筒に入れて。</span>
+                            <div class="nuance-badge">→ 手紙を封筒の内部に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: お金を預ける</h4>
+                        <div class="example-item">
+                            <span class="example-en">He put money in the bank.</span>
+                            <span class="example-jp">彼は銀行にお金を預けた。</span>
+                            <div class="nuance-badge">→ 彼がお金を銀行の内部に位置づけた</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 3: 時間・労力を費やす</h4>
+                        <div class="example-item">
+                            <span class="example-en">I put in a lot of effort.</span>
+                            <span class="example-jp">多くの努力を費やした。</span>
+                            <div class="nuance-badge">→ 多くの努力をプロジェクトの内部に位置づけた</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- put down -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put down</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">置く、下ろす</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            ●（持っている）
+                            ↓ down
+                            ━━━━━</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 下に置く</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put down your bag.</span>
+                            <span class="example-jp">カバンを下ろして。</span>
+                            <div class="nuance-badge">→ カバンを下の場所に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 書き留める</h4>
+                        <div class="example-item">
+                            <span class="example-en">Let me put that down.</span>
+                            <span class="example-jp">それを書き留めさせて。</span>
+                            <div class="nuance-badge">→ それを紙という下の場所に位置づけさせて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 3: 鎮圧する</h4>
+                        <div class="example-item">
+                            <span class="example-en">The rebellion was put down.</span>
+                            <span class="example-jp">反乱は鎮圧された。</span>
+                            <div class="nuance-badge">→ 反乱が下の状態に位置づけられた</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-lg p-4 text-sm text-slate-600 border border-slate-100 mt-4">
+                        <span class="font-bold text-slate-700 block mb-1">💡 POINT</span>
+                        down = 下方向。pick up（持ち上げる）の反対。
+                    </div>
+                </div>
+            </div>
+
+            <!-- put away -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put away</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">片付ける、しまう</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            目の前 ━━→ 離れた場所
+                            （away）</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 片付ける</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put away your toys.</span>
+                            <span class="example-jp">おもちゃを片付けて。</span>
+                            <div class="nuance-badge">→ おもちゃを離れた場所（箱・棚）に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 貯金する</h4>
+                        <div class="example-item">
+                            <span class="example-en">He puts away $500 every month.</span>
+                            <span class="example-jp">彼は毎月500ドル貯金している。</span>
+                            <div class="nuance-badge">→ 彼が毎月500ドルを離れた場所（貯蓄）に位置づけている</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- put off -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put off</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">延期する、嫌悪感を抱かせる</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            今 ━━ ✕
+                            ↓ off
+                            後 ━━ ●</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 延期する</h4>
+                        <div class="example-item">
+                            <span class="example-en">We put off the meeting.</span>
+                            <span class="example-jp">会議を延期した。</span>
+                            <div class="nuance-badge">→ 会議を今から離れた時点に位置づけた</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: うんざりさせる</h4>
+                        <div class="example-item">
+                            <span class="example-en">The smell put me off.</span>
+                            <span class="example-jp">その匂いで食欲がなくなった。</span>
+                            <div class="nuance-badge">→ その匂いが私を離れた状態に位置づけた</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-lg p-4 text-sm text-slate-600 border border-slate-100 mt-4">
+                        <span class="font-bold text-slate-700 block mb-1">💡 POINT</span>
+                        postpone（フォーマル）と同義。delayは「遅らせる」。
+                    </div>
+                </div>
+            </div>
+
+            <!-- put up -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put up</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">掲げる、泊める、建てる</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            ━━━━━ 下
+                            ↑ up
+                            ● 上</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 掲げる・貼る</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put up a poster.</span>
+                            <span class="example-jp">ポスターを貼って。</span>
+                            <div class="nuance-badge">→ ポスターを壁の上に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 人を泊める</h4>
+                        <div class="example-item">
+                            <span class="example-en">Can you put me up for the night?</span>
+                            <span class="example-jp">今夜泊めてもらえますか？</span>
+                            <div class="nuance-badge">→ 私を宿泊場所という上の状態に位置づけてもらえるか</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 3: 建てる</h4>
+                        <div class="example-item">
+                            <span class="example-en">They're putting up a new building.</span>
+                            <span class="example-jp">新しいビルを建てている。</span>
+                            <div class="nuance-badge">→ 新しいビルを上方向に位置づけている</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- put out -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put out</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">消す、出す、発表する</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            [内部] ━━→ 外部
+                            （out）</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 火を消す</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put out the fire.</span>
+                            <span class="example-jp">火を消して。</span>
+                            <div class="nuance-badge">→ 火を燃焼状態から外に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 外に出す</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put out the garbage.</span>
+                            <span class="example-jp">ゴミを出して。</span>
+                            <div class="nuance-badge">→ ゴミを外という場所に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 3: 発表する</h4>
+                        <div class="example-item">
+                            <span class="example-en">They put out a statement.</span>
+                            <span class="example-jp">彼らは声明を発表した。</span>
+                            <div class="nuance-badge">→ 彼らが声明を外（公）に位置づけた</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- put forward -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put forward</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">提案する、進める</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            後方 ━━→ 前方
+                            （forward）</div>
+                    </div>
+
+                    <div class="example-item">
+                        <span class="example-en">I'd like to put forward a suggestion.</span>
+                        <span class="example-jp">提案を出したいのですが。</span>
+                        <div class="nuance-badge">→ 提案を前方に位置づけたい</div>
+                    </div>
+                    <div class="example-item">
+                        <span class="example-en">He put forward a new theory.</span>
+                        <span class="example-jp">彼は新しい理論を提唱した。</span>
+                        <div class="nuance-badge">→ 彼が新理論を前方に位置づけた</div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-lg p-4 text-sm text-slate-600 border border-slate-100 mt-4">
+                        <span class="font-bold text-slate-700 block mb-1">💡 POINT</span>
+                        propose と同義。
+                    </div>
+                </div>
+            </div>
+
+            <!-- put back -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put back</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">戻す、延期する</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            現在位置 ━━→ 元の位置
+                            （back）</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 元に戻す</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put the book back on the shelf.</span>
+                            <span class="example-jp">本を棚に戻して。</span>
+                            <div class="nuance-badge">→ 本を棚という元の場所に位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 時計を遅らせる</h4>
+                        <div class="example-item">
+                            <span class="example-en">Put the clock back one hour.</span>
+                            <span class="example-jp">時計を1時間遅らせて。</span>
+                            <div class="nuance-badge">→ 時計を1時間後ろに位置づけて</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- put aside -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put aside</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">取っておく、脇に置く</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            中心 ━━━●━━━ 脇
+                            （aside）</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 取っておく</h4>
+                        <div class="example-item">
+                            <span class="example-en">I put aside some money for emergencies.</span>
+                            <span class="example-jp">緊急時のためにお金を取っておいた。</span>
+                            <div class="nuance-badge">→ お金を緊急用という脇の場所に位置づけた</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 無視する</h4>
+                        <div class="example-item">
+                            <span class="example-en">Let's put aside our differences.</span>
+                            <span class="example-jp">違いは脇に置いておこう。</span>
+                            <div class="nuance-badge">→ 違いを脇という場所に位置づけよう</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- put across -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put across</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">伝える、理解させる</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            こちら側 ━━→ 向こう側
+                            （across）</div>
+                    </div>
+
+                    <div class="example-item">
+                        <span class="example-en">He put his ideas across clearly.</span>
+                        <span class="example-jp">彼はアイデアを明確に伝えた。</span>
+                        <div class="nuance-badge">→ 彼がアイデアを向こう側に位置づけた</div>
+                    </div>
+
+                    <div class="bg-slate-50 rounded-lg p-4 text-sm text-slate-600 border border-slate-100 mt-4">
+                        <span class="font-bold text-slate-700 block mb-1">💡 POINT</span>
+                        get across と同義。
+                    </div>
+                </div>
+            </div>
+
+            <!-- put through -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="phrase-title">put through</div>
+                </div>
+                <div class="card-body">
+                    <div class="meaning-jp text-slate-700">つなぐ、経験させる</div>
+                    <div class="core-image-container">
+                        <div class="visual-representation text-sm">
+                            ━━ 障害 ━━→ 通過
+                            （through）</div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 1: 電話をつなぐ</h4>
+                        <div class="example-item">
+                            <span class="example-en">Please put me through to the manager.</span>
+                            <span class="example-jp">マネージャーにつないでください。</span>
+                            <div class="nuance-badge">→ 私をマネージャーへ貫通して位置づけて</div>
+                        </div>
+                    </div>
+
+                    <div class="mb-6">
+                        <h4 class="font-bold text-emerald-600 mb-2 text-sm uppercase">Meaning 2: 経験させる</h4>
+                        <div class="example-item">
+                            <span class="example-en">She put him through a lot.</span>
+                            <span class="example-jp">彼女は彼に多くの苦労をさせた。</span>
+                            <div class="nuance-badge">→ 彼女が彼を多くの困難を通して位置づけた</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer Area -->
+        <div class="text-center mt-12 mb-16">
+            <a href="part2.html"
+                class="inline-flex items-center justify-center px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-lg shadow-lg shadow-emerald-200 transition transform hover:-translate-y-1">
+                後編へ（上級・多義） <span class="ml-2">→</span>
+            </a>
+        </div>
+
+        <footer class="text-center text-slate-400 text-sm pb-8 font-bold">
+            <p>© 2025 TOEIC Phrasal Verbs Guide</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>

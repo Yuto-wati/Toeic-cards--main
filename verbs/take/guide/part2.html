@@ -1,700 +1,969 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TAKE 句動詞 完全解説【後編】</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet">
   <style>
-    body { font-family: 'Noto Sans JP', system-ui, sans-serif; background-color: #f1f5f9; color: #334155; line-height: 1.7; }
-    .font-poppins { font-family: 'Poppins', system-ui, sans-serif; }
-    
-    /* Animation */
-    .fade-in-up { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; transform: translateY(20px); }
-    @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
-    .delay-100 { animation-delay: 0.1s; }
-    .delay-200 { animation-delay: 0.2s; }
-    .delay-300 { animation-delay: 0.3s; }
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background-color: #f8fafc;
+      color: #334155;
+      line-height: 1.6;
+    }
 
-    /* Card */
-    .hover-card { transition: all 0.3s ease; }
-    .hover-card:hover { transform: translateY(-4px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
-    
-    /* Visuals */
-    .core-box { background-color: #eff6ff; border: 1px dashed #3b82f6; padding: 16px; border-radius: 12px; text-align: center; margin-bottom: 20px; }
-    .visual-text { display: block; font-family: monospace; color: #1e293b; font-weight: 700; margin-top: 8px; font-size: 1.1rem; white-space: pre-wrap; }
-    
-    /* Badges */
-    .level-badge { display: inline-block; padding: 4px 12px; border-radius: 9999px; font-size: 0.75rem; font-weight: 900; letter-spacing: 0.05em; margin-right: 8px; }
+    .font-poppins {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e2e8f0;
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+
+    .card-header {
+      background-color: #f1f5f9;
+      padding: 16px 24px;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .phrase {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #1e293b;
+    }
+
+    .translation {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #64748b;
+      background: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid #cbd5e1;
+    }
+
+    .card-body {
+      padding: 24px;
+    }
+
+    .core-box {
+      background-color: #fffbeb;
+      border: 1px dashed #fcd34d;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .core-title {
+      font-weight: 700;
+      color: #d97706;
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .visual-text {
+      font-family: monospace;
+      white-space: pre-wrap;
+      color: #475569;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .meaning-section {
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #f1f5f9;
+    }
+
+    .meaning-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .meaning-title {
+      font-weight: 700;
+      color: #3b82f6;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .example-box {
+      background-color: #f8fafc;
+      border-left: 3px solid #cbd5e1;
+      padding: 10px 16px;
+      margin-bottom: 8px;
+    }
+
+    .en-sent {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      color: #0f172a;
+    }
+
+    .jp-sent {
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    .explanation {
+      font-size: 0.85rem;
+      color: #475569;
+      margin-top: 4px;
+    }
+
+    .point-area {
+      background-color: #f0f9ff;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+
+    .point-label {
+      font-weight: 700;
+      color: #0369a1;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #1e293b;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #3b82f6;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-badge {
+      background-color: #3b82f6;
+      color: white;
+      font-size: 1rem;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .link-button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: #3b82f6;
+      color: white;
+      padding: 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 40px;
+      text-decoration: none;
+    }
+
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem 1.5rem;
+      border-radius: 1rem;
+      font-weight: 700;
+      transition: all 0.2s;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+
+    .nav-btn-secondary {
+      background: #f1f5f9;
+      color: #475569;
+    }
+
+    .nav-btn-secondary:hover {
+      background: #e2e8f0;
+    }
+
+    @media print {
+      .card {
+        break-inside: avoid;
+        border: 1px solid #ccc;
+        box-shadow: none;
+      }
+
+      .nav-container,
+      .link-button,
+      footer {
+        display: none;
+      }
+
+      body {
+        background: white;
+      }
+    }
   </style>
 </head>
-<body class="p-6 md:p-12">
-  <div class="max-w-5xl mx-auto space-y-16">
 
-    <!-- Header -->
-    <header class="text-center space-y-6 fade-in-up">
-      <div class="inline-block bg-blue-600 text-white px-5 py-2 rounded-full text-xs font-black tracking-widest border border-blue-700">
-        TAKE PHRASAL VERBS
-      </div>
-      <h1 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
-        TAKE 句動詞 完全解説【後編】
-      </h1>
-      <p class="text-lg font-bold text-slate-500">
-        TOEIC頻出・ビジネス表現から多義語まで（Section 2〜4）
-      </p>
-    </header>
+<body class="p-4 md:p-8 max-w-5xl mx-auto">
 
-    <!-- SECTION 2 -->
-    <section class="space-y-8 fade-in-up delay-100">
-      <div class="flex items-center gap-3 border-b-2 border-indigo-200 pb-3">
-        <span class="level-badge bg-indigo-100 text-indigo-700">Section 2</span>
-        <h2 class="text-2xl font-black text-slate-800">TOEIC頻出（職場・メール・会議で刺さる）</h2>
-      </div>
+  <header class="text-center mb-12">
+    <div
+      class="inline-block px-4 py-1 rounded-full bg-blue-50 text-blue-600 font-bold text-sm mb-4 tracking-wider uppercase">
+      TAKE PHRASAL VERBS
+    </div>
+    <h1 class="text-3xl md:text-5xl font-black text-slate-800 mb-4">
+      TAKE 句動詞 <span class="text-blue-600">完全解説</span>
+    </h1>
+    <p class="text-slate-500 font-bold">【後編】 TOEIC頻出・ビジネス・応用表現（Section 2〜4）</p>
+  </header>
 
-      <div class="grid md:grid-cols-2 gap-6">
-
-        <!-- take charge of -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take charge of</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜の責任を取る／担当する</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「担当（charge）を自分の領域に取り込む」</p>
-            <span class="visual-text">責任 ━━━→ [自分の領域]<br>     （charge = 担当）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">I'll take charge of this project.</p>
-              <p class="text-xs text-slate-500">このプロジェクトの責任を取ります。（プロジェクトの担当を自分の領域に取り込む）</p>
-              <p class="font-bold mt-2">Who will take charge of the meeting?</p>
-              <p class="text-xs text-slate-500">誰が会議を担当しますか？（誰が会議のchargeを取り込むか）</p>
-              <p class="font-bold mt-2">She took charge of the situation.</p>
-              <p class="text-xs text-slate-500">彼女がその状況を仕切った。（彼女が状況のコントロールを取り込んだ）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：職務分担・責任所在の文脈<br>
-            ポイント：be in charge of（状態）と違い、take charge of は「担当を引き受ける（変化）」。
-          </div>
-        </div>
-
-        <!-- take action -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take action</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">行動を起こす／措置を取る</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「行動（action）を取り込んで実行する」</p>
-            <span class="visual-text">計画 ━━━→ 実行<br>     （action = 行動）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">We need to take action immediately.</p>
-              <p class="text-xs text-slate-500">直ちに行動を起こす必要がある。（行動を取り込んで実行する必要がある）</p>
-              <p class="font-bold mt-2">The company took action to reduce costs.</p>
-              <p class="text-xs text-slate-500">会社はコスト削減の措置を取った。（会社が削減措置を取り込んだ）</p>
-              <p class="font-bold mt-2">What action will you take?</p>
-              <p class="text-xs text-slate-500">どんな措置を取りますか？（どんな行動を取り込むか）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：危機対応・改善提案の文脈<br>
-            ポイント：take actions（複数形）も使用。具体的な措置を複数取る場合。
-          </div>
-        </div>
-
-        <!-- take steps -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take steps</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">段階的措置を取る</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「段階（steps）を踏んで取り込む」</p>
-            <span class="visual-text">段階1 → 段階2 → 段階3<br>     （steps = 階段）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">We're taking steps to improve quality.</p>
-              <p class="text-xs text-slate-500">品質改善のための措置を取っています。（改善のための段階的な行動を取り込んでいる）</p>
-              <p class="font-bold mt-2">The government took steps to address the issue.</p>
-              <p class="text-xs text-slate-500">政府はその問題に対処する措置を取った。（政府が対処のための段階を取り込んだ）</p>
-              <p class="font-bold mt-2">What steps should we take?</p>
-              <p class="text-xs text-slate-500">どんな措置を取るべきですか？（どんな段階を踏むべきか）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：計画実行・改善活動の文脈<br>
-            ポイント：take action より計画的。step by step（段階的に）のイメージ。
-          </div>
-        </div>
-
-        <!-- take measures -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take measures</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">対策を講じる</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「測定・対策（measures）を取り込む」</p>
-            <span class="visual-text">問題 ━━━→ 対策<br>     （measure = 測定・対策）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">We must take measures to prevent this.</p>
-              <p class="text-xs text-slate-500">これを防ぐ対策を講じなければならない。（防止のための対策を取り込む必要がある）</p>
-              <p class="font-bold mt-2">The company took measures to ensure safety.</p>
-              <p class="text-xs text-slate-500">会社は安全確保の対策を講じた。（会社が安全のための措置を取り込んだ）</p>
-              <p class="font-bold mt-2">What measures will be taken?</p>
-              <p class="text-xs text-slate-500">どんな対策が講じられますか？（どんな措置が取り込まれるか）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：リスク管理・安全対策の文脈<br>
-            ポイント：take action/steps より改まった表現。公式な対策のニュアンス。
-          </div>
-        </div>
-
-        <!-- take effect -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take effect</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">効力を発する／効果が出る</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「効果（effect）を取り込んで発揮する」</p>
-            <span class="visual-text">施行前 ━━━→ 施行後<br>       （effect = 効果）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">The new policy takes effect next month.</p>
-              <p class="text-xs text-slate-500">新しい方針は来月発効します。（新方針が来月効力を取り込んで発揮する）</p>
-              <p class="font-bold mt-2">When will the changes take effect?</p>
-              <p class="text-xs text-slate-500">変更はいつ発効しますか？（変更がいつ効果を取り込むか）</p>
-              <p class="font-bold mt-2">The medicine took effect immediately.</p>
-              <p class="text-xs text-slate-500">薬はすぐに効いた。（薬が即座に効果を取り込んで発揮した）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：規則施行・薬効の文脈<br>
-            ポイント：go into effect も同義。come into effect も同じ意味。
-          </div>
-        </div>
-
-        <!-- take note of -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take note of</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜に注目する／書き留める</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「メモ（note）を取り込む」</p>
-            <span class="visual-text">情報 ━━━→ 記録<br>     （note = メモ）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">Please take note of the deadline.</p>
-              <p class="text-xs text-slate-500">締め切りに注意してください。（締め切りをメモとして取り込んで）</p>
-              <p class="font-bold mt-2">I took note of his comments.</p>
-              <p class="text-xs text-slate-500">彼のコメントを書き留めた。（彼のコメントをメモとして取り込んだ）</p>
-              <p class="font-bold mt-2">Take note of these important points.</p>
-              <p class="text-xs text-slate-500">これらの重要なポイントに注目してください。（これらのポイントをメモとして取り込んで）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：会議・指示の文脈<br>
-            ポイント：pay attention to より改まった表現。記録することを強調。
-          </div>
-        </div>
-
-        <!-- take priority -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take priority</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">優先される</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「優先権（priority）を取り込む」</p>
-            <span class="visual-text">順位 ━━━→ 最優先<br>     （priority = 優先）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">This project takes priority.</p>
-              <p class="text-xs text-slate-500">このプロジェクトが優先されます。（このプロジェクトが優先権を取り込む）</p>
-              <p class="font-bold mt-2">Safety takes priority over speed.</p>
-              <p class="text-xs text-slate-500">安全はスピードより優先される。（安全がスピードを越えて優先権を取り込む）</p>
-              <p class="font-bold mt-2">Customer satisfaction should take priority.</p>
-              <p class="text-xs text-slate-500">顧客満足が優先されるべきだ。（顧客満足が優先権を取り込むべき）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：優先順位・意思決定の文脈<br>
-            ポイント：have priority（すでに優先権がある）に対し、take priority（優先される＝他より上位になる）。
-          </div>
-        </div>
-
-        <!-- take the lead -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take the lead</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">主導権を取る／先頭に立つ</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「先導（lead）を自分の領域に取り込む」</p>
-            <span class="visual-text">後方 ━━━━→ 前方（lead）<br>       （先頭）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">Our company took the lead in this field.</p>
-              <p class="text-xs text-slate-500">我が社はこの分野で主導権を取った。（我が社がこの分野の先導を取り込んだ）</p>
-              <p class="font-bold mt-2">Who will take the lead on this project?</p>
-              <p class="text-xs text-slate-500">誰がこのプロジェクトで主導権を取りますか？（誰がリーダーシップを取り込むか）</p>
-              <p class="font-bold mt-2">She took the lead in the negotiations.</p>
-              <p class="text-xs text-slate-500">彼女が交渉で主導権を握った。（彼女が交渉のleadを取り込んだ）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：リーダーシップ・イニシアチブの文脈<br>
-            ポイント：lead = 先導、主導。「率先して動く」ニュアンス。
-          </div>
-        </div>
-
-        <!-- take into consideration -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take into consideration</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜を考慮に入れる</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「考慮（consideration）の中に取り込む」</p>
-            <span class="visual-text">判断 [要素1, 要素2, 要素3]<br>      ↑ 取り込む</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">We'll take your opinion into consideration.</p>
-              <p class="text-xs text-slate-500">あなたの意見を考慮に入れます。（あなたの意見を考慮の中に取り込みます）</p>
-              <p class="font-bold mt-2">Please take this factor into consideration.</p>
-              <p class="text-xs text-slate-500">この要素を考慮に入れてください。（この要素を考慮の中に取り込んで）</p>
-              <p class="font-bold mt-2">All factors were taken into consideration.</p>
-              <p class="text-xs text-slate-500">すべての要素が考慮された。（すべての要素が考慮の中に取り込まれた）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：意思決定・評価の文脈<br>
-            ポイント：take into account と同義。consideration の方がやや改まった表現。
-          </div>
-        </div>
-
-        <!-- take responsibility for -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take responsibility for</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜の責任を取る</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「責任（responsibility）を自分の領域に取り込む」</p>
-            <span class="visual-text">問題 ━━━→ [自分が責任を負う]<br>     （responsibility）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">I'll take responsibility for this mistake.</p>
-              <p class="text-xs text-slate-500">この間違いの責任を取ります。（この間違いの責任を自分の領域に取り込む）</p>
-              <p class="font-bold mt-2">Who will take responsibility for the project?</p>
-              <p class="text-xs text-slate-500">誰がプロジェクトの責任を取りますか？（誰が責任を取り込むか）</p>
-              <p class="font-bold mt-2">Management must take responsibility.</p>
-              <p class="text-xs text-slate-500">経営陣が責任を取らなければならない。（経営陣が責任を取り込む必要がある）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：責任所在・問題対応の文脈<br>
-            ポイント：be responsible for（責任がある・状態）に対し、take responsibility for は「責任を取る（行動）」。
-          </div>
-        </div>
-
-        <!-- take a different approach -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-indigo-700 mb-2">take a different approach</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">異なるアプローチを取る</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「別のやり方（approach）を取り込む」</p>
-            <span class="visual-text">方法A ━━━━→ 方法B<br>       （approach = 取り組み方）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">We need to take a different approach.</p>
-              <p class="text-xs text-slate-500">異なるアプローチを取る必要がある。（別のやり方を取り込む必要がある）</p>
-              <p class="font-bold mt-2">Let's take a more practical approach.</p>
-              <p class="text-xs text-slate-500">もっと実用的なアプローチを取りましょう。（より実用的なやり方を取り込もう）</p>
-              <p class="font-bold mt-2">The team took a creative approach.</p>
-              <p class="text-xs text-slate-500">チームは創造的なアプローチを取った。（チームが創造的なやり方を取り込んだ）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-indigo-600">
-            TOEIC頻出：問題解決・戦略変更の文脈<br>
-            ポイント：approach = 取り組み方、アプローチ。方法論の選択を表す。
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SECTION 3 -->
-    <section class="space-y-8 fade-in-up delay-200">
-      <div class="flex items-center gap-3 border-b-2 border-slate-300 pb-3">
-        <span class="level-badge bg-slate-200 text-slate-700">Section 3</span>
-        <h2 class="text-2xl font-black text-slate-800">ビジネス・硬め（TOEIC上位〜実務）</h2>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-6">
-
-        <!-- take minutes -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take minutes</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">議事録を取る</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「議事録（minutes）を取り込んで記録する」</p>
-            <span class="visual-text">会議内容 ━━━→ 記録<br>        （minutes = 議事録）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">Who will take minutes at the meeting?</p>
-              <p class="text-xs text-slate-500">誰が会議の議事録を取りますか？（誰が議事録を取り込んで記録するか）</p>
-              <p class="font-bold mt-2">I'll take minutes today.</p>
-              <p class="text-xs text-slate-500">今日は私が議事録を取ります。（私が議事録を取り込んで記録する）</p>
-              <p class="font-bold mt-2">Please take detailed minutes.</p>
-              <p class="text-xs text-slate-500">詳細な議事録を取ってください。（詳しい記録を取り込んで）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：会議運営の文脈<br>
-            ポイント：minutes = 議事録（必ず複数形で使用）。meeting minutes とも言う。
-          </div>
-        </div>
-
-        <!-- take stock of -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take stock of</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜を評価する／棚卸しする</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「在庫（stock）を取り込んで確認する」</p>
-            <span class="visual-text">現状 ━━━→ 評価・確認<br>     （stock = 在庫）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">Let's take stock of the situation.</p>
-              <p class="text-xs text-slate-500">状況を評価しましょう。（状況の在庫を取り込んで確認しよう）</p>
-              <p class="font-bold mt-2">We need to take stock of our resources.</p>
-              <p class="text-xs text-slate-500">資源を棚卸しする必要がある。（資源の在庫を取り込んで確認する必要がある）</p>
-              <p class="font-bold mt-2">It's time to take stock of our progress.</p>
-              <p class="text-xs text-slate-500">進捗を評価する時だ。（進捗の在庫を取り込んで確認する時）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：評価・見直しの文脈<br>
-            ポイント：stock = 在庫、蓄積。「現状把握」のニュアンス。
-          </div>
-        </div>
-
-        <!-- take issue with -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take issue with</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜に異議を唱える</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「問題点（issue）を取り上げる」</p>
-            <span class="visual-text">意見 ━━━→ 異議<br>     （issue = 問題点）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">I must take issue with that statement.</p>
-              <p class="text-xs text-slate-500">その発言には異議を唱えなければならない。（その発言の問題点を取り上げなければならない）</p>
-              <p class="font-bold mt-2">Some members took issue with the proposal.</p>
-              <p class="text-xs text-slate-500">一部のメンバーがその提案に異議を唱えた。（メンバーが提案の問題点を取り上げた）</p>
-              <p class="font-bold mt-2">Do you take issue with my decision?</p>
-              <p class="text-xs text-slate-500">私の決定に異議がありますか？（私の決定の問題点を取り上げるか）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：議論・反対意見の文脈<br>
-            ポイント：issue = 問題、論点。disagree より改まった表現。
-          </div>
-        </div>
-
-        <!-- take advantage of -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take advantage of</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜を利用する／〜につけ込む</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「有利さ（advantage）を自分の領域に取り込む」</p>
-            <span class="visual-text">機会 ━━━→ 利用<br>     （advantage = 有利）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold text-blue-900 mb-1">意味1：良い機会を利用する（ポジティブ）</p>
-              <p class="font-bold">Take advantage of this opportunity.</p>
-              <p class="text-xs text-slate-500">この機会を利用してください。（この有利な機会を自分の領域に取り込んで）</p>
-              <p class="font-bold mt-2">I took advantage of the sale.</p>
-              <p class="text-xs text-slate-500">セールを利用した。（セールという有利な状況を取り込んだ）</p>
-            </div>
-            <div>
-              <p class="font-bold text-blue-900 mb-1">意味2：弱みにつけ込む（ネガティブ）</p>
-              <p class="font-bold">He took advantage of her kindness.</p>
-              <p class="text-xs text-slate-500">彼は彼女の優しさにつけ込んだ。（彼女の優しさを自分に都合よく取り込んで悪用した）</p>
-              <p class="font-bold mt-2">Don't let people take advantage of you.</p>
-              <p class="text-xs text-slate-500">人につけ込まれないように。（人があなたの弱みを取り込まないように）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：機会活用・人間関係の文脈<br>
-            ポイント：文脈で意味が真逆になる。<br>機会 = 利用する（中立〜ポジティブ）<br>人の性質 = つけ込む（ネガティブ）
-          </div>
-        </div>
-
-        <!-- take into account -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take into account</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜を考慮に入れる</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「計算（account）の中に取り込む」</p>
-            <span class="visual-text">判断 [要素A, 要素B]<br>      ↑ 取り込む<br>     （account = 計算）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">We must take his age into account.</p>
-              <p class="text-xs text-slate-500">彼の年齢を考慮に入れなければならない。（彼の年齢を計算の中に取り込む必要がある）</p>
-              <p class="font-bold mt-2">Taking everything into account, it's a good deal.</p>
-              <p class="text-xs text-slate-500">すべてを考慮に入れると、良い取引だ。（すべての要素を判断の中に取り込むと）</p>
-              <p class="font-bold mt-2">We took account of all the risks.</p>
-              <p class="text-xs text-slate-500">すべてのリスクを考慮した。（すべてのリスクを計算の中に取り込んだ）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：意思決定・リスク評価の文脈<br>
-            ポイント：account = 計算、勘定。consider とほぼ同義だが、よりフォーマル。
-          </div>
-        </div>
-
-        <!-- take it for granted -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take it for granted (that)</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜を当然だと思う</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「許可された状態（granted）として取り込む」</p>
-            <span class="visual-text">感謝すべき ━━━→ 当然視<br>          （granted = 許可済み）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">Don't take it for granted.</p>
-              <p class="text-xs text-slate-500">それを当たり前だと思わないで。（それを「許可済み」として取り込むな）</p>
-              <p class="font-bold mt-2">I took it for granted that he would come.</p>
-              <p class="text-xs text-slate-500">彼が来るのを当然だと思っていた。（彼が来ることを「既に認められたこと」として取り込んでいた）</p>
-              <p class="font-bold mt-2">We take clean water for granted.</p>
-              <p class="text-xs text-slate-500">私たちは綺麗な水を当然だと思っている。（綺麗な水を「承認済みの前提」として取り込んでいる）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：感謝・認識の文脈<br>
-            ポイント：granted = 許可された。批判的な文脈で使われることが多い。
-          </div>
-        </div>
-
-        <!-- take a stand on -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take a stand on</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜について立場を取る</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「立場（stand）を取り込む」</p>
-            <span class="visual-text">中立 ━━━━→ 明確な立場<br>       （stand = 立場）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">We need to take a stand on this issue.</p>
-              <p class="text-xs text-slate-500">この問題について立場を取る必要がある。（この問題についての立場を取り込む必要がある）</p>
-              <p class="font-bold mt-2">He refuses to take a stand.</p>
-              <p class="text-xs text-slate-500">彼は立場を明らかにすることを拒否している。（彼が立場を取り込むことを拒否している）</p>
-              <p class="font-bold mt-2">The company took a strong stand against discrimination.</p>
-              <p class="text-xs text-slate-500">会社は差別に対して強い立場を取った。（会社が差別反対の立場を取り込んだ）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：意見表明・企業方針の文脈<br>
-            ポイント：stand = 立場、姿勢。「明確な態度を示す」ニュアンス。
-          </div>
-        </div>
-
-        <!-- take precedence over -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take precedence over</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜より優先される</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「優先順位（precedence）を取り込む」</p>
-            <span class="visual-text">A ━━━━→ A > B<br>B        （precedence = 優先）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">Safety takes precedence over profit.</p>
-              <p class="text-xs text-slate-500">安全は利益より優先される。（安全が利益より優先順位を取り込む）</p>
-              <p class="font-bold mt-2">This task takes precedence.</p>
-              <p class="text-xs text-slate-500">この作業が優先される。（この作業が優先順位を取り込む）</p>
-              <p class="font-bold mt-2">Emergency cases take precedence over routine appointments.</p>
-              <p class="text-xs text-slate-500">緊急ケースは通常の予約より優先される。（緊急ケースが優先順位を取り込む）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：優先順位・判断基準の文脈<br>
-            ポイント：precedence = 優先権。take priority over より改まった表現。
-          </div>
-        </div>
-
-        <!-- take exception to -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take exception to</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜に反対する／異議を唱える</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「例外（exception）を取り上げる」= 反対する</p>
-            <span class="visual-text">同意 ━━━━→ 反対<br>       （exception = 例外）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">I take exception to that remark.</p>
-              <p class="text-xs text-slate-500">その発言には反対します。（その発言に例外を取り上げる/同意できない）</p>
-              <p class="font-bold mt-2">Some shareholders took exception to the plan.</p>
-              <p class="text-xs text-slate-500">一部の株主がその計画に反対した。（株主たちがその計画に例外を取り上げた）</p>
-              <p class="font-bold mt-2">Do you take exception to my proposal?</p>
-              <p class="text-xs text-slate-500">私の提案に反対ですか？（私の提案に例外を取り上げるか）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：議論・異議申し立ての文脈<br>
-            ポイント：exception = 例外。take issue with より強い反対のニュアンス。
-          </div>
-        </div>
-
-        <!-- take a toll on -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-slate-700 mb-2">take a toll on</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">〜に悪影響を与える／〜を消耗させる</p>
-          <div class="core-box">
-            <p class="text-xs font-bold text-slate-500">コアイメージ：「通行料（toll）を取る」= 代償を払わせる</p>
-            <span class="visual-text">健康 ━━━━→ 悪化<br>       （toll = 通行料・代償）</span>
-          </div>
-          <div class="space-y-4 text-sm text-slate-700">
-            <div>
-              <p class="font-bold">Stress is taking a toll on his health.</p>
-              <p class="text-xs text-slate-500">ストレスが彼の健康に悪影響を与えている。（ストレスが健康という通行料を取っている）</p>
-              <p class="font-bold mt-2">The long hours took a toll on her.</p>
-              <p class="text-xs text-slate-500">長時間労働が彼女を消耗させた。（長時間が彼女から代償を取った）</p>
-              <p class="font-bold mt-2">The pandemic has taken a heavy toll on the economy.</p>
-              <p class="text-xs text-slate-500">パンデミックは経済に大きな打撃を与えた。（パンデミックが経済から重い代償を取った）</p>
-            </div>
-          </div>
-          <div class="mt-4 text-xs font-bold text-slate-600">
-            TOEIC頻出：健康・ダメージの文脈<br>
-            ポイント：toll = 通行料、代償。必ずネガティブな影響。
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SECTION 4 -->
-    <section class="space-y-8 fade-in-up delay-300">
-      <div class="flex items-center gap-3 border-b-2 border-amber-200 pb-3">
-        <span class="level-badge bg-amber-100 text-amber-700">Section 4</span>
-        <h2 class="text-2xl font-black text-slate-800">重要だけど”意味がブレやすい”注意組</h2>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-6">
-
-        <!-- take off -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-amber-700 mb-2">take off（多義語の整理）</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：表面から「離す（off）」</p>
-          <ul class="space-y-3 text-sm text-slate-700">
-            <li><span class="font-bold text-amber-600">意味1：脱ぐ</span><br>Take off your coat.（体という表面からコートを離す）</li>
-            <li><span class="font-bold text-amber-600">意味2：離陸する</span><br>The plane took off.（地面という表面から離れた）</li>
-            <li><span class="font-bold text-amber-600">意味3：休む</span><br>I'll take Friday off.（仕事という通常状態から金曜日を離す）</li>
-            <li><span class="font-bold text-amber-600">意味4：急成長する</span><br>Sales took off.（売上が地面から離陸するように急上昇）</li>
-          </ul>
-          <div class="mt-4 p-3 bg-amber-50 text-amber-800 rounded text-xs font-bold">
-            見分け方：<br>
-            ∙ 服 + take off = 脱ぐ<br>
-            ∙ 飛行機 + take off = 離陸する<br>
-            ∙ 日・時間 + take off = 休む<br>
-            ∙ ビジネス・キャリア + take off = 急成長
-          </div>
-        </div>
-
-        <!-- take on -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-amber-700 mb-2">take on（多義語の整理）</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「自分の上（on）に取り上げる」</p>
-          <ul class="space-y-3 text-sm text-slate-700">
-            <li><span class="font-bold text-amber-600">意味1：引き受ける</span><br>I'll take on the task.（タスクを自分の上に取り上げる）</li>
-            <li><span class="font-bold text-amber-600">意味2：雇う</span><br>We're taking on new staff.（新スタッフを組織の上に取り上げる）</li>
-            <li><span class="font-bold text-amber-600">意味3：性質を帯びる</span><br>His voice took on a serious tone.（声が真剣さという性質を自分の上に取った）</li>
-            <li><span class="font-bold text-amber-600">意味4：対戦する</span><br>We'll take on the champions.（チャンピオンに（挑戦を）自分の上に取る）</li>
-          </ul>
-          <div class="mt-4 p-3 bg-amber-50 text-amber-800 rounded text-xs font-bold">
-            見分け方：<br>
-            ∙ 仕事・責任 = 引き受ける<br>
-            ∙ 人 = 雇う<br>
-            ∙ 性質・様子 = 帯びる<br>
-            ∙ 対戦相手 = 対決する
-          </div>
-        </div>
-
-        <!-- take in -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-amber-700 mb-2">take in（多義語の整理）</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「内側（in）に取り込む」</p>
-          <ul class="space-y-3 text-sm text-slate-700">
-            <li><span class="font-bold text-amber-600">意味1：理解する</span><br>I couldn't take in the news.（ニュースを頭の内側に取り込めなかった）</li>
-            <li><span class="font-bold text-amber-600">意味2：だます</span><br>Don't be taken in.（嘘を真実として内側に取り込むな）</li>
-            <li><span class="font-bold text-amber-600">意味3：引き取る</span><br>They took in a cat.（猫を家の内側に取り込んだ）</li>
-            <li><span class="font-bold text-amber-600">意味4：縮める</span><br>Take in the waist.（ウエストを内側に取り込んで小さく）</li>
-          </ul>
-          <div class="mt-4 p-3 bg-amber-50 text-amber-800 rounded text-xs font-bold">
-            見分け方：<br>
-            ∙ 情報 = 理解する<br>
-            ∙ 嘘 = だます<br>
-            ∙ 動物・人 = 引き取る<br>
-            ∙ 服 = 縮める
-          </div>
-        </div>
-
-        <!-- take out -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-amber-700 mb-2">take out（多義語の整理）</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「内部から外（out）へ取る」</p>
-          <ul class="space-y-3 text-sm text-slate-700">
-            <li><span class="font-bold text-amber-600">意味1：取り出す</span><br>Take out your pen.（カバンから外へペンを取る）</li>
-            <li><span class="font-bold text-amber-600">意味2：外食する</span><br>Let's take out.（食事を家の外に取り出す）</li>
-            <li><span class="font-bold text-amber-600">意味3：保険に入る</span><br>Take out insurance.（保険契約を取り出して開始）</li>
-            <li><span class="font-bold text-amber-600">意味4：連れ出す</span><br>He took her out.（彼女を外に取り出した/デート）</li>
-          </ul>
-          <div class="mt-4 p-3 bg-amber-50 text-amber-800 rounded text-xs font-bold">
-            見分け方：<br>
-            ∙ 物 + take out = 取り出す<br>
-            ∙ 食事文脈 = 外食／テイクアウト<br>
-            ∙ insurance/loan = 加入する<br>
-            ∙ 人 + take out = 連れ出す
-          </div>
-        </div>
-
-        <!-- take over -->
-        <div class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm hover-card">
-          <h3 class="text-xl font-black text-amber-700 mb-2">take over（多義語の整理）</h3>
-          <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：「越えて（over）取る」</p>
-          <ul class="space-y-3 text-sm text-slate-700">
-            <li><span class="font-bold text-amber-600">意味1：引き継ぐ</span><br>I'll take over.（あなたを越えて私が取る）</li>
-            <li><span class="font-bold text-amber-600">意味2：買収する</span><br>The company was taken over.（会社の支配が越えて取られた）</li>
-            <li><span class="font-bold text-amber-600">意味3：占拠する</span><br>Weeds took over.（雑草が支配を越えて取った）</li>
-          </ul>
-          <div class="mt-4 p-3 bg-amber-50 text-amber-800 rounded text-xs font-bold">
-            見分け方：<br>
-            ∙ 仕事・役職 = 引き継ぐ<br>
-            ∙ 会社 = 買収する<br>
-            ∙ 場所 = 占拠する<br>
-            すべて「支配権の移行」という共通イメージ
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center text-xs text-slate-400 font-bold py-10 border-t border-slate-200 mt-12 fade-in-up" style="animation-delay: 0.4s;">
-      <a href="./phrasal_part1.html" class="text-blue-600 hover:underline">← 前編（基本・日常）に戻る</a>
-      <span class="mx-2">|</span>
-      <a href="../" class="hover:text-blue-600 transition-colors">ホームへ戻る</a>
-    </footer>
-
+  <!-- SECTION 2 -->
+  <div class="section-title">
+    <span class="section-badge">2</span>
+    TOEIC頻出表現
   </div>
-</body>
-</html>
 
+  <!-- take action on -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take action on</span><span class="translation">〜に対して措置を講じる</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：特定の対象「の上（on）で」行動（action）を取る</span>
+        <div class="visual-text">対象 ━━on━━● 行動開始</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We must take action on this issue.</p>
+          <p class="jp-sent">この問題に対して措置を講じなければならない。</p>
+          <p class="explanation">→ 問題という対象の上で行動を取る</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The government took action on climate change.</p>
+          <p class="jp-sent">政府は気候変動に対して行動を起こした。</p>
+          <p class="explanation">→ 気候変動という対象の上で行動を取った</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>on = 特定の対象。「ただの行動」ではなく「具体的な対処・措置」のニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take charge of -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take charge of</span><span class="translation">〜の責任を取る／担当する</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「担当（charge）を自分の領域に取り込む」</span>
+        <div class="visual-text">責任 ━━━→ [自分の領域] （charge = 担当）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">I'll take charge of this project.</p>
+          <p class="jp-sent">このプロジェクトの責任を取ります。</p>
+          <p class="explanation">→ プロジェクトの担当を自分の領域に取り込む</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Who will take charge of the meeting?</p>
+          <p class="jp-sent">誰が会議を担当しますか？</p>
+          <p class="explanation">→ 誰が会議のchargeを取り込むか</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>be in charge of（状態）と違い、take charge of は「担当を引き受ける（変化）」。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take action -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take action</span><span class="translation">行動を起こす／措置を取る</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「行動（action）を取り込んで実行する」</span>
+        <div class="visual-text">計画 ━━━→ 実行 （action = 行動）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We need to take action immediately.</p>
+          <p class="jp-sent">直ちに行動を起こす必要がある。</p>
+          <p class="explanation">→ 行動を取り込んで実行する必要がある</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The company took action to reduce costs.</p>
+          <p class="jp-sent">会社はコスト削減の措置を取った。</p>
+          <p class="explanation">→ 会社が削減措置を取り込んだ</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>危機対応・改善提案などの文脈で多用される。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take steps -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take steps</span><span class="translation">段階的措置を取る</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「段階（steps）を踏んで取り込む」</span>
+        <div class="visual-text">段階1 → 段階2 → 段階3 （steps = 階段）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We're taking steps to improve quality.</p>
+          <p class="jp-sent">品質改善のための措置を取っています。</p>
+          <p class="explanation">→ 改善のための段階的な行動を取り込んでいる</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The government took steps to address the issue.</p>
+          <p class="jp-sent">政府はその問題に対処する措置を取った。</p>
+          <p class="explanation">→ 政府が対処のための段階を取り込んだ</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>take action より計画的。step by step（段階的に）のイメージ。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take measures -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take measures</span><span class="translation">対策を講じる</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「測定・対策（measures）を取り込む」</span>
+        <div class="visual-text">問題 ━━━→ 対策 （measure = 測定・対策）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We must take measures to prevent this.</p>
+          <p class="jp-sent">これを防ぐ対策を講じなければならない。</p>
+          <p class="explanation">→ 防止のための対策を取り込む必要がある</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The company took measures to ensure safety.</p>
+          <p class="jp-sent">会社は安全確保の対策を講じた。</p>
+          <p class="explanation">→ 会社が安全のための措置を取り込んだ</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>公式な対策のニュアンス。リスク管理・安全対策の文脈で多用。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take effect -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take effect</span><span class="translation">効力を発する／効果が出る</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「効果（effect）を取り込んで発揮する」</span>
+        <div class="visual-text">施行前 ━━━→ 施行後 （effect = 効果）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">The new policy takes effect next month.</p>
+          <p class="jp-sent">新しい方針は来月発効します。</p>
+          <p class="explanation">→ 新方針が来月効力を取り込んで発揮する</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The medicine took effect immediately.</p>
+          <p class="jp-sent">薬はすぐに効いた。</p>
+          <p class="explanation">→ 薬が即座に効果を取り込んで発揮した</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>規則施行や薬効の文脈で使われる。go into effect も同義。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take a chance -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take a chance</span><span class="translation">一か八かやってみる／危険を冒す</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：不確実な「運（chance）を取る」</span>
+        <div class="visual-text">[不確実] ━━━━→ [取る]</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Let's take a chance!</p>
+          <p class="jp-sent">一か八かやってみよう！</p>
+          <p class="explanation">→ 不確実な運をあえて取ってみよう</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">He's not afraid to take a chance.</p>
+          <p class="jp-sent">彼は危険を冒すことを恐れない。</p>
+          <p class="explanation">→ 不確実なものを取ることを恐れない</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>chance = 運、可能性。risk よりも「成功の可能性に賭ける」ニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take note of -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take note of</span><span class="translation">〜に注目する／〜を留めておく</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：対象から「メモ・記録（note）を取る」</span>
+        <div class="visual-text">対象 ━━━━→ [記録]</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Please take note of the change.</p>
+          <p class="jp-sent">変更点に注意してください。</p>
+          <p class="explanation">→ 変更点という対象から記録を取りなさい</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">They took note of his comments.</p>
+          <p class="jp-sent">彼らは彼のコメントを心に留めた。</p>
+          <p class="explanation">→ コメントという対象から記録を取った</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>「ただ見る」だけでなく「意識的に記憶や記録に残す」ニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take priority -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take priority</span><span class="translation">優先される</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「優先権（priority）を取り込む」</span>
+        <div class="visual-text">順位 ━━━→ 最優先<br> （priority = 優先）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">This project takes priority.</p>
+          <p class="jp-sent">このプロジェクトが優先されます。</p>
+          <p class="explanation">→ このプロジェクトが優先権を取り込む</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Safety takes priority over speed.</p>
+          <p class="jp-sent">安全はスピードより優先される。</p>
+          <p class="explanation">→ 安全がスピードを越えて優先権を取り込む</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Customer satisfaction should take priority.</p>
+          <p class="jp-sent">顧客満足が優先されるべきだ。</p>
+          <p class="explanation">→ 顧客満足が優先権を取り込むべき</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>TOEIC頻出：優先順位・意思決定の文脈。have priority（すでに優先権がある）に対し、take priority（優先される＝他より上位になる）。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take the lead -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take the lead</span><span class="translation">主導権を取る／先頭に立つ</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「先導（lead）を自分の領域に取り込む」</span>
+        <div class="visual-text">後方 ━━━━→ 前方（lead） （先頭）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Our company took the lead in this field.</p>
+          <p class="jp-sent">我が社はこの分野で主導権を取った。</p>
+          <p class="explanation">→ 我が社がこの分野の先導を取り込んだ</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Who will take the lead on this project?</p>
+          <p class="jp-sent">誰がこのプロジェクトで主導権を取りますか？</p>
+          <p class="explanation">→ 誰がリーダーシップを取り込むか</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>lead = 先導、主導。「率先して動く」ニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take into consideration -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take into consideration</span><span
+        class="translation">〜を考慮に入れる</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「考慮（consideration）の中に取り込む」</span>
+        <div class="visual-text">判断 [要素1, 要素2, 要素3] ↑ 取り込む</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We'll take your opinion into consideration.</p>
+          <p class="jp-sent">あなたの意見を考慮に入れます。</p>
+          <p class="explanation">→ あなたの意見を考慮の中に取り込みます</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Please take this factor into consideration.</p>
+          <p class="jp-sent">この要素を考慮に入れてください。</p>
+          <p class="explanation">→ この要素を考慮の中に取り込んで</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>take into account と同義。やや改まった表現。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take a different approach -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take a different approach</span><span
+        class="translation">異なるアプローチを取る</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「別のやり方（approach）を取り込む」</span>
+        <div class="visual-text">方法A ━━━━→ 方法B （approach = 取り組み方）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We need to take a different approach.</p>
+          <p class="jp-sent">異なるアプローチを取る必要がある。</p>
+          <p class="explanation">→ 別のやり方を取り込む必要がある</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Let's take a more practical approach.</p>
+          <p class="jp-sent">もっと実用的なアプローチを取りましょう。</p>
+          <p class="explanation">→ より実用的なやり方を取り込もう</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>approach = 取り組み方。戦略や方法の変更を伴う。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="section-title">
+    <span class="section-badge">3</span>
+    ビジネス・フォーマル表現
+  </div>
+
+  <!-- take minutes -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take minutes</span><span class="translation">議事録を取る</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「議事録（minutes）を取り込んで記録する」</span>
+        <div class="visual-text">会議内容 ━━━→ 記録 （minutes = 議事録）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Who will take minutes at the meeting?</p>
+          <p class="jp-sent">誰が会議の議事録を取りますか？</p>
+          <p class="explanation">→ 誰が議事録を取り込んで記録するか</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">I'll take minutes today.</p>
+          <p class="jp-sent">今日は私が議事録を取ります。</p>
+          <p class="explanation">→ 私が議事録を取り込んで記録する</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>minutes = 議事録（必ず複数形）。実務で非常に重要。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take stock of -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take stock of</span><span class="translation">〜を評価する／棚卸しする</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「在庫（stock）を取り込んで確認する」</span>
+        <div class="visual-text">現状 ━━━→ 評価・確認 （stock = 在庫）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Let's take stock of the situation.</p>
+          <p class="jp-sent">状況を評価しましょう。</p>
+          <p class="explanation">→ 状況を棚卸しするように現状を把握しよう</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">We need to take stock of our progress.</p>
+          <p class="jp-sent">進捗を評価する時です。</p>
+          <p class="explanation">→ これまでの進みを棚卸しして確認しよう</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>stock = 在庫、蓄積。「現状を正確に把握する」ニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take issue with -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take issue with</span><span class="translation">〜に異議を唱える</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「問題点（issue）を取り上げる」</span>
+        <div class="visual-text">意見 ━━━→ 異議 （issue = 問題点）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">I must take issue with that statement.</p>
+          <p class="jp-sent">その発言には異議を唱えなければならない。</p>
+          <p class="explanation">→ 発言の問題点を取り上げる</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Some members took issue with the proposal.</p>
+          <p class="jp-sent">一部のメンバーがその提案に異議を唱えた。</p>
+          <p class="explanation">→ 提案の問題点を取り上げた</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>issue = 問題、論点。disagree より丁寧で知的なニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take into account -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take into account</span><span class="translation">〜を考慮に入れる</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「計算（account）の中に取り込む」</span>
+        <div class="visual-text">判断 [要素A, 要素B] ↑ 取り込む （account = 計算）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We must take his age into account.</p>
+          <p class="jp-sent">彼の年齢を考慮に入れなければならない。</p>
+          <p class="explanation">→ 計算の中に取り込む必要がある</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Taking everything into account, it's a good deal.</p>
+          <p class="jp-sent">すべてを考慮に入れると、良い取引だ。</p>
+          <p class="explanation">→ すべての要素を判断の中に取り込むと</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>account = 計算、勘定。判断の材料として重要視するニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take it for granted -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take it for granted (that)</span><span
+        class="translation">〜を当然だと思う</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「許可された状態（granted）として取り込む」</span>
+        <div class="visual-text">感謝すべき ━━━→ 当然視 （granted = 許可済み）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Don't take it for granted.</p>
+          <p class="jp-sent">それを当たり前だと思わないで。</p>
+          <p class="explanation">→ 当然のものとして取り込むな</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">I took it for granted that he would come.</p>
+          <p class="jp-sent">彼が来るのを当然だと思っていた。</p>
+          <p class="explanation">→ 既に認められた前提として取り込んでいた</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>granted = 許可された。批判的な文脈で「感謝の欠如」を指摘する際によく使われる。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take a stand on -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take a stand on</span><span class="translation">〜について立場を取る</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「立場（stand）を取り込む」</span>
+        <div class="visual-text">中立 ━━━━→ 明確な立場 （stand = 立場）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">We need to take a stand on this issue.</p>
+          <p class="jp-sent">この問題について立場を取る必要がある。</p>
+          <p class="explanation">→ 態度を明確にする</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The company took a strong stand against it.</p>
+          <p class="jp-sent">会社はそれに対して強い反対の立場を取った。</p>
+          <p class="explanation">→ 反対の姿勢を明確にした</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>stand = 立場、姿勢。「明確な態度表明」のニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take precedence over -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take precedence over</span><span class="translation">〜より優先される</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「優先順位（precedence）を取り込む」</span>
+        <div class="visual-text">A ━━━━→ A > B （precedence = 優先）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Safety takes precedence over profit.</p>
+          <p class="jp-sent">安全は利益より優先される。</p>
+          <p class="explanation">→ 安全が利益より高い優先度を取り込む</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">This task takes precedence over others.</p>
+          <p class="jp-sent">この作業が他のものより優先される。</p>
+          <p class="explanation">→ この作業が最優先の地位を取る</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>precedence = 優先権。take priority over よりさらに改まった、公的な優先。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take exception to -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take exception to</span><span class="translation">〜に反対する／異議を唱える</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「例外（exception）を取り上げる」= 反対する</span>
+        <div class="visual-text">同意 ━━━━→ 反対 （exception = 例外）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">I take exception to that remark.</p>
+          <p class="jp-sent">その発言には反対します。</p>
+          <p class="explanation">→ 発言を例外的なものとして取り上げ、認めない</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Some shareholders took exception to the plan.</p>
+          <p class="jp-sent">一部の株主がその計画に反対した。</p>
+          <p class="explanation">→ 計画に異議を唱えた</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>exception = 例外。take issue with よりさらに強い反対・反発のニュアンス。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take a toll on -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take a toll on</span><span
+        class="translation">〜に悪影響を与える／〜を消耗させる</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「通行料（toll）を取る」= 代償を払わせる</span>
+        <div class="visual-text">通常 ━━━━→ 消耗・悪化 （toll = 通行料・代償）</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Stress is taking a toll on his health.</p>
+          <p class="jp-sent">ストレスが彼の健康に悪影響を与えている。</p>
+          <p class="explanation">→ ストレスが健康を削り取っている</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The long hours took a toll on her.</p>
+          <p class="jp-sent">長時間労働が彼女を消耗させた。</p>
+          <p class="explanation">→ 労働が彼女のエネルギーを削り取った</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>toll = 通行料、代償。じわじわと、かつ確実に受ける悪影響や損失を指す。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="section-title">
+    <span class="section-badge">4</span>
+    重要だけど”意味がブレやすい”注意組
+  </div>
+
+  <!-- take off -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take off</span><span class="translation">脱ぐ／離陸する／休む／急成長する</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：表面から「離す（off）」</span>
+        <div class="visual-text">[表面] ━━━━off━━→ [分離]</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Take off your coat.</p>
+          <p class="jp-sent">コートを脱ぎなさい。</p>
+          <p class="explanation">→ 体という表面から離す</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The plane took off on time.</p>
+          <p class="jp-sent">飛行機は時間通りに離陸した。</p>
+          <p class="explanation">→ 地面という表面から離れた</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">I'll take Friday off.</p>
+          <p class="jp-sent">金曜日は休みます。</p>
+          <p class="explanation">→ 仕事という通常状態から離す</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Sales really took off last month.</p>
+          <p class="jp-sent">先月、売上が急伸した。</p>
+          <p class="explanation">→ 地面から離陸するように急上昇</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>対象（服、飛行機、時間、ビジネス）によって意味が変わる代表的な多義語。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take on -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take on</span><span class="translation">引き受ける／雇う／性質を帯びる</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「自分の上（on）に取り上げる」</span>
+        <div class="visual-text">[自分] ━━━━on━━● [獲得/負荷]</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">I can't take on any more work.</p>
+          <p class="jp-sent">これ以上仕事を引き受けられません。</p>
+          <p class="explanation">→ 自分の上に載せられない</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The company is taking on new staff.</p>
+          <p class="jp-sent">会社は新しいスタッフを雇っている。</p>
+          <p class="explanation">→ 組織の上に載せる</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">His voice took on a serious tone.</p>
+          <p class="jp-sent">彼の声は真剣な色を帯びた。</p>
+          <p class="explanation">→ 声が真剣さを自分の上に取った</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>仕事（引き受ける）、人（雇う）、性質（帯びる）など、重荷や特徴を「身に受ける」イメージ。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take in -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take in</span><span class="translation">理解する／だます／引き取る</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「内側（in）に取り込む」</span>
+        <div class="visual-text">[内側] ←━━━in━━━ ●</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">It was a lot of information to take in.</p>
+          <p class="jp-sent">理解すべき情報が多すぎました。</p>
+          <p class="explanation">→ 頭の内側に取り込む</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Don't be taken in by his lies.</p>
+          <p class="jp-sent">彼の嘘にだまされてはいけません。</p>
+          <p class="explanation">→ 嘘を真実として内側に取り込まされる</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>理解（情報の取り込み）、だます（嘘の取り込み）など「受け入れる」が共通の芯。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take out -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take out</span><span class="translation">取り出す／外食する／加入する／連れ出す</span>
+    </div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「内部から外（out）へ取る」</span>
+        <div class="visual-text">[中] ━━━━out━━→ [外]</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">Take out your pen.</p>
+          <p class="jp-sent">ペンを取り出しなさい。</p>
+          <p class="explanation">→ カバンの中から外へ</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">Let's take out tonight.</p>
+          <p class="jp-sent">今夜はテイクアウトにしよう。</p>
+          <p class="explanation">→ 食事を店から外へ</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">He took her out to dinner.</p>
+          <p class="jp-sent">彼は彼女を夕食に連れ出した。</p>
+          <p class="explanation">→ 家から外へ連れ出す</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>取り出す、テイクアウト、加入（契約を取り出す）、連れ出すなど幅広い。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- take over -->
+  <div class="card">
+    <div class="card-header"><span class="phrase">take over</span><span class="translation">引き継ぐ／買収する／占拠する</span></div>
+    <div class="card-body">
+      <div class="core-box"><span class="core-title">コアイメージ：「越えて（over）支配を取る」</span>
+        <div class="visual-text">[他者] ━━over━━→ [自分]</div>
+      </div>
+      <div class="meaning-section">
+        <div class="example-box">
+          <p class="en-sent">I'll take over from here.</p>
+          <p class="jp-sent">ここからは私が引き継ぎます。</p>
+          <p class="explanation">→ 相手を越えて自分が取る</p>
+        </div>
+        <div class="example-box">
+          <p class="en-sent">The giant was taken over by a multinational.</p>
+          <p class="jp-sent">その巨大企業は多国籍企業に買収された。</p>
+          <p class="explanation">→ 支配権を越えて取られた</p>
+        </div>
+      </div>
+      <div class="point-area"><span class="point-label">Point：</span>
+        <p>支配や責任が「誰かから誰かへ移行する」イメージ。</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-12 py-8 border-t border-slate-200">
+    <div class="flex flex-col sm:flex-row justify-between items-center gap-4">
+      <a href="part1.html" class="nav-btn nav-btn-secondary w-full sm:w-auto">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        前編（基礎編）へ
+      </a>
+      <a href="../index.html" class="nav-btn link-button w-full sm:w-auto"
+        style="margin-top: 0; background-color: #3b82f6; color: white;">
+        TAKE：トップへ戻る
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l7 7m-7-7H3" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
