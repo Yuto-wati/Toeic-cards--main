@@ -1,0 +1,1884 @@
+# DO句動詞 完全解説記事（前編）
+
+**「DO」のコアイメージと基本用法を徹底マスター**
+
+---
+
+## DOのコアイメージ
+
+```
+     行動・実行
+        ↓
+    【 DO 】
+        ↓
+   ┌────┴────┐
+   実行      処理
+   ↓        ↓
+  結果    完了・変化
+  
+  DO = 行動を起こして何かを完成させる・実現する
+```
+
+DOは「行動する」「実行する」という能動的なイメージを持つ動詞です。単に動作をするだけでなく、その行動によって「何かを完成させる」「変化をもたらす」というニュアンスが含まれます。句動詞として使われる場合、後に続く前置詞や副詞が「方向性」や「結果」を示し、具体的な意味を形成します。
+
+---
+
+## 01｜基本・最優先
+
+### 1. do up「結ぶ、締める、修理する、包む」
+
+```
+  [対象物] → DO UP → [整った状態]
+      ↓
+   結ぶ・締める・整える
+      ↓
+   完成・準備完了
+```
+
+「up」は「完成」「上昇」を意味し、do upは「何かを整えて完成させる」というイメージです。服のボタンを締める、靴紐を結ぶ、部屋を修理する、プレゼントを包むなど、「バラバラなものをまとめる」「不完全なものを完全にする」動作を表します。
+
+**例文：**
+
+- Could you help me do up my dress? The zipper is in the back.
+  ドレスのファスナーを上げるのを手伝ってくれる？背中にあるの。
+
+- He's doing up an old house in the countryside.
+  彼は田舎の古い家を修理している。
+
+- She did up the present with a beautiful ribbon.
+  彼女は美しいリボンでプレゼントを包んだ。
+
+- Do up your coat—it's cold outside.
+  コートのボタンを締めなさい、外は寒いよ。
+
+- The room has been completely done up in a modern style.
+  その部屋は完全にモダンなスタイルに改装された。
+
+💡 **ポイント：** 衣服に関しては「ファスナーやボタンを締める」、建物に関しては「修理・改装する」、物に関しては「包む・まとめる」という意味になります。文脈によって意味が変わる多義語です。
+
+---
+
+### 2. do over「やり直す、もう一度する」
+
+```
+  [失敗・不満足] → DO OVER → [再実行]
+         ↓
+      最初から
+         ↓
+      改善・完成
+```
+
+「over」は「もう一度」「最初から」という意味で、do overは「満足できない結果を改善するためにもう一度やる」という意味です。主にアメリカ英語で使われ、イギリス英語では「do again」や「redo」がより一般的です。
+
+**例文：**
+
+- The teacher made me do the assignment over because of too many mistakes.
+  先生は間違いが多すぎるので課題をやり直させた。
+
+- If I could do it over, I would make different choices.
+  もしやり直せるなら、違う選択をするだろう。
+
+- The painting didn't turn out well, so I'm going to do it over.
+  絵がうまくできなかったので、やり直すつもりだ。
+
+- We need to do over this entire section of the report.
+  レポートのこのセクション全体をやり直す必要がある。
+
+💡 **ポイント：** 「redo」とほぼ同義ですが、do overは口語的でカジュアルな表現です。ビジネスシーンでは「redo」や「revise」の方が適切な場合もあります。
+
+---
+
+### 3. do without「〜なしで済ませる」🎯
+
+```
+  [必要なもの] → DO WITHOUT → [代替・我慢]
+        ↓
+     なしで
+        ↓
+    適応・管理
+```
+
+「without」は「〜なし」という意味で、do withoutは「本来必要なものがなくても何とかやっていく」という意味です。我慢や工夫を伴うニュアンスがあります。
+
+**例文：**
+
+- I can do without coffee in the morning, but I prefer to have it.
+  朝のコーヒーなしでもやっていけるけど、あった方がいい。
+
+- We'll have to do without air conditioning until the repair person arrives.
+  修理業者が来るまでエアコンなしで過ごさなければならない。
+
+- In this economy, many families are learning to do without luxuries.
+  この経済状況では、多くの家族が贅沢品なしで過ごすことを学んでいる。
+
+- I could do without your sarcastic comments, thank you.
+  あなたの皮肉なコメントは結構です、ありがとう。
+
+- During the camping trip, we had to do without electricity for three days.
+  キャンプ旅行中、3日間電気なしで過ごさなければならなかった。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。ビジネスシーンでは「削減」「節約」の文脈でよく使われます。また、「I could do without...」の形で「〜は不要だ」という婉曲的な拒否を表すこともできます。
+
+---
+
+### 4. do away with「廃止する、処分する、殺す」🎯
+
+```
+  [不要なもの] → DO AWAY WITH → [除去・廃止]
+        ↓
+     完全に除く
+        ↓
+      消滅・終了
+```
+
+「away」は「離れて」「なくなって」という意味で、do away withは「何かを完全に取り除く」という意味です。制度や習慣の「廃止」、物の「処分」、さらには人を「殺す」という物騒な意味まで持つ表現です。
+
+**例文：**
+
+- The company decided to do away with the old filing system.
+  会社は古いファイリングシステムを廃止することを決定した。
+
+- Many countries have done away with the death penalty.
+  多くの国が死刑制度を廃止した。
+
+- We should do away with these outdated regulations.
+  これらの時代遅れの規制を廃止すべきだ。
+
+- The new software will do away with the need for manual data entry.
+  新しいソフトウェアは手動でのデータ入力の必要性をなくすだろう。
+
+- In the mystery novel, the villain tried to do away with the detective.
+  推理小説では、悪役が探偵を殺そうとした。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。ビジネスや政治の文脈では「廃止する」「撤廃する」の意味で頻繁に使われます。「abolish」「eliminate」「get rid of」と同義です。「殺す」の意味は主にフィクションや報道で使われます。
+
+---
+
+### 5. do out of「〜から騙し取る」
+
+```
+  [被害者] → DO OUT OF → [損失]
+       ↓
+    詐欺・だます
+       ↓
+   不当な剥奪
+```
+
+「out of」は「〜から外へ」という意味で、do someone out of somethingは「誰かから何かを不当に奪う」「騙して取り上げる」という意味です。詐欺や不正な手段で利益や権利を奪う行為を表します。
+
+**例文：**
+
+- The con artist did her out of her life savings.
+  詐欺師は彼女の生涯貯金を騙し取った。
+
+- He was done out of his inheritance by his greedy relatives.
+  彼は強欲な親戚によって相続財産を奪われた。
+
+- Don't let anyone do you out of what you rightfully deserve.
+  あなたが正当に受け取るべきものを誰にも奪われないようにしなさい。
+
+- The employee felt he was done out of a promotion.
+  その従業員は昇進を不当に奪われたと感じた。
+
+💡 **ポイント：** 必ず「do + 人 + out of + 物/権利」の形で使います。被害者が目的語として入るのが特徴です。「cheat someone out of」「swindle someone out of」と同義です。
+
+---
+
+### 6. do with「〜と関係がある、〜を使う、〜が欲しい」
+
+```
+  [行動] → DO WITH → [関連・使用]
+      ↓
+   関係性・必要性
+      ↓
+   活用・欲求
+```
+
+「with」は「〜と一緒に」という意味で、do withは文脈によって様々な意味を持つ多義的な表現です。「could do with」の形で「〜が欲しい」「〜があればいいのに」という欲求を、「have to do with」で「〜と関係がある」という意味を表します。
+
+**例文：**
+
+- What am I supposed to do with all these boxes?
+  これらの箱全部をどうすればいいの？
+
+- This problem has nothing to do with me.
+  この問題は私とは何の関係もない。
+
+- I could do with a cup of coffee right now.
+  今コーヒーが一杯欲しいな。
+
+- What does this have to do with our project?
+  これは私たちのプロジェクトと何の関係があるの？
+
+- I don't know what to do with myself on weekends.
+  週末に何をしていいかわからない。
+
+💡 **ポイント：** 「could do with」は「need」や「want」よりも控えめで丁寧な表現です。「have to do with」は日常会話で非常によく使われるイディオムです。
+
+---
+
+### 7. do for「〜の家事をする、〜を破滅させる」
+
+```
+  [対象] → DO FOR → [世話 or 破滅]
+      ↓
+   肯定：支援
+   否定：破壊
+      ↓
+  完了・終了
+```
+
+「for」は「〜のために」という意味で、do forは二つの正反対の意味を持ちます。一つは「誰かの世話をする」「家事をする」という肯定的な意味、もう一つは「破滅させる」「ダメにする」という否定的な意味です。
+
+**例文：**
+
+- She does for several elderly people in the neighborhood.
+  彼女は近所の何人かの高齢者の世話をしている。
+
+- Mrs. Jones comes in twice a week to do for us.
+  ジョーンズさんは週に2回私たちの家事をしに来てくれる。
+
+- If this scandal gets out, it will do for his political career.
+  このスキャンダルが明るみに出れば、彼の政治生命は終わりだ。
+
+- That injury really did for his chances of playing professionally.
+  あの怪我でプロとしてプレーする彼のチャンスは完全に潰れた。
+
+- I'm absolutely done for—I can't walk another step.
+  もう完全にダメだ、もう一歩も歩けない。
+
+💡 **ポイント：** 「家事をする」の意味は古風でイギリス英語に多い表現です。「破滅させる」の意味では受動態「be done for」の形でよく使われ、「終わった」「もうダメだ」という意味になります。
+
+---
+
+### 8. do in「疲れ果てさせる、殺す」
+
+```
+  [人・体力] → DO IN → [消耗・消滅]
+       ↓
+    完全に使い果たす
+       ↓
+   疲労困憊 or 死
+```
+
+「in」は「内側へ」「完全に」という意味で、do inは「完全に使い果たす」というイメージから「疲れ果てさせる」「殺す」という意味になります。受動態「be done in」で「疲れ果てた」という状態を表します。
+
+**例文：**
+
+- That long hike really did me in—I need to rest.
+  あの長いハイキングで本当に疲れ果てた、休む必要がある。
+
+- I'm completely done in after working two shifts back-to-back.
+  連続で2交代勤務をして完全に疲れ果てた。
+
+- The intense training session did in even the fittest athletes.
+  その激しいトレーニングセッションは最も体力のあるアスリートさえも疲れ果てさせた。
+
+- In the crime novel, the suspect tried to do in his business partner.
+  犯罪小説では、容疑者がビジネスパートナーを殺そうとした。
+
+💡 **ポイント：** 「疲れ果てさせる」の意味では口語的な表現で、「exhaust」「wear out」と同義です。「殺す」の意味は主にフィクションや犯罪報道で使われ、日常会話では避けられます。
+
+---
+
+### 9. do by「〜を扱う、処遇する」
+
+```
+  [人] → DO BY → [扱い方]
+     ↓
+   行動・態度
+     ↓
+  公正さ・結果
+```
+
+「by」は「〜によって」「〜のそばで」という意味で、do byは「誰かをどのように扱うか」という意味です。特に「do well by」（よく扱う）や「do badly by」（ひどく扱う）の形で使われます。
+
+**例文：**
+
+- The company has always done well by its employees.
+  その会社は常に従業員をよく扱ってきた。
+
+- He felt he had been done badly by in the divorce settlement.
+  彼は離婚の和解金で不当に扱われたと感じた。
+
+- She always does right by her friends.
+  彼女はいつも友人を正しく扱う。
+
+- I hope I've done well by you over the years.
+  長年あなたをよく扱ってきたことを願っています。
+
+💡 **ポイント：** やや古風な表現で、現代では「treat」の方が一般的です。「do right by someone」は「誰かを公正に扱う」という慣用表現として今でも使われます。
+
+---
+
+### 10. do down「けなす、中傷する」
+
+```
+  [人・評判] → DO DOWN → [低下]
+       ↓
+    批判・貶める
+       ↓
+    評価の下落
+```
+
+「down」は「下へ」という意味で、do downは「誰かを貶める」「批判する」「悪く言う」という意味です。主にイギリス英語で使われ、他人の評判や自信を傷つける行為を表します。
+
+**例文：**
+
+- Stop doing yourself down—you're actually very talented.
+  自分を卑下するのはやめなさい、あなたは実際とても才能がある。
+
+- He's always doing down his colleagues to make himself look better.
+  彼は自分をよく見せるためにいつも同僚をけなしている。
+
+- The critics did down the new movie, but audiences loved it.
+  批評家は新しい映画をけなしたが、観客は気に入った。
+
+- Don't let them do you down—stand up for yourself.
+  彼らにけなされないで、自分を主張しなさい。
+
+💡 **ポイント：** イギリス英語でより一般的な表現です。アメリカ英語では「put down」や「run down」の方がよく使われます。「criticize」「belittle」「disparage」と同義です。
+
+---
+
+### 11. do out「掃除する、片付ける」
+
+```
+  [部屋・空間] → DO OUT → [清潔・整頓]
+        ↓
+     徹底的に掃除
+        ↓
+      完全な清潔
+```
+
+「out」は「完全に」「徹底的に」という意味で、do outは「部屋や空間を徹底的に掃除する」という意味です。主にイギリス英語で使われる表現です。
+
+**例文：**
+
+- I'm going to do out the garage this weekend.
+  今週末にガレージを徹底的に掃除するつもりだ。
+
+- She did out the attic and found some old family photos.
+  彼女は屋根裏を片付けて、古い家族写真を見つけた。
+
+- The hotel room is done out every day.
+  ホテルの部屋は毎日掃除される。
+
+- We need to do out the spare bedroom before the guests arrive.
+  客が到着する前に予備の寝室を掃除する必要がある。
+
+💡 **ポイント：** イギリス英語特有の表現で、アメリカ英語では「clean out」の方が一般的です。「徹底的に」というニュアンスが含まれます。
+
+---
+
+### 12. do off「急いで去る」
+
+```
+  [人] → DO OFF → [移動・退出]
+    ↓
+  素早く離れる
+    ↓
+   急な出発
+```
+
+「off」は「離れて」という意味で、do offは「急いで立ち去る」という意味です。あまり一般的ではない表現で、主に口語的な文脈で使われます。
+
+**例文：**
+
+- He did off before anyone could ask him questions.
+  誰も彼に質問する前に、彼は急いで去った。
+
+- I'd better do off now—I'm late for my appointment.
+  もう行かなきゃ、約束に遅れている。
+
+- She did off without saying goodbye.
+  彼女は別れも告げずに急いで去った。
+
+💡 **ポイント：** 比較的稀な表現で、「rush off」「hurry off」の方が一般的です。主にイギリス英語の口語で使われます。
+
+---
+
+### 13. do about「〜について対処する」
+
+```
+  [問題] → DO ABOUT → [対応・行動]
+      ↓
+    解決策を講じる
+      ↓
+    状況の改善
+```
+
+「about」は「〜について」という意味で、do aboutは「問題や状況について何か行動を起こす」という意味です。通常、疑問文や否定文で使われます。
+
+**例文：**
+
+- What are you going to do about this problem?
+  この問題についてどうするつもりですか？
+
+- There's nothing we can do about the weather.
+  天気については何もできない。
+
+- Something needs to be done about the noise from upstairs.
+  上の階からの騒音について何か対策が必要だ。
+
+- What can we do about the rising costs?
+  上昇するコストについて私たちは何ができるか？
+
+- I don't know what to do about my noisy neighbors.
+  騒がしい隣人について何をすればいいかわからない。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「What can we do about...?」は問題解決の文脈で非常によく使われるフレーズです。「deal with」「handle」「address」と類似の意味です。
+
+---
+
+### 14. do onto「〜に対して行う」
+
+```
+  [行為] → DO ONTO → [相手]
+      ↓
+   働きかけ
+      ↓
+   影響・結果
+```
+
+「onto」は「〜の上に」「〜に対して」という意味で、do ontoは「誰かに対して何かをする」という意味です。特に「do unto others as you would have them do unto you」（人にしてもらいたいように人にせよ）という黄金律の表現で知られています。
+
+**例文：**
+
+- Do onto others as you would have them do onto you.
+  自分にしてもらいたいように他人にしなさい。
+
+- Whatever you do onto him will come back to you.
+  あなたが彼に対してすることは何でもあなたに返ってくるだろう。
+
+- The principle is simple: do onto others with kindness.
+  原則は簡単だ：他人に親切にしなさい。
+
+💡 **ポイント：** この表現は聖書由来で、現代英語では「do unto」の方が一般的です（古い英語の形）。日常会話ではあまり使われず、道徳的・宗教的な文脈で見られます。
+
+---
+
+### 15. do through「〜を通して実行する」
+
+```
+  [プロセス] → DO THROUGH → [完了]
+       ↓
+   最初から最後まで
+       ↓
+    徹底的な実行
+```
+
+「through」は「〜を通して」「最後まで」という意味で、do throughは「最初から最後まで徹底的に実行する」という意味です。
+
+**例文：**
+
+- We need to do through the entire checklist before departure.
+  出発前にチェックリスト全体を最後まで実行する必要がある。
+
+- The inspector did through every document carefully.
+  検査官はすべての書類を注意深く最後まで調べた。
+
+- Make sure you do through all the steps in the correct order.
+  正しい順序ですべてのステップを最後まで実行することを確認しなさい。
+
+💡 **ポイント：** あまり一般的でない表現で、「go through」や「work through」の方が頻繁に使われます。
+
+---
+
+### 16. do along「一緒にやる」
+
+```
+  [複数の人] → DO ALONG → [協力・進行]
+       ↓
+    共同作業
+       ↓
+   進捗・成果
+```
+
+「along」は「一緒に」「進んで」という意味で、do alongは「協力してやる」「一緒に進める」という意味です。
+
+**例文：**
+
+- How are you doing along with your new project?
+  新しいプロジェクトはどう進んでいますか？
+
+- We can do along together and finish this faster.
+  一緒にやれば、これをもっと早く終わらせられる。
+
+- They've been doing along quite well despite the challenges.
+  彼らは困難にもかかわらずかなりうまくやっている。
+
+💡 **ポイント：** 「get along」の方がはるかに一般的で、「do along」は稀な表現です。
+
+---
+
+### 17. do around「周辺で行う」
+
+```
+  [活動] → DO AROUND → [周囲・範囲]
+      ↓
+   周辺での作業
+      ↓
+   広がり・影響
+```
+
+「around」は「周りに」「あちこちで」という意味で、do aroundは「周辺で何かをする」「あちこちで活動する」という意味です。
+
+**例文：**
+
+- There's a lot of work to do around the house.
+  家の周りにやるべき仕事がたくさんある。
+
+- What do you usually do around here for fun?
+  楽しみのためにここら辺で普段何をしますか？
+
+- He does odd jobs around the neighborhood.
+  彼は近所であちこちで雑用をしている。
+
+💡 **ポイント：** 「do around」単独よりも「do things around」「work around」などのフレーズで使われることが多いです。
+
+---
+
+## 02｜日常・TOEIC
+
+### 18. do business「ビジネスをする、取引する」🎯
+
+```
+  [企業・個人] → DO BUSINESS → [取引・商談]
+        ↓
+    商業活動
+        ↓
+   利益・関係構築
+```
+
+do businessは「商業活動を行う」「取引をする」という意味で、ビジネスの場面で最も基本的な表現の一つです。単に商品やサービスを売買するだけでなく、ビジネス関係を構築するという意味も含まれます。
+
+**例文：**
+
+- We've been doing business with that company for over ten years.
+  私たちはその会社と10年以上取引している。
+
+- It's a pleasure to do business with you.
+  あなたとビジネスができて光栄です。
+
+- Many international companies are doing business in Asia.
+  多くの国際企業がアジアでビジネスを展開している。
+
+- If you want to do business in this country, you need to understand the local culture.
+  この国でビジネスをしたいなら、現地の文化を理解する必要がある。
+
+- We only do business with reputable suppliers.
+  私たちは評判の良いサプライヤーとのみ取引する。
+
+💡 **ポイント：** 🎯 TOEIC超頻出表現。ビジネスシーンで必須のフレーズです。「with」を伴って「〜と取引する」、「in」を伴って「〜で事業を行う」という形でよく使われます。
+
+---
+
+### 19. do work「仕事をする、作業する」🎯
+
+```
+  [労働者] → DO WORK → [成果・タスク完了]
+       ↓
+    作業実行
+       ↓
+   生産・達成
+```
+
+do workは「仕事をする」「作業を行う」という意味で、具体的な労働や作業を指します。「work」が名詞として使われている点に注意が必要です。
+
+**例文：**
+
+- I need to do some work on my computer before the meeting.
+  会議の前にコンピューターで少し作業をする必要がある。
+
+- The contractor will do the work next week.
+  請負業者は来週作業を行う。
+
+- She does volunteer work at the local hospital.
+  彼女は地元の病院でボランティア活動をしている。
+
+- How much work do you have to do this weekend?
+  今週末にどのくらいの仕事をしなければならないの？
+
+- The team did excellent work on this project.
+  チームはこのプロジェクトで素晴らしい仕事をした。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「do + 形容詞 + work」（good work, great workなど）の形で業績を評価する際によく使われます。
+
+---
+
+### 20. do research「研究する、調査する」🎯
+
+```
+  [研究者] → DO RESEARCH → [発見・知見]
+       ↓
+   調査・分析
+       ↓
+   データ・結論
+```
+
+do researchは「研究する」「調査する」という意味で、学術研究からビジネス調査まで幅広く使われます。
+
+**例文：**
+
+- I'm doing research on climate change for my thesis.
+  論文のために気候変動について研究している。
+
+- The company did extensive research before launching the new product.
+  会社は新製品を発売する前に広範な調査を行った。
+
+- Scientists are doing research to find a cure for the disease.
+  科学者たちは病気の治療法を見つけるために研究している。
+
+- Before making a decision, we need to do more research.
+  決定を下す前に、もっと調査をする必要がある。
+
+- She does research in the field of artificial intelligence.
+  彼女は人工知能の分野で研究している。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。学術論文やビジネスレポートで必須の表現です。「conduct research」も同義でよりフォーマルな表現です。
+
+---
+
+### 21. do a favor「頼みを聞く、好意を示す」
+
+```
+  [依頼者] → DO A FAVOR → [好意・援助]
+       ↓
+   親切な行為
+       ↓
+   感謝・恩義
+```
+
+do someone a favorは「誰かに親切にする」「頼みを聞く」という意味で、日常会話で非常によく使われる表現です。
+
+**例文：**
+
+- Could you do me a favor and pick up my dry cleaning?
+  頼みがあるんだけど、クリーニングを取ってきてくれない？
+
+- She did me a huge favor by lending me her car.
+  彼女は車を貸してくれて、本当に助かった。
+
+- Would you do me a favor? I need help moving this weekend.
+  お願いがあるんだけど、今週末引っ越しの手伝いが必要なんだ。
+
+- I owe you a favor for helping me with that project.
+  そのプロジェクトを手伝ってくれて恩に着るよ。
+
+- He's always willing to do favors for his neighbors.
+  彼はいつも隣人のために親切にしてくれる。
+
+💡 **ポイント：** 「Could you do me a favor?」は丁寧な依頼の定番表現です。「Do yourself a favor」は「自分のためになることをしなさい」という忠告の表現になります。
+
+---
+
+### 22. do damage「損害を与える」🎯
+
+```
+  [行為・出来事] → DO DAMAGE → [破壊・損失]
+         ↓
+      害を及ぼす
+         ↓
+    被害・悪影響
+```
+
+do damageは「損害を与える」「害を及ぼす」という意味で、物理的な破壊から評判の損傷まで幅広く使われます。
+
+**例文：**
+
+- The storm did significant damage to the coastal areas.
+  嵐は沿岸地域に大きな損害を与えた。
+
+- This scandal could do serious damage to the company's reputation.
+  このスキャンダルは会社の評判に深刻な損害を与える可能性がある。
+
+- Smoking does damage to your lungs.
+  喫煙は肺に損害を与える。
+
+- The negative publicity did damage to their brand image.
+  否定的な報道は彼らのブランドイメージに損害を与えた。
+
+- One mistake can do irreparable damage to your career.
+  一つのミスがキャリアに取り返しのつかない損害を与える可能性がある。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。ビジネスやニュースでよく使われます。「cause damage」も同義ですが、「do damage」の方がやや口語的です。
+
+---
+
+### 23. do one's best「最善を尽くす」
+
+```
+  [努力] → DO ONE'S BEST → [最大限の成果]
+      ↓
+   全力投球
+      ↓
+   満足・達成感
+```
+
+do one's bestは「最善を尽くす」「全力を尽くす」という意味で、努力や誠実さを表す基本表現です。
+
+**例文：**
+
+- I'll do my best to finish the report by tomorrow.
+  明日までにレポートを完成させるよう最善を尽くします。
+
+- She always does her best, no matter how difficult the task.
+  彼女はどんなに難しいタスクでも常に最善を尽くす。
+
+- We did our best, but unfortunately we didn't win.
+  私たちは最善を尽くしたが、残念ながら勝てなかった。
+
+- Just do your best—that's all anyone can ask.
+  ただ最善を尽くせばいい、それだけが誰もが求めることだ。
+
+- The team did their best to meet the tight deadline.
+  チームは厳しい締め切りに間に合わせるため最善を尽くした。
+
+💡 **ポイント：** 励ましや約束の場面で頻繁に使われる表現です。「try one's best」も同義ですが、「do one's best」の方がより積極的な努力を示します。
+
+---
+
+### 24. do one's part「自分の役割を果たす」🎯
+
+```
+  [個人] → DO ONE'S PART → [貢献・責任]
+      ↓
+   役割実行
+      ↓
+   全体の成功
+```
+
+do one's partは「自分の役割を果たす」「自分の分担をする」という意味で、チームワークや社会貢献の文脈でよく使われます。
+
+**例文：**
+
+- Everyone needs to do their part to make this project successful.
+  このプロジェクトを成功させるためには、全員が自分の役割を果たす必要がある。
+
+- I'm just doing my part to help the environment.
+  私はただ環境を助けるために自分にできることをしているだけだ。
+
+- If we all do our part, we can solve this problem together.
+  全員が自分の役割を果たせば、一緒にこの問題を解決できる。
+
+- She always does her part and never complains.
+  彼女は常に自分の役割を果たし、決して文句を言わない。
+
+- We're asking citizens to do their part by conserving water.
+  私たちは市民に水を節約することで自分の役割を果たすよう求めている。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。ビジネスの協力やCSR（企業の社会的責任）の文脈でよく使われます。
+
+---
+
+### 25. do one's duty「義務を果たす」🎯
+
+```
+  [義務・責任] → DO ONE'S DUTY → [完遂・誠実]
+        ↓
+     責任遂行
+        ↓
+    名誉・満足感
+```
+
+do one's dutyは「義務を果たす」「責任を全うする」という意味で、やや格式ばった表現です。
+
+**例文：**
+
+- As a citizen, it's important to do your duty and vote.
+  市民として、義務を果たして投票することが重要だ。
+
+- The soldiers did their duty with courage and honor.
+  兵士たちは勇気と名誉をもって義務を果たした。
+
+- I'm just doing my duty as a manager.
+  私はマネージャーとして義務を果たしているだけだ。
+
+- Every employee is expected to do their duty professionally.
+  すべての従業員は専門的に義務を果たすことが期待されている。
+
+- She felt she had done her duty to her family.
+  彼女は家族に対する義務を果たしたと感じた。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。ビジネス倫理や職業的責任の文脈で使われます。「fulfill one's duty」も同義でよりフォーマルです。
+
+---
+
+### 26. do the job「役に立つ、十分である」
+
+```
+  [方法・道具] → DO THE JOB → [目的達成]
+        ↓
+     機能・効果
+        ↓
+    満足・解決
+```
+
+do the jobは「役に立つ」「効果がある」「十分だ」という意味で、何かが期待された目的を果たすことを表します。
+
+**例文：**
+
+- This old computer is slow, but it does the job.
+  この古いコンピューターは遅いが、役には立つ。
+
+- A simple apology won't do the job—you need to make amends.
+  単純な謝罪では不十分だ、償いをする必要がある。
+
+- These tools should do the job for basic repairs.
+  これらの道具は基本的な修理には十分だろう。
+
+- Will this amount of paint do the job, or do we need more?
+  このペンキの量で足りるか、それともまだ必要か？
+
+- If you need something to hold the door open, this brick will do the job.
+  ドアを開けておくものが必要なら、このレンガで十分だ。
+
+💡 **ポイント：** 実用性や機能性を評価する際に便利な表現です。「work」「be sufficient」「be adequate」と同義です。
+
+---
+
+### 27. do the trick「うまくいく、効果がある」
+
+```
+  [解決策] → DO THE TRICK → [成功]
+       ↓
+    効果発揮
+       ↓
+   問題解決
+```
+
+do the trickは「うまくいく」「効果がある」「問題を解決する」という意味で、何かが期待通りの結果をもたらすことを表します。
+
+**例文：**
+
+- A little oil should do the trick to loosen that bolt.
+  少しオイルを差せばそのボルトを緩めるのに効くはずだ。
+
+- This medicine usually does the trick for headaches.
+  この薬は通常頭痛に効く。
+
+- If the computer won't start, try unplugging it—that often does the trick.
+  コンピューターが起動しないなら、プラグを抜いてみて、それでよく直る。
+
+- A good night's sleep should do the trick and make you feel better.
+  ぐっすり眠れば効果があって、気分が良くなるはずだ。
+
+- Adding a little sugar did the trick—now the sauce tastes perfect.
+  少し砂糖を加えたらうまくいった、今やソースの味が完璧だ。
+
+💡 **ポイント：** 「do the job」よりもカジュアルで、問題解決の文脈で使われます。「work」「be effective」と同義です。
+
+---
+
+### 28. do time「刑期を務める、服役する」
+
+```
+  [囚人] → DO TIME → [服役期間]
+      ↓
+   刑務所生活
+      ↓
+   刑期満了
+```
+
+do timeは「刑期を務める」「服役する」という意味で、刑務所での時間を過ごすことを表します。
+
+**例文：**
+
+- He did time for robbery in the 1990s.
+  彼は1990年代に強盗で服役した。
+
+- She's doing time in a federal prison.
+  彼女は連邦刑務所で服役している。
+
+- After doing time for five years, he was released on parole.
+  5年間服役した後、彼は仮釈放された。
+
+- Many people who do time struggle to find employment afterward.
+  服役した多くの人々は、その後就職に苦労する。
+
+- He did his time and now wants to start a new life.
+  彼は刑期を終え、今は新しい人生を始めたいと思っている。
+
+💡 **ポイント：** 犯罪・刑事司法の文脈で使われる表現です。「serve time」も同義です。
+
+---
+
+### 29. do lunch「昼食を一緒にする」
+
+```
+  [ビジネス関係者] → DO LUNCH → [ミーティング]
+          ↓
+      昼食会合
+          ↓
+    ネットワーキング
+```
+
+do lunchは「昼食を一緒にする」「ランチミーティングをする」という意味で、主にビジネスの文脈で使われるカジュアルな表現です。
+
+**例文：**
+
+- Let's do lunch sometime next week.
+  来週のいつか昼食を一緒にしましょう。
+
+- We should do lunch and discuss the new project.
+  ランチをしながら新しいプロジェクトについて話し合おう。
+
+- In Hollywood, "let's do lunch" is a common phrase.
+  ハリウッドでは「ランチをしましょう」はよくあるフレーズだ。
+
+- I did lunch with a potential client yesterday.
+  昨日、見込み客とランチをした。
+
+- Would you like to do lunch on Friday?
+  金曜日にランチをしませんか？
+
+💡 **ポイント：** アメリカのビジネス文化、特にカリフォルニアやニューヨークでよく使われる表現です。やや軽い、カジュアルな響きがあります。
+
+---
+
+### 30. do well「うまくやる、成功する」
+
+```
+  [人・事業] → DO WELL → [成功・繁栄]
+       ↓
+    良好な結果
+       ↓
+   評価・利益
+```
+
+do wellは「うまくやる」「成功する」「良い結果を出す」という意味で、様々な場面で使われる基本表現です。
+
+**例文：**
+
+- She's doing well in her new job.
+  彼女は新しい仕事でうまくやっている。
+
+- The business is doing well despite the economic downturn.
+  経済の低迷にもかかわらず、ビジネスはうまくいっている。
+
+- I hope you do well on your exam.
+  試験でうまくいくことを願っています。
+
+- Students who study regularly tend to do well.
+  定期的に勉強する学生はうまくいく傾向がある。
+
+- He's doing well for himself—he just bought a new house.
+  彼は成功している、ちょうど新しい家を買ったところだ。
+
+💡 **ポイント：** 非常に汎用性の高い表現で、健康、仕事、学業、ビジネスなどあらゆる分野で使えます。「do well to do something」で「〜するのが賢明だ」という意味にもなります。
+
+---
+
+### 31. do homework「宿題をする」
+
+```
+  [学生] → DO HOMEWORK → [課題完了]
+      ↓
+   勉強・作業
+      ↓
+   知識・成績
+```
+
+do homeworkは「宿題をする」という意味で、学校教育の基本的な表現です。また、比喩的に「準備をする」「下調べをする」という意味でも使われます。
+
+**例文：**
+
+- I need to do my homework before I can watch TV.
+  テレビを見る前に宿題をする必要がある。
+
+- Did you do your homework for tomorrow's class?
+  明日の授業の宿題はやった？
+
+- The students who do their homework consistently get better grades.
+  宿題を一貫してやる学生は良い成績を取る。
+
+- Before the interview, make sure you do your homework about the company.
+  面接の前に、会社について下調べをしておきなさい。
+
+- He hadn't done his homework, so he didn't know what the meeting was about.
+  彼は準備をしていなかったので、会議が何についてなのかわからなかった。
+
+💡 **ポイント：** ビジネスでは「準備をする」「事前調査をする」という意味でもよく使われます。「do your homework」は重要なアドバイスとしてよく聞かれます。
+
+---
+
+### 32. do housework「家事をする」
+
+```
+  [家族] → DO HOUSEWORK → [家の維持]
+      ↓
+   清掃・整理
+      ↓
+  清潔・秩序
+```
+
+do houseworkは「家事をする」という意味で、掃除、洗濯、料理など家庭内の仕事全般を指します。
+
+**例文：**
+
+- I spend about two hours doing housework every day.
+  私は毎日約2時間家事をしている。
+
+- In modern families, both partners should share doing the housework.
+  現代の家族では、両方のパートナーが家事を分担すべきだ。
+
+- She's tired of doing all the housework by herself.
+  彼女は一人で家事を全部するのに疲れている。
+
+- On weekends, we do the housework together as a family.
+  週末には、家族一緒に家事をする。
+
+- Doing housework can actually be good exercise.
+  家事をすることは実際良い運動になる。
+
+💡 **ポイント：** 「housework」は不可算名詞なので、「a housework」とは言いません。「chores」（雑用）も類似の意味ですが、houseworkの方が家庭内の仕事全般を指します。
+
+---
+
+### 33. do the dishes「皿洗いをする」
+
+```
+  [食後] → DO THE DISHES → [清潔な食器]
+      ↓
+   洗浄・乾燥
+      ↓
+   片付け完了
+```
+
+do the dishesは「皿洗いをする」「食器を洗う」という意味で、日常生活の基本的な家事表現です。
+
+**例文：**
+
+- Whose turn is it to do the dishes tonight?
+  今夜は誰の番で皿洗いをするの？
+
+- I'll cook if you do the dishes.
+  私が料理するから、あなたが皿洗いして。
+
+- After dinner, the children help do the dishes.
+  夕食後、子供たちが皿洗いを手伝う。
+
+- I hate doing the dishes, so I use a dishwasher.
+  私は皿洗いが嫌いなので、食器洗い機を使う。
+
+- She was doing the dishes when the phone rang.
+  電話が鳴ったとき、彼女は皿洗いをしていた。
+
+💡 **ポイント：** アメリカ英語では「do the dishes」、イギリス英語では「wash up」がより一般的です。「dishes」は複数形で使います。
+
+---
+
+### 34. do the laundry「洗濯をする」
+
+```
+  [汚れた衣類] → DO THE LAUNDRY → [清潔な衣類]
+        ↓
+    洗濯・乾燥
+        ↓
+    折りたたみ
+```
+
+do the laundryは「洗濯をする」という意味で、衣類を洗い、乾燥させ、折りたたむまでの一連の作業を指します。
+
+**例文：**
+
+- I need to do the laundry this weekend.
+  今週末に洗濯をする必要がある。
+
+- She does the laundry twice a week.
+  彼女は週に2回洗濯をする。
+
+- Can you help me do the laundry? I have a huge pile.
+  洗濯を手伝ってくれる？山のようにあるの。
+
+- He's learned to do his own laundry since moving out.
+  引っ越してから、彼は自分で洗濯することを学んだ。
+
+- I'm doing the laundry—do you have anything that needs washing?
+  洗濯をしているんだけど、洗うものある？
+
+💡 **ポイント：** 「laundry」は不可算名詞なので、「a laundry」とは言いません。「do laundry」（冠詞なし）も可能ですが、「do the laundry」の方が一般的です。
+
+---
+
+### 35. do the shopping「買い物をする」
+
+```
+  [買い物リスト] → DO THE SHOPPING → [必需品獲得]
+         ↓
+      店舗訪問
+         ↓
+      購入・帰宅
+```
+
+do the shoppingは「買い物をする」という意味で、特に食料品や日用品の定期的な買い物を指します。
+
+**例文：**
+
+- I do the shopping every Saturday morning.
+  私は毎週土曜日の朝に買い物をする。
+
+- Could you do the shopping on your way home?
+  帰りに買い物をしてきてくれる？
+
+- We do most of our shopping online these days.
+  最近は買い物のほとんどをオンラインでしている。
+
+- She's doing the shopping for the week.
+  彼女は一週間分の買い物をしている。
+
+- I need to do the shopping before the guests arrive.
+  客が到着する前に買い物をする必要がある。
+
+💡 **ポイント：** イギリス英語でより一般的な表現です。アメリカ英語では「go shopping」もよく使われます。「do the shopping」は定期的・必要な買い物を、「go shopping」は楽しみとしての買い物を含意することが多いです。
+
+---
+
+### 36. do the cooking「料理をする」
+
+```
+  [食材] → DO THE COOKING → [完成した食事]
+      ↓
+   調理・味付け
+      ↓
+   提供・満足
+```
+
+do the cookingは「料理をする」という意味で、食事の準備全般を指します。
+
+**例文：**
+
+- My husband does most of the cooking in our house.
+  うちでは夫がほとんどの料理をする。
+
+- I enjoy doing the cooking on weekends.
+  週末に料理をするのが楽しい。
+
+- Who's doing the cooking for Thanksgiving dinner?
+  感謝祭のディナーは誰が料理するの？
+
+- She's been doing all the cooking since her mother got sick.
+  母親が病気になってから、彼女がすべての料理をしている。
+
+- If you do the cooking, I'll do the cleaning.
+  あなたが料理するなら、私が掃除する。
+
+💡 **ポイント：** 「cook」を動詞として使う方が一般的な場合も多いですが、「do the cooking」は料理全般の責任を強調します。
+
+---
+
+### 37. do the cleaning「掃除をする」
+
+```
+  [汚れた空間] → DO THE CLEANING → [清潔な空間]
+        ↓
+    掃除・整頓
+        ↓
+    快適・衛生
+```
+
+do the cleaningは「掃除をする」という意味で、家やオフィスの清掃作業全般を指します。
+
+**例文：**
+
+- I do the cleaning every Sunday.
+  私は毎週日曜日に掃除をする。
+
+- A professional service does the cleaning in our office.
+  私たちのオフィスではプロのサービスが掃除をしている。
+
+- We need to do the cleaning before the party.
+  パーティーの前に掃除をする必要がある。
+
+- She does the cleaning while listening to music.
+  彼女は音楽を聴きながら掃除をする。
+
+- Who's going to do the cleaning this week?
+  今週は誰が掃除をするの？
+
+💡 **ポイント：** 「clean」を動詞として使うことも一般的ですが、「do the cleaning」は清掃作業全体を一つのタスクとして捉えます。
+
+---
+
+### 38. do exercise「運動をする」
+
+```
+  [運動不足] → DO EXERCISE → [健康・体力]
+       ↓
+   身体活動
+       ↓
+   フィットネス
+```
+
+do exerciseは「運動をする」という意味で、健康やフィットネスのための身体活動を指します。
+
+**例文：**
+
+- I try to do exercise at least three times a week.
+  少なくとも週に3回は運動するようにしている。
+
+- Doctors recommend doing regular exercise.
+  医師は定期的な運動を勧めている。
+
+- She does exercise every morning before work.
+  彼女は仕事の前に毎朝運動をする。
+
+- It's important to do exercise to maintain good health.
+  健康を維持するために運動をすることが重要だ。
+
+- I don't have time to do exercise during the week.
+  平日は運動をする時間がない。
+
+💡 **ポイント：** 「exercise」は不可算名詞として使う場合と可算名詞として使う場合があります。「do exercise」は一般的な運動を、「do exercises」は特定のエクササイズ（腹筋運動など）を指します。
+
+---
+
+### 39. do yoga「ヨガをする」
+
+```
+  [心身] → DO YOGA → [バランス・柔軟性]
+     ↓
+   ポーズ・呼吸
+     ↓
+  リラックス
+```
+
+do yogaは「ヨガをする」という意味で、ヨガの実践を表します。
+
+**例文：**
+
+- I do yoga three times a week.
+  私は週に3回ヨガをする。
+
+- She's been doing yoga for ten years.
+  彼女は10年間ヨガをしている。
+
+- Many people do yoga to reduce stress.
+  多くの人がストレスを減らすためにヨガをする。
+
+- Have you ever done yoga before?
+  以前にヨガをしたことがある？
+
+- I started doing yoga to improve my flexibility.
+  柔軟性を向上させるためにヨガを始めた。
+
+💡 **ポイント：** 「practice yoga」も同義ですが、「do yoga」の方が一般的でカジュアルです。
+
+---
+
+### 40. do sports「スポーツをする」
+
+```
+  [運動] → DO SPORTS → [競技・健康]
+     ↓
+   活動・訓練
+     ↓
+  技能・体力
+```
+
+do sportsは「スポーツをする」という意味で、様々なスポーツ活動全般を指します。
+
+**例文：**
+
+- Do you do any sports?
+  何かスポーツをしますか？
+
+- Children should be encouraged to do sports.
+  子供たちはスポーツをすることを奨励されるべきだ。
+
+- I used to do sports when I was younger.
+  若い頃はスポーツをしていた。
+
+- He does several sports including tennis and swimming.
+  彼はテニスや水泳を含むいくつかのスポーツをしている。
+
+- Doing sports is a great way to stay healthy.
+  スポーツをすることは健康を保つ素晴らしい方法だ。
+
+💡 **ポイント：** イギリス英語でより一般的な表現です。アメリカ英語では「play sports」の方が一般的です。個々のスポーツには「play」（play tennis）を使うことが多いです。
+
+---
+
+### 41. do a course「コースを受講する」🎯
+
+```
+  [学習者] → DO A COURSE → [修了・資格]
+       ↓
+    授業参加
+       ↓
+   知識・スキル
+```
+
+do a courseは「コースを受講する」「講座を受ける」という意味で、教育やトレーニングの文脈で使われます。
+
+**例文：**
+
+- I'm doing a course in digital marketing.
+  私はデジタルマーケティングのコースを受講している。
+
+- She did a course on project management last year.
+  彼女は昨年プロジェクト管理のコースを受講した。
+
+- Have you considered doing a course to improve your skills?
+  スキルを向上させるためにコースを受講することを考えたことがある？
+
+- The company is paying for employees to do professional development courses.
+  会社は従業員が専門能力開発コースを受講する費用を支払っている。
+
+- I want to do a course in graphic design.
+  グラフィックデザインのコースを受講したい。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「take a course」も同義ですが、イギリス英語では「do a course」の方が一般的です。
+
+---
+
+### 42. do an exam「試験を受ける」🎯
+
+```
+  [受験者] → DO AN EXAM → [評価・成績]
+       ↓
+    試験実施
+       ↓
+   合否・結果
+```
+
+do an examは「試験を受ける」という意味で、主にイギリス英語で使われる表現です。
+
+**例文：**
+
+- I'm doing my final exams next week.
+  来週期末試験を受ける。
+
+- She did well in the exam.
+  彼女は試験でよくできた。
+
+- How many exams do you have to do this semester?
+  今学期は何回試験を受けなければならないの？
+
+- He's doing his driving exam tomorrow.
+  彼は明日運転免許試験を受ける。
+
+- Students will do the exam in the main hall.
+  学生たちは大ホールで試験を受ける。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。アメリカ英語では「take an exam」の方が一般的ですが、どちらも正しい表現です。
+
+---
+
+### 43. do a test「テストを受ける」🎯
+
+```
+  [テスト] → DO A TEST → [結果・評価]
+      ↓
+   実施・解答
+      ↓
+   点数・診断
+```
+
+do a testは「テストを受ける」という意味で、学業だけでなく医療検査や品質テストなど幅広い文脈で使われます。
+
+**例文：**
+
+- The doctor wants me to do a blood test.
+  医者は血液検査を受けるよう私に言っている。
+
+- We did a test in class today.
+  今日授業でテストを受けた。
+
+- They're doing tests on the new product to ensure quality.
+  彼らは品質を保証するために新製品のテストを行っている。
+
+- I need to do a pregnancy test.
+  妊娠検査をする必要がある。
+
+- The mechanic will do a test to find the problem.
+  整備士は問題を見つけるためにテストを行う。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「exam」より幅広い意味で使われ、医療検査、実験、品質管理なども含みます。
+
+---
+
+### 44. do a project「プロジェクトをする」🎯
+
+```
+  [計画] → DO A PROJECT → [成果物]
+     ↓
+  実行・協力
+     ↓
+  完成・発表
+```
+
+do a projectは「プロジェクトをする」「課題に取り組む」という意味で、学校やビジネスで使われます。
+
+**例文：**
+
+- We're doing a project on renewable energy.
+  私たちは再生可能エネルギーについてのプロジェクトをしている。
+
+- The students are doing a group project for their final grade.
+  学生たちは最終成績のためにグループプロジェクトをしている。
+
+- I did a project with that company last year.
+  昨年その会社とプロジェクトをした。
+
+- She's doing a research project on climate change.
+  彼女は気候変動についての研究プロジェクトをしている。
+
+- How long will it take to do this project?
+  このプロジェクトをするのにどのくらいかかるか？
+
+💡 **ポイント：** 🎯 TOEIC超頻出表現。ビジネスシーンでは「work on a project」も同じくらいよく使われます。
+
+---
+
+### 45. do an experiment「実験をする」🎯
+
+```
+  [仮説] → DO AN EXPERIMENT → [データ・結論]
+      ↓
+   実験実施
+      ↓
+   観察・分析
+```
+
+do an experimentは「実験をする」という意味で、科学的な実験を行うことを表します。
+
+**例文：**
+
+- We're doing an experiment in chemistry class today.
+  今日化学の授業で実験をする。
+
+- Scientists did experiments to test their hypothesis.
+  科学者たちは仮説を検証するために実験をした。
+
+- The students are doing an experiment on plant growth.
+  学生たちは植物の成長についての実験をしている。
+
+- Have you ever done an experiment with dry ice?
+  ドライアイスで実験をしたことがある？
+
+- They're doing experiments to develop a new vaccine.
+  彼らは新しいワクチンを開発するために実験をしている。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「conduct an experiment」はよりフォーマルな表現です。科学、教育、研究開発の文脈でよく使われます。
+
+---
+
+### 46. do a survey「調査をする」🎯
+
+```
+  [質問] → DO A SURVEY → [データ・洞察]
+     ↓
+  回答収集
+     ↓
+  分析・報告
+```
+
+do a surveyは「調査をする」「アンケートを実施する」という意味で、市場調査や学術研究で使われます。
+
+**例文：**
+
+- We're doing a survey to find out customer preferences.
+  顧客の好みを調べるために調査をしている。
+
+- The government did a survey on employment rates.
+  政府は雇用率について調査を実施した。
+
+- Can you help me do a survey for my research paper?
+  研究論文のための調査を手伝ってくれる？
+
+- They did a survey of 1,000 people.
+  彼らは1,000人を対象に調査をした。
+
+- The company does regular surveys to measure employee satisfaction.
+  会社は従業員の満足度を測定するために定期的に調査をしている。
+
+💡 **ポイント：** 🎯 TOEIC超頻出表現。ビジネスや研究で必須の表現です。「conduct a survey」もよりフォーマルな同義表現です。
+
+---
+
+### 47. do an interview「インタビューをする」🎯
+
+```
+  [質問者] → DO AN INTERVIEW → [情報・記事]
+       ↓
+    質疑応答
+       ↓
+   洞察・記録
+```
+
+do an interviewは「インタビューをする」という意味で、ジャーナリズムや採用の文脈で使われます。
+
+**例文：**
+
+- The journalist is doing an interview with the mayor.
+  ジャーナリストは市長とインタビューをしている。
+
+- I did an interview for a job yesterday.
+  昨日就職の面接を受けた。
+
+- She does interviews for the school newspaper.
+  彼女は学校新聞のためにインタビューをしている。
+
+- We need to do interviews with several candidates.
+  何人かの候補者と面接をする必要がある。
+
+- He's doing an interview on the radio tonight.
+  彼は今夜ラジオでインタビューを受ける。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「give an interview」は「インタビューを受ける」、「do an interview」は「インタビューをする（質問する側）」という違いがあります。
+
+---
+
+### 48. do a presentation「プレゼンをする」🎯
+
+```
+  [発表者] → DO A PRESENTATION → [情報伝達]
+        ↓
+     スライド・説明
+        ↓
+    理解・説得
+```
+
+do a presentationは「プレゼンテーションをする」という意味で、ビジネスや学業で頻繁に使われます。
+
+**例文：**
+
+- I have to do a presentation to the board tomorrow.
+  明日取締役会にプレゼンをしなければならない。
+
+- She did an excellent presentation on market trends.
+  彼女は市場動向について素晴らしいプレゼンをした。
+
+- We're doing a group presentation next week.
+  来週グループプレゼンをする。
+
+- He gets nervous when he has to do presentations.
+  彼はプレゼンをしなければならないときに緊張する。
+
+- The students will do presentations on their research findings.
+  学生たちは研究結果についてプレゼンをする。
+
+💡 **ポイント：** 🎯 TOEIC超頻出表現。ビジネスシーンで必須です。「give a presentation」も同義でよく使われます。
+
+---
+
+### 49. do a performance「パフォーマンスをする」
+
+```
+  [演者] → DO A PERFORMANCE → [観客・評価]
+     ↓
+  上演・披露
+     ↓
+  拍手・感動
+```
+
+do a performanceは「パフォーマンスをする」「公演をする」という意味で、演劇、音楽、ダンスなどの文脈で使われます。
+
+**例文：**
+
+- The band will do a performance at the festival.
+  バンドはフェスティバルでパフォーマンスをする。
+
+- She did a beautiful performance of Beethoven's sonata.
+  彼女はベートーヴェンのソナタを美しく演奏した。
+
+- The actors are doing two performances today.
+  俳優たちは今日2回公演をする。
+
+- They're doing a special performance for charity.
+  彼らはチャリティーのために特別公演をしている。
+
+- I've never done a performance in front of such a large audience.
+  こんなに大勢の観客の前でパフォーマンスをしたことがない。
+
+💡 **ポイント：** 「give a performance」や「put on a performance」も同義です。「perform」を動詞として使う方がシンプルな場合もあります。
+
+---
+
+### 50. do a job「仕事をする」🎯
+
+```
+  [タスク] → DO A JOB → [完了・報酬]
+     ↓
+   作業実行
+     ↓
+  成果・評価
+```
+
+do a jobは「仕事をする」「作業をする」という意味で、特定の仕事やタスクを実行することを表します。
+
+**例文：**
+
+- He did a great job on that project.
+  彼はそのプロジェクトで素晴らしい仕事をした。
+
+- Can you do a job for me?
+  私のために仕事をしてくれる？
+
+- I'm just here to do a job.
+  私はただ仕事をするためにここにいる。
+
+- She always does a thorough job.
+  彼女はいつも徹底的に仕事をする。
+
+- They did an excellent job renovating the house.
+  彼らは家の改装で素晴らしい仕事をした。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「do a good/great/excellent job」の形で業績を評価する際によく使われます。
+
+---
+
+### 51. do a task「タスクをする」🎯
+
+```
+  [課題] → DO A TASK → [達成・進捗]
+     ↓
+  実行・処理
+     ↓
+  完了・次へ
+```
+
+do a taskは「タスクをする」「課題を実行する」という意味で、ビジネスやプロジェクト管理で使われます。
+
+**例文：**
+
+- I need to do several tasks before the deadline.
+  締め切り前にいくつかのタスクをする必要がある。
+
+- She's doing administrative tasks today.
+  彼女は今日管理業務をしている。
+
+- Can you do this task by tomorrow?
+  明日までにこのタスクをやってくれる？
+
+- He's efficient at doing multiple tasks simultaneously.
+  彼は複数のタスクを同時に効率的にこなす。
+
+- We need to prioritize which tasks to do first.
+  どのタスクを最初にするか優先順位をつける必要がある。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。プロジェクト管理やタスク管理の文脈で頻繁に使われます。
+
+---
+
+### 52. do an assignment「課題をする」🎯
+
+```
+  [学生] → DO AN ASSIGNMENT → [提出・評価]
+      ↓
+   作業・研究
+      ↓
+   完成・成績
+```
+
+do an assignmentは「課題をする」「宿題をする」という意味で、学校やビジネスの課題を実行することを表します。
+
+**例文：**
+
+- I'm doing an assignment on World War II.
+  第二次世界大戦についての課題をしている。
+
+- Have you done your assignment for next class?
+  次の授業の課題はやった？
+
+- She's doing a difficult assignment in mathematics.
+  彼女は数学の難しい課題をしている。
+
+- The teacher gave us three assignments to do over the weekend.
+  先生は週末にやる課題を3つ出した。
+
+- I spent all night doing that assignment.
+  その課題をやるのに一晩かかった。
+
+💡 **ポイント：** 🎯 TOEIC頻出表現。「complete an assignment」もよりフォーマルな同義表現です。
+
+---
+
+### 53. do one's hair「髪をセットする」
+
+```
+  [髪] → DO ONE'S HAIR → [スタイリング完了]
+    ↓
+  整髪・装飾
+    ↓
+  外見・自信
+```
+
+do one's hairは「髪をセットする」「髪型を整える」という意味で、美容やグルーミングの文脈で使われます。
+
+**例文：**
+
+- I need to do my hair before we leave.
+  出発前に髪をセットする必要がある。
+
+- She's upstairs doing her hair.
+  彼女は上の階で髪をセットしている。
+
+- Where do you get your hair done?
+  どこで髪をセットしてもらうの？
+
+- I'm having my hair done at the salon tomorrow.
+  明日サロンで髪をセットしてもらう。
+
+- He does his hair differently for special occasions.
+  彼は特別な時には髪型を変える。
+
+💡 **ポイント：** 「do one's hair」は自分でセットする場合も、美容院でしてもらう場合も使えます。「have one's hair done」は美容院でしてもらうことを明示します。
+
+---
+
+### 54. do one's makeup「化粧をする」
+
+```
+  [顔] → DO ONE'S MAKEUP → [メイク完了]
+    ↓
+  化粧品適用
+    ↓
+  美しさ・表現
+```
+
+do one's makeupは「化粧をする」「メイクをする」という意味です。
+
+**例文：**
+
+- I'm doing my makeup—I'll be ready in five minutes.
+  化粧をしているところ、5分で準備できる。
+
+- She does her makeup beautifully.
+  彼女は化粧が上手だ。
+
+- I don't have time to do my makeup this morning.
+  今朝は化粧をする時間がない。
+
+- Where did you learn to do makeup like that?
+  そういう化粧のやり方をどこで学んだの？
+
+- Professional makeup artists do makeup for movies and TV shows.
+  プロのメイクアップアーティストが映画やテレビ番組の化粧をする。
+
+💡 **ポイント：** 「put on makeup」も同義ですが、「do makeup」の方が全体的なメイクアップのプロセスを表します。
+
+---
+
+### 55. do one's nails「ネイルをする」
+
+```
+  [爪] → DO ONE'S NAILS → [整った爪]
+    ↓
+  整形・塗装
+    ↓
+  美しさ・ケア
+```
+
+do one's nailsは「ネイルをする」「爪を手入れする」という意味で、マニキュアを塗ったり、爪を整えたりすることを表します。
+
+**例文：**
+
+- I'm doing my nails for the party tonight.
+  今夜のパーティーのためにネイルをしている。
+
+- She does her nails every week.
+  彼女は毎週ネイルをする。
+
+- I had my nails done at the salon.
+  サロンでネイルをしてもらった。
+
+- Do you do your own nails or go to a nail salon?
+  自分でネイルをする？それともネイルサロンに行く？
+
+- I'm terrible at doing my nails—they always look messy.
+  ネイルをするのが下手で、いつも雑に見える。
+
+💡 **ポイント：** 「do one's hair」と同様、自分でする場合も専門店でしてもらう場合も使えます。「have one's nails done」はサロンでしてもらうことを明示します。
+
+---
+
+## まとめ
+
+### 📌 最優先で覚えるべき表現
+
+DO句動詞の中で最も基本的で重要な表現は以下の通りです：
+
+1. **do without** - 〜なしで済ませる（日常会話で頻出）
+2. **do away with** - 廃止する、処分する（ビジネス・ニュースで必須）
+3. **do up** - 結ぶ、締める、修理する（多義語として重要）
+4. **do over** - やり直す（学習・仕事で頻出）
+5. **do with** - 〜と関係がある、〜を使う（慣用表現として必須）
+
+これらは日常会話からビジネスまで幅広く使われ、ネイティブスピーカーが頻繁に使用する表現です。
+
+---
+
+### 🎯 TOEIC頻出表現
+
+TOEICテストで特に出題頻度が高い表現：
+
+1. **do business** - ビジネスをする、取引する
+2. **do research** - 研究する、調査する
+3. **do work** - 仕事をする、作業する
+4. **do damage** - 損害を与える
+5. **do one's part** - 自分の役割を果たす
+6. **do one's duty** - 義務を果たす
+7. **do about** - 〜について対処する
+8. **do a course** - コースを受講する
+9. **do an exam / do a test** - 試験を受ける
+10. **do a project** - プロジェクトをする
+11. **do an experiment** - 実験をする
+12. **do a survey** - 調査をする
+13. **do an interview** - インタビューをする
+14. **do a presentation** - プレゼンをする
+15. **do a job** - 仕事をする
+16. **do a task** - タスクをする
+17. **do an assignment** - 課題をする
+
+これらはビジネスシーン、学術的文脈、職場での会話で頻繁に登場します。
+
+---
+
+### 💬 日常会話頻出表現
+
+日常生活で最もよく使われる表現：
+
+1. **do one's best** - 最善を尽くす
+2. **do a favor** - 頼みを聞く、好意を示す
+3. **do the job** - 役に立つ、十分である
+4. **do the trick** - うまくいく、効果がある
+5. **do well** - うまくやる、成功する
+6. **do homework** - 宿題をする
+7. **do housework** - 家事をする
+8. **do the dishes** - 皿洗いをする
+9. **do the laundry** - 洗濯をする
+10. **do the shopping** - 買い物をする
+11. **do the cooking** - 料理をする
+12. **do the cleaning** - 掃除をする
+13. **do exercise** - 運動をする
+14. **do yoga** - ヨガをする
+15. **do sports** - スポーツをする
+16. **do one's hair** - 髪をセットする
+17. **do one's makeup** - 化粧をする
+18. **do one's nails** - ネイルをする
+
+これらは家庭生活、趣味、健康、美容など日常的な場面で使われます。
+
+---
+
+### 🎬 後編予告
+
+後編では、ビジネスや上級レベルで差がつく表現と、注意が必要な多義語を徹底解説します：
+
+**03｜ビジネス・上級**
+- より洗練されたビジネス表現
+- フォーマルな場面での使い方
+- 専門的な文脈での応用
+
+**04｜多義語・注意**
+- 同じ表現でも文脈で意味が変わるもの
+- 使い分けが難しい表現
+- 米英での違い
+
+後編をお楽しみに！
+
+---
+

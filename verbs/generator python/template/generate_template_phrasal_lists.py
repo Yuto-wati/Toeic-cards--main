@@ -5,12 +5,12 @@ from jinja2 import Environment, FileSystemLoader
 # ==========================================
 # CONFIGURATION
 # ==========================================
-TARGET_VERB = "template_verb"  # REPLACE THIS with the target verb
+TARGET_VERB = "do"  # REPLACE THIS with the target verb
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 VERB_BASE_DIR = os.path.join(BASE_DIR, TARGET_VERB, 'phrasal')
 OUTPUT_BASE_DIR = os.path.join(BASE_DIR, TARGET_VERB, 'phrasal')
-TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'templates')
 
 def generate_phrasal_list(group_id):
     group_str = f"{group_id:02d}"

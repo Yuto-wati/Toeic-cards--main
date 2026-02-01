@@ -5,16 +5,17 @@ from jinja2 import Environment, FileSystemLoader
 # ==========================================
 # CONFIGURATION
 # ==========================================
-TARGET_VERB = "template_verb" # REPLACE THIS
+TARGET_VERB = "do" # REPLACE THIS
 VERB_TITLE = TARGET_VERB.upper()
 JAPANESE_TITLE = f"{VERB_TITLE} 句動詞 完全解説【前編】 - Phrasal Verb Master"
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 VERB_DIR = os.path.join(BASE_DIR, TARGET_VERB)
-GUIDE_SOURCE_PATH = os.path.join(VERB_DIR, 'guide', 'part1の原文テキスト.txt')
+GUIDE01_PATH = os.path.join(VERB_DIR, 'guide', 'guide01の原文テキスト.txt')
+GUIDE02_PATH = os.path.join(VERB_DIR, 'guide', 'guide02の原文テキスト.txt')
 OUTPUT_PATH = os.path.join(VERB_DIR, 'guide', 'part1.html')
-TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'templates')
 
 # Phrasal List Source Paths (used as Master List)
 PHRASAL_LIST_PATHS = [
@@ -77,40 +78,99 @@ def prepare_card_data(phrase, translation, existing_content=None, is_polysemy=Fa
         if core_match:
             card_data['core_visual'] = core_match.group(1).strip().replace('\n', '<br>')
         
-        examples_match = re.search(r'\*\*例文：\*\*\s*\n\n(.*?)\n\n\*\*ポイント：\*\*', existing_content, re.DOTALL)
+        examples_match = re.search(r'\*\*例文：\*\*\s*\n+(.*?)\n+(?:💡\s*)?\*\*ポイント：\*\*', existing_content, re.DOTALL)
         if examples_match:
             examples_text = examples_match.group(1)
-            examples = re.findall(r'- (.+?)\n  → (.+?)(?=\n\n|- |$)', examples_text, re.DOTALL)
+            examples = re.findall(r'- (.+?)\n\s+(?:→\s*)?(.+?)(?=\n\n|- |$)', examples_text, re.DOTALL)
             for en, jp in examples:
                 card_data['examples'].append({'en': en.strip(), 'jp': jp.strip()})
 
     # Point Extraction
-    point_match = re.search(r'\*\*ポイント：\*\* (.+?)(?=\n\n---|$)', existing_content, re.DOTALL)
+    point_match = re.search(r'(?:💡\s*)?\*\*ポイント：\*\* (.+?)(?=\n\n---|$)', existing_content, re.DOTALL)
     if point_match:
         card_data['point'] = point_match.group(1).replace("**🎯 TOEIC超頻出**", "").replace("**🎯 TOEIC頻出**", "").strip()
 
     return card_data
 
 def main():
-    if not os.path.exists(GUIDE_SOURCE_PATH):
-        print(f"Error: Guide source not found at {GUIDE_SOURCE_PATH}")
-        return
+    # PATHS TO BOTH SOURCES
+    GUIDE01_PATH = os.path.join(VERB_DIR, 'guide', 'guide01の原文テキスト.txt')
+    GUIDE02_PATH = os.path.join(VERB_DIR, 'guide', 'guide02の原文テキスト.txt')
 
-    with open(GUIDE_SOURCE_PATH, 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    # Build Content Map
     content_map = {}
-    pattern = re.compile(r'### \*\*([^*]+?)(?: - ([^*]+?)|\（多義\）)\*\*(.*?)(?=###|\Z)', re.DOTALL)
-    for match in pattern.finditer(content):
-        phrase = match.group(1).strip()
-        translation = match.group(2).strip() if match.group(2) else "多義語"
-        card_content = match.group(3).strip()
-        content_map[phrase] = {
-            'translation': translation,
-            'content': card_content,
-            'is_polysemy': "多義" in match.group(0)
-        }
+
+    # 1. Parse GUIDE 01 (Standard Format)
+    if os.path.exists(GUIDE01_PATH):
+        with open(GUIDE01_PATH, 'r', encoding='utf-8') as f:
+            content1 = f.read()
+        
+        # Parse content
+        # 1. Try Standard Format
+        matches = list(re.finditer(r'### \*\*([^*]+?)(?: - ([^*]+?)|\（多義\）)\*\*(.*?)(?=###|\Z)', content1, re.DOTALL))
+        for match in matches:
+            phrase = match.group(1).strip()
+            translation = match.group(2).strip() if match.group(2) else "多義語"
+            card_content = match.group(3).strip()
+            content_map[phrase] = {
+                'translation': translation,
+                'content': card_content,
+                'is_polysemy': "多義" in match.group(0)
+            }
+
+        # 2. Try Numbered Format (Backport from Part 2)
+        matches2 = list(re.finditer(r'### \d+\.\s+([^「\n]+)(?:「([^」]+)」)?(.*?)(?=### \d+\.|\Z)', content1, re.DOTALL))
+        for match in matches2:
+            phrase_raw = match.group(1).strip()
+            phrase = phrase_raw.split('（')[0].strip()
+            translation = match.group(2).strip() if match.group(2) else "多義語"
+            card_content = match.group(3).strip()
+            
+            # Merge/Overwrite
+            content_map[phrase] = {
+                'translation': translation,
+                'content': card_content,
+                'is_polysemy': "多義" in phrase_raw or "多義" in translation
+            }
+            
+        print(f"Guide 01: Parsed {len(content_map)} phrases.")
+    else:
+        print(f"Warning: Guide 01 not found at {GUIDE01_PATH}")
+
+    # 2. Parse GUIDE 02 (Numbered Format)
+    if os.path.exists(GUIDE02_PATH):
+        with open(GUIDE02_PATH, 'r', encoding='utf-8') as f:
+            content2 = f.read()
+
+        # Numbered Regex for Guide 02
+        matches2 = list(re.finditer(r'### \d+\.\s+([^「\n]+)(?:「([^」]+)」)?(.*?)(?=###|\Z)', content2, re.DOTALL))
+        print(f"Guide 02: Found {len(matches2)} items (Numbered format).")
+        for match in matches2:
+            phrase = match.group(1).strip()
+            translation = match.group(2).strip() if match.group(2) else "多義語"
+            card_content = match.group(3).strip()
+            
+            # Add to map (merging/overwriting if exists)
+            content_map[phrase] = {
+                'translation': translation,
+                'content': card_content,
+                'is_polysemy': "多義" in phrase or "多義" in translation
+            }
+
+        # Also try Standard Regex on Guide 02 just in case
+        matches2b = list(re.finditer(r'### \*\*([^*]+?)(?: - ([^*]+?)|\（多義\）)\*\*(.*?)(?=###|\Z)', content2, re.DOTALL))
+        if matches2b:
+             print(f"Guide 02: Found {len(matches2b)} items (Standard format).")
+             for match in matches2b:
+                phrase = match.group(1).strip()
+                translation = match.group(2).strip() if match.group(2) else "多義語"
+                card_content = match.group(3).strip()
+                content_map[phrase] = {
+                    'translation': translation,
+                    'content': card_content,
+                    'is_polysemy': "多義" in match.group(0)
+                }
+    else:
+        print(f"Warning: Guide 02 not found at {GUIDE02_PATH}")
 
     # Prepare Sections Data
     sections_data = []

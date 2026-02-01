@@ -5,7 +5,7 @@ from jinja2 import Environment, FileSystemLoader
 # ==========================================
 # CONFIGURATION
 # ==========================================
-TARGET_VERB = "template_verb"  # REPLACE THIS
+TARGET_VERB = "do"
 VERB_TITLE = TARGET_VERB.upper()
 JAPANESE_TITLE = f"{VERB_TITLE} 完全解説｜全レベル網羅"
 
@@ -14,7 +14,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 VERB_DIR = os.path.join(BASE_DIR, TARGET_VERB)
 SOURCE_PATH = os.path.join(VERB_DIR, 'core', 'coreの原文テキスト.txt')
 OUTPUT_PATH = os.path.join(VERB_DIR, 'core', 'index.html')
-TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'templates')
 
 def parse_phrasal_block(block):
     header_match = re.search(r'### \*\*(.*?) - (.*?)\*\*', block)
@@ -76,10 +76,11 @@ def main():
 
     # 1. CORE IMAGE SECTION
     core_image_data = None
-    core_match = re.search(rf'## 🎯 {VERB_TITLE}のコアイメージ\n\n```\n(.*?)\n```\n\n(.*?)\n\n---', content, re.DOTALL)
-    if core_match:
-        visual_text = core_match.group(1).strip()
-        explanation = re.search(r'本質：「(.*?)」', core_match.group(2)).group(1) if '本質：' in core_match.group(2) else ""
+    core_section_match = re.search(rf'## 🎯 {VERB_TITLE}のコアイメージ\n\n```\n(.*?)\n```\n\n(.*?)\n\n---', content, re.DOTALL)
+    if core_section_match:
+        visual_text = core_section_match.group(1).strip()
+        explanation_search = re.search(r'本質：「(.*?)」', core_section_match.group(2))
+        explanation = explanation_search.group(1) if explanation_search else ""
         core_image_data = {
             'visual_text': visual_text,
             'explanation': explanation
@@ -89,7 +90,8 @@ def main():
     sections_data = []
     raw_sections = re.split(r'\n## ', content)
     
-    for section in raw_sections:
+    for i in range(len(raw_sections)):
+        section = raw_sections[i]
         section_data = None
         
         if section.startswith('📚 中学生レベル'):
@@ -105,7 +107,7 @@ def main():
                  'grid_class': 'md:grid-cols-2 lg:grid-cols-3',
                  'h3_color': 'text-orange-700',
                  'point_label_color': 'text-orange-600',
-                 'items': items
+                 'content_items': items
              }
              
         elif section.startswith('🎓 高校生レベル'):
@@ -121,7 +123,7 @@ def main():
                  'grid_class': 'md:grid-cols-2',
                  'h3_color': 'text-indigo-700',
                  'point_label_color': 'text-indigo-600',
-                 'items': items
+                 'content_items': items
              }
 
         elif section.startswith('🏆 難関大学合格レベル'):
@@ -135,7 +137,7 @@ def main():
                  'badge': '<span class="level-badge bg-amber-100 text-amber-700">Level 3</span>',
                  'delay_class': 'delay-400',
                  'grid_class': 'md:grid-cols-2 lg:grid-cols-4',
-                 'items': items
+                 'content_items': items
              }
              
         elif section.startswith('💼 TOEIC頻出ビジネス英語'):
@@ -149,7 +151,7 @@ def main():
                  'badge': '<span class="level-badge bg-purple-100 text-purple-700">TOEIC</span>',
                  'delay_class': 'delay-500',
                  'grid_class': 'md:grid-cols-2 lg:grid-cols-4',
-                 'items': items
+                 'content_items': items
              }
         
         if section_data:

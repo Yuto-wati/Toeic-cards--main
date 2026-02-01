@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>{{ title }}</h1>
+    {% if core_image %}
+    <p>Core Image: {{ core_image.visual_text }}</p>
+    {% endif %}
+
+    {% for section in sections %}
+    <h2>{{ section.title }}</h2>
+    <ul>
+        {% for item in section.items %}
+        <li>{{ item.phrase }}
+            <ul>
+                {% for ex in item.examples %}
+                <li>{{ ex.en }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</body>
+
+</html>
