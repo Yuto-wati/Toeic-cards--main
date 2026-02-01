@@ -1,0 +1,514 @@
+# 【完全図解】HAVE句動詞のコアイメージ｜レベル別全48表現を体系的にマスター
+
+HAVEは「持つ」という基本的な意味から、ビジネス、日常会話、学術英語まで幅広く使われる最重要動詞の一つです。この記事では、HAVEのコアイメージを理解し、中学レベルから難関大学・TOEICレベルまで体系的に学習できます。
+
+---
+
+## 🎯 HAVEのコアイメージ
+
+```
+   👤 + 📦 = HAVE
+   
+   [主体] ← 🤝 → [対象]
+   
+   「自分の領域に保持する」
+   「関係性を持つ」
+```
+
+HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**」です。物理的な所有だけでなく、経験を「持つ」、時間を「持つ」、影響を「及ぼす」など、対象との「関係性の保持」を表すイメージが全ての意味に共通しています。
+
+---
+
+## 📚 中学生レベル（必須基本7表現）
+
+中学英語で必ず習う、日常会話の土台となるHAVE句動詞です。
+
+---
+
+### **have on - 着ている、身につけている、予定がある**
+
+```
+   👤 ← on → 👕 [身につけている]
+   
+   「体に接触させて保持する」
+```
+
+衣服や装飾品を「身体に接触させた状態で保持する」イメージです。また、予定を「持っている」という意味もあります。
+
+**例文：**
+
+- She has a beautiful dress on.
+  → 彼女は美しいドレスを着ている。
+
+- What do you have on today?
+  → 今日は何を着ていますか？
+
+- I have a meeting on this afternoon.
+  → 今日午後に会議の予定があります。
+
+- He always has a smile on his face.
+  → 彼はいつも笑顔を浮かべている。
+
+- Do you have anything on tomorrow?
+  → 明日は何か予定がありますか？
+
+**ポイント：** wear と似ていますが、have on は「今現在身につけている状態」をより強調します。
+
+---
+
+### **have to - 〜しなければならない**
+
+```
+   [義務] ━━ have to ━━→ [実行]
+   
+   「〜する必要性を持つ」
+```
+
+「〜する必要性・義務を保持している」イメージです。must よりも客観的な必要性を表します。
+
+**例文：**
+
+- I have to finish this report by Friday.
+  → 金曜日までにこのレポートを終わらせなければならない。
+
+- Do you have to work on weekends?
+  → 週末も働かなければなりませんか？
+
+- She has to take care of her elderly parents.
+  → 彼女は高齢の両親の世話をしなければならない。
+
+- We don't have to decide right now.
+  → 今すぐ決める必要はありません。
+
+- You have to see this movie!
+  → この映画を見なきゃだめだよ！
+
+**ポイント：** must よりも口語的で、外部からの義務や必要性を表します。**🎯 TOEIC超頻出**
+
+---
+
+### **have got - 持っている、〜しなければならない**
+
+```
+   👤 ← got ← 📦 [獲得して保持]
+   
+   「獲得した状態を持つ」
+```
+
+何かを「獲得して今持っている」イメージです。主にイギリス英語で have の代わりに使われます。
+
+**例文：**
+
+- I've got a new car.
+  → 新しい車を持っています。
+
+- Have you got any questions?
+  → 何か質問はありますか？
+
+- She's got three children.
+  → 彼女には3人の子供がいます。
+
+- I've got to go now.
+  → もう行かなければなりません。
+
+- We've got a problem.
+  → 問題があります。
+
+**ポイント：** 特にイギリス英語で頻出。have got to は have to と同義です。
+
+---
+
+### **have over - 招待する、家に呼ぶ**
+
+```
+   🏠 [自宅] ← over ← 👥 [ゲスト]
+   
+   「自分の領域に招き入れる」
+```
+
+人を「自分の家に招いて迎え入れる」イメージです。招待や訪問を表します。
+
+**例文：**
+
+- We're having some friends over for dinner.
+  → 夕食に友人を何人か招待しています。
+
+- Can I have you over this weekend?
+  → 今週末に来てもらえますか？
+
+- They had us over for a barbecue.
+  → 彼らはバーベキューに私たちを招いてくれた。
+
+- Let's have them over sometime.
+  → いつか彼らを招待しましょう。
+
+**ポイント：** invite over と同義ですが、have over の方がカジュアルで日常的です。
+
+---
+
+### **have out - はっきり話し合う、取り出す、抜く**
+
+```
+   [内部] ━━ out ━━→ [外部]
+   
+   「内にあるものを外に出す」
+```
+
+隠れていたものや問題を「外に出して明らかにする」イメージです。率直な話し合いや物理的な除去を表します。
+
+**例文：**
+
+- We need to have it out and resolve this conflict.
+  → はっきり話し合ってこの対立を解決する必要があります。
+
+- I had my tooth out yesterday.
+  → 昨日歯を抜きました。
+
+- Let's have it out once and for all.
+  → 一度きちんと話し合いましょう。
+
+- He had his appendix out last year.
+  → 彼は昨年盲腸の手術を受けた。
+
+**ポイント：** have it out with someone で「〜とはっきり話し合う」という重要表現になります。
+
+---
+
+### **have back - 返してもらう、取り戻す**
+
+```
+   [貸出] ━━ back ━━→ [返却]
+   
+   「元の状態に戻して持つ」
+```
+
+貸したものや失ったものを「返してもらって再び持つ」イメージです。
+
+**例文：**
+
+- Can I have my book back?
+  → 本を返してもらえますか？
+
+- I want to have my old job back.
+  → 以前の仕事に戻りたい。
+
+- When can I have it back?
+  → いつ返してもらえますか？
+
+- She had her laptop back after it was repaired.
+  → 修理後にノートパソコンを返してもらった。
+
+**ポイント：** get back と似ていますが、have back は「返却」のニュアンスがより強い表現です。
+
+---
+
+### **have in - 在庫がある、家にいる、招き入れる**
+
+```
+   🏠 [内部] ← in ← 📦 [保持]
+   
+   「内側に保持する」
+```
+
+何かを「内部に保持している」イメージです。在庫、滞在、招待など複数の意味があります。
+
+**例文：**
+
+- Do you have this item in stock?
+  → この商品の在庫はありますか？
+
+- We don't have any milk in.
+  → ミルクの在庫がありません。
+
+- She's having the plumber in tomorrow.
+  → 彼女は明日配管工を呼びます。
+
+- I'll be having in all day.
+  → 一日中家にいる予定です。
+
+**ポイント：** in stock の意味で特にビジネスシーンで頻出します。**🎯 TOEIC頻出**
+
+---
+
+## 🎓 高校生レベル（重要応用10表現）
+
+高校英語で学ぶ、より洗練された表現と応用的な使い方です。
+
+---
+
+### **have on - 予定がある、（人を）からかう**
+
+```
+   📅 [スケジュール] ← on ← [予定保持]
+   
+   「予定という約束を保持する」
+```
+
+スケジュールに「予定を入れている」イメージです。また、人をからかう意味もあります。
+
+**例文：**
+
+- I have a lot on this week.
+  → 今週は予定がたくさんあります。
+
+- Do you have anything on tonight?
+  → 今夜は何か予定がありますか？
+
+- Are you having me on?
+  → 私をからかっているの？
+
+- He's just having you on.
+  → 彼はただあなたをからかっているだけです。
+
+**ポイント：** 「からかう」の意味は主にイギリス英語で使われます。
+
+---
+
+### **have up - 裁判にかける、呼び出す**
+
+```
+   [下位] ━━ up ━━→ [上位/法廷]
+   
+   「上の立場に呼び出す」
+```
+
+権威ある場所や立場に「呼び出す」イメージです。特に法的な文脈で使われます。
+
+**例文：**
+
+- He was had up for theft.
+  → 彼は窃盗で裁判にかけられた。
+
+- They had him up before the committee.
+  → 彼らは彼を委員会に呼び出した。
+
+- She was had up on charges of fraud.
+  → 彼女は詐欺の罪で起訴された。
+
+- The teacher had the student up for cheating.
+  → 先生はカンニングで生徒を呼び出した。
+
+**ポイント：** やや形式的で、特に法的・公式な場面で使われる表現です。
+
+---
+
+### **have off - 休みを取る、（服などを）脱ぐ**
+
+```
+   [仕事] ━━ off ━━→ [休暇]
+   
+   「通常の状態から離れる」
+```
+
+通常の状態から「離れて休む」イメージです。休暇や衣服を脱ぐことを表します。
+
+**例文：**
+
+- I'm having the day off tomorrow.
+  → 明日は休みを取ります。
+
+- Can I have next Friday off?
+  → 来週の金曜日に休みをもらえますか？
+
+- He had his coat off in seconds.
+  → 彼は数秒でコートを脱いだ。
+
+- She's having a week off for vacation.
+  → 彼女は休暇で1週間休みを取っています。
+
+**ポイント：** take off と似ていますが、have off は「許可された休み」のニュアンスが強いです。
+
+---
+
+### **have around - そばに置く、近くにいてもらう**
+
+```
+   👤 ← around ← 👥 [周囲に保持]
+   
+   「周囲に保持する」
+```
+
+人や物を「身近に置いておく」イメージです。便利さや安心感を表します。
+
+**例文：**
+
+- It's good to have you around.
+  → あなたが近くにいてくれて嬉しい。
+
+- I like having my tools around.
+  → 道具を手元に置いておくのが好きです。
+
+- She's nice to have around the office.
+  → 彼女がオフィスにいると助かる。
+
+- We should have them around more often.
+  → 彼らをもっと頻繁に呼ぶべきだ。
+
+**ポイント：** have over よりもカジュアルで、「近くにいる」という状態を強調します。
+
+---
+
+### **have down - 書き留める、記録する、完璧に習得する**
+
+```
+   [情報] ━━ down ━━→ [記録/固定]
+   
+   「下に固定して保持する」
+```
+
+情報を「書き留めて固定する」イメージです。また、技能を完全に習得する意味もあります。
+
+**例文：**
+
+- Have you got that down?
+  → それを書き留めましたか？
+
+- I need to have these notes down.
+  → これらのメモを記録する必要があります。
+
+- She has the routine down perfectly.
+  → 彼女はその手順を完璧に習得している。
+
+- He's got the speech down.
+  → 彼はスピーチを完璧に覚えている。
+
+**ポイント：** write down と似ていますが、have down は「習得・記憶」の意味も持ちます。
+
+---
+
+### **have along - 連れて行く、同伴する**
+
+```
+   👤 ━━ along ━━→ 👥 [同行]
+   
+   「一緒に連れて持つ」
+```
+
+人や物を「一緒に連れて行く」イメージです。同伴や携帯を表します。
+
+**例文：**
+
+- Can I have my friend along?
+  → 友人を連れて行ってもいいですか？
+
+- She had her children along on the trip.
+  → 彼女は旅行に子供たちを連れて行った。
+
+- I'll have my laptop along just in case.
+  → 念のためノートパソコンを持っていきます。
+
+- They had a guide along for safety.
+  → 彼らは安全のためガイドを同行させた。
+
+**ポイント：** bring along や take along と似ていますが、have along は「同伴」を強調します。
+
+---
+
+### **have away - 持ち去る、隠す**
+
+```
+   [物] ━━ away ━━→ [遠ざける]
+   
+   「離れた場所に保持する」
+```
+
+何かを「遠ざけて保持する」イメージです。やや古風な表現です。
+
+**例文：**
+
+- Have those documents away before anyone sees them.
+  → 誰かに見られる前にその書類を片付けて。
+
+- He had the evidence away.
+  → 彼は証拠を隠した。
+
+- They had the valuables away in a safe place.
+  → 彼らは貴重品を安全な場所に保管した。
+
+**ポイント：** put away や hide の方が現代的ですが、文学作品では使われます。
+
+---
+
+### **have round - 招待する、家に呼ぶ**
+
+```
+   🏠 ← round ← 👥 [招待]
+   
+   「周囲に集める」
+```
+
+have over とほぼ同義で、人を「家に招く」イメージです。主にイギリス英語で使われます。
+
+**例文：**
+
+- We're having some neighbors round for tea.
+  → お茶に近所の人を何人か招待します。
+
+- Can we have you round sometime?
+  → いつかお宅に伺ってもいいですか？
+
+- They had us round for Christmas dinner.
+  → 彼らはクリスマスディナーに私たちを招待してくれた。
+
+- Let's have them round next weekend.
+  → 来週末に彼らを招待しましょう。
+
+**ポイント：** 主にイギリス英語。アメリカ英語では have over の方が一般的です。
+
+---
+
+### **have at - 攻撃する、取り組む**
+
+```
+   💥 ━━ at ━━→ 🎯 [攻撃/挑戦]
+   
+   「対象に向かって行動する」
+```
+
+何かに「積極的に向かっていく」イメージです。攻撃または熱心な取り組みを表します。
+
+**例文：**
+
+- Have at it! (挑戦を受ける時)
+  → さあ、やってみろ！
+
+- The critics had at the new policy.
+  → 批評家たちは新しい政策を攻撃した。
+
+- Let me have at that problem.
+  → その問題に取り組ませてください。
+
+- He had at the task with great enthusiasm.
+  → 彼は大きな熱意をもってその仕事に取り組んだ。
+
+**ポイント：** やや古風な表現で、attack や tackle の方が現代的です。
+
+---
+
+### **have about - 周囲に持つ、身につけている**
+
+```
+   👤 ← about ← 💰 [携帯]
+   
+   「身の回りに保持する」
+```
+
+物を「身につけたり近くに持っている」イメージです。携帯や所持を表します。
+
+**例文：**
+
+- Do you have any money about you?
+  → お金を持っていますか？
+
+- I don't have my phone about me right now.
+  → 今は携帯を持っていません。
+
+- She always has a pen about her.
+  → 彼女はいつもペンを身につけている。
+
+- He had no identification about him.
+  → 彼は身分証明書を持っていなかった。
+
+**ポイント：** have on you や carry の方が現代的ですが、フォーマルな文脈で使われます。
+
+---

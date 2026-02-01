@@ -235,15 +235,25 @@ html = '''<!DOCTYPE html>
 '''
 
 # Parse sections
-sections = re.split(r'## (\d+)｜([^\r\n]+)', content)
+sections = re.split(r'^##\s+(.+)$', content, flags=re.MULTILINE)
 
 cards_html = ""
-section_num = 0
+section_map = {
+    "📚 中学生レベル（必須基本7表現）": "01",
+    "🎓 高校生レベル（重要応用10表現）": "02",
+    "🏆 難関大学合格レベル（高度な9表現）": "03",
+    "💼 TOEIC頻出ビジネス英語（15表現）": "04"
+}
 
-for i in range(1, len(sections), 3):
-    section_num_str = sections[i]
-    section_title = sections[i+1]
-    section_content = sections[i+2]
+for i in range(1, len(sections), 2):
+    section_title = sections[i].strip()
+    section_content = sections[i+1]
+    
+    # Skip Core Image section if it's parsed (it's hardcoded in header)
+    if "コアイメージ" in section_title or "まとめ" in section_title:
+        continue
+
+    section_num_str = section_map.get(section_title, "99")
     
     # Add section header
     cards_html += f'\t<!-- SECTION {section_num_str} -->\n'
