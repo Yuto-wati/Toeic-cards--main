@@ -1,5 +1,6 @@
 import re
 import os
+from jinja2 import Environment, FileSystemLoader
 
 # ==========================================
 # CONFIGURATION
@@ -13,105 +14,82 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 VERB_DIR = os.path.join(BASE_DIR, TARGET_VERB)
 GUIDE_SOURCE_PATH = os.path.join(VERB_DIR, 'guide', 'part1の原文テキスト.txt')
 OUTPUT_PATH = os.path.join(VERB_DIR, 'guide', 'part1.html')
+TEMPLATE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
+
 # Phrasal List Source Paths (used as Master List)
 PHRASAL_LIST_PATHS = [
     ("01", "基本・最優先", os.path.join(VERB_DIR, 'phrasal', '01', 'phrasal01の原文テキスト.txt')),
     ("02", "日常・TOEIC", os.path.join(VERB_DIR, 'phrasal', '02', 'phrasal02の原文テキスト.txt'))
 ]
 
-# ==========================================
-# TEMPLATE
-# ==========================================
+def prepare_card_data(phrase, translation, existing_content=None, is_polysemy=False):
+    card_data = {
+        'phrase': phrase,
+        'translation': translation,
+        'existing_content': False,
+        'toeic_badge': False,
+        'is_polysemy': is_polysemy,
+        'intro_text': "",
+        'meanings': [],
+        'core_visual': "",
+        'examples': [],
+        'point': ""
+    }
 
-def generate_card(phrase, translation, existing_content=None, is_polysemy=False):
-    html = ""
-    toeic_badge = ""
+    if not existing_content:
+        return card_data
     
-    if existing_content:
-        # Extract point to check for badge
-        point_match = re.search(r'\*\*ポイント：\*\* (.+?)(?=\n\n---|$)`, existing_content, re.DOTALL)
-        if point_match:
-            point_text = point_match.group(1).strip()
-            if "TODO" not in point_text: # Placeholder check
-                if "🎯 TOEIC" in point_text:
-                    toeic_badge = '<span class="bg-amber-100 text-amber-700 text-xs font-bold px-2 py-1 rounded-full border border-amber-200 ml-2">TOEIC頻出</span>'
+    card_data['existing_content'] = True
+    
+    # Check TOEIC Badge
+    point_match = re.search(r'\*\*ポイント：\*\* (.+?)(?=\n\n---|$)', existing_content, re.DOTALL)
+    if point_match:
+        point_text = point_match.group(1).strip()
+        if "🎯 TOEIC" in point_text:
+            card_data['toeic_badge'] = True
 
-    html += f'\t<!-- {phrase} -->\n'
-    html += f'\t<div class="card">\n'
-    html += f'\t\t<div class="card-header"><span class="phrase">{phrase}</span><span class="translation">{translation}</span>{toeic_badge}</div>\n'
-    html += f'\t\t<div class="card-body">\n'
-
-    if existing_content:
-        if is_polysemy:
-             # Parse polysemy content
-             # Intro
-            intro_match = re.search(r'^(.*?)(?=\*\*意味\d+：)', existing_content, re.DOTALL)
-            if intro_match:
-                intro_text = intro_match.group(1).strip()
-                intro_text = re.sub(r'^---+\s*$', '', intro_text, flags=re.MULTILINE).strip()
-                if intro_text:
-                    html += f'\t\t\t<p class="text-slate-600 mb-4">{intro_text}</p>\n'
+    if is_polysemy:
+        # Polysemy Logic
+        intro_match = re.search(r'^(.*?)(?=\*\*意味\d+：)', existing_content, re.DOTALL)
+        if intro_match:
+            intro_text = intro_match.group(1).strip()
+            intro_text = re.sub(r'^---+\s*$', '', intro_text, flags=re.MULTILINE).strip()
+            if intro_text:
+                card_data['intro_text'] = intro_text
+        
+        meanings = re.findall(r'\*\*意味(\d+)：([^*]+)\*\*\s*```\n(.*?)\n```\s*\n(.*?)(?=\*\*意味\d+：|\*\*ポイント：|$)', existing_content, re.DOTALL)
+        for m_num, m_title, m_core, m_examples in meanings:
+            m_ex_list = []
+            examples = re.findall(r'- (.+?)\n  → (.+?)(?=\n\n|- |$)', m_examples, re.DOTALL)
+            for en, jp in examples:
+                m_ex_list.append({'en': en.strip(), 'jp': jp.strip()})
             
-            # Meanings
-            meanings = re.findall(r'\*\*意味(\d+)：([^*]+)\*\*\s*```\n(.*?)\n```\s*\n(.*?)(?=\*\*意味\d+：|\*\*ポイント：|$)', existing_content, re.DOTALL)
-            for m_num, m_title, m_core, m_examples in meanings:
-                html += f'\t\t\t<div class="meaning-section">\n'
-                html += f'\t\t\t\t<div class="meaning-title">意味{m_num}：{m_title}</div>\n'
-                
-                if m_core.strip():
-                     html += f'\t\t\t\t<div class="core-box"><span class="core-title">コアイメージ</span>\n'
-                     html += f'\t\t\t\t\t<div class="visual-text">{m_core.strip().replace(chr(10), "<br>")}</div>\n'
-                     html += f'\t\t\t\t</div>\n'
-                
-                examples = re.findall(r'- (.+?)\n  → (.+?)(?=\n\n|- |$)', m_examples, re.DOTALL)
-                for en, jp in examples:
-                    html += f'\t\t\t\t<div class="example-box">\n'
-                    html += f'\t\t\t\t\t<p class="en-sent">{en.strip()}</p>\n'
-                    html += f'\t\t\t\t\t<p class="jp-sent">{jp.strip()}</p>\n'
-                    html += f'\t\t\t\t</div>\n'
-                html += f'\t\t\t</div>\n'
-
-        else:
-            # Normal content
-            # Core image
-            core_match = re.search(r'```\n(.*?)\n```', existing_content, re.DOTALL)
-            if core_match:
-                core_visual = core_match.group(1).strip().replace('\n', '<br>')
-                html += f'\t\t\t<div class="core-box"><span class="core-title">コアイメージ</span>\n'
-                html += f'\t\t\t\t<div class="visual-text">{core_visual}</div>\n'
-                html += f'\t\t\t</div>\n'
+            card_data['meanings'].append({
+                'num': m_num,
+                'title': m_title,
+                'core': m_core.strip().replace(chr(10), "<br>") if m_core.strip() else "",
+                'examples': m_ex_list
+            })
             
-            # Examples
-            examples_match = re.search(r'\*\*例文：\*\*\s*\n\n(.*?)\n\n\*\*ポイント：\*\*', existing_content, re.DOTALL)
-            if examples_match:
-                examples_text = examples_match.group(1)
-                examples = re.findall(r'- (.+?)\n  → (.+?)(?=\n\n|- |$)', examples_text, re.DOTALL)
-                if examples:
-                    html += f'\t\t\t<div class="meaning-section">\n'
-                    for en, jp in examples:
-                        html += f'\t\t\t\t<div class="example-box">\n'
-                        html += f'\t\t\t\t\t<p class="en-sent">{en.strip()}</p>\n'
-                        html += f'\t\t\t\t\t<p class="jp-sent">{jp.strip()}</p>\n'
-                        html += f'\t\t\t\t</div>\n'
-                    html += f'\t\t\t</div>\n'
-
-        # Point
-        point_match = re.search(r'\*\*ポイント：\*\* (.+?)(?=\n\n---|$)', existing_content, re.DOTALL)
-        if point_match:
-            point = point_match.group(1).replace("**🎯 TOEIC超頻出**", "").replace("**🎯 TOEIC頻出**", "").strip()
-            html += f'\t\t\t<div class="point-area"><span class="point-label">Point：</span>\n'
-            html += f'\t\t\t\t<p>{point}</p>\n'
-            html += f'\t\t\t</div>\n'
-
     else:
-        # Placeholder (Fallback only - ideally not used if source is perfect)
-        html += f'\t\t\t<div class="point-area"><span class="point-label">Note：</span>\n'
-        html += f'\t\t\t\t<p>詳細な解説は準備中です。</p>\n'
-        html += f'\t\t\t</div>\n'
+        # Normal Logic
+        core_match = re.search(r'```\n(.*?)\n```', existing_content, re.DOTALL)
+        if core_match:
+            card_data['core_visual'] = core_match.group(1).strip().replace('\n', '<br>')
+        
+        examples_match = re.search(r'\*\*例文：\*\*\s*\n\n(.*?)\n\n\*\*ポイント：\*\*', existing_content, re.DOTALL)
+        if examples_match:
+            examples_text = examples_match.group(1)
+            examples = re.findall(r'- (.+?)\n  → (.+?)(?=\n\n|- |$)', examples_text, re.DOTALL)
+            for en, jp in examples:
+                card_data['examples'].append({'en': en.strip(), 'jp': jp.strip()})
 
-    html += f'\t\t</div>\n'
-    html += f'\t</div>\n\n'
-    return html
+    # Point Extraction
+    point_match = re.search(r'\*\*ポイント：\*\* (.+?)(?=\n\n---|$)', existing_content, re.DOTALL)
+    if point_match:
+        card_data['point'] = point_match.group(1).replace("**🎯 TOEIC超頻出**", "").replace("**🎯 TOEIC頻出**", "").strip()
+
+    return card_data
 
 def main():
     if not os.path.exists(GUIDE_SOURCE_PATH):
@@ -134,74 +112,10 @@ def main():
             'is_polysemy': "多義" in match.group(0)
         }
 
-    # Generate HTML Header
-    html = f'''<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{JAPANESE_TITLE}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {{ font-family: 'Noto Sans JP', sans-serif; background-color: #f8fafc; color: #334155; line-height: 1.6; }}
-        .font-poppins {{ font-family: 'Poppins', sans-serif; }}
-        .card {{ background: white; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.01); border: 1px solid #e2e8f0; margin-bottom: 24px; overflow: hidden; break-inside: avoid; }}
-        .card-header {{ background-color: #f1f5f9; padding: 16px 24px; border-bottom: 1px solid #e2e8f0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }}
-        .phrase {{ font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.5rem; color: #1e293b; }}
-        .translation {{ font-size: 0.9rem; font-weight: 700; color: #64748b; background: white; padding: 4px 12px; border-radius: 20px; border: 1px solid #cbd5e1; }}
-        .card-body {{ padding: 24px; }}
-        .core-box {{ background-color: #ecfeff; border: 1px dashed #67e8f9; border-radius: 8px; padding: 16px; margin-bottom: 20px; text-align: center; }}
-        .core-title {{ font-weight: 700; color: #0891b2; font-size: 0.9rem; margin-bottom: 8px; display: block; }}
-        .visual-text {{ font-family: monospace; white-space: pre-wrap; color: #475569; font-weight: 700; line-height: 1.4; }}
-        .meaning-section {{ margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid #f1f5f9; }}
-        .meaning-section:last-child {{ border-bottom: none; margin-bottom: 0; padding-bottom: 0; }}
-        .meaning-title {{ font-weight: 700; color: #3b82f6; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }}
-        .example-box {{ background-color: #f8fafc; border-left: 3px solid #cbd5e1; padding: 10px 16px; margin-bottom: 8px; }}
-        .en-sent {{ font-family: 'Poppins', sans-serif; font-weight: 600; color: #0f172a; }}
-        .jp-sent {{ font-size: 0.9rem; color: #64748b; }}
-        .point-area {{ background-color: #ecfeff; border-radius: 8px; padding: 16px; margin-top: 20px; font-size: 0.9rem; }}
-        .point-label {{ font-weight: 700; color: #0891b2; margin-bottom: 4px; display: block; }}
-        .section-title {{ font-size: 1.5rem; font-weight: 900; color: #1e293b; margin-top: 40px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #06b6d4; display: flex; align-items: center; gap: 12px; }}
-        .section-badge {{ background-color: #06b6d4; color: white; font-size: 1rem; padding: 4px 12px; border-radius: 9999px; font-family: 'Poppins', sans-serif; }}
-        /* Print Styles */
-        @media print {{
-            .card {{ break-inside: avoid; border: 1px solid #ccc; box-shadow: none; print-color-adjust: exact; -webkit-print-color-adjust: exact; }}
-            .nav-container, footer {{ display: none; }}
-            body {{ background: white; }}
-        }}
-    </style>
-</head>
-<body class="p-4 md:p-8 max-w-5xl mx-auto">
-    <header class="text-center mb-12">
-        <div class="inline-block px-4 py-1 rounded-full bg-cyan-50 text-cyan-600 font-bold text-sm mb-4 tracking-wider uppercase">
-            {VERB_TITLE} PHRASAL VERBS
-        </div>
-        <h1 class="text-3xl md:text-5xl font-black text-slate-800 mb-4">
-            {VERB_TITLE} 句動詞 <span class="text-cyan-600">完全解説</span>
-        </h1>
-        <p class="text-slate-500 font-bold">基本イメージから日常会話表現まで（Section 1〜2）</p>
-    </header>
-
-    <!-- Core Image Section -->
-    <div class="card">
-        <div class="card-header bg-cyan-50" style="background-color: #ecfeff;">
-            <span class="phrase text-cyan-700" style="color: #0e7490;">🎯 {VERB_TITLE}のコアイメージ（基礎）</span>
-        </div>
-        <div class="card-body">
-            <!-- This part extracts the top-level core image from the guide text if available, or manual placeholder -->
-            <div class="point-area bg-white border-0 p-0 mt-0">
-                <p class="font-bold text-slate-600 mb-4">（ここにコアイメージの概要が入ります。原文テキストのヘッダー部分から抽出するロジックがあればそれを適用します）</p>
-            </div>
-        </div>
-    </div>
-'''
-
-    cards_html = ""
+    # Prepare Sections Data
+    sections_data = []
+    
     for sec_num, sec_name, phr_path in PHRASAL_LIST_PATHS:
-        # Check source
         if not os.path.exists(phr_path):
             print(f"Warning: Phrasal list missing: {phr_path}")
             continue
@@ -212,9 +126,6 @@ def main():
         phrases_in_section = []
         for line in phr_lines:
             line = line.strip()
-            # Basic parsing of phrasal list lines
-            # Expecting: phrase - translation
-            # Skipping headers/footers
             if not line or "｜" in line or "合計" in line or "レベル" in line or "目安" in line:
                 continue
             
@@ -225,35 +136,35 @@ def main():
                 phrases_in_section.append((phrase, translation))
         
         if phrases_in_section:
-            cards_html += f'\t<!-- SECTION {sec_num} -->\n'
-            cards_html += f'\t<div class="section-title">\n'
-            cards_html += f'\t\t<span class="section-badge">{sec_num}</span>\n'
-            cards_html += f'\t\t{sec_name}（{len(phrases_in_section)}表現）\n'
-            cards_html += f'\t</div>\n\n'
-            
+            cards = []
             for phrase, translation in phrases_in_section:
-                # Lookup
                 if phrase in content_map:
                     data = content_map[phrase]
-                    cards_html += generate_card(phrase, data['translation'], data['content'], data['is_polysemy'])
+                    cards.append(prepare_card_data(phrase, data['translation'], data['content'], data['is_polysemy']))
                 else:
-                    # Fallback (Placeholder)
-                    cards_html += generate_card(phrase, translation)
+                    cards.append(prepare_card_data(phrase, translation))
+            
+            sections_data.append({
+                'num': sec_num,
+                'name': sec_name,
+                'phrases': phrases_in_section,
+                'cards': cards
+            })
 
-    # Footer
-    footer = '''	<footer class="text-center mt-12 mb-12">
-		<a href="./part2.html"
-			class="inline-block bg-cyan-600 text-white font-bold py-4 px-8 rounded-full shadow hover:bg-cyan-700 transition">
-			{VERB_TITLE} 句動詞【後編】多義語・慣用表現 →
-		</a>
-	</footer>
-</body>
-</html>'''
+    # Render Template
+    env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
+    template = env.get_template('guide_part1_template.html')
+    
+    html_output = template.render(
+        title=JAPANESE_TITLE,
+        verb_title=VERB_TITLE,
+        sections=sections_data
+    )
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
-        f.write(html + cards_html + footer)
-    print(f"Generated {OUTPUT_PATH}")
+        f.write(html_output)
+    print(f"Generated {OUTPUT_PATH} using Jinja2")
 
 if __name__ == "__main__":
     main()

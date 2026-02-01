@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{ title }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', system-ui, sans-serif;
+            background-color: #f1f5f9;
+            color: #334155;
+            line-height: 1.6;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', system-ui, sans-serif;
+        }
+
+        /* Animations */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .delay-100 {
+            animation-delay: 0.1s;
+        }
+
+        .delay-200 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-300 {
+            animation-delay: 0.3s;
+        }
+
+        .delay-400 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-500 {
+            animation-delay: 0.5s;
+        }
+
+        /* Card Hover */
+        .hover-card {
+            transition: all 0.3s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Visual Text */
+        .core-box {
+            background-color: #fff7ed;
+            border: 1px dashed #fdba74;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .visual-text {
+            display: block;
+            font-family: monospace;
+            color: #c2410c;
+            font-weight: 700;
+            margin-top: 0.5rem;
+            white-space: pre-wrap;
+        }
+
+        /* Badges */
+        .level-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body class="p-6 md:p-12">
+    <div class="max-w-6xl mx-auto space-y-16">
+
+        <!-- Header -->
+        <header class="text-center space-y-6 fade-in-up">
+            <div
+                class="inline-block bg-slate-800 text-white px-5 py-2 rounded-full text-xs font-black tracking-widest border border-slate-700">
+                VERB SERIES: {{ verb_title }}
+            </div>
+            <h1 class="text-3xl md:text-5xl font-black text-slate-900 leading-tight">
+                {{ verb_title }} のレベル別完全解説
+            </h1>
+            <p class="text-lg font-bold text-slate-500">
+                コアイメージから難関大・ビジネスレベルまで全網羅
+            </p>
+        </header>
+
+        {% if core_image %}
+        <!-- CORE IMAGE SECTION -->
+        <section
+            class="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm fade-in-up delay-100 border-t-4 border-t-orange-500">
+            <div class="text-center space-y-4">
+                <h2 class="text-2xl font-black text-orange-600">🎯 {{ verb_title }}のコアイメージ（基礎）</h2>
+                <p class="font-bold text-slate-700">本質：「{{ core_image.explanation }}」</p>
+                <div class="core-box max-w-md mx-auto">
+                    <span class="visual-text">{{ core_image.visual_text }}</span>
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        {% for section in sections %}
+        <!-- {{ section.title }} -->
+        <section class="space-y-6 fade-in-up {{ section.delay_class }}">
+            <div class="flex items-center gap-3 border-b border-slate-200 pb-3 mt-8">
+                {{ section.badge|safe }}
+                <h2 class="text-2xl font-black text-slate-800">{{ section.title }}</h2>
+            </div>
+            <div class="grid {{ section.grid_class }} gap-6">
+                {% for item in section.items %}
+                {% if section.type == 'level3' %}
+                <!-- Level 3 Layout -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black text-amber-700 mb-2">{{ loop.index }}. {{ item.phrase }}</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">{{ item.translation }}</p>
+                    <p class="text-sm font-bold font-poppins text-slate-700">{{ item.first_en }}</p>
+                    <p class="text-xs text-slate-500 mt-2">{{ item.first_jp }}</p>
+                </div>
+                {% elif section.type == 'business' %}
+                <!-- Business Layout -->
+                <div class="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition">
+                    <h4 class="font-black text-purple-700 mb-1">{{ loop.index }}. {{ item.phrase }}</h4>
+                    <p class="text-xs font-bold text-slate-500 mb-2">{{ item.translation }}</p>
+                    <p class="text-sm text-slate-700">{{ item.first_en }}</p>
+                </div>
+                {% else %}
+                <!-- Level 1 & 2 Layout -->
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 hover-card">
+                    <h3 class="text-lg font-black {{ section.h3_color }} mb-2">{{ loop.index }}. {{ item.phrase }}</h3>
+                    <p class="text-xs font-bold text-slate-400 mb-4">コアイメージ：{{ item.core_snippet }}</p>
+                    {% if section.type == 'level1' %}
+                    <ul class="space-y-4 text-sm text-slate-700">
+                        {% for ex in item.examples %}
+                        <li>
+                            <p class="font-bold font-poppins">{{ ex.en }}</p>
+                            <p class="text-xs text-slate-500">{{ ex.jp }}</p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <div class="space-y-4">
+                        {% for ex in item.examples %}
+                        <div>
+                            <p class="text-sm font-bold font-poppins text-slate-700">{{ ex.en }}</p>
+                            <p class="text-xs text-slate-500">{{ ex.jp }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    {% if item.point %}
+                    <div
+                        class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500 {% if section.type == 'level1' %}bg-orange-50 p-3 rounded{% endif %}">
+                        <span
+                            class="font-bold {{ section.point_label_color }} {% if section.type == 'level1' %}block mb-1{% endif %}">ポイント：</span>
+                        {{ item.point }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+        {% endfor %}
+
+        <!-- Footer -->
+        <footer
+            class="text-center text-xs text-slate-400 font-bold py-10 border-t border-slate-200 mt-12 fade-in-up delay-500">
+            <a href="../" class="inline-flex items-center gap-2 hover:text-orange-600 transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+                トップへ戻る
+            </a>
+        </footer>
+
+    </div>
+</body>
+
+</html>

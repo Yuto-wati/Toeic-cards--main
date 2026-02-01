@@ -1,0 +1,1059 @@
+
+# 【完全図解】DO句動詞のコアイメージ｜レベル別全46表現を体系的にマスター
+
+DOは「する」という最も基本的な動詞でありながら、句動詞として使うと驚くほど多彩な表現が可能になります。この記事では、DOのコアイメージを理解し、中学レベルから難関大学・TOEICレベルまで体系的に学習できます。
+
+---
+
+## 🎯 DOのコアイメージ
+
+```
+   👤 → 💪 → ✓ DO
+   
+   [主体] → [行動] → [完了]
+   
+   「行動を起こして実行する」
+   「完遂・処理する」
+```
+
+DOの本質は「**行動を起こして何かを実行・完了させる**」です。makeが「作り出す」、haveが「保持する」のに対し、DOは「実際に行動する・処理する」という動的なイメージが核心です。仕事を「する」、問題を「処理する」、十分に「やり遂げる」など、行動と完遂のニュアンスが全ての意味に共通しています。
+
+---
+
+## 📚 中学生レベル（必須基本6表現）
+
+中学英語で必ず習う、日常会話の土台となるDO句動詞です。
+
+---
+
+### **do up - 結ぶ、締める、修理する、包む**
+
+```
+   [バラバラ] ━━ up ━━→ [まとめる] ⬆️
+   
+   「上に向かって完成させる」
+```
+
+バラバラなものを「まとめ上げる」イメージです。ボタンを留める、靴紐を結ぶ、部屋を改装するなど幅広い意味があります。
+
+**例文：**
+
+- Can you do up your jacket? It's cold.
+  → ジャケットのボタンを留めなさい。寒いよ。
+
+- She's doing up her hair for the party.
+  → 彼女はパーティーのために髪をアップにしている。
+
+- They're doing up the old house.
+  → 彼らは古い家を改装している。
+
+- Please do up this package nicely.
+  → この荷物をきれいに包んでください。
+
+- I can't do up these tight jeans.
+  → このきついジーンズのボタンが留められない。
+
+**ポイント：** fasten や renovate と同義ですが、do up の方が日常的で幅広く使えます。
+
+---
+
+### **do over - やり直す、もう一度する**
+
+```
+   [失敗] ━━ over ━━→ [再実行] 🔄
+   
+   「もう一度最初から実行する」
+```
+
+失敗したことを「もう一度やり直す」イメージです。最初からやり直すニュアンスがあります。
+
+**例文：**
+
+- I need to do this homework over.
+  → この宿題をやり直さなければならない。
+
+- Can we do that scene over?
+  → あのシーンをもう一度撮影できますか？
+
+- The teacher made him do the test over.
+  → 先生は彼にテストをやり直させた。
+
+- Let's do it over from the beginning.
+  → 最初からやり直しましょう。
+
+**ポイント：** redo や start over と同義ですが、do over の方が口語的です。
+
+---
+
+### **do without - 〜なしで済ませる、我慢する**
+
+```
+   [必要物] ❌ → without ━━→ [代替] ✓
+   
+   「無い状態で対処する」
+```
+
+本来必要なものが「無い状態で何とかする」イメージです。我慢や工夫を表します。
+
+**例文：**
+
+- We'll have to do without a car for now.
+  → 今のところ車なしで済ませなければならない。
+
+- Can you do without sugar in your coffee?
+  → コーヒーに砂糖なしで我慢できますか？
+
+- I can't do without my morning coffee.
+  → 朝のコーヒーなしでは無理です。
+
+- They had to do without electricity for a week.
+  → 彼らは1週間電気なしで過ごさなければならなかった。
+
+**ポイント：** manage without や go without と似ていますが、do without は「我慢して対処する」ニュアンスが強いです。
+
+---
+
+### **do away with - 廃止する、処分する、殺す**
+
+```
+   [存在] ━━ away with ━━→ [消去] ❌
+   
+   「完全に取り除く」
+```
+
+何かを「完全に取り除いて無くす」イメージです。制度の廃止、物の処分、さらには殺害まで表します。
+
+**例文：**
+
+- We should do away with this outdated rule.
+  → この時代遅れのルールを廃止すべきです。
+
+- They did away with the old system.
+  → 彼らは古いシステムを廃止した。
+
+- Let's do away with unnecessary paperwork.
+  → 不要な書類作業をなくしましょう。
+
+- The dictator did away with his opponents.
+  → 独裁者は反対派を殺害した。
+
+**ポイント：** abolish や eliminate と同義ですが、do away with の方が口語的です。殺害の意味では非常に直接的な表現です。
+
+---
+
+### **do out of - 〜から騙し取る**
+
+```
+   💰 ━━ out of ━━→ 😢 [詐取]
+   
+   「〜から取り出して奪う」
+```
+
+誰かから不正に「騙し取る」イメージです。詐欺や欺瞞を表す表現です。
+
+**例文：**
+
+- He did me out of $500.
+  → 彼は私から500ドルを騙し取った。
+
+- They were done out of their inheritance.
+  → 彼らは遺産を騙し取られた。
+
+- Don't let anyone do you out of your rights.
+  → 誰にもあなたの権利を奪わせてはいけない。
+
+- She was done out of her fair share.
+  → 彼女は正当な分け前を奪われた。
+
+**ポイント：** cheat out of や swindle と同義ですが、do out of はより口語的です。
+
+---
+
+### **do with - 〜と関係がある、〜を使う、〜が欲しい**
+
+```
+   🤝 [関連] ━━ with ━━→ [関係性]
+   
+   「〜と一緒に処理する」
+```
+
+何かと「関係がある」または「必要とする」イメージです。could do with の形で「〜が欲しい」という意味になります。
+
+**例文：**
+
+- What does this have to do with me?
+  → これは私と何の関係があるのですか？
+
+- I could do with a cup of coffee.
+  → コーヒーが欲しいな。
+
+- What are you going to do with that old computer?
+  → その古いコンピュータをどうするつもりですか？
+
+- This problem has nothing to do with you.
+  → この問題はあなたとは関係ありません。
+
+**ポイント：** could do with で「〜が欲しい・必要だ」という便利な表現になります。
+
+---
+
+## 🎓 高校生レベル（重要応用9表現）
+
+高校英語で学ぶ、より洗練された表現と応用的な使い方です。
+
+---
+
+### **do for - 〜の家事をする、〜を破滅させる**
+
+```
+   🧹 [世話] ━━ for ━━→ [奉仕]
+   
+   「〜のために処理する」
+```
+
+誰かの「ために家事などをする」イメージです。また、be done for の形で「破滅する」という意味もあります。
+
+**例文：**
+
+- She does for several elderly people.
+  → 彼女は何人かの高齢者の家事をしている。
+
+- Who does for you when you're sick?
+  → 病気の時は誰が世話をしてくれますか？
+
+- If they find out, we're done for.
+  → もしバレたら、私たちはおしまいだ。
+
+- The business is done for.
+  → そのビジネスは破綻した。
+
+**ポイント：** やや古風な表現で、be done for（破滅する）の形がより一般的です。
+
+---
+
+### **do in - 疲れ果てさせる、殺す**
+
+```
+   💀 [消耗] ━━ in ━━→ [完全消耗]
+   
+   「内部から完全にやられる」
+```
+
+「完全に疲れ果てさせる」または「殺す」イメージです。口語的な表現です。
+
+**例文：**
+
+- That long hike really did me in.
+  → あの長いハイキングで本当に疲れ果てた。
+
+- I'm completely done in after today's work.
+  → 今日の仕事で完全に疲れ切っている。
+
+- The stress is doing me in.
+  → ストレスで参っている。
+
+- In the movie, the villain did in his partner.
+  → 映画で悪役はパートナーを殺した。
+
+**ポイント：** wear out や exhaust と似ていますが、do in の方が口語的で、殺害の意味もあります。
+
+---
+
+### **do by - 〜を扱う、処遇する**
+
+```
+   🤝 [扱い] ━━ by ━━→ [処遇]
+   
+   「〜によって処理する」
+```
+
+誰かを「どう扱うか」を表すイメージです。主に do well by / do badly by の形で使われます。
+
+**例文：**
+
+- The company has done well by its employees.
+  → 会社は従業員を良く扱っている。
+
+- He was done badly by in the divorce settlement.
+  → 彼は離婚の和解で不当な扱いを受けた。
+
+- They've done right by us.
+  → 彼らは私たちを正しく扱ってくれた。
+
+- We should do better by our customers.
+  → 顧客をもっと良く扱うべきです。
+
+**ポイント：** treat と同義ですが、do by はより形式的で文学的な表現です。
+
+---
+
+### **do down - けなす、中傷する**
+
+```
+   😠 [批判] ━━ down ━━→ 📉 [貶める]
+   
+   「下に押し下げる」
+```
+
+誰かを「貶めて評価を下げる」イメージです。主にイギリス英語で使われます。
+
+**例文：**
+
+- Stop doing yourself down!
+  → 自分をけなすのはやめなさい！
+
+- He's always doing down his colleagues.
+  → 彼はいつも同僚をけなしている。
+
+- Don't let them do you down.
+  → 彼らにあなたを貶めさせてはいけない。
+
+- She felt she was being done down at work.
+  → 彼女は職場で不当に扱われていると感じた。
+
+**ポイント：** put down や belittle と同義で、主にイギリス英語で使用されます。
+
+---
+
+### **do out - 掃除する、片付ける**
+
+```
+   🧹 [清掃] ━━ out ━━→ ✨ [完全清掃]
+   
+   「徹底的に掃除する」
+```
+
+部屋などを「徹底的に掃除する」イメージです。やや古風な表現です。
+
+**例文：**
+
+- I need to do out the spare room.
+  → 予備の部屋を掃除する必要がある。
+
+- She's doing out the cupboards.
+  → 彼女は戸棚を片付けている。
+
+- We should do out the garage this weekend.
+  → 今週末にガレージを掃除すべきだ。
+
+- The room needs doing out.
+  → その部屋は掃除が必要だ。
+
+**ポイント：** clean thoroughly や tidy up と同義ですが、やや古風でイギリス英語寄りです。
+
+---
+
+### **do off - 急いで去る（稀）**
+
+```
+   💨 ━━ off ━━→ [退出]
+   
+   「素早く離れる」
+```
+
+「素早く立ち去る」イメージです。非常に稀な表現です。
+
+**例文：**
+
+- He did off before anyone could ask questions.
+  → 誰も質問できないうちに彼は立ち去った。
+
+**ポイント：** 現代ではほとんど使われず、make off や leave の方が一般的です。
+
+---
+
+### **do about - 〜について対処する**
+
+```
+   🔧 [対処] ━━ about ━━→ [解決]
+   
+   「〜について行動する」
+```
+
+問題などに「対処する・何かをする」イメージです。通常は疑問文や否定文で使われます。
+
+**例文：**
+
+- What can we do about this problem?
+  → この問題について何ができますか？
+
+- There's nothing we can do about it.
+  → それについて私たちにできることは何もない。
+
+- Something must be done about the traffic.
+  → 交通渋滞について何かをしなければならない。
+
+- What are you going to do about your job?
+  → 仕事についてどうするつもりですか？
+
+**ポイント：** 非常に実用的で、問題解決の文脈で頻繁に使用されます。**🎯 TOEIC頻出**
+
+---
+
+### **do onto - 〜に対して行う（稀）**
+
+```
+   [行動] ━━ onto ━━→ [対象]
+   
+   「〜に向かって実行する」
+```
+
+何かを「〜に対して行う」イメージです。"Do unto others..." という聖書的表現で有名です。
+
+**例文：**
+
+- Do unto others as you would have them do unto you.
+  → 人にしてもらいたいと思うことを人にもしなさい。（黄金律）
+
+**ポイント：** 主に宗教的・格言的文脈でのみ使用される古風な表現です。
+
+---
+
+### **do through - 〜を通して実行する（稀）**
+
+```
+   ━━ through ━━→ [完遂]
+   
+   「最後まで貫徹する」
+```
+
+何かを「最後まで実行する」イメージです。現代ではあまり使われません。
+
+**例文：**
+
+- I'll see this through and do it properly.
+  → これを最後までやり遂げて、きちんと実行します。
+
+**ポイント：** see through や carry through の方が現代的で一般的です。
+
+---
+
+## 🏆 難関大学合格レベル（高度な8表現）
+
+入試やアカデミックな文章で出てくる、より高度なDO句動詞です。
+
+---
+
+### **do justice to - 〜を正当に評価する、〜に見合う**
+
+```
+   ⚖️ [公正] ━━ justice to ━━→ [正当評価]
+   
+   「正義をもって評価する」
+```
+
+何かを「正当に評価する・見合った扱いをする」イメージです。価値を十分に表現できない場合に使われます。
+
+**例文：**
+
+- This photo doesn't do justice to the beautiful scenery.
+  → この写真は美しい景色を十分に表現していない。
+
+- Your summary doesn't do justice to his argument.
+  → あなたの要約は彼の主張を正当に評価していない。
+
+- The movie doesn't do justice to the book.
+  → 映画は本に見合っていない。
+
+- We must do justice to her achievements.
+  → 彼女の業績を正当に評価しなければならない。
+
+**ポイント：** 否定文で使われることが多く、「十分に表現できていない」というニュアンスです。
+
+---
+
+### **do credit to - 〜の名誉となる、面目を施す**
+
+```
+   🏆 [名誉] ━━ credit to ━━→ [評価向上]
+   
+   「名誉を与える」
+```
+
+誰かや何かに「名誉をもたらす・面目を施す」イメージです。良い評判を生む行動を表します。
+
+**例文：**
+
+- Your performance does credit to your training.
+  → あなたのパフォーマンスはトレーニングの成果を表している。
+
+- His behavior does credit to his upbringing.
+  → 彼の行動は育ちの良さを示している。
+
+- This achievement does credit to the whole team.
+  → この業績はチーム全体の名誉となる。
+
+- Her work does great credit to the university.
+  → 彼女の研究は大学の名誉となっている。
+
+**ポイント：** bring credit to と似ていますが、do credit to の方がフォーマルです。
+
+---
+
+### **do honor to - 〜に敬意を表す、〜の名誉となる**
+
+```
+   🙏 [敬意] ━━ honor to ━━→ [尊重]
+   
+   「名誉を与える」
+```
+
+誰かや何かに「敬意を表す・名誉をもたらす」イメージです。do credit to と似た意味です。
+
+**例文：**
+
+- This memorial does honor to the fallen soldiers.
+  → この記念碑は戦没者に敬意を表している。
+
+- Your dedication does honor to your profession.
+  → あなたの献身は職業の名誉となっている。
+
+- We must do honor to those who came before us.
+  → 私たちより前の世代に敬意を表さなければならない。
+
+- His achievements do honor to his family.
+  → 彼の業績は家族の名誉となっている。
+
+**ポイント：** 非常にフォーマルで格式高い表現です。
+
+---
+
+### **do good - 善行をする、役立つ**
+
+```
+   ✨ [善行] ━━ good ━━→ [貢献]
+   
+   「良いことを実行する」
+```
+
+「善いことをする・役に立つ」イメージです。社会貢献や有益性を表します。
+
+**例文：**
+
+- It does good to help others.
+  → 他人を助けることは良いことだ。
+
+- This medicine will do you good.
+  → この薬はあなたに良い効果をもたらすでしょう。
+
+- Volunteering does good for the community.
+  → ボランティアは地域社会に役立つ。
+
+- A walk in the fresh air will do you good.
+  → 新鮮な空気の中での散歩はあなたに良いでしょう。
+
+**ポイント：** be beneficial や help と似ていますが、do good は道徳的・健康的な良さを強調します。
+
+---
+
+### **do harm - 害を与える、損害を与える**
+
+```
+   💔 [害] ━━ harm ━━→ [損害]
+   
+   「悪いことを実行する」
+```
+
+「害を与える・損害をもたらす」イメージです。do good の反対表現です。
+
+**例文：**
+
+- Smoking does harm to your health.
+  → 喫煙は健康に害を与える。
+
+- It won't do any harm to ask.
+  → 尋ねても害はないでしょう。
+
+- These chemicals can do serious harm.
+  → これらの化学物質は深刻な害を与える可能性がある。
+
+- Gossip does more harm than good.
+  → 噂話は益よりも害が多い。
+
+**ポイント：** harm (動詞) よりも「害を実行する」という行為を強調します。
+
+---
+
+### **do wrong - 悪いことをする、不正を働く**
+
+```
+   ❌ [不正] ━━ wrong ━━→ [悪行]
+   
+   「間違ったことを実行する」
+```
+
+「悪いこと・不正を行う」イメージです。道徳的な誤りを表します。
+
+**例文：**
+
+- He admitted that he had done wrong.
+  → 彼は悪いことをしたと認めた。
+
+- You did wrong to lie to her.
+  → 彼女に嘘をついたのは間違いだった。
+
+- We all do wrong sometimes.
+  → 私たちは皆時々間違いを犯す。
+
+- Don't do wrong by your friends.
+  → 友人に対して不正を働いてはいけない。
+
+**ポイント：** do right の反対で、道徳的な過ちを表す表現です。
+
+---
+
+### **do right - 正しいことをする**
+
+```
+   ✓ [正義] ━━ right ━━→ [正行]
+   
+   「正しいことを実行する」
+```
+
+「正しいこと・正義を行う」イメージです。道徳的な正しさを表します。
+
+**例文：**
+
+- You did right to tell the truth.
+  → 真実を話したのは正しかった。
+
+- Always try to do right by others.
+  → 常に他人に対して正しく行動するよう努めなさい。
+
+- He wants to do right by his family.
+  → 彼は家族に対して正しく行動したい。
+
+- It's important to do the right thing.
+  → 正しいことをするのは重要です。
+
+**ポイント：** do the right thing（正しいことをする）という表現も非常に一般的です。
+
+---
+
+### **do wonders - 驚くべき効果を発揮する**
+
+```
+   ✨ [奇跡] ━━ wonders ━━→ [驚異的効果]
+   
+   「奇跡を実行する」
+```
+
+「驚くべき効果を生み出す」イメージです。予想以上の良い結果を表します。
+
+**例文：**
+
+- This cream does wonders for dry skin.
+  → このクリームは乾燥肌に驚くべき効果がある。
+
+- A good night's sleep can do wonders.
+  → 良い睡眠は驚くべき効果をもたらす。
+
+- Exercise does wonders for your mood.
+  → 運動は気分に素晴らしい効果がある。
+
+- A little kindness can do wonders.
+  → ちょっとした親切が驚くべき効果を生む。
+
+**ポイント：** work wonders と同義で、予想以上の良い結果を強調します。
+
+---
+
+## 💼 TOEIC頻出ビジネス英語（13表現）
+
+ビジネスシーンやTOEICで特に頻出する実用的なDO表現です。
+
+---
+
+### **do business - ビジネスをする、取引する**
+
+```
+   🤝 [取引] ━━ business ━━→ [商売]
+   
+   「ビジネスを実行する」
+```
+
+「ビジネス・取引を行う」イメージです。商業活動を表す基本表現です。
+
+**例文：**
+
+- We do business with companies worldwide.
+  → 私たちは世界中の企業と取引しています。
+
+- It's a pleasure to do business with you.
+  → あなたとビジネスができて光栄です。
+
+- How long have you been doing business here?
+  → ここでどのくらいビジネスをしていますか？
+
+- They do business in the tech sector.
+  → 彼らはテクノロジー分野でビジネスをしている。
+
+**ポイント：** conduct business よりもカジュアルで、日常的に使用されます。**🎯 TOEIC超頻出**
+
+---
+
+### **do work - 仕事をする、作業する**
+
+```
+   💼 [作業] ━━ work ━━→ [実行]
+   
+   「仕事を実行する」
+```
+
+「仕事・作業を行う」イメージです。work (動詞) よりも具体的な作業を強調します。
+
+**例文：**
+
+- I need to do some work on this project.
+  → このプロジェクトで作業をする必要があります。
+
+- He's doing excellent work.
+  → 彼は素晴らしい仕事をしている。
+
+- We do quality work here.
+  → 私たちはここで質の高い仕事をしています。
+
+- Can you do some work on the proposal?
+  → 提案書の作業をしてもらえますか？
+
+**ポイント：** work (動詞) よりも具体的なタスクを指す場合に使われます。**🎯 TOEIC頻出**
+
+---
+
+### **do research - 研究する、調査する**
+
+```
+   🔬 [調査] ━━ research ━━→ [研究]
+   
+   「研究活動を実行する」
+```
+
+「研究・調査を行う」イメージです。学術的・ビジネス的な調査を表します。
+
+**例文：**
+
+- We're doing research on consumer behavior.
+  → 私たちは消費者行動について研究しています。
+
+- Have you done any research on this topic?
+  → このトピックについて何か調査しましたか？
+
+- Scientists are doing important research.
+  → 科学者たちは重要な研究を行っている。
+
+- I need to do more research before deciding.
+  → 決定する前にもっと調査する必要があります。
+
+**ポイント：** conduct research よりもカジュアルで、一般的に使用されます。**🎯 TOEIC超頻出**
+
+---
+
+### **do a favor - 頼みを聞く、好意を示す**
+
+```
+   🤝 [好意] ━━ favor ━━→ [親切]
+   
+   「好意を実行する」
+```
+
+「頼みを聞いて助ける」イメージです。依頼を受け入れる場面で頻出します。
+
+**例文：**
+
+- Could you do me a favor?
+  → お願いを聞いてもらえますか？
+
+- I'll do you a favor this time.
+  → 今回はあなたの頼みを聞きます。
+
+- He did me a big favor.
+  → 彼は私に大きな恩をしてくれた。
+
+- Can I ask you to do a favor for me?
+  → お願いを聞いてもらえますか？
+
+**ポイント：** 依頼の前置きとして極めて頻繁に使用される表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **do damage - 損害を与える**
+
+```
+   💥 [破壊] ━━ damage ━━→ [損害]
+   
+   「損害を実行する」
+```
+
+「損害や破壊をもたらす」イメージです。物理的・経済的な被害を表します。
+
+**例文：**
+
+- The storm did severe damage to the building.
+  → 嵐は建物に深刻な損害を与えた。
+
+- This scandal could do damage to our reputation.
+  → このスキャンダルは私たちの評判に損害を与える可能性がある。
+
+- Smoking does damage to your lungs.
+  → 喫煙は肺に損害を与える。
+
+- How much damage did the fire do?
+  → 火災はどれだけの損害を与えましたか？
+
+**ポイント：** cause damage と同義ですが、do damage の方が直接的な行為を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **do one's best - 最善を尽くす**
+
+```
+   💪 [努力] ━━ best ━━→ [最大限]
+   
+   「最善を実行する」
+```
+
+「最善を尽くす・ベストを尽くす」イメージです。最大限の努力を表す基本表現です。
+
+**例文：**
+
+- I'll do my best to finish on time.
+  → 時間内に終わらせるよう最善を尽くします。
+
+- Just do your best, that's all we ask.
+  → ベストを尽くしてください。それだけで十分です。
+
+- She always does her best at work.
+  → 彼女は仕事でいつも最善を尽くす。
+
+- We did our best, but it wasn't enough.
+  → 最善を尽くしたが、十分ではなかった。
+
+**ポイント：** try one's best と同義で、極めて頻繁に使用される表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **do one's part - 自分の役割を果たす**
+
+```
+   🧩 [役割] ━━ part ━━→ [貢献]
+   
+   「自分の部分を実行する」
+```
+
+「自分の役割・責任を果たす」イメージです。チームワークや責任を表します。
+
+**例文：**
+
+- Everyone must do their part.
+  → 全員が自分の役割を果たさなければならない。
+
+- I'm doing my part to help the environment.
+  → 私は環境保護のために自分の役割を果たしている。
+
+- He's not doing his part in the project.
+  → 彼はプロジェクトで自分の役割を果たしていない。
+
+- We all need to do our part to make this work.
+  → これを成功させるためには全員が役割を果たす必要がある。
+
+**ポイント：** play one's part と同義で、責任や貢献を表します。**🎯 TOEIC頻出**
+
+---
+
+### **do one's duty - 義務を果たす**
+
+```
+   📋 [義務] ━━ duty ━━→ [責任遂行]
+   
+   「義務を実行する」
+```
+
+「義務や責任を果たす」イメージです。道徳的・職業的な責任を表します。
+
+**例文：**
+
+- Soldiers do their duty to protect the country.
+  → 兵士は国を守る義務を果たす。
+
+- I'm just doing my duty as a citizen.
+  → 私は市民としての義務を果たしているだけです。
+
+- He did his duty and reported the incident.
+  → 彼は義務を果たしてその事件を報告した。
+
+- We must all do our duty.
+  → 私たちは皆義務を果たさなければならない。
+
+**ポイント：** fulfill one's duty よりもやや口語的で、道徳的責任を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **do the job - 役に立つ、十分である**
+
+```
+   ✓ [有効] ━━ job ━━→ [目的達成]
+   
+   「仕事を完遂する」
+```
+
+「目的を達成する・役に立つ」イメージです。何かが十分に機能することを表します。
+
+**例文：**
+
+- This tool should do the job.
+  → この道具で十分でしょう。
+
+- Will $50 do the job?
+  → 50ドルで足りますか？
+
+- A simple apology won't do the job.
+  → 単なる謝罪では不十分です。
+
+- That solution should do the job nicely.
+  → その解決策でうまくいくはずです。
+
+**ポイント：** be sufficient や work と似ていますが、do the job はより口語的です。**🎯 TOEIC頻出**
+
+---
+
+### **do the trick - うまくいく、効果がある**
+
+```
+   ✨ [効果] ━━ trick ━━→ [成功]
+   
+   「技を実行して成功する」
+```
+
+「うまく効果を発揮する」イメージです。問題解決や目的達成を表す口語表現です。
+
+**例文：**
+
+- A little oil should do the trick.
+  → 少し油を差せばうまくいくはずです。
+
+- This medicine will do the trick.
+  → この薬で効果があるでしょう。
+
+- I hope this solution does the trick.
+  → この解決策がうまくいくことを願います。
+
+- That should do the trick!
+  → それでうまくいくはずだ！
+
+**ポイント：** work や be effective よりもカジュアルで、問題解決の文脈で頻出します。
+
+---
+
+### **do time - 刑期を務める、服役する**
+
+```
+   ⏰ [服役] ━━ time ━━→ [刑期]
+   
+   「時間を実行する＝服役」
+```
+
+「刑期を務める」イメージです。刑務所での服役を表す口語表現です。
+
+**例文：**
+
+- He did time for robbery.
+  → 彼は強盗で服役した。
+
+- She's doing time in a federal prison.
+  → 彼女は連邦刑務所で服役中です。
+
+- He did five years' time.
+  → 彼は5年間服役した。
+
+- Have you ever done time?
+  → 服役したことはありますか？
+
+**ポイント：** serve time と同義ですが、do time の方がより口語的でカジュアルです。
+
+---
+
+### **do lunch - 昼食を一緒にする**
+
+```
+   🍽️ [昼食] ━━ lunch ━━→ [会食]
+   
+   「昼食を実行する」
+```
+
+「昼食を一緒にする」イメージです。ビジネスランチを表すカジュアルな表現です。
+
+**例文：**
+
+- Let's do lunch sometime.
+  → いつか一緒にランチしましょう。
+
+- Can we do lunch next week?
+  → 来週ランチできますか？
+
+- I'm doing lunch with a client today.
+  → 今日はクライアントとランチをします。
+
+- We should do lunch and catch up.
+  → ランチして近況を話し合いましょう。
+
+**ポイント：** have lunch よりもカジュアルで、特にビジネスの社交的な文脈で使われます。**🎯 TOEIC頻出**
+
+---
+
+### **do well - うまくやる、成功する、繁栄する**
+
+```
+   📈 [成功] ━━ well ━━→ [良好]
+   
+   「良く実行する」
+```
+
+「うまく実行する・成功する」イメージです。業績や健康状態を表します。
+
+**例文：**
+
+- The company is doing well this year.
+  → 会社は今年好調です。
+
+- How are you doing? - I'm doing well, thanks.
+  → お元気ですか？ - 元気です、ありがとう。
+
+- Students who study hard do well on exams.
+  → 一生懸命勉強する学生は試験でうまくやる。
+
+- She's doing well in her new job.
+  → 彼女は新しい仕事でうまくやっている。
+
+**ポイント：** succeed や prosper よりも幅広く、健康・業績・成績など様々な文脈で使えます。**🎯 TOEIC超頻出**
+
+---
+
+## まとめ
+
+この記事では、DOの句動詞を4つのレベルに分けて体系的に解説しました。
+
+**最優先でマスターすべき表現：**
+- do up（結ぶ、修理する）
+- do over（やり直す）
+- do without（〜なしで済ませる）
+- do away with（廃止する）
+
+**TOEIC・ビジネス超頻出：**
+- do business（ビジネスをする）
+- do research（研究する）
+- do a favor（頼みを聞く）
+- do one's best（最善を尽くす）
+- do well（うまくやる）
+
+**重要な慣用表現：**
+- do justice to（正当に評価する）
+- do wonders（驚くべき効果を発揮する）
+- do the trick（うまくいく）
+- do the job（役に立つ）
+
+DOのコアイメージである「**行動を起こして実行・完了させる**」を常に意識すると、新しい表現にも対応できるようになります。
+
+次のステップとして、これらの表現を使った実践練習に進みましょう！
+
+---
+
