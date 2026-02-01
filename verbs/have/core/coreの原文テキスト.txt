@@ -1,0 +1,1223 @@
+# 【完全図解】HAVE句動詞のコアイメージ｜レベル別全48表現を体系的にマスター
+
+HAVEは「持つ」という基本的な意味から、ビジネス、日常会話、学術英語まで幅広く使われる最重要動詞の一つです。この記事では、HAVEのコアイメージを理解し、中学レベルから難関大学・TOEICレベルまで体系的に学習できます。
+
+---
+
+## 🎯 HAVEのコアイメージ
+
+```
+   👤 + 📦 = HAVE
+   
+   [主体] ← 🤝 → [対象]
+   
+   「自分の領域に保持する」
+   「関係性を持つ」
+```
+
+HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**」です。物理的な所有だけでなく、経験を「持つ」、時間を「持つ」、影響を「及ぼす」など、対象との「関係性の保持」を表すイメージが全ての意味に共通しています。
+
+---
+
+## 📚 中学生レベル（必須基本7表現）
+
+中学英語で必ず習う、日常会話の土台となるHAVE句動詞です。
+
+---
+
+### **have on - 着ている、身につけている、予定がある**
+
+```
+   👤 ← on → 👕 [身につけている]
+   
+   「体に接触させて保持する」
+```
+
+衣服や装飾品を「身体に接触させた状態で保持する」イメージです。また、予定を「持っている」という意味もあります。
+
+**例文：**
+
+- She has a beautiful dress on.
+  → 彼女は美しいドレスを着ている。
+
+- What do you have on today?
+  → 今日は何を着ていますか？
+
+- I have a meeting on this afternoon.
+  → 今日午後に会議の予定があります。
+
+- He always has a smile on his face.
+  → 彼はいつも笑顔を浮かべている。
+
+- Do you have anything on tomorrow?
+  → 明日は何か予定がありますか？
+
+**ポイント：** wear と似ていますが、have on は「今現在身につけている状態」をより強調します。
+
+---
+
+### **have to - 〜しなければならない**
+
+```
+   [義務] ━━ have to ━━→ [実行]
+   
+   「〜する必要性を持つ」
+```
+
+「〜する必要性・義務を保持している」イメージです。must よりも客観的な必要性を表します。
+
+**例文：**
+
+- I have to finish this report by Friday.
+  → 金曜日までにこのレポートを終わらせなければならない。
+
+- Do you have to work on weekends?
+  → 週末も働かなければなりませんか？
+
+- She has to take care of her elderly parents.
+  → 彼女は高齢の両親の世話をしなければならない。
+
+- We don't have to decide right now.
+  → 今すぐ決める必要はありません。
+
+- You have to see this movie!
+  → この映画を見なきゃだめだよ！
+
+**ポイント：** must よりも口語的で、外部からの義務や必要性を表します。**🎯 TOEIC超頻出**
+
+---
+
+### **have got - 持っている、〜しなければならない**
+
+```
+   👤 ← got ← 📦 [獲得して保持]
+   
+   「獲得した状態を持つ」
+```
+
+何かを「獲得して今持っている」イメージです。主にイギリス英語で have の代わりに使われます。
+
+**例文：**
+
+- I've got a new car.
+  → 新しい車を持っています。
+
+- Have you got any questions?
+  → 何か質問はありますか？
+
+- She's got three children.
+  → 彼女には3人の子供がいます。
+
+- I've got to go now.
+  → もう行かなければなりません。
+
+- We've got a problem.
+  → 問題があります。
+
+**ポイント：** 特にイギリス英語で頻出。have got to は have to と同義です。
+
+---
+
+### **have over - 招待する、家に呼ぶ**
+
+```
+   🏠 [自宅] ← over ← 👥 [ゲスト]
+   
+   「自分の領域に招き入れる」
+```
+
+人を「自分の家に招いて迎え入れる」イメージです。招待や訪問を表します。
+
+**例文：**
+
+- We're having some friends over for dinner.
+  → 夕食に友人を何人か招待しています。
+
+- Can I have you over this weekend?
+  → 今週末に来てもらえますか？
+
+- They had us over for a barbecue.
+  → 彼らはバーベキューに私たちを招いてくれた。
+
+- Let's have them over sometime.
+  → いつか彼らを招待しましょう。
+
+**ポイント：** invite over と同義ですが、have over の方がカジュアルで日常的です。
+
+---
+
+### **have out - はっきり話し合う、取り出す、抜く**
+
+```
+   [内部] ━━ out ━━→ [外部]
+   
+   「内にあるものを外に出す」
+```
+
+隠れていたものや問題を「外に出して明らかにする」イメージです。率直な話し合いや物理的な除去を表します。
+
+**例文：**
+
+- We need to have it out and resolve this conflict.
+  → はっきり話し合ってこの対立を解決する必要があります。
+
+- I had my tooth out yesterday.
+  → 昨日歯を抜きました。
+
+- Let's have it out once and for all.
+  → 一度きちんと話し合いましょう。
+
+- He had his appendix out last year.
+  → 彼は昨年盲腸の手術を受けた。
+
+**ポイント：** have it out with someone で「〜とはっきり話し合う」という重要表現になります。
+
+---
+
+### **have back - 返してもらう、取り戻す**
+
+```
+   [貸出] ━━ back ━━→ [返却]
+   
+   「元の状態に戻して持つ」
+```
+
+貸したものや失ったものを「返してもらって再び持つ」イメージです。
+
+**例文：**
+
+- Can I have my book back?
+  → 本を返してもらえますか？
+
+- I want to have my old job back.
+  → 以前の仕事に戻りたい。
+
+- When can I have it back?
+  → いつ返してもらえますか？
+
+- She had her laptop back after it was repaired.
+  → 修理後にノートパソコンを返してもらった。
+
+**ポイント：** get back と似ていますが、have back は「返却」のニュアンスがより強い表現です。
+
+---
+
+### **have in - 在庫がある、家にいる、招き入れる**
+
+```
+   🏠 [内部] ← in ← 📦 [保持]
+   
+   「内側に保持する」
+```
+
+何かを「内部に保持している」イメージです。在庫、滞在、招待など複数の意味があります。
+
+**例文：**
+
+- Do you have this item in stock?
+  → この商品の在庫はありますか？
+
+- We don't have any milk in.
+  → ミルクの在庫がありません。
+
+- She's having the plumber in tomorrow.
+  → 彼女は明日配管工を呼びます。
+
+- I'll be having in all day.
+  → 一日中家にいる予定です。
+
+**ポイント：** in stock の意味で特にビジネスシーンで頻出します。**🎯 TOEIC頻出**
+
+---
+
+## 🎓 高校生レベル（重要応用10表現）
+
+高校英語で学ぶ、より洗練された表現と応用的な使い方です。
+
+---
+
+### **have on - 予定がある、（人を）からかう**
+
+```
+   📅 [スケジュール] ← on ← [予定保持]
+   
+   「予定という約束を保持する」
+```
+
+スケジュールに「予定を入れている」イメージです。また、人をからかう意味もあります。
+
+**例文：**
+
+- I have a lot on this week.
+  → 今週は予定がたくさんあります。
+
+- Do you have anything on tonight?
+  → 今夜は何か予定がありますか？
+
+- Are you having me on?
+  → 私をからかっているの？
+
+- He's just having you on.
+  → 彼はただあなたをからかっているだけです。
+
+**ポイント：** 「からかう」の意味は主にイギリス英語で使われます。
+
+---
+
+### **have up - 裁判にかける、呼び出す**
+
+```
+   [下位] ━━ up ━━→ [上位/法廷]
+   
+   「上の立場に呼び出す」
+```
+
+権威ある場所や立場に「呼び出す」イメージです。特に法的な文脈で使われます。
+
+**例文：**
+
+- He was had up for theft.
+  → 彼は窃盗で裁判にかけられた。
+
+- They had him up before the committee.
+  → 彼らは彼を委員会に呼び出した。
+
+- She was had up on charges of fraud.
+  → 彼女は詐欺の罪で起訴された。
+
+- The teacher had the student up for cheating.
+  → 先生はカンニングで生徒を呼び出した。
+
+**ポイント：** やや形式的で、特に法的・公式な場面で使われる表現です。
+
+---
+
+### **have off - 休みを取る、（服などを）脱ぐ**
+
+```
+   [仕事] ━━ off ━━→ [休暇]
+   
+   「通常の状態から離れる」
+```
+
+通常の状態から「離れて休む」イメージです。休暇や衣服を脱ぐことを表します。
+
+**例文：**
+
+- I'm having the day off tomorrow.
+  → 明日は休みを取ります。
+
+- Can I have next Friday off?
+  → 来週の金曜日に休みをもらえますか？
+
+- He had his coat off in seconds.
+  → 彼は数秒でコートを脱いだ。
+
+- She's having a week off for vacation.
+  → 彼女は休暇で1週間休みを取っています。
+
+**ポイント：** take off と似ていますが、have off は「許可された休み」のニュアンスが強いです。
+
+---
+
+### **have around - そばに置く、近くにいてもらう**
+
+```
+   👤 ← around ← 👥 [周囲に保持]
+   
+   「周囲に保持する」
+```
+
+人や物を「身近に置いておく」イメージです。便利さや安心感を表します。
+
+**例文：**
+
+- It's good to have you around.
+  → あなたが近くにいてくれて嬉しい。
+
+- I like having my tools around.
+  → 道具を手元に置いておくのが好きです。
+
+- She's nice to have around the office.
+  → 彼女がオフィスにいると助かる。
+
+- We should have them around more often.
+  → 彼らをもっと頻繁に呼ぶべきだ。
+
+**ポイント：** have over よりもカジュアルで、「近くにいる」という状態を強調します。
+
+---
+
+### **have down - 書き留める、記録する、完璧に習得する**
+
+```
+   [情報] ━━ down ━━→ [記録/固定]
+   
+   「下に固定して保持する」
+```
+
+情報を「書き留めて固定する」イメージです。また、技能を完全に習得する意味もあります。
+
+**例文：**
+
+- Have you got that down?
+  → それを書き留めましたか？
+
+- I need to have these notes down.
+  → これらのメモを記録する必要があります。
+
+- She has the routine down perfectly.
+  → 彼女はその手順を完璧に習得している。
+
+- He's got the speech down.
+  → 彼はスピーチを完璧に覚えている。
+
+**ポイント：** write down と似ていますが、have down は「習得・記憶」の意味も持ちます。
+
+---
+
+### **have along - 連れて行く、同伴する**
+
+```
+   👤 ━━ along ━━→ 👥 [同行]
+   
+   「一緒に連れて持つ」
+```
+
+人や物を「一緒に連れて行く」イメージです。同伴や携帯を表します。
+
+**例文：**
+
+- Can I have my friend along?
+  → 友人を連れて行ってもいいですか？
+
+- She had her children along on the trip.
+  → 彼女は旅行に子供たちを連れて行った。
+
+- I'll have my laptop along just in case.
+  → 念のためノートパソコンを持っていきます。
+
+- They had a guide along for safety.
+  → 彼らは安全のためガイドを同行させた。
+
+**ポイント：** bring along や take along と似ていますが、have along は「同伴」を強調します。
+
+---
+
+### **have away - 持ち去る、隠す**
+
+```
+   [物] ━━ away ━━→ [遠ざける]
+   
+   「離れた場所に保持する」
+```
+
+何かを「遠ざけて保持する」イメージです。やや古風な表現です。
+
+**例文：**
+
+- Have those documents away before anyone sees them.
+  → 誰かに見られる前にその書類を片付けて。
+
+- He had the evidence away.
+  → 彼は証拠を隠した。
+
+- They had the valuables away in a safe place.
+  → 彼らは貴重品を安全な場所に保管した。
+
+**ポイント：** put away や hide の方が現代的ですが、文学作品では使われます。
+
+---
+
+### **have round - 招待する、家に呼ぶ**
+
+```
+   🏠 ← round ← 👥 [招待]
+   
+   「周囲に集める」
+```
+
+have over とほぼ同義で、人を「家に招く」イメージです。主にイギリス英語で使われます。
+
+**例文：**
+
+- We're having some neighbors round for tea.
+  → お茶に近所の人を何人か招待します。
+
+- Can we have you round sometime?
+  → いつかお宅に伺ってもいいですか？
+
+- They had us round for Christmas dinner.
+  → 彼らはクリスマスディナーに私たちを招待してくれた。
+
+- Let's have them round next weekend.
+  → 来週末に彼らを招待しましょう。
+
+**ポイント：** 主にイギリス英語。アメリカ英語では have over の方が一般的です。
+
+---
+
+### **have at - 攻撃する、取り組む**
+
+```
+   💥 ━━ at ━━→ 🎯 [攻撃/挑戦]
+   
+   「対象に向かって行動する」
+```
+
+何かに「積極的に向かっていく」イメージです。攻撃または熱心な取り組みを表します。
+
+**例文：**
+
+- Have at it! (挑戦を受ける時)
+  → さあ、やってみろ！
+
+- The critics had at the new policy.
+  → 批評家たちは新しい政策を攻撃した。
+
+- Let me have at that problem.
+  → その問題に取り組ませてください。
+
+- He had at the task with great enthusiasm.
+  → 彼は大きな熱意をもってその仕事に取り組んだ。
+
+**ポイント：** やや古風な表現で、attack や tackle の方が現代的です。
+
+---
+
+### **have about - 周囲に持つ、身につけている**
+
+```
+   👤 ← about ← 💰 [携帯]
+   
+   「身の回りに保持する」
+```
+
+物を「身につけたり近くに持っている」イメージです。携帯や所持を表します。
+
+**例文：**
+
+- Do you have any money about you?
+  → お金を持っていますか？
+
+- I don't have my phone about me right now.
+  → 今は携帯を持っていません。
+
+- She always has a pen about her.
+  → 彼女はいつもペンを身につけている。
+
+- He had no identification about him.
+  → 彼は身分証明書を持っていなかった。
+
+**ポイント：** have on you や carry の方が現代的ですが、フォーマルな文脈で使われます。
+
+---
+
+## 🏆 難関大学合格レベル（高度な9表現）
+
+入試やアカデミックな文章で出てくる、より高度なHAVE句動詞です。
+
+---
+
+### **have it in for - 〜を敵視する、恨みを持つ**
+
+```
+   😠 [敵意] ━━ in for ━━→ 🎯 [対象]
+   
+   「内に敵意を保持する」
+```
+
+誰かに対する「敵意や恨みを内に持っている」イメージです。継続的な敵対感情を表します。
+
+**例文：**
+
+- I think the boss has it in for me.
+  → 上司は私を敵視していると思う。
+
+- Why does she have it in for you?
+  → なぜ彼女はあなたに恨みを持っているの？
+
+- He's had it in for me ever since that incident.
+  → あの事件以来、彼はずっと私を敵視している。
+
+- Don't take it personally; he has it in for everyone.
+  → 個人的に受け取らないで。彼は誰に対しても敵対的だから。
+
+**ポイント：** bear a grudge against と似ていますが、have it in for の方が口語的です。
+
+---
+
+### **have it out - はっきり話し合う、対決する**
+
+```
+   💬 [対立] ━━ out ━━→ [解決]
+   
+   「問題を外に出して解決する」
+```
+
+隠れていた問題を「表に出して徹底的に話し合う」イメージです。対決や決着を表します。
+
+**例文：**
+
+- We need to have it out with him.
+  → 彼とはっきり話し合う必要があります。
+
+- They finally had it out and resolved their differences.
+  → 彼らはついに話し合い、意見の相違を解決した。
+
+- Let's have it out once and for all.
+  → 一度きちんと決着をつけましょう。
+
+- I'm going to have it out with her tomorrow.
+  → 明日彼女と対決するつもりです。
+
+**ポイント：** confront と似ていますが、have it out は「徹底的に話し合う」というニュアンスが強いです。
+
+---
+
+### **have it off - 性的関係を持つ（俗語）**
+
+```
+   👥 ━━ off ━━→ 💑 [親密]
+   
+   「親密な関係を持つ」
+```
+
+性的な関係を「持つ」イメージです。イギリス英語の口語表現です。
+
+**例文：**
+
+- They were having it off in the office. (俗語)
+  → 彼らはオフィスで関係を持っていた。
+
+- I think those two are having it off.
+  → あの二人は関係があると思う。
+
+**ポイント：** かなりカジュアルでややくだけた表現。フォーマルな場面では使いません。
+
+---
+
+### **have nothing on - 〜に及ばない、証拠がない**
+
+```
+   [比較] ━━ nothing on ━━→ [劣位]
+   
+   「対抗するものを持たない」
+```
+
+比較対象に「対抗できるものを持っていない」イメージです。劣っていることを表します。
+
+**例文：**
+
+- This restaurant has nothing on the one in Tokyo.
+  → このレストランは東京のレストランには全く及ばない。
+
+- Modern technology has nothing on human creativity.
+  → 現代技術は人間の創造性には及ばない。
+
+- The police have nothing on him.
+  → 警察は彼に対する証拠を何も持っていない。
+
+- Your team has nothing on ours.
+  → あなたのチームは私たちのチームには及ばない。
+
+**ポイント：** can't compare to と似ていますが、have nothing on の方が口語的です。
+
+---
+
+### **have something on - 〜の弱みを握る、証拠を持つ**
+
+```
+   🔍 [証拠] ━━ on ━━→ 🎯 [対象]
+   
+   「相手に対する材料を持つ」
+```
+
+誰かの「弱みや証拠を握っている」イメージです。権力関係を表します。
+
+**例文：**
+
+- They must have something on him to make him cooperate.
+  → 彼を協力させるために何か弱みを握っているに違いない。
+
+- Do you have anything on the suspect?
+  → 容疑者について何か証拠はありますか？
+
+- He's been blackmailed; someone has something on him.
+  → 彼は脅迫されている。誰かが彼の弱みを握っている。
+
+- I think they have something on the CEO.
+  → 彼らはCEOの弱みを握っていると思う。
+
+**ポイント：** have dirt on や have leverage over と似た意味です。
+
+---
+
+### **have had it - もう限界だ、壊れた、終わった**
+
+```
+   [限界] ━━ had it ━━→ ❌ [終了]
+   
+   「もう持ちこたえられない」
+```
+
+「もう耐えられない限界に達した」イメージです。疲労、故障、終了を表します。
+
+**例文：**
+
+- I've had it with this job!
+  → この仕事にはもううんざりだ！
+
+- This computer has had it.
+  → このコンピュータはもう壊れている。
+
+- We've had it if we don't leave now.
+  → 今出発しないと終わりだ。
+
+- She's had it with his excuses.
+  → 彼女は彼の言い訳にもう我慢できない。
+
+**ポイント：** be fed up with や be broken と似ていますが、have had it はより感情的です。**🎯 TOEIC頻出**
+
+---
+
+### **have it both ways - 両方の利益を得る、いいとこ取りする**
+
+```
+   ⚖️ [両側] ← both ways ← [利益]
+   
+   「両方を同時に持つ」
+```
+
+矛盾する2つのものを「同時に手に入れる」イメージです。都合の良い選択を批判する文脈で使われます。
+
+**例文：**
+
+- You can't have it both ways.
+  → 両方の利益は得られません。
+
+- He wants to have it both ways - freedom and security.
+  → 彼は自由と安全の両方を手に入れたがっている。
+
+- Stop trying to have it both ways.
+  → いいとこ取りをしようとするのはやめなさい。
+
+- You have to choose; you can't have it both ways.
+  → 選ばなければならない。両方は無理です。
+
+**ポイント：** しばしば否定的な文脈で使われ、矛盾や都合の良さを指摘します。
+
+---
+
+### **have a go at - 試してみる、攻撃する**
+
+```
+   💪 [挑戦] ━━ go at ━━→ 🎯 [対象]
+   
+   「試みを持つ」
+```
+
+何かに「挑戦してみる」イメージです。試行または攻撃の両方の意味があります。
+
+**例文：**
+
+- Can I have a go at fixing it?
+  → それを修理するのを試してみてもいいですか？
+
+- Let me have a go at this puzzle.
+  → このパズルに挑戦させてください。
+
+- He had a go at me for being late.
+  → 彼は私が遅刻したことで攻撃してきた。
+
+- Why don't you have a go at cooking tonight?
+  → 今夜料理に挑戦してみたら？
+
+**ポイント：** try と似ていますが、have a go at はよりカジュアルで、主にイギリス英語で使われます。
+
+---
+
+### **have done with - 〜を終わりにする、縁を切る**
+
+```
+   [関係] ━━ done with ━━→ ✂️ [終了]
+   
+   「完了した状態を持つ」
+```
+
+何かとの関係を「完全に終わらせる」イメージです。決別や完了を表します。
+
+**例文：**
+
+- I've had done with him.
+  → 彼とは縁を切った。
+
+- Let's have done with this argument.
+  → この議論は終わりにしましょう。
+
+- She's had done with smoking.
+  → 彼女は禁煙を完了した。
+
+- I want to have done with this whole mess.
+  → このゴタゴタ全体を終わらせたい。
+
+**ポイント：** be finished with と似ていますが、have done with はより決定的な終了を表します。
+
+---
+
+## 💼 TOEIC頻出ビジネス英語（15表現）
+
+ビジネスシーンやTOEICで特に頻出する実用的なHAVE表現です。
+
+---
+
+### **have a meeting - 会議をする**
+
+```
+   👥 [参加者] ━━ meeting ━━→ 💬 [会議]
+   
+   「会議という活動を持つ」
+```
+
+会議を「開催する・参加する」イメージです。ビジネスで最も基本的な表現です。
+
+**例文：**
+
+- We're having a meeting at 2 PM.
+  → 午後2時に会議があります。
+
+- Can we have a meeting to discuss this?
+  → これについて話し合う会議を持てますか？
+
+- They're having a board meeting tomorrow.
+  → 彼らは明日取締役会を開きます。
+
+- I have a meeting with the client this afternoon.
+  → 今日午後にクライアントとの会議があります。
+
+**ポイント：** hold a meeting よりもカジュアルで日常的な表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **have a word - ちょっと話す**
+
+```
+   💬 [短い会話] ━━ word ━━→ [対話]
+   
+   「言葉という会話を持つ」
+```
+
+「短い会話をする」イメージです。特に私的な話や注意をする場面で使われます。
+
+**例文：**
+
+- Can I have a word with you?
+  → ちょっとお話しできますか？
+
+- The manager wants to have a word with you.
+  → マネージャーがあなたと話したがっています。
+
+- May I have a quick word?
+  → ちょっとよろしいですか？
+
+- I need to have a word with him about his performance.
+  → 彼の業績について話をする必要があります。
+
+**ポイント：** talk と似ていますが、have a word はより短く、しばしば深刻な話を示唆します。**🎯 TOEIC超頻出**
+
+---
+
+### **have a look - 見る、確認する**
+
+```
+   👀 [視線] ━━ look ━━→ [確認]
+   
+   「見るという行為を持つ」
+```
+
+何かを「見て確認する」イメージです。take a look よりもカジュアルです。
+
+**例文：**
+
+- Can I have a look at the report?
+  → そのレポートを見てもいいですか？
+
+- Let me have a look at what you've done.
+  → あなたがやったことを見せてください。
+
+- Have a look at this proposal.
+  → この提案を見てください。
+
+- I'll have a look and get back to you.
+  → 確認して折り返し連絡します。
+
+**ポイント：** 主にイギリス英語。アメリカ英語では take a look の方が一般的です。**🎯 TOEIC超頻出**
+
+---
+
+### **have a chance - 機会がある、可能性がある**
+
+```
+   🎯 [機会] ━━ chance ━━→ [可能性]
+   
+   「機会という可能性を持つ」
+```
+
+「機会や可能性を持っている」イメージです。チャンスを表す基本表現です。
+
+**例文：**
+
+- Do I have a chance to present my ideas?
+  → 自分のアイデアを発表する機会はありますか？
+
+- You'll have a chance to ask questions later.
+  → 後で質問する機会があります。
+
+- We have a good chance of winning the contract.
+  → 契約を獲得する可能性が高いです。
+
+- Have you had a chance to review the document?
+  → その書類を確認する機会はありましたか？
+
+**ポイント：** opportunity よりもカジュアルで、日常的に使われます。**🎯 TOEIC超頻出**
+
+---
+
+### **have a discussion - 話し合う、議論する**
+
+```
+   💬 [対話] ━━ discussion ━━→ [議論]
+   
+   「議論という活動を持つ」
+```
+
+「話し合いを行う」イメージです。discuss よりもフォーマルです。
+
+**例文：**
+
+- We need to have a discussion about the budget.
+  → 予算について話し合う必要があります。
+
+- Can we have a discussion about this issue?
+  → この問題について議論できますか？
+
+- They're having a discussion about the new policy.
+  → 彼らは新しい方針について話し合っている。
+
+- Let's have an open discussion.
+  → オープンな議論をしましょう。
+
+**ポイント：** discuss (動詞) よりも名詞形を使う方がフォーマルです。**🎯 TOEIC頻出**
+
+---
+
+### **have an impact - 影響を与える**
+
+```
+   ⚡ [影響] ━━ impact ━━→ [結果]
+   
+   「影響という効果を持つ」
+```
+
+「影響や効果をもたらす」イメージです。ビジネスや学術で重要な表現です。
+
+**例文：**
+
+- This decision will have a major impact on our business.
+  → この決定は私たちのビジネスに大きな影響を与えるでしょう。
+
+- The new policy has had a positive impact.
+  → 新しい方針はポジティブな影響を与えた。
+
+- How will this have an impact on sales?
+  → これは売上にどのような影響を与えますか？
+
+- Technology is having an impact on every industry.
+  → テクノロジーはあらゆる業界に影響を与えている。
+
+**ポイント：** affect よりもフォーマルで、特にビジネス文書で好まれます。**🎯 TOEIC超頻出**
+
+---
+
+### **have an effect - 効果がある、影響する**
+
+```
+   ⚡ [効果] ━━ effect ━━→ [変化]
+   
+   「効果という結果を持つ」
+```
+
+「効果や影響を生み出す」イメージです。have an impact と似ていますが、より直接的です。
+
+**例文：**
+
+- The new system has had a good effect on productivity.
+  → 新しいシステムは生産性に良い効果をもたらした。
+
+- Will this have any effect on the deadline?
+  → これは締め切りに何か影響しますか？
+
+- The medicine is having the desired effect.
+  → 薬は期待通りの効果を発揮している。
+
+- These changes will have an effect on everyone.
+  → これらの変更は全員に影響するでしょう。
+
+**ポイント：** impact よりもやや穏やかで、特定の結果や効果を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **have access to - 〜にアクセスできる、利用できる**
+
+```
+   🔑 [権限] ━━ access to ━━→ 📂 [利用]
+   
+   「利用権を持つ」
+```
+
+「アクセス権や利用権を持っている」イメージです。IT・ビジネスで頻出します。
+
+**例文：**
+
+- Do you have access to the database?
+  → データベースにアクセスできますか？
+
+- All employees have access to the training materials.
+  → 全従業員がトレーニング資料を利用できます。
+
+- I don't have access to that information.
+  → その情報にはアクセスできません。
+
+- You'll have access to all the resources you need.
+  → 必要なリソース全てにアクセスできます。
+
+**ポイント：** can access よりもフォーマルで、権限や能力を強調します。**🎯 TOEIC超頻出**
+
+---
+
+### **have experience - 経験がある**
+
+```
+   💼 [経歴] ━━ experience ━━→ [実績]
+   
+   「経験という資産を持つ」
+```
+
+「経験を保持している」イメージです。履歴書や面接で重要な表現です。
+
+**例文：**
+
+- Do you have experience in marketing?
+  → マーケティングの経験はありますか？
+
+- She has extensive experience in project management.
+  → 彼女はプロジェクト管理の豊富な経験があります。
+
+- I have five years of experience in this field.
+  → この分野で5年の経験があります。
+
+- We're looking for someone who has international experience.
+  → 国際経験がある人を探しています。
+
+**ポイント：** be experienced よりも具体的な経験の保有を表現します。**🎯 TOEIC超頻出**
+
+---
+
+### **have knowledge of - 〜の知識がある**
+
+```
+   🧠 [知識] ━━ knowledge of ━━→ [理解]
+   
+   「知識という情報を持つ」
+```
+
+「知識を保持している」イメージです。専門性や理解を表します。
+
+**例文：**
+
+- Do you have knowledge of accounting software?
+  → 会計ソフトの知識はありますか？
+
+- He has extensive knowledge of the industry.
+  → 彼はその業界について豊富な知識を持っています。
+
+- I have no knowledge of that matter.
+  → その件については何も知りません。
+
+- You need to have knowledge of multiple languages.
+  → 複数の言語の知識が必要です。
+
+**ポイント：** know よりもフォーマルで、専門知識を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **have an advantage - 有利である、優位性がある**
+
+```
+   ⚡ [強み] ━━ advantage ━━→ [優位]
+   
+   「優位性という強みを持つ」
+```
+
+「優位性を保持している」イメージです。競争や比較の文脈で使われます。
+
+**例文：**
+
+- We have an advantage over our competitors.
+  → 私たちは競合他社に対して優位性があります。
+
+- Experience gives you an advantage.
+  → 経験は優位性をもたらします。
+
+- They have a significant advantage in technology.
+  → 彼らはテクノロジーにおいて大きな優位性を持っています。
+
+- Do we have any advantage in this negotiation?
+  → この交渉で何か優位性はありますか？
+
+**ポイント：** be advantageous よりも具体的な優位性を表現します。**🎯 TOEIC頻出**
+
+---
+
+### **have trouble - 困難がある、苦労する**
+
+```
+   😰 [問題] ━━ trouble ━━→ [困難]
+   
+   「困難という問題を持つ」
+```
+
+「困難や問題を抱えている」イメージです。問題や苦労を表す基本表現です。
+
+**例文：**
+
+- I'm having trouble understanding this concept.
+  → この概念を理解するのに苦労しています。
+
+- Are you having trouble with the software?
+  → ソフトウェアで問題が起きていますか？
+
+- We're having trouble meeting the deadline.
+  → 締め切りに間に合わせるのに苦労しています。
+
+- She had trouble adjusting to the new system.
+  → 彼女は新しいシステムに適応するのに苦労した。
+
+**ポイント：** have difficulty よりもカジュアルで、日常的に使われます。**🎯 TOEIC超頻出**
+
+---
+
+### **have control over - 〜を支配する、管理する**
+
+```
+   🎮 [支配] ━━ control over ━━→ [管理]
+   
+   「支配権を持つ」
+```
+
+「支配権や管理権を持っている」イメージです。権限や影響力を表します。
+
+**例文：**
+
+- The manager has control over the budget.
+  → マネージャーは予算の管理権を持っています。
+
+- You need to have control over your emotions.
+  → 感情をコントロールする必要があります。
+
+- They have full control over the project.
+  → 彼らはプロジェクトの完全な管理権を持っています。
+
+- Who has control over this decision?
+  → この決定の権限は誰にありますか？
+
+**ポイント：** control (動詞) よりも権限の保有を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **have responsibility for - 〜に責任がある**
+
+```
+   📋 [責任] ━━ responsibility for ━━→ [義務]
+   
+   「責任という義務を持つ」
+```
+
+「責任を保持している」イメージです。職務や義務を表す重要表現です。
+
+**例文：**
+
+- I have responsibility for the marketing department.
+  → 私はマーケティング部門の責任を持っています。
+
+- Who has responsibility for this project?
+  → このプロジェクトの責任者は誰ですか？
+
+- She has responsibility for training new employees.
+  → 彼女は新入社員のトレーニングに責任を持っています。
+
+- We all have responsibility for meeting our targets.
+  → 私たちは皆、目標達成の責任があります。
+
+**ポイント：** be responsible for と同義ですが、have responsibility は役職や職務を強調します。**🎯 TOEIC超頻出**
+
+---
+
+### **have confidence in - 〜を信頼する、自信を持つ**
+
+```
+   💪 [信頼] ━━ confidence in ━━→ [確信]
+   
+   「信頼という確信を持つ」
+```
+
+「信頼や自信を保持している」イメージです。信念や確信を表します。
+
+**例文：**
+
+- I have confidence in your abilities.
+  → あなたの能力を信頼しています。
+
+- We have full confidence in the team.
+  → 私たちはチームを完全に信頼しています。
+
+- Do you have confidence in this plan?
+  → この計画に自信がありますか？
+
+- She has confidence in herself.
+  → 彼女は自分に自信を持っています。
+
+**ポイント：** trust よりもフォーマルで、特に能力や判断への信頼を表します。**🎯 TOEIC頻出**
+
+---
+
+## まとめ
+
+この記事では、HAVEの句動詞を4つのレベルに分けて体系的に解説しました。
+
+**最優先でマスターすべき表現：**
+- have to（〜しなければならない）
+- have on（着ている、予定がある）
+- have got（持っている）
+- have over（招待する）
+
+**TOEIC・ビジネス超頻出：**
+- have a meeting（会議をする）
+- have a word（ちょっと話す）
+- have access to（アクセスできる）
+- have experience（経験がある）
+- have responsibility for（責任がある）
+- have an impact（影響を与える）
+
+**重要な慣用表現：**
+- have it in for（敵視する）
+- have it out（はっきり話し合う）
+- have had it（もう限界だ）
+- have it both ways（いいとこ取りする）
+
+HAVEのコアイメージである「**自分の領域に保持する・関係性を持つ**」を常に意識すると、新しい表現にも対応できるようになります。
+
+次のステップとして、これらの表現を使った実践練習に進みましょう！
+
+---
+
