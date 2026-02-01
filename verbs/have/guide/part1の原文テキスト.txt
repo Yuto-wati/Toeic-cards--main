@@ -1,10 +1,10 @@
-# 【完全図解】HAVE句動詞のコアイメージ｜レベル別全48表現を体系的にマスター
+# 【完全解説】HAVE句動詞大全（前編）｜基本から日常会話・TOEIC頻出表現まで徹底マスター
 
-HAVEは「持つ」という基本的な意味から、ビジネス、日常会話、学術英語まで幅広く使われる最重要動詞の一つです。この記事では、HAVEのコアイメージを理解し、中学レベルから難関大学・TOEICレベルまで体系的に学習できます。
+HAVE句動詞は「持つ」という基本イメージから、ビジネス・日常会話で幅広く使われる超重要表現です。この前編では、最優先で覚えるべき基本表現から、日常会話やTOEICで頻出する実用的なフレーズまでを完全網羅します。
 
 ---
 
-## 🎯 HAVEのコアイメージ
+## 📌 HAVEのコアイメージ
 
 ```
    👤 + 📦 = HAVE
@@ -19,9 +19,9 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 
 ---
 
-## 📚 中学生レベル（必須基本7表現）
+## 01｜基本・最優先
 
-中学英語で必ず習う、日常会話の土台となるHAVE句動詞です。
+最初に必ずマスターすべきHAVE句動詞を解説します。日常会話の土台となる表現ばかりです。
 
 ---
 
@@ -52,7 +52,7 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 - Do you have anything on tomorrow?
   → 明日は何か予定がありますか？
 
-**ポイント：** wear と似ていますが、have on は「今現在身につけている状態」をより強調します。
+**ポイント：** wear と似ていますが、have on は「今現在身につけている状態」をより強調します。予定の意味では schedule と似た使い方です。
 
 ---
 
@@ -83,7 +83,7 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 - You have to see this movie!
   → この映画を見なきゃだめだよ！
 
-**ポイント：** must よりも口語的で、外部からの義務や必要性を表します。**🎯 TOEIC超頻出**
+**ポイント：** must よりも口語的で、外部からの義務や必要性を表します。否定形 don't have to は「〜する必要がない」という意味になります。**🎯 TOEIC超頻出**
 
 ---
 
@@ -114,7 +114,35 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 - We've got a problem.
   → 問題があります。
 
-**ポイント：** 特にイギリス英語で頻出。have got to は have to と同義です。
+**ポイント：** 特にイギリス英語で頻出。have got to は have to と同義です。現在完了形ですが、現在の状態を表します。
+
+---
+
+### **have got to - 〜しなければならない**
+
+```
+   [義務] ━━ got to ━━→ [実行]
+   
+   「〜する必要性を獲得している」
+```
+
+have to とほぼ同義で、「〜しなければならない」という義務を表します。よりカジュアルな表現です。
+
+**例文：**
+
+- I've got to finish this today.
+  → 今日これを終わらせなければならない。
+
+- You've got to be kidding!
+  → 冗談でしょ！
+
+- We've got to leave now or we'll be late.
+  → 今出ないと遅れるよ。
+
+- She's got to see a doctor.
+  → 彼女は医者に診てもらわなければならない。
+
+**ポイント：** 口語では gotta と短縮されることが多いです。have to よりもカジュアルで緊急性を感じさせます。
 
 ---
 
@@ -141,6 +169,9 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 
 - Let's have them over sometime.
   → いつか彼らを招待しましょう。
+
+- I'd love to have you over for coffee.
+  → コーヒーを飲みに来てほしいです。
 
 **ポイント：** invite over と同義ですが、have over の方がカジュアルで日常的です。
 
@@ -170,7 +201,10 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 - He had his appendix out last year.
   → 彼は昨年盲腸の手術を受けた。
 
-**ポイント：** have it out with someone で「〜とはっきり話し合う」という重要表現になります。
+- It's time we had it out with him.
+  → 彼とはっきり話し合う時です。
+
+**ポイント：** have it out with someone で「〜とはっきり話し合う」という重要表現になります。医療文脈では「摘出する」という意味です。
 
 ---
 
@@ -197,6 +231,9 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 
 - She had her laptop back after it was repaired.
   → 修理後にノートパソコンを返してもらった。
+
+- I'd like to have my youth back.
+  → 若さを取り戻したい。
 
 **ポイント：** get back と似ていますが、have back は「返却」のニュアンスがより強い表現です。
 
@@ -226,73 +263,14 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 - I'll be having in all day.
   → 一日中家にいる予定です。
 
+- They have plenty of supplies in.
+  → 彼らは十分な供給品を在庫している。
+
 **ポイント：** in stock の意味で特にビジネスシーンで頻出します。**🎯 TOEIC頻出**
 
 ---
 
-## 🎓 高校生レベル（重要応用10表現）
-
-高校英語で学ぶ、より洗練された表現と応用的な使い方です。
-
----
-
-### **have on - 予定がある、（人を）からかう**
-
-```
-   📅 [スケジュール] ← on ← [予定保持]
-   
-   「予定という約束を保持する」
-```
-
-スケジュールに「予定を入れている」イメージです。また、人をからかう意味もあります。
-
-**例文：**
-
-- I have a lot on this week.
-  → 今週は予定がたくさんあります。
-
-- Do you have anything on tonight?
-  → 今夜は何か予定がありますか？
-
-- Are you having me on?
-  → 私をからかっているの？
-
-- He's just having you on.
-  → 彼はただあなたをからかっているだけです。
-
-**ポイント：** 「からかう」の意味は主にイギリス英語で使われます。
-
----
-
-### **have up - 裁判にかける、呼び出す**
-
-```
-   [下位] ━━ up ━━→ [上位/法廷]
-   
-   「上の立場に呼び出す」
-```
-
-権威ある場所や立場に「呼び出す」イメージです。特に法的な文脈で使われます。
-
-**例文：**
-
-- He was had up for theft.
-  → 彼は窃盗で裁判にかけられた。
-
-- They had him up before the committee.
-  → 彼らは彼を委員会に呼び出した。
-
-- She was had up on charges of fraud.
-  → 彼女は詐欺の罪で起訴された。
-
-- The teacher had the student up for cheating.
-  → 先生はカンニングで生徒を呼び出した。
-
-**ポイント：** やや形式的で、特に法的・公式な場面で使われる表現です。
-
----
-
-### **have off - 休みを取る、（服などを）脱ぐ**
+### **have off - 休みを取る、脱ぐ**
 
 ```
    [仕事] ━━ off ━━→ [休暇]
@@ -315,6 +293,9 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 
 - She's having a week off for vacation.
   → 彼女は休暇で1週間休みを取っています。
+
+- I need to have some time off.
+  → 少し休みが必要です。
 
 **ポイント：** take off と似ていますが、have off は「許可された休み」のニュアンスが強いです。
 
@@ -344,6 +325,9 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 - We should have them around more often.
   → 彼らをもっと頻繁に呼ぶべきだ。
 
+- It's handy to have a dictionary around.
+  → 辞書を手元に置いておくと便利です。
+
 **ポイント：** have over よりもカジュアルで、「近くにいる」という状態を強調します。
 
 ---
@@ -371,6 +355,9 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 
 - He's got the speech down.
   → 彼はスピーチを完璧に覚えている。
+
+- Let me have your address down.
+  → あなたの住所を書き留めさせてください。
 
 **ポイント：** write down と似ていますが、have down は「習得・記憶」の意味も持ちます。
 
@@ -425,6 +412,9 @@ HAVEの本質は「**自分の支配下・影響範囲に何かを保持する**
 - They had the valuables away in a safe place.
   → 彼らは貴重品を安全な場所に保管した。
 
+- Have this away quickly!
+  → これを早く片付けて！
+
 **ポイント：** put away や hide の方が現代的ですが、文学作品では使われます。
 
 ---
@@ -469,7 +459,7 @@ have over とほぼ同義で、人を「家に招く」イメージです。主�
 
 **例文：**
 
-- Have at it! (挑戦を受ける時)
+- Have at it!
   → さあ、やってみろ！
 
 - The critics had at the new policy.
@@ -512,3 +502,1154 @@ have over とほぼ同義で、人を「家に招く」イメージです。主�
 **ポイント：** have on you や carry の方が現代的ですが、フォーマルな文脈で使われます。
 
 ---
+
+### **have up - 裁判にかける、呼び出す**
+
+```
+   [下位] ━━ up ━━→ [上位/法廷]
+   
+   「上の立場に呼び出す」
+```
+
+権威ある場所や立場に「呼び出す」イメージです。特に法的な文脈で使われます。
+
+**例文：**
+
+- He was had up for theft.
+  → 彼は窃盗で裁判にかけられた。
+
+- They had him up before the committee.
+  → 彼らは彼を委員会に呼び出した。
+
+- She was had up on charges of fraud.
+  → 彼女は詐欺の罪で起訴された。
+
+- The teacher had the student up for cheating.
+  → 先生はカンニングで生徒を呼び出した。
+
+**ポイント：** やや形式的で、特に法的・公式な場面で使われる表現です。
+
+---
+
+### **have by - そばに置く、手元に持つ**
+
+```
+   👤 ← by ← 📦 [近接保持]
+   
+   「近くに保持する」
+```
+
+何かを「そばに置いて保持する」イメージです。have about や have around と似た意味です。
+
+**例文：**
+
+- I always have my phone by me.
+  → いつも携帯を手元に置いています。
+
+- She has her notes by her during the presentation.
+  → 彼女はプレゼン中にメモを手元に置いている。
+
+- It's good to have a first aid kit by.
+  → 救急箱を手元に置いておくといい。
+
+- He had a glass of water by him.
+  → 彼は水をそばに置いていた。
+
+**ポイント：** やや古風で、keep nearby の方が現代的です。
+
+---
+
+## 02｜日常・TOEIC
+
+日常会話やTOEICで頻出する実用的なHAVE表現を解説します。ビジネスシーンでも活用できる表現が豊富です。
+
+---
+
+### **have a meeting - 会議をする**
+
+```
+   👥 [参加者] ━━ meeting ━━→ 💬 [会議]
+   
+   「会議という活動を持つ」
+```
+
+会議を「開催する・参加する」イメージです。ビジネスで最も基本的な表現です。
+
+**例文：**
+
+- We're having a meeting at 2 PM.
+  → 午後2時に会議があります。
+
+- Can we have a meeting to discuss this?
+  → これについて話し合う会議を持てますか？
+
+- They're having a board meeting tomorrow.
+  → 彼らは明日取締役会を開きます。
+
+- I have a meeting with the client this afternoon.
+  → 今日午後にクライアントとの会議があります。
+
+- Let's have a quick meeting before lunch.
+  → 昼食前に短いミーティングをしましょう。
+
+**ポイント：** hold a meeting よりもカジュアルで日常的な表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **have a word - ちょっと話す**
+
+```
+   💬 [短い会話] ━━ word ━━→ [対話]
+   
+   「言葉という会話を持つ」
+```
+
+「短い会話をする」イメージです。特に私的な話や注意をする場面で使われます。
+
+**例文：**
+
+- Can I have a word with you?
+  → ちょっとお話しできますか？
+
+- The manager wants to have a word with you.
+  → マネージャーがあなたと話したがっています。
+
+- May I have a quick word?
+  → ちょっとよろしいですか？
+
+- I need to have a word with him about his performance.
+  → 彼の業績について話をする必要があります。
+
+- Could we have a word in private?
+  → 個人的にお話しできますか？
+
+**ポイント：** talk と似ていますが、have a word はより短く、しばしば深刻な話を示唆します。**🎯 TOEIC超頻出**
+
+---
+
+### **have a look - 見る、確認する**
+
+```
+   👀 [視線] ━━ look ━━→ [確認]
+   
+   「見るという行為を持つ」
+```
+
+何かを「見て確認する」イメージです。take a look よりもカジュアルです。
+
+**例文：**
+
+- Can I have a look at the report?
+  → そのレポートを見てもいいですか？
+
+- Let me have a look at what you've done.
+  → あなたがやったことを見せてください。
+
+- Have a look at this proposal.
+  → この提案を見てください。
+
+- I'll have a look and get back to you.
+  → 確認して折り返し連絡します。
+
+- Have a quick look at these figures.
+  → この数字をざっと見てください。
+
+**ポイント：** 主にイギリス英語。アメリカ英語では take a look の方が一般的です。**🎯 TOEIC超頻出**
+
+---
+
+### **have a chance - 機会がある、可能性がある**
+
+```
+   🎯 [機会] ━━ chance ━━→ [可能性]
+   
+   「機会という可能性を持つ」
+```
+
+「機会や可能性を持っている」イメージです。チャンスを表す基本表現です。
+
+**例文：**
+
+- Do I have a chance to present my ideas?
+  → 自分のアイデアを発表する機会はありますか？
+
+- You'll have a chance to ask questions later.
+  → 後で質問する機会があります。
+
+- We have a good chance of winning the contract.
+  → 契約を獲得する可能性が高いです。
+
+- Have you had a chance to review the document?
+  → その書類を確認する機会はありましたか？
+
+- I didn't have a chance to say goodbye.
+  → さよならを言う機会がありませんでした。
+
+**ポイント：** opportunity よりもカジュアルで、日常的に使われます。**🎯 TOEIC超頻出**
+
+---
+
+### **have a discussion - 話し合う、議論する**
+
+```
+   💬 [対話] ━━ discussion ━━→ [議論]
+   
+   「議論という活動を持つ」
+```
+
+「話し合いを行う」イメージです。discuss よりもフォーマルです。
+
+**例文：**
+
+- We need to have a discussion about the budget.
+  → 予算について話し合う必要があります。
+
+- Can we have a discussion about this issue?
+  → この問題について議論できますか？
+
+- They're having a discussion about the new policy.
+  → 彼らは新しい方針について話し合っている。
+
+- Let's have an open discussion.
+  → オープンな議論をしましょう。
+
+- We had a lengthy discussion about the proposal.
+  → 私たちはその提案について長い議論をした。
+
+**ポイント：** discuss (動詞) よりも名詞形を使う方がフォーマルです。**🎯 TOEIC頻出**
+
+---
+
+### **have an impact - 影響を与える**
+
+```
+   ⚡ [影響] ━━ impact ━━→ [結果]
+   
+   「影響という効果を持つ」
+```
+
+「影響や効果をもたらす」イメージです。ビジネスや学術で重要な表現です。
+
+**例文：**
+
+- This decision will have a major impact on our business.
+  → この決定は私たちのビジネスに大きな影響を与えるでしょう。
+
+- The new policy has had a positive impact.
+  → 新しい方針はポジティブな影響を与えた。
+
+- How will this have an impact on sales?
+  → これは売上にどのような影響を与えますか？
+
+- Technology is having an impact on every industry.
+  → テクノロジーはあらゆる業界に影響を与えている。
+
+- Climate change will have a significant impact.
+  → 気候変動は大きな影響を及ぼすでしょう。
+
+**ポイント：** affect よりもフォーマルで、特にビジネス文書で好まれます。**🎯 TOEIC超頻出**
+
+---
+
+### **have an effect - 効果がある、影響する**
+
+```
+   ⚡ [効果] ━━ effect ━━→ [変化]
+   
+   「効果という結果を持つ」
+```
+
+「効果や影響を生み出す」イメージです。have an impact と似ていますが、より直接的です。
+
+**例文：**
+
+- The new system has had a good effect on productivity.
+  → 新しいシステムは生産性に良い効果をもたらした。
+
+- Will this have any effect on the deadline?
+  → これは締め切りに何か影響しますか？
+
+- The medicine is having the desired effect.
+  → 薬は期待通りの効果を発揮している。
+
+- These changes will have an effect on everyone.
+  → これらの変更は全員に影響するでしょう。
+
+- Stress can have a negative effect on health.
+  → ストレスは健康に悪影響を及ぼす可能性がある。
+
+**ポイント：** impact よりもやや穏やかで、特定の結果や効果を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **have access to - 〜にアクセスできる、利用できる**
+
+```
+   🔑 [権限] ━━ access to ━━→ 📂 [利用]
+   
+   「利用権を持つ」
+```
+
+「アクセス権や利用権を持っている」イメージです。IT・ビジネスで頻出します。
+
+**例文：**
+
+- Do you have access to the database?
+  → データベースにアクセスできますか？
+
+- All employees have access to the training materials.
+  → 全従業員がトレーニング資料を利用できます。
+
+- I don't have access to that information.
+  → その情報にはアクセスできません。
+
+- You'll have access to all the resources you need.
+  → 必要なリソース全てにアクセスできます。
+
+- Students have access to the library 24/7.
+  → 学生は図書館に24時間アクセスできます。
+
+**ポイント：** can access よりもフォーマルで、権限や能力を強調します。**🎯 TOEIC超頻出**
+
+---
+
+### **have experience - 経験がある**
+
+```
+   💼 [経歴] ━━ experience ━━→ [実績]
+   
+   「経験という資産を持つ」
+```
+
+「経験を保持している」イメージです。履歴書や面接で重要な表現です。
+
+**例文：**
+
+- Do you have experience in marketing?
+  → マーケティングの経験はありますか？
+
+- She has extensive experience in project management.
+  → 彼女はプロジェクト管理の豊富な経験があります。
+
+- I have five years of experience in this field.
+  → この分野で5年の経験があります。
+
+- We're looking for someone who has international experience.
+  → 国際経験がある人を探しています。
+
+- He has hands-on experience with the software.
+  → 彼はそのソフトウェアの実務経験があります。
+
+**ポイント：** be experienced よりも具体的な経験の保有を表現します。**🎯 TOEIC超頻出**
+
+---
+
+### **have knowledge of - 〜の知識がある**
+
+```
+   🧠 [知識] ━━ knowledge of ━━→ [理解]
+   
+   「知識という情報を持つ」
+```
+
+「知識を保持している」イメージです。専門性や理解を表します。
+
+**例文：**
+
+- Do you have knowledge of accounting software?
+  → 会計ソフトの知識はありますか？
+
+- He has extensive knowledge of the industry.
+  → 彼はその業界について豊富な知識を持っています。
+
+- I have no knowledge of that matter.
+  → その件については何も知りません。
+
+- You need to have knowledge of multiple languages.
+  → 複数の言語の知識が必要です。
+
+- She has working knowledge of Japanese.
+  → 彼女は実用的な日本語の知識がある。
+
+**ポイント：** know よりもフォーマルで、専門知識を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **have an advantage - 有利である、優位性がある**
+
+```
+   ⚡ [強み] ━━ advantage ━━→ [優位]
+   
+   「優位性という強みを持つ」
+```
+
+「優位性を保持している」イメージです。競争や比較の文脈で使われます。
+
+**例文：**
+
+- We have an advantage over our competitors.
+  → 私たちは競合他社に対して優位性があります。
+
+- Experience gives you an advantage.
+  → 経験は優位性をもたらします。
+
+- They have a significant advantage in technology.
+  → 彼らはテクノロジーにおいて大きな優位性を持っています。
+
+- Do we have any advantage in this negotiation?
+  → この交渉で何か優位性はありますか？
+
+- Early adopters have an advantage in the market.
+  → 早期採用者は市場で優位性を持つ。
+
+**ポイント：** be advantageous よりも具体的な優位性を表現します。**🎯 TOEIC頻出**
+
+---
+
+### **have trouble - 困難がある、苦労する**
+
+```
+   😰 [問題] ━━ trouble ━━→ [困難]
+   
+   「困難という問題を持つ」
+```
+
+「困難や問題を抱えている」イメージです。問題や苦労を表す基本表現です。
+
+**例文：**
+
+- I'm having trouble understanding this concept.
+  → この概念を理解するのに苦労しています。
+
+- Are you having trouble with the software?
+  → ソフトウェアで問題が起きていますか？
+
+- We're having trouble meeting the deadline.
+  → 締め切りに間に合わせるのに苦労しています。
+
+- She had trouble adjusting to the new system.
+  → 彼女は新しいシステムに適応するのに苦労した。
+
+- I have trouble sleeping at night.
+  → 夜眠るのに苦労しています。
+
+**ポイント：** have difficulty よりもカジュアルで、日常的に使われます。**🎯 TOEIC超頻出**
+
+---
+
+### **have control over - 〜を支配する、管理する**
+
+```
+   🎮 [支配] ━━ control over ━━→ [管理]
+   
+   「支配権を持つ」
+```
+
+「支配権や管理権を持っている」イメージです。権限や影響力を表します。
+
+**例文：**
+
+- The manager has control over the budget.
+  → マネージャーは予算の管理権を持っています。
+
+- You need to have control over your emotions.
+  → 感情をコントロールする必要があります。
+
+- They have full control over the project.
+  → 彼らはプロジェクトの完全な管理権を持っています。
+
+- Who has control over this decision?
+  → この決定の権限は誰にありますか？
+
+- I have no control over what happens next.
+  → 次に何が起こるかは私にはコントロールできません。
+
+**ポイント：** control (動詞) よりも権限の保有を強調します。**🎯 TOEIC頻出**
+
+---
+
+### **have responsibility for - 〜に責任がある**
+
+```
+   📋 [責任] ━━ responsibility for ━━→ [義務]
+   
+   「責任という義務を持つ」
+```
+
+「責任を保持している」イメージです。職務や義務を表す重要表現です。
+
+**例文：**
+
+- I have responsibility for the marketing department.
+  → 私はマーケティング部門の責任を持っています。
+
+- Who has responsibility for this project?
+  → このプロジェクトの責任者は誰ですか？
+
+- She has responsibility for training new employees.
+  → 彼女は新入社員のトレーニングに責任を持っています。
+
+- We all have responsibility for meeting our targets.
+  → 私たちは皆、目標達成の責任があります。
+
+- Managers have responsibility for their team's performance.
+  → マネージャーはチームの業績に責任を持っています。
+
+**ポイント：** be responsible for と同義ですが、have responsibility は役職や職務を強調します。**🎯 TOEIC超頻出**
+
+---
+
+### **have confidence in - 〜を信頼する、自信を持つ**
+
+```
+   💪 [信頼] ━━ confidence in ━━→ [確信]
+   
+   「信頼という確信を持つ」
+```
+
+「信頼や自信を保持している」イメージです。信念や確信を表します。
+
+**例文：**
+
+- I have confidence in your abilities.
+  → あなたの能力を信頼しています。
+
+- We have full confidence in the team.
+  → 私たちはチームを完全に信頼しています。
+
+- Do you have confidence in this plan?
+  → この計画に自信がありますか？
+
+- She has confidence in herself.
+  → 彼女は自分に自信を持っています。
+
+- Investors have confidence in the company's future.
+  → 投資家は会社の将来に自信を持っている。
+
+**ポイント：** trust よりもフォーマルで、特に能力や判断への信頼を表します。**🎯 TOEIC頻出**
+
+---
+
+### **have a go at - 試してみる、攻撃する**
+
+```
+   💪 [挑戦] ━━ go at ━━→ 🎯 [対象]
+   
+   「試みを持つ」
+```
+
+何かに「挑戦してみる」イメージです。試行または攻撃の両方の意味があります。
+
+**例文：**
+
+- Can I have a go at fixing it?
+  → それを修理するのを試してみてもいいですか？
+
+- Let me have a go at this puzzle.
+  → このパズルに挑戦させてください。
+
+- He had a go at me for being late.
+  → 彼は私が遅刻したことで攻撃してきた。
+
+- Why don't you have a go at cooking tonight?
+  → 今夜料理に挑戦してみたら？
+
+**ポイント：** try と似ていますが、have a go at はよりカジュアルで、主にイギリス英語で使われます。
+
+---
+
+### **have a try - 試してみる**
+
+```
+   💪 [挑戦] ━━ try ━━→ [実行]
+   
+   「試みという行動を持つ」
+```
+
+「試してみる」イメージです。have a go at よりもやや穏やかな表現です。
+
+**例文：**
+
+- Can I have a try?
+  → 試してみてもいいですか？
+
+- Let me have a try at solving it.
+  → それを解くのを試させてください。
+
+- Everyone should have a try.
+  → みんな試してみるべきです。
+
+- I'll have a try and see what happens.
+  → 試してみて様子を見ます。
+
+**ポイント：** try (動詞) よりもカジュアルで、失敗しても構わないというニュアンスがあります。
+
+---
+
+### **have a chat - おしゃべりする**
+
+```
+   💬 [会話] ━━ chat ━━→ [雑談]
+   
+   「おしゃべりという会話を持つ」
+```
+
+「気軽なおしゃべりをする」イメージです。カジュアルな会話を表します。
+
+**例文：**
+
+- Let's have a chat over coffee.
+  → コーヒーを飲みながらおしゃべりしましょう。
+
+- Can we have a quick chat?
+  → ちょっとおしゃべりできますか？
+
+- I had a nice chat with her yesterday.
+  → 昨日彼女と楽しくおしゃべりした。
+
+- We should have a chat sometime.
+  → いつかおしゃべりしましょう。
+
+**ポイント：** have a talk よりもカジュアルで、深刻でない会話を示します。
+
+---
+
+### **have a talk - 話をする**
+
+```
+   💬 [対話] ━━ talk ━━→ [会話]
+   
+   「話をするという行為を持つ」
+```
+
+「話をする」イメージです。have a chat よりもやや真面目な会話を示唆します。
+
+**例文：**
+
+- We need to have a talk about your grades.
+  → あなたの成績について話をする必要があります。
+
+- Can we have a talk?
+  → 話せますか？
+
+- I had a serious talk with my boss.
+  → 上司と真剣な話をした。
+
+- Let's have a talk about the future.
+  → 将来について話し合いましょう。
+
+**ポイント：** have a chat よりもフォーマルで、しばしば重要な話題を含意します。
+
+---
+
+### **have a break - 休憩する**
+
+```
+   ⏸️ [中断] ━━ break ━━→ [休憩]
+   
+   「休憩という時間を持つ」
+```
+
+「休憩時間を持つ」イメージです。仕事や活動の中断を表します。
+
+**例文：**
+
+- Let's have a break for 15 minutes.
+  → 15分休憩しましょう。
+
+- I need to have a break.
+  → 休憩が必要です。
+
+- We had a coffee break at 3 PM.
+  → 午後3時にコーヒー休憩を取った。
+
+- Can we have a short break?
+  → 短い休憩を取れますか？
+
+**ポイント：** take a break とほぼ同義ですが、have a break の方がややカジュアルです。
+
+---
+
+### **have a rest - 休む**
+
+```
+   😌 [休息] ━━ rest ━━→ [回復]
+   
+   「休息という時間を持つ」
+```
+
+「休息を取る」イメージです。have a break よりも長めの休みを示唆します。
+
+**例文：**
+
+- You should have a rest.
+  → 休んだ方がいいよ。
+
+- I'm going to have a rest this afternoon.
+  → 今日午後は休むつもりです。
+
+- Have a good rest!
+  → ゆっくり休んでね！
+
+- She needs to have a proper rest.
+  → 彼女はきちんと休む必要がある。
+
+**ポイント：** rest (動詞) よりも「休息時間を確保する」というニュアンスが強いです。
+
+---
+
+### **have a seat - 座る**
+
+```
+   💺 ━━ seat ━━→ [着席]
+   
+   「座席という場所を持つ」
+```
+
+「座る」イメージです。sit down よりも丁寧な表現です。
+
+**例文：**
+
+- Please have a seat.
+  → どうぞお座りください。
+
+- Can I have a seat here?
+  → ここに座ってもいいですか？
+
+- Have a seat and make yourself comfortable.
+  → 座ってくつろいでください。
+
+- Everyone, please have a seat.
+  → 皆さん、お座りください。
+
+**ポイント：** sit down よりもフォーマルで丁寧な表現として頻繁に使用されます。
+
+---
+
+### **have a drink - 飲む**
+
+```
+   🥤 ━━ drink ━━→ [飲用]
+   
+   「飲み物を持つ」
+```
+
+「飲み物を飲む」イメージです。アルコールを含意することも多いです。
+
+**例文：**
+
+- Let's have a drink after work.
+  → 仕事の後に一杯飲みましょう。
+
+- Would you like to have a drink?
+  → 飲み物はいかがですか？
+
+- I had a drink with my colleagues.
+  → 同僚と飲みに行った。
+
+- Can I have a drink of water?
+  → 水を飲んでもいいですか？
+
+**ポイント：** 文脈によってアルコール飲料を指すことが多いですが、単に飲み物全般を指すこともあります。
+
+---
+
+### **have a meal - 食事をする**
+
+```
+   🍽️ ━━ meal ━━→ [食事]
+   
+   「食事という時間を持つ」
+```
+
+「食事を取る」イメージです。eat よりもフォーマルな表現です。
+
+**例文：**
+
+- Let's have a meal together.
+  → 一緒に食事をしましょう。
+
+- We had a wonderful meal at the restaurant.
+  → レストランで素晴らしい食事をした。
+
+- Would you like to have a meal with us?
+  → 私たちと食事しませんか？
+
+- I haven't had a proper meal all day.
+  → 一日中まともな食事をしていません。
+
+**ポイント：** eat よりもフォーマルで、食事という「行為」を強調します。
+
+---
+
+### **have breakfast - 朝食を取る**
+
+```
+   🍳 ━━ breakfast ━━→ [朝食]
+   
+   「朝食を持つ」
+```
+
+「朝食を食べる」イメージです。eat breakfast と同義です。
+
+**例文：**
+
+- What do you usually have for breakfast?
+  → 朝食には普通何を食べますか？
+
+- I had toast and coffee for breakfast.
+  → 朝食にトーストとコーヒーを取った。
+
+- Did you have breakfast this morning?
+  → 今朝朝食を食べましたか？
+
+- Let's have breakfast together.
+  → 一緒に朝食を取りましょう。
+
+**ポイント：** eat breakfast よりも have breakfast の方が一般的です。
+
+---
+
+### **have lunch - 昼食を取る**
+
+```
+   🥗 ━━ lunch ━━→ [昼食]
+   
+   「昼食を持つ」
+```
+
+「昼食を食べる」イメージです。最も一般的な食事表現の一つです。
+
+**例文：**
+
+- Let's have lunch together.
+  → 一緒に昼食を取りましょう。
+
+- What are you having for lunch?
+  → 昼食は何を食べますか？
+
+- I usually have lunch at noon.
+  → 私は普通正午に昼食を取ります。
+
+- Can we have lunch and discuss the project?
+  → 昼食を取りながらプロジェクトについて話し合えますか？
+
+**ポイント：** ビジネスランチの文脈で特に頻繁に使用されます。**🎯 TOEIC頻出**
+
+---
+
+### **have dinner - 夕食を取る**
+
+```
+   🍝 ━━ dinner ━━→ [夕食]
+   
+   「夕食を持つ」
+```
+
+「夕食を食べる」イメージです。社交的な食事を含意することも多いです。
+
+**例文：**
+
+- Would you like to have dinner with me?
+  → 一緒に夕食を食べませんか？
+
+- What time do you usually have dinner?
+  → 普段何時に夕食を取りますか？
+
+- We're having dinner at a nice restaurant.
+  → 素敵なレストランで夕食を取ります。
+
+- I had dinner with my family.
+  → 家族と夕食を取った。
+
+**ポイント：** 招待や社交の文脈で特によく使われます。
+
+---
+
+### **have a party - パーティーをする**
+
+```
+   🎉 ━━ party ━━→ [祝宴]
+   
+   「パーティーという催しを持つ」
+```
+
+「パーティーを開く」イメージです。祝いや集まりを表します。
+
+**例文：**
+
+- We're having a party this Saturday.
+  → 今週土曜日にパーティーをします。
+
+- Let's have a birthday party for her.
+  → 彼女のために誕生日パーティーをしましょう。
+
+- They had a big party last night.
+  → 彼らは昨夜大きなパーティーをした。
+
+- Can we have a party at your place?
+  → あなたの家でパーティーをしてもいいですか？
+
+**ポイント：** throw a party よりもカジュアルな表現です。
+
+---
+
+### **have fun - 楽しむ**
+
+```
+   😄 ━━ fun ━━→ [楽しみ]
+   
+   「楽しみという経験を持つ」
+```
+
+「楽しい時間を過ごす」イメージです。エンジョイメントを表す基本表現です。
+
+**例文：**
+
+- Have fun at the party!
+  → パーティーを楽しんで！
+
+- We had so much fun yesterday.
+  → 昨日はとても楽しかった。
+
+- Are you having fun?
+  → 楽しんでいますか？
+
+- I hope you have fun on your trip.
+  → 旅行を楽しんでね。
+
+**ポイント：** enjoy よりもカジュアルで、別れの挨拶としても使われます。
+
+---
+
+### **have a good time - 楽しい時間を過ごす**
+
+```
+   ⏰😊 ━━ good time ━━→ [楽しい経験]
+   
+   「良い時間を持つ」
+```
+
+「楽しい時間を過ごす」イメージです。have fun とほぼ同義です。
+
+**例文：**
+
+- Did you have a good time?
+  → 楽しかったですか？
+
+- I had a really good time at the concert.
+  → コンサートで本当に楽しい時間を過ごした。
+
+- I hope you have a good time!
+  → 楽しんでね！
+
+- We always have a good time together.
+  → 私たちは一緒にいつも楽しい時間を過ごします。
+
+**ポイント：** have fun よりもやや丁寧で、過去の経験を尋ねる際によく使われます。
+
+---
+
+### **have a problem - 問題がある**
+
+```
+   ❌ [障害] ━━ problem ━━→ [困難]
+   
+   「問題という障害を持つ」
+```
+
+「問題を抱えている」イメージです。困難や障害を表す基本表現です。
+
+**例文：**
+
+- I have a problem with my computer.
+  → コンピュータに問題があります。
+
+- Do you have a problem with that?
+  → それに何か問題がありますか？
+
+- We have a serious problem.
+  → 深刻な問題があります。
+
+- If you have any problems, let me know.
+  → 何か問題があれば教えてください。
+
+**ポイント：** ビジネスでも日常会話でも極めて頻繁に使用される基本表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **have a question - 質問がある**
+
+```
+   ❓ ━━ question ━━→ [疑問]
+   
+   「質問という疑問を持つ」
+```
+
+「質問を持っている」イメージです。疑問を表す最も基本的な表現です。
+
+**例文：**
+
+- I have a question about the assignment.
+  → 課題について質問があります。
+
+- Do you have any questions?
+  → 何か質問はありますか？
+
+- She has a question for you.
+  → 彼女があなたに質問があります。
+
+- If you have questions, please ask.
+  → 質問があれば聞いてください。
+
+**ポイント：** プレゼンテーションや授業の最後に必ず聞かれる定番表現です。**🎯 TOEIC超頻出**
+
+---
+
+### **have an idea - アイデアがある**
+
+```
+   💡 ━━ idea ━━→ [発想]
+   
+   「アイデアという考えを持つ」
+```
+
+「アイデアを持っている」イメージです。提案や思いつきを表します。
+
+**例文：**
+
+- I have an idea!
+  → アイデアがあります！
+
+- Do you have any ideas for the project?
+  → プロジェクトについて何かアイデアはありますか？
+
+- She has some great ideas.
+  → 彼女は素晴らしいアイデアを持っています。
+
+- I have no idea what to do.
+  → 何をすればいいか全く分かりません。
+
+**ポイント：** have no idea で「全く分からない」という頻出表現になります。
+
+---
+
+### **have a plan - 計画がある**
+
+```
+   📋 ━━ plan ━━→ [計画]
+   
+   「計画という構想を持つ」
+```
+
+「計画を持っている」イメージです。予定や構想を表します。
+
+**例文：**
+
+- I have a plan for the weekend.
+  → 週末の計画があります。
+
+- Do you have a plan?
+  → 計画はありますか？
+
+- We need to have a clear plan.
+  → 明確な計画を持つ必要があります。
+
+- She has a plan to expand the business.
+  → 彼女はビジネスを拡大する計画を持っています。
+
+**ポイント：** make a plan（計画を立てる）と区別して使います。
+
+---
+
+### **have time - 時間がある**
+
+```
+   ⏰ ━━ time ━━→ [余裕]
+   
+   「時間という余裕を持つ」
+```
+
+「時間がある」イメージです。余裕や可能性を表す基本表現です。
+
+**例文：**
+
+- Do you have time for a quick meeting?
+  → 短いミーティングの時間はありますか？
+
+- I don't have time right now.
+  → 今は時間がありません。
+
+- If you have time, please review this.
+  → 時間があれば、これを確認してください。
+
+- We have plenty of time.
+  → 十分な時間があります。
+
+**ポイント：** 依頼や提案の前置きとして極めて頻繁に使用されます。**🎯 TOEIC超頻出**
+
+---
+
+### **have money - お金がある**
+
+```
+   💰 ━━ money ━━→ [財力]
+   
+   「お金という資源を持つ」
+```
+
+「お金を持っている」イメージです。財力や余裕を表します。
+
+**例文：**
+
+- I don't have enough money to buy that.
+  → それを買うだけのお金がありません。
+
+- Do you have money for lunch?
+  → 昼食代のお金はありますか？
+
+- They have plenty of money.
+  → 彼らは十分なお金を持っています。
+
+- If I had money, I would travel the world.
+  → お金があれば、世界中を旅行するのに。
+
+**ポイント：** 日常会話で頻繁に使われる基本表現です。
+
+---
+
+(前編ここまで)
+
+---
+
+## まとめ
+
+この前編では、HAVE句動詞の基本表現と日常・TOEIC頻出表現を解説しました。特に重要なポイント：
+
+**最優先でマスターすべき表現：**
+- have to（〜しなければならない）
+- have got（持っている）
+- have on（着ている、予定がある）
+- have over（招待する）
+
+**TOEIC・ビジネス超頻出：**
+- have a meeting（会議をする）
+- have a word（ちょっと話す）
+- have access to（アクセスできる）
+- have experience（経験がある）
+- have responsibility for（責任がある）
+- have an impact（影響を与える）
+- have time（時間がある）
+- have a problem（問題がある）
+
+**日常会話で頻出：**
+- have a look（見る）
+- have fun（楽しむ）
+- have a good time（楽しい時間を過ごす）
+- have a question（質問がある）
+
+後編では、ビジネス・上級表現、多義語、注意が必要な表現を詳しく解説します。
+
+---
+
+**後編に続きます。**
