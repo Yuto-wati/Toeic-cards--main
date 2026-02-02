@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TOEIC Part 5 Practice - provided that</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root{
+      --bg:#f7f7fb;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --border:#e5e7eb;
+      --accent:#2563eb;
+      --accent-soft:#eff6ff;
+      --ok:#16a34a;
+      --shadow: 0 8px 24px rgba(0,0,0,.08);
+      --radius: 14px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: var(--sans);
+      color: var(--text);
+      background: linear-gradient(180deg, var(--bg), #ffffff);
+      line-height:1.6;
+    }
+
+    .wrap{
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+    }
+
+    header{
+      margin-bottom: 20px;
+    }
+
+    h1{
+      font-size: 22px;
+      margin:0 0 6px 0;
+    }
+
+    .sub{
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      margin: 18px 0;
+      overflow: hidden;
+    }
+
+    .card-header{
+      padding: 14px 16px;
+      border-bottom:1px solid var(--border);
+      background: linear-gradient(90deg, var(--accent-soft), #fff);
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+    }
+
+    .qno{
+      font-weight:800;
+    }
+
+    .instruction{
+      font-size:13px;
+      color:var(--muted);
+      margin:0;
+    }
+
+    .card-body{
+      padding:16px;
+      display:grid;
+      gap:16px;
+    }
+
+    .sentence{
+      padding:12px;
+      border:1px dashed var(--border);
+      border-radius:12px;
+      font-size:16px;
+    }
+
+    .blank{
+      font-family: var(--mono);
+      background: var(--accent-soft);
+      color: var(--accent);
+      padding:0 6px;
+      border-radius:6px;
+      font-weight:700;
+    }
+
+    .choices{
+      list-style:none;
+      padding:0;
+      margin:0;
+      display:grid;
+      gap:10px;
+    }
+
+    .choices li{
+      border:1px solid var(--border);
+      border-radius:12px;
+      padding:10px 12px;
+      font-family: var(--mono);
+      font-size:14px;
+      background:#fff;
+    }
+
+    .answer-toggle{
+      margin-top:8px;
+      border:1px solid var(--border);
+      border-radius:12px;
+      background:#fafafa;
+      padding:10px 12px;
+      cursor:pointer;
+      font-size:14px;
+    }
+
+    .answer{
+      display:none;
+      margin-top:12px;
+      border:1px solid #dcfce7;
+      background:#f0fdf4;
+      border-radius:12px;
+      padding:10px 12px;
+    }
+
+    .answer strong{
+      color:var(--ok);
+    }
+
+    .sections{
+      display:none;
+      margin-top:12px;
+      gap:12px;
+    }
+
+    .section{
+      border:1px solid var(--border);
+      border-radius:12px;
+      background:#fff;
+      overflow:hidden;
+    }
+
+    .section h4{
+      margin:0;
+      padding:10px 12px;
+      font-size:13px;
+      border-bottom:1px solid var(--border);
+      background:#fafafa;
+    }
+
+    .section p{
+      margin:0;
+      padding:10px 12px;
+      font-size:14px;
+    }
+
+    .open .answer,
+    .open .sections{
+      display:block;
+    }
+  </style>
+
+  <script>
+    function toggleExplanation(btn){
+      const card = btn.closest('.card');
+      card.classList.toggle('open');
+      btn.textContent = card.classList.contains('open')
+        ? 'Hide Answer & Explanation'
+        : 'Show Answer & Explanation';
+    }
+  </script>
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+  <h1>TOEIC Part 5 Practice: provided that</h1>
+  <p class="sub">PCでは「問題 → 解説」を分離して表示します。</p>
+</header>
+
+<!-- Q.1 -->
+<div class="card">
+  <div class="card-header">
+    <span class="qno">Q.1</span>
+    <p class="instruction">Choose the option that best completes the sentence.</p>
+  </div>
+
+  <div class="card-body">
+    <p class="sentence">
+      Provided that the revised budget proposal <span class="blank">_____</span> by the board, the project timeline will remain unchanged.
+    </p>
+
+    <ul class="choices">
+      <li>A. approves</li>
+      <li>B. is approved</li>
+      <li>C. has approved</li>
+      <li>D. will approve</li>
+    </ul>
+
+    <button class="answer-toggle" onclick="toggleExplanation(this)">
+      Show Answer & Explanation
+    </button>
+
+    <div class="answer">
+      <p><strong>Correct Answer:</strong> B &nbsp; (is approved)</p>
+    </div>
+
+    <div class="sections">
+      <div class="section">
+        <h4>Explanation</h4>
+        <p>
+          “Provided that” introduces a condition clause, so the present tense is used even for future meaning.
+          The subject requires a passive form.
+        </p>
+      </div>
+
+      <div class="section">
+        <h4>解説</h4>
+        <p>
+          「provided that」は条件節のため現在形を用います。
+          主語は承認される側なので受動態が必要です。
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

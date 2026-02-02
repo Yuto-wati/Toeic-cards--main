@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TOEIC Part 5 Practice - provided that</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root{
+      --bg:#f7f7fb;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --border:#e5e7eb;
+      --accent:#2563eb;
+      --accent-soft:#eff6ff;
+      --ok:#16a34a;
+      --shadow: 0 8px 24px rgba(0,0,0,.08);
+      --radius: 14px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: var(--sans);
+      color: var(--text);
+      background: linear-gradient(180deg, var(--bg), #ffffff);
+      line-height:1.6;
+    }
+
+    .wrap{
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+    }
+
+    header{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      margin-bottom:18px;
+    }
+
+    .title{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    h1{
+      font-size: 22px;
+      margin:0;
+      letter-spacing:.2px;
+    }
+
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-size:12px;
+      color: var(--muted);
+      border:1px solid var(--border);
+      background:#fff;
+      padding:6px 10px;
+      border-radius:999px;
+    }
+
+    .badge .dot{
+      width:8px;height:8px;border-radius:50%;
+      background: var(--accent);
+      box-shadow:0 0 0 4px var(--accent-soft);
+    }
+
+    .sub{
+      color: var(--muted);
+      font-size: 14px;
+      margin:0;
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      margin: 16px 0;
+    }
+
+    .card-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding: 14px 16px;
+      border-bottom:1px solid var(--border);
+      background: linear-gradient(90deg, var(--accent-soft), #fff);
+    }
+
+    .qno{
+      font-weight: 800;
+      letter-spacing:.2px;
+    }
+
+    .instruction{
+      margin:0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .card-body{
+      padding: 16px;
+      display:grid;
+      gap:14px;
+    }
+
+    .sentence{
+      margin:0;
+      padding: 12px 12px;
+      border:1px dashed var(--border);
+      border-radius: 12px;
+      background:#fff;
+      font-size: 16px;
+    }
+
+    .blank{
+      font-family: var(--mono);
+      padding: 0 6px;
+      border-radius: 8px;
+      background: var(--accent-soft);
+      border:1px solid #dbeafe;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .choices{
+      margin:0;
+      padding:0;
+      list-style:none;
+      display:grid;
+      gap:10px;
+    }
+
+    .choices li{
+      border:1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background:#fff;
+      font-family: var(--mono);
+      font-size: 14px;
+    }
+
+    .answer{
+      border: 1px solid #dcfce7;
+      background: #f0fdf4;
+      color: #14532d;
+      border-radius: 12px;
+      padding: 10px 12px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+
+    .answer strong{
+      color: var(--ok);
+    }
+
+    .sections{
+      display:grid;
+      gap:12px;
+    }
+
+    .section{
+      border:1px solid var(--border);
+      border-radius: 12px;
+      overflow:hidden;
+      background:#fff;
+    }
+
+    .section h4{
+      margin:0;
+      padding: 10px 12px;
+      font-size: 13px;
+      letter-spacing:.2px;
+      color:#0f172a;
+      border-bottom:1px solid var(--border);
+      background: #fafafa;
+    }
+
+    .section p{
+      margin:0;
+      padding: 10px 12px;
+      color:#111827;
+      font-size: 14px;
+    }
+
+    footer{
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align:center;
+    }
+
+    /* Desktop enhancements */
+    @media (min-width: 760px){
+      .card-body{
+        grid-template-columns: 1.2fr .8fr;
+        grid-template-areas:
+          "question choices"
+          "answer   choices"
+          "sections sections";
+        align-items:start;
+      }
+      .question{ grid-area: question; }
+      .choices{ grid-area: choices; position: sticky; top: 16px; }
+      .answer{ grid-area: answer; }
+      .sections{ grid-area: sections; grid-template-columns: 1fr 1fr; }
+      .sections .section:last-child{ grid-column: 1 / -1; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>TOEIC Part 5 Practice: <span style="color:var(--accent)">provided that</span></h1>
+        <div class="badge" aria-label="set info"><span class="dot"></span>Exam-level (Q1–Q3)</div>
+      </div>
+      <p class="sub">Questions & choices are English-only. Explanations include English + Japanese “解説”.</p>
+    </header>
+
+    <!-- Q.1 -->
+    <div class="card question-card" data-part="part5" data-q="1">
+      <div class="card-header">
+        <span class="qno">Q.1</span>
+        <p class="instruction">Choose the option that best completes the sentence.</p>
+      </div>
+
+      <div class="card-body">
+        <div class="question">
+          <p class="sentence">
+            Provided that the revised budget proposal <span class="blank">_____</span> by the board, the project timeline will remain unchanged.
+          </p>
+        </div>
+
+        <ul class="choices" aria-label="choices">
+          <li>A. approves</li>
+          <li>B. is approved</li>
+          <li>C. has approved</li>
+          <li>D. will approve</li>
+        </ul>
+
+        <div class="answer">
+          <span><strong>Correct Answer:</strong> B</span>
+          <span style="font-family:var(--mono); color:#14532d;">is approved</span>
+        </div>
+
+        <div class="sections">
+          <div class="section">
+            <h4>Explanation</h4>
+            <p>
+              “Provided that” introduces a condition clause, so the present tense is used even when the main clause refers to the future.
+              Since the subject is the proposal itself, a passive form is required.
+            </p>
+          </div>
+
+          <div class="section">
+            <h4>解説</h4>
+            <p>
+              「provided that」は条件節を導く表現で、未来の内容であっても現在形を用います。
+              また、主語は「承認される側」なので受動態が必要です。よって正解は <strong>is approved</strong> です。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Q.2 -->
+    <div class="card question-card" data-part="part5" data-q="2">
+      <div class="card-header">
+        <span class="qno">Q.2</span>
+        <p class="instruction">Choose the option that best completes the sentence.</p>
+      </div>
+
+      <div class="card-body">
+        <div class="question">
+          <p class="sentence">
+            The discount will be applied at checkout, provided that the coupon code <span class="blank">_____</span> before the expiration date.
+          </p>
+        </div>
+
+        <ul class="choices" aria-label="choices">
+          <li>A. enters</li>
+          <li>B. is entered</li>
+          <li>C. has been entered</li>
+          <li>D. will be entering</li>
+        </ul>
+
+        <div class="answer">
+          <span><strong>Correct Answer:</strong> B</span>
+          <span style="font-family:var(--mono); color:#14532d;">is entered</span>
+        </div>
+
+        <div class="sections">
+          <div class="section">
+            <h4>Explanation</h4>
+            <p>
+              The coupon code is something that is entered, so a passive form is needed.
+              In condition clauses with “provided that,” the present tense is used.
+            </p>
+          </div>
+
+          <div class="section">
+            <h4>解説</h4>
+            <p>
+              coupon code は「入力される側」なので受動態が必要です。
+              また条件節のため will は使えません。正解は <strong>is entered</strong> です。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Q.3 -->
+    <div class="card question-card" data-part="part5" data-q="3">
+      <div class="card-header">
+        <span class="qno">Q.3</span>
+        <p class="instruction">Choose the option that best completes the sentence.</p>
+      </div>
+
+      <div class="card-body">
+        <div class="question">
+          <p class="sentence">
+            Provided that no additional documentation <span class="blank">_____</span> during the review process, approval can be granted within five business days.
+          </p>
+        </div>
+
+        <ul class="choices" aria-label="choices">
+          <li>A. requires</li>
+          <li>B. is required</li>
+          <li>C. will require</li>
+          <li>D. has required</li>
+        </ul>
+
+        <div class="answer">
+          <span><strong>Correct Answer:</strong> B</span>
+          <span style="font-family:var(--mono); color:#14532d;">is required</span>
+        </div>
+
+        <div class="sections">
+          <div class="section">
+            <h4>Explanation</h4>
+            <p>
+              “Documentation” is uncountable and the meaning is passive. Condition clauses avoid using “will.”
+            </p>
+          </div>
+
+          <div class="section">
+            <h4>解説</h4>
+            <p>
+              documentation は不可算名詞で、意味も受動です。条件節のため現在形を用い、正解は <strong>is required</strong> となります。
+            </p>
+          </div>
+
+          <div class="section">
+            <h4>Note</h4>
+            <p>
+              Tip: In condition clauses (provided that / if / as long as), avoid “will” and focus on voice (active vs. passive).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Generated for study use. You can paste this into your template and replace class names as needed.</p>
+    </footer>
+  </div>
+</body>
+</html>
